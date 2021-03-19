@@ -114,7 +114,7 @@
                         <additions/> <!--Marginalia, spätere Notizen etc.-->
                         <bindingDesc>
                             <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                                <p/> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
                             </binding>
                         </bindingDesc>
                         <accMat/> <!--z.B. Fragmente / Makulatur oder beiliegende Notizen, die nicht Teil der HS sind-->
