@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/deletions-tax">
+        <dc:title>Deletions</dc:title>
+        <skos:hasTopConcept rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"></skos:hasTopConcept>
+    </skos:ConceptScheme>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletions">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Tilgungen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Deletions</skos:prefLabel>
+        <skos:note xml:lang="en">List of methods for deleting text in mediaeval manuscripts. Divided in groups based on the tools and techniques applied.</skos:note>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/dryDeletions">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Dry methods</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/penknife">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Penknife</skos:prefLabel>   
+        <skos:altLabel xml:lang="en">knife</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Radiermesser</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
+        <skos:exactMatch rdf:resource="http://codicologia.irht.cnrs.fr/term-1554"/>
+        <skos:note xml:lang="en">Penknives can be used to delete text in all inks on papyrus, parchment and paper. Traces left: thinner and rougher areas. Detection: lighter area (detected using transmitted light), darker area (detected using raking light); locally, smeared inks; ink written over the area in most cases blurring (this may also be the case with other dry deleting methods, however if full pages are cleaned they are often re-polished after this, which is actually not the case when knife was used).</skos:note>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/pumice">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Pumice</skos:prefLabel>   
+        <skos:altLabel xml:lang="en">pumice stone</skos:altLabel>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
+        <skos:exactMatch rdf:resource="http://codicologia.irht.cnrs.fr/term-1558"/>
+        <skos:note xml:lang="en">Pumice was used to erase text written in all inks on papyrus and parchment. Traces left: parallel scratches visible under magnification and in raking light as darker area. Detectable by: transmitted light (lighter area), raking light (darker/rougher area).</skos:note>
+    </skos:Concept>
+<!--   ########## CHECK WITH P. Engels ##########-->
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cuttlebone">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Cuttlebone ?</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schulp</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
+        <skos:note xml:lang="en">Bread was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bread">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Bread</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schleifbrot</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
+        <skos:note xml:lang="en">Bread was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sandstone">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
+        <skos:note xml:lang="en">Sandstone was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/erasurePowder">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Erasure powder</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/feathers">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Feathers</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Feder</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/coverDeletion">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Covering methods</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaint">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Overpainting</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaste">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Overpasting</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/oversew">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Oversewing</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/liftingDeletions">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Lifting off</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cuttingDeletions">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Cutting out</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/liquidDeletions">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Liquid methods</skos:prefLabel>
+        <skos:note xml:lang="en">Liquids work in two ways: they either wash off the inks or modify them in such a way that inks become invisible/less visible (for example by pH changes). A third possible way of using liquid deletion agents is to swell the surface of the parchment and then scratch it off.</skos:note>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/water">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wasser</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/wine">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Wine</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wein</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/milk">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Milk</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Milch</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mixture">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Mixture</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
+    </skos:Concept>
+</rdf:RDF>

@@ -4,7 +4,8 @@
         <filters directoryPatterns="" filePatterns="\Qmondsee_script.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
     </meta>
-    <projectTree name="mondsee_script.xpr">
+    <projectTree name="m3r-tei.xpr">
         <folder path="."/>
+        <folder path="skos/"/>
     </projectTree>
 </project>
