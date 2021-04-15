@@ -36,6 +36,7 @@
         <skos:altLabel xml:lang="en">knife</skos:altLabel>
         <skos:prefLabel xml:lang="de">Radiermesser</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/duringWritingDeletions"/>
+        <skos:related rdf:resource="http://codicologia.irht.cnrs.fr/term-1554"/>
         <skos:note xml:lang="en">Penknives can be used to delete text in all inks on papyrus, parchment and paper. Traces left: thinner and rougher areas. Detection: lighter area (detected using transmitted light), darker area (detected using raking light); locally, smeared inks; the ink written over the area is in most cases blurring (this may also be the case with other dry deleting methods, however if an entire page is cleaned it is often re-polished after this, which is actually not the case when a penknife was used). 
             Methods of detection: comparing with surrounding area. 
             Pitfalls: some areas might be thinner not because of erasure with a penknife but due to preparation of the parchment. In such cases there the are is not rougher, there is no smearing of ink and no relation to the text.</skos:note>
@@ -71,7 +72,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionSandstone">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
         <skos:note xml:lang="en">Sandstone was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
     </skos:Concept>
