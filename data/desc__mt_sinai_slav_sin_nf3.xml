@@ -1,0 +1,361 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="de">
+<!--    Zu überlegen:
+    1) Graphiken erwähnt: Lagestruktur - use VisColl?; Linierung; verweise auf bilder -> Image markup sample in Oxygen wenn Fotos vorhanden
+    2) Buchstaben kodierung-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Teil des PsDem (?)</title>
+                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                    <resp>Beschrieben von </resp>
+                    <persName>
+                        <forename>Heinz</forename>
+                        <surname>Miklas</surname>
+                        <affiliation></affiliation>
+                    </persName>                    
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 konforme Kodierung durch </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="de" xml:id="xxx-xxx">
+                    <msIdentifier>
+                        <country>Egypt</country>
+                        <settlement>Mt. Sinai</settlement>
+                        <institution>St. Catherine's Monastery</institution>
+                        <idno>Sin. slav. NF 3</idno>        
+                    </msIdentifier>
+                    <head>
+                        <title>Psalterium Demetrii Sinaitici; Medizinischen Blätter</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Beschreibung adaptiert (<date when="2021">2021</date>) nach:
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">                                
+                                <idno>ff. 141a-141f</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Medizinische Blätter</title>
+                            <origDate notBefore="1051" notAfter="1075">drittes Viertel des 11. Jh.</origDate>
+                            <origPlace ref="https://www.geonames.org/351820">Sinai</origPlace> oder <origPlace ref="https://www.geonames.org/281184/">Jerusalem</origPlace> oder <origPlace ref="https://www.geonames.org/3202210">Dalmatien</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <support>Als Beschreibstoff dienen <material>Pergamentblätter</material> von mäßiger Qualität, mit Unregelmäßigkeiten jeglicher Art (Größe, Ränder, Stärke etc.), die offensichtlich mehreren älteren Hss. entnommen wurden. Es wäre zwar nicht undenkbar, ist aber doch wenig wahrscheinlich, dass das erste Doppelblatt dem Bestand des PsDem entstammt, wo es das heute verschollene Blatt 141’ gebildet haben könnte. Die RFA-Spektren des Pergaments ergaben geringfügige Unterschiede zwischen dem ersten und den beiden übrigen Doppelblättern; zugleich liegen alle Messpunkte innerhalb der Bereiche der Psalterhandschriften PsSin und PsDem (vgl.
+                                        <listBibl>
+                                            <bibl><abbr>Schreiner, Hammerschmid, Melcher 2008/10</abbr>, 32-34; </bibl>
+                                            <bibl><abbr>Melcher &amp; Schreiner 2009</abbr>, 4, 5, 7 <note>(geringste Werte an Pb, Cu, Zn, in MedBl praktisch kein Pb und Cu)</note></bibl>
+                                        </listBibl>
+                                    </support>
+                                    <extent>
+                                        Die Maße der insgesamt <measure type="leavesCount" quantity="3" unit="bifolium">drei Bifolia</measure> weichen aufgrund ihrer unregelmäßigen natürlichen Beschaffenheit deutlich von einander ab. Sie betragen im aufgeschlagen Zustand in etwa (HxB): 
+                                        1. 
+                                        <locusGrp>
+                                            <locus>141a</locus>
+                                            <locus>141f</locus>
+                                        </locusGrp>
+                                        <dimensions type="bifolium" unit="mm">
+                                            <height>80-87</height>
+                                            <width>133-137</width>
+                                        </dimensions>mm, 
+                                        2.
+                                        <locusGrp>
+                                            <locus>141b</locus>
+                                            <locus>141e</locus>
+                                        </locusGrp>
+                                        <dimensions type="bifolium" unit="mm">
+                                            <height>72-84</height>
+                                            <width>133-139</width>
+                                        </dimensions>mm 
+                                        und 3.
+                                        <locusGrp>
+                                            <locus>141c</locus>
+                                            <locus>141d</locus>
+                                        </locusGrp>
+                                        <dimensions type="bifolium" unit="mm">
+                                            <height>60-80</height>
+                                            <width>135-139</width>
+                                        </dimensions>mm.
+                                        Die beschriebenen Einzelblätter messen: 1. 
+                                        <locus>141a</locus>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>87</height>
+                                            <width>67</width>
+                                        </dimensions>
+                                        , <locus>141b</locus> 
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>83</height>
+                                            <width>69</width>
+                                        </dimensions>
+                                        , <locus>141c</locus> 
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>80</height>
+                                            <width>75</width>
+                                        </dimensions>mm.
+                                    </extent>
+                                    <foliation>Von Tarnanidis nur auf den beschriebenen Seiten (mit 141a-c) signiert, während die unbeschriebenen Seiten ungezählt blieben; sie seien hier mit „d-f“ weiter gezählt. Das leere f. 141d trägt auf der Verso-Seite unten versehentlich nochmals die Signatur „141b“.</foliation>
+                                    <collation>Die drei Bifolia des Heftchens bilden einen Ternio. Von seiner ursprünglichen Heftung haben sich nur mehr zwei kurze, naturfarbene Schnurreste auf ff. 141b unten und 141c oben erhalten. Die dafür vorgesehenen Einschnitte waren ursprünglich wohl sämtliche konisch (vgl. oben auf dem 1. und 3. Bifolium sowie oben und unten auf dem mittleren). Wie die Graphik von Kap. 1.6 veranschaulicht, beginnt die Lage mit der Haarseite und folgt nicht der Gregor-Regel.</collation>
+                                    <condition>                                        
+                                        <p>Alle drei Doppelblätter sind in einem relativ guten Zustand, und der Text ist trotz einiger Flecken oder Verwischungen vollständig lesbar. Eine einzige schlecht lesbare Stelle zeigt f. 141br18, worin Rosenschon (vgl. nur 1994, 309sq.) das verderbte Verb als ### rekonstruiert hat. Tatsächlich ist die gesamte Stelle zu lesen als Дэтищю егда б[оле]тъ т­/жъка #троба: (f. 141br18-bv1). Nichts mit Textverlust oder sekundärer Beschädigung hat zu tun, dass der Text in der letzten Zeile von f. 141cv unvermittelt mit медв-, d.h. inmitten des Adjektivs medvěžd- („Bären-“), abbricht. Wie es dazu kam, lässt sich nur mutmaßen: So könnte der Schreiber unterbrochen worden und infolge widriger Umstände nicht mehr dazu gekommen sein, seine Kopie fortzusetzen. Denkbar wäre auch, dass seine Vorlage, zumindest aber die von ihm für das betreffende Stück herangezogene Quelle, aufgrund eines Verlusts bzw. einer Beschädigung hier abbrach. Das ist freilich deshalb weniger wahrscheinlich, weil der Kopist ja zumindest den Rest des Worts selbständig ergänzt hätte; andererseits gilt zu bedenken, dass wohl auch die verbleibenden Leerseiten für Textergänzungen vorgesehen waren.</p>
+                                            <p>An primären Schäden zu erwähnen ist vor allem die Beschaffenheit von f. 141c, das sich unten stark nach außen verjüngt; sekundär ist die fast durchgehende Fleckigkeit, ganz besonders auf den ff. 141ar-v und 141br-v.</p>
+                                            <p>Die Blätter wurden so abgewaschen und/oder abgeschabt, dass sie heute nur mehr geringe Spuren ihrer früheren Verwendung erkennen lassen.</p>
+                                    </condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="13 21" columns="1">
+                                        Schriftraum schwankend (gemessen jeweils ohne Initialen): 
+                                        1. <locus from="141ar">141ar</locus>:
+                                        <dimensions type="written" unit="mm">
+                                            <height>68</height>
+                                            <width>48-52</width>
+                                        </dimensions> mm; 
+                                        <locus from="141av">141av</locus>:
+                                        <dimensions type="written" unit="mm">
+                                            <height>62</height>
+                                            <width>42-46</width>
+                                        </dimensions>;
+                                        2. <locus from="141br">141br</locus>
+                                        <dimensions type="written" unit="mm">
+                                            <height>62</height>
+                                            <width>55</width>
+                                        </dimensions>;
+                                        <locus from="141bv">141bv</locus>
+                                        <dimensions type="written" unit="mm">
+                                            <height>62-65</height>
+                                            <width>43-49</width>
+                                        </dimensions>;
+                                        3. <locus from="141cr">141cr</locus>
+                                        <dimensions type="written" unit="mm">
+                                            <height>52</height>
+                                            <width>50-56</width>
+                                        </dimensions>
+                                        <locus from="141cv">141cv</locus>
+                                        <dimensions type="written" unit="mm">
+                                            <height>52-55</height>
+                                            <width>46-52</width>
+                                        </dimensions> mm.
+                                        Der Zeilenabstand wechselt zwischen knappen 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="4" max="5">4-5</height>
+                                        </dimensions> mm.
+                                        <p>Wegen der unterschiedlichen Blattformate divergiert die Zahl liniierter und beschriebener Zeilen pro Seite beträchtlich. Wie aus der Tabelle hervorgeht, beträgt sie zwischen 13 und 21 beschriftete Zeilen, denen rd. 13-17 Horizontallinien gegenüberstehen (auf f. 141f sind nur noch 12 Linien sichtbar; ursprünglich müssten es aufgrund der Einstiche aber mindestens 17 gewesen sein). Auf f. 141ar ist die erste Zeile vom Rest durch eine Zierleiste getrennt, so dass sich inklusive derselben 22 Zeilen ergeben. Die Zeilenhöhe beträgt durchschnittlich 3-4mm.</p>
+                                        <p>Grob und vor allem wegen der unterschiedlichen Beschaffenheit der Blätter unregelmäßig ist auch die Liniierung mit ihrer wechselnden Zahl der Vertikalen und Horizontalen. Durchgeführt wurde die Liniierung mit einem scharfen Instrument (Messer), und zwar für jedes Bifolium, tw. auch Blatt, gesondert:
+                                            <list>
+                                                <item>1. Bifolium (ff. 141a+f): Aufgrund der von der verso-Seite der 2. Hälfte (141fv=H) in Richtung der ersten (141ar) immer schwächer werdenden Liniierungsspuren wurde das Bifolium zweifellos von f. 141fv aus im gefalteten Zustand liniiert. Daneben findet sich aber auch auf f. 141ar eine ausgeprägte Vertikale, die wohl zusätzlich gezogen wurde, weil die durchgedrückte Linie offenbar zu schwach war, um noch ihre Funktion erfüllen zu können. Zugleich lassen sich ähnlich wie im PsDem noch schwache Spuren mehrerer älterer Liniierungen feststellen, von denen eine zur eben beschriebenen jüngsten parallel verläuft, zwei weitere sie hingegen im rechten Winkel kreuzen. Was die letzteren betrifft, so gehen die Horizontalen der offensichtlich älteren von Rand zu Rand durch und weisen damit auf ein größeres Format des Ursprungsblatts hin, während jene der 2. Liniierung teils am Blattrand (so auf der rechten Seite des gedrehten f. 141av), teils mit deutlichem Abstand vor dem Blattrand (so auf der linken Seite) enden, und zwar jeweils – wie im Fall der dritten Liniierung – mit den Punktierungen. Da die hinzu gehörige Zweitbeschriftung wie unsere letzte glagolitisch ist, entstammen beide offensichtlich derselben Tradition, vgl. unter 5.3. 
+                                                    Da die beiden anderen Bifolia ein einfacheres Liniierungsschema aufweisen, scheint es zunächst, als resultierte die hier vorhandene zweite Vertikale aus der Kontamination von alter und neuer Liniierung; das mag zwar zutreffen, doch müsste in diesem Fall die Linie nachgezogen worden sein. Das Schema ähnelt der Variante 5b im PsDem und sei als 5ba bezeichnet, siehe das (nach recto normierte) f. 141fv: <!--<formula notation="Muzerelle">2-1/1-0:E/0/H</formula>-->
+                                                </item>
+                                                <item>2. Bifolium (ff. 141b+e): Hier ist die Liniierung vor allem auf der unbeschriebenen rechten Hälfte (141e=F) deutlich zu sehen. Während von recto 16 Horizontalen gezogen sind, finden wir auf der linken Hälfte (141b) nur im unteren Teil 6 klar erkennbare Horizontallinien, deren Form auf eine Doppelliniierung von beiden Seiten schließen lässt. So muss das Bifolium, ähnlich wie das erste, zuerst im gefalteten Zustand und ausgehend von der Fleischseite 141er liniiert worden sein, und dann, als der Schreiber sah, dass die Durchdrückungen im unteren Bereich von f. 141b zu schwach sind, nochmals im aufgeschlagenen Zustand auf f. 141bv nachliniiert worden sein. An Vertikalen findet sich nur eine ganz knapp neben dem Mittelknick im Inneren, während eine äußere (neue) Begrenzungslinie nicht mit Sicherheit auszumachen ist und die schwachen einschlägigen Vertikalspuren offenbar von einer älteren Liniierung stammen. Die Horizontalen enden wiederum in geringem Abstand von den Außenrändern an der Punktierung, vgl. f. 141er: ######
+                                                    Dieses Schema bietet keine Vergleichsmöglichkeit zum PsDem und lässt sich als Nr. 3b bezeichnen.
+                                                    Ähnlich wie auf dem ersten Bifolium sind auch auf diesem (bei etwas schwächeren Beschriftungsspuren) ältere Liniierungen feststellbar, darunter wiederum einzelne im rechten Winkel zur jüngsten Liniierung verlaufende Horizontalen. Obwohl sie im Zuge der Tilgung der früheren Beschriftungen fast bis zur Unkenntlichkeit eingeebnet worden sind (was des Öfteren auch im PsDem zu beobachten ist), liegen auch hier zweierlei kreuzende Linien vor, von denen die offenbar älteren von Rand zu Rand gehen, die jüngeren wieder mit der Punktierung kurz vor dem Blattrand enden. Darüber hinaus scheinen auch einzelne parallel zur letzten Liniierung verlaufende Linien auf, die auf eine weitere Beschriftung hinweisen (vgl. auch unter Punktierung und Kap. 5.3).
+                                                    Nichts mit einer älteren Liniierung zu tun haben dagegen die schrägen und bisweilen recht regelmäßigen Linien vor allem am Außenrand, die offenbar (ähnlich wie im PsDem) durch die Tilgung alter Beschriftungen mit dem Bimsstein hervorgerufen wurden.                                                    
+                                                </item>
+                                                <item>3. Bifolium (ff. 141c+d): F. 141c zeigt 13 Horizontallinien, die rechte Hälfte des Bifoliums (141d) hingegen 15. Dieser Umstand sowie der genaue Verlauf der Linien und ihre Form weisen darauf hin, dass die beiden Hälften diesmal gesondert liniiert wurden, und zwar jeweils von recto (141cr=H bzw. 141dr=F); dies offensichtlich nicht gemäß einer bestimmten zeitlichen oder regionalen Tradition, sondern einfach, weil es die unterschiedliche Gestalt der beiden Blatthälften erforderte. Das Liniierungsmuster entspricht wieder jenem des mittleren Bifoliums (141b+e); d.h., wir haben nur je eine Begrenzungsvertikale im Inneren vor uns, während außen die Horizontalen wieder (dominant) mit den Einstichen enden. 
+                                                    Ältere Liniierungen sind diesmal nur sehr schwach erkennbar; was sowohl für eine parallel, als auch für (mindestens eine) vertikal verlaufende gilt; dies bezeugen auch entsprechende Einstiche an den Rädern. 
+                                                    Punktierung: Zweifelsfrei von der letzten Liniierung rühren jeweils an den Außenrändern kleine Messerschnitte, die bald waagrecht, bald leicht schräg verlaufen; meist liegen sie an den Enden der Horizontalen, mitunter reichen aber auch über sie hinaus bis an die Blattkante. Zwischen ihnen und der Blattkante treten noch ein bis zwei weitere Punktierungen auftreten, die wohl sämtliche auf eine, im Falle von f. 141b vielleicht sogar zwei zur jüngsten Liniierung parallel verlaufende ältere zurückgehen. Nicht sicher mit einer früheren Liniierung hängen dagegen die meist nur ganz schwach sichtbaren, überwiegend runden Punktierungen im Inneren zusammen.
+                                                    Darüber hinaus lassen sich noch mit einer der beiden älteren Vertikal-Liniierungen zusammenhängende und als Regel punktförmige Punktierungen beobachten, die oben und unten (bzw., bei gedrehter Blatt: linken und rechten) am Rand verlaufen, siehe oben sowie unter 5.3. Es ist auffällig, wie sehr dieser Befund mit jenem des PsDem übereinstimmt.
+                                                    Relief: Ternio (h/f//f/h): ǀ+H►ǀ◄F+ǀH►ǁF►ǀ F►ǀ◄H ǀ     
+                                                    Die Liniierungen zeigen keine Bevorzugung einer bestimmten Seite; was uns wieder an den PsDem erinnert. Graphisch veranschaulicht liegt insgesamt folgende Ordnung vor:
+                                                    
+                                                ####
+                                                </item>
+                                            </list>
+                                        </p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <scriptNote medium="iron-gall-ink">Für den Text verwendet wurde wie im PsDem und anderen glag. Hss. des Sinai <term>Eisen-gallustinte</term> unterschiedlicher Zusammensetzung. Der zeitweilige Wechsel der Tintenfarbe von hell- bis dunkelbraunen Nuancen spricht für eine etappenweise Entstehung der einzelnen Abschnitte mit einem gewissen Zeitabstand dazwischen. Am stärksten manifestiert sich dieser Übergang auf f. 141av, wo die Beschriftung der Zeilen 1-15 wesentlich dunkler ist als der Rest (Zeilen 16-20).
+                                    Überschrift, Initialen, aber auch Interpunktionszeichen sind mit ockergelber Farbe übertüncht, doch ist das Gelb weitgehend verblasst. Im Gegensatz zum PsDem ergaben die RFA-Spektren keine anorganischen Anteile; womit wir auf einen <term>pflanzlichen Farbstoff</term> schließen dürfen.</scriptNote>
+                                <scriptNote> Schreiber und Ausstatter. Während ein erster Blick auf das Dm. den Eindruck vermittelt, als sei er das Produkt zumindest zweier Schreiber, führt uns die eingehende paläographische Analyse zum Schluss, dass sowohl der Text als auch sämtliche Initialen mit an Sicherheit grenzender Wahrscheinlichkeit von einem einzigen Schreiber verfasst wurden. Darauf deutet insbesondere die Wiederkehr bestimmter Buchstabenvarianten (insbesondere der NV-Graphe) und Interpunktionselemente
+                                </scriptNote>
+                                <scriptNote>Allgemeines Schriftbild. Das überaus disharmonisch und inhomogen anmutende Schriftbild der halbeckigen Glagolica ist in erster Linie auf die wechselnde Buchstabenneigung sowie deren Abstand, ausgeprägte Formenvielfalt und teilweise schwimmende (prinzipiell jedoch hängende) Zeilenrelation zurückzuführen. Die Initialen sind nicht immer dem hängenden Schema angepasst und können auch über die Linie hinaufreichen, so z.B. auf f. 141b. Mitunter zeigt sich eine leichte Linksneigung, doch kommen auch rechtsgeneigte Formen vor.
+                                    Die graphische Gestaltung des Textes ist eher zweckmäßig, da bis auf ein leicht geschmücktes V (141ar1) und zwei Fälle von doppelkonturigen Initialen (141ar9, 141av2) auf Verzierungen verzichtet wurde (siehe dazu 4.1). Diakritika fehlen, auch findet sich nur eine einzige echte Supraskription in der (nicht mit Titlos gekennzeichneten) Abbreviatur ÷ëâêf von f. 141cr8. Die Buchstabengröße wechselt zwischen rd. 1,2 und 3mm.</scriptNote>
+                                <scriptNote>Interpunktion. Wie bereits höher vermerkt wurde und an den nachstehenden Beispielen noch zu belegen sein wird, wiederholen sich in den einzelnen Textpassagen gewisse Interpunktionselemente bzw. einzelne ihrer Formen; was die Theorie des einzigen Schreibers untermauert. 
+                                    Trotz des geringen Umfangs des Schriftstücks ist die Interpunktion recht vielfältig. Zwischen den einzelnen syntagmatischen Einheiten, manchmal jedoch am Zeilenende, finden sich je einmal ein einfacher Punkt und ein Vierfachpunkt, häufiger dann ein Dreifachpunkt und am häufigsten der Doppelpunkt. Nur dem Zeilenende vorbehalten sind die Kombinationen aus Doppelpunkt mit Spieß (141av8, 141cr7 etc.), denen manchmal auch der Vierfachpunkt mit Spieß (141av15) vorangeht, und in einem Fall auch eine Vielzahl von Punkten folgt (141br17), siehe:
+                                    141ar1 141br12 141ar2 141ar3 141cr3 141ar5 141bv5 141br13 141ar12 141br5 141av8 141cr7 141ar8 141av15   141br17.
+                                </scriptNote>
+                                <scriptNote>Wie im Falle des PsDem richtet sich die folgende Beschreibung nach der paläographischen Tabelle im Anhang (vgl. dazu die jeweiligen Beispiele in Klammer). Vergleiche mit anderen Dmm. beschränken sich wieder auf besonders signifikante Fälle:
+                                    <list>
+                                        <item>Die Vertikale des A ist in der Regel nach links geneigt, und an ihrem oberen Ende findet sich nicht selten ein parallel zur Zeilenlinie verlaufender, rechts gerichteter Zierstrich (141ar16, 141av3 etc.).</item>
+                                    <item>B erscheint in zwei Hauptvarianten: Bei der ersten ist der vertikale Stiel etwas eingerückt (141ar21, 141av2 etc., siehe auch PsSin-C, tw. PsDem-A und Gršk), bei der zweiten setzt er den ersten Kronenbalken fort. Im letzteren Fall berührt der zweite Kronenbalken die Horizontale nicht, sondern hängt quasi in der Luft.</item>
+                                    <item>Die halbeckigen Ösen des V sind hier nicht mit einem Bogen, sondern mit einem kurzen Strich verbunden, so dass der Buchstabe besonders flach wirkt (siehe z.B. PsDem-B, Gršk, Mih, DubrIn und Graff).</item>
+                                    <item>G ist recht „klassisch“ gestaltet und zeigt keine Auffälligkeiten; zu erwähnen ist allenfalls, dass die Ösen stets an der Außenseite der Arme ansetzen.</item>
+                                    <item>Die gerundeten bis halbeckigen Ösen des D sind meist mit einem Bogen verbunden. Manche Varianten unterscheiden sich kaum von T, weshalb ihre Differenzierung ohne Berücksichtigung des Kontextes erschwert ist.</item>
+                                    <item>Das zweistrichige, als älter einzustufende E weist ein ähnliches Merkmal auf wie das B, indem die untere Horizontale häufig den Bogen nicht berührt (141ar5, 141cr6, vereinzelt auch im PsDem-B). Dagegen ragt der obere Querstrich mitunter bedeutend über den Bogen hinaus. Daneben finden sich selten auch einstrichige Varianten (141cr5). Der Bogen selbst bildet oben bereits einen Winkel, während unten noch die Rundung dominiert.</item>
+                                    <item>Das Ž besitzt einen V- oder Y-förmigen Aufsatz aus bisweilen leicht gewölbten Armen.</item>
+                                   <item>Eine ausgeprägte Variantenvielfalt zeigt sich bei Z. So verfügt sein Körper abwechselnd über eine trapezförmige, vier- oder dreieckige Form, während der Stiel in den meisten Fällen relativ lang ist.</item>
+                                    <item>Die Hauptvariante des Iže zeigt ein tief in den Kreis versunkenes Dreieck, nur vereinzelt tangiert dieses auch die Oberfläche des Kreises, ohne einzudringen (141br8).</item>
+                                    <item>I verfügt sehr häufig über ein Sondermerkmal, das auf einem rechtsgerichteten Abstrich am unteren Ende beruht.</item> 
+                                    <item>Das paläographisch unauffällige Jagić-I liegt nur einmal vor (141ar4).</item> 
+                                    <item>G´een’na besitzt eine große, rechtsgerichtete Öse, während die linke, ähnlich wie in KB, PB und später Mih nach unten geöffnet ist und mit ihrem Stiel gleichsam zwei gleich große Bögen bildet.</item> 
+                                    <item>Eine ausgeprägte Variabilität zeigt sich bei K: Neben der klassischen Form finden sich hier auch Varianten mit rechtsgerichtetem Abstrich an der unteren disjunktiven Vertikale – so vereinzelt auch in den Überschriften von PsSin-C (113v9) sowie in der Textschrift von PsSin-C1 – sowie solche, die einen solchen Zierstrich an ihrem oberen Ende aufweisen.</item> 
+                                    <item>Auch das L erscheint in mehreren Varianten aufgrund seiner unterschiedlich geformten mittleren Öse. Diese zeigt sich am häufigsten gerundet bzw. als Halbkreis, manchmal aber auch dreieckig.</item>
+                                    <item>Ebenfalls variantenreich ist das M. Meist setzen seine Arme ungefähr in der Mitte des Buchstaben an einem kürzeren Stiel an (141ar10). Daneben liegen vereinzelt auch Belege der klassischen Form mit zwei parallel laufenden Horizontalen vor (141bv6).</item>
+                                    <item>N besitzt eine kantige und relativ große, manchmal sogar bis zum unteren Ende des Stiels hinabreichende Öse.</item>
+                                    <item>Die bereits abgeflachten Ösen des stark linksgeneigten O berühren einander ohne Zwischenraum, ein markantes Merkmal für den an sich wenig variationsfähigen Buchstaben, dem wir vor allem in kroatischen Dmm. wie dem Homiliar von Ljubljana begegnen.</item> 
+                                    <item>P verfügt in der Regel noch über den kurzen Querstrich in der Mitte der Vertikale und einen nach rechts geneigten Zierstrich am unteren Ende. Vereinzelt finden sich jedoch auch Varianten ohne das eine oder andere Merkmal (141br4).</item>
+                                    <item>R ist in den meisten Fällen mit einem rechtsgerichteten Abstrich unterschiedlicher Länge am oberen Ende der Vertikale versehen (siehe u.a. Bud und Graff), nur vereinzelt fehlt er gänzlich (141br6). Die Öse ist bereits halbeckig.</item> 
+                                    <item>Bei S berührt oder durchdringt sogar die Spitze des Dreiecks mit wenigen Ausnahmen (141br6) das abgeflachte Dach des Oberteils. Eine ähnliche Ausführung findet sich in PB-B, mehrheitlich in PsSin, PsDem u.a.</item>
+                                    <item>T  zeigt keine Auffälligkeiten, seine Ösen sind gerundet bis halbeckig.</item>
+                                    <item>Die Form des U stellt eine Übergangsstufe von Zusammenrückung und Ligatur dar. Seine  Horizontale durchdringt den rechten Teil und ist teilweise mit einem nach unten gerichteten Abstrich versehen.</item>
+                                    <item>Die Vertikale des Cher ist wie in den meisten altersmäßig vergleichbaren Dmm. stets mit einem rechtsgerichteten Zierstrich versehen und seine Öse relativ groß (siehe auch Gršk).</item>
+                                    <item>Šta erscheint aufgrund seiner recht kurzen Kronenbalken (im Gegensatz zu den vergleichsweise langen Pendants im PsDem-A) eher flach und breit.</item>
+                                    </list>
+                                    Einer ausgeprägten Formenvielfalt begegnen wir bei C: Bei den meisten aufrechten Varianten enden die Arme nicht in einem Punkt und bilden somit den üblichen Winkel, sondern sind über eine kleine Horizontale, parallel zur Zeilenlinie, verbunden (141ar12, 141av12, siehe auch Mih, beide Varianten hingegen in Gršk). Der aufrechten Winkelform begegnen wir dagegen auf 141br8. Das obere Ende des rechten Arms ist stets mit einem rechtsgerichteten Zierstrich versehen. Nicht völlig klar ist, ob in otogě (141br6) nicht doch -c- zu lesen ist, also eine stark nach rechts geneigte C-Form, wie sie einige Male auch in Bašk auftritt. Wahrscheinlich hat der Schreiber die Form zuerst fälschlich als G begonnen und, als er seinen Fehler bemerkte, es nicht vollendet, um dessen Deutung als C zu ermöglichen.
+                                    Die beiden Arme des Č sind stark nach innen geneigt, im Gegensatz zu den aufrechten, parallel verlaufenden im EuchSin, MissSin-A etc.
+                                    Ša zeigt keine Abweichungen von der Standardform.
+                                    Die Jers sind nach links geneigt, die Ösen des Hauptteils ähnlich wie bei O oder U mit einander verbunden, und die obere Öse ist parallel zur Zeilenlinie abgeflacht, vgl. auch PsSin-A. In den bisherigen Textabdrucken findet sich eine falsche Wiedergabe des Jor als Jer (141av20).
+                                    Jat ist bereits trapezförmig, was prinzipiell als jüngeres paläographisches Merkmal gilt. Bei Ju(že) endet, anders als z.B. in EuchSin und MissSin-A, die linke, mitunter bogenförmige Vertikale schon in der Mitte der rechten Vertikale, vergleiche u.a. die Demetrius-Einträge, MissSin-C und, für die Herkunft des Schreibers besonders wichtig, die WrBl. 
+                                    Besonders auffällig ist die häufig geschlossene Form des glag. Ęsъ sowie des rechten Teils des Jęsъ-Digraphen, die in Verbindung mit dem kyr. E (vgl. dazu die entsprechenden Parallelen in PsDem-A!) auf die Interferenz der lateinischen Minuskelform schließen lässt. Dies gibt der Parallele des eben betrachteten Ju(že) mit den WrBl zusätzliches Gewicht und deutet auf eine westliche Prägung des Schreibers hin. Alle NV-Graphe verfügen darüber hinaus über (stets etwas höher angesetzte) Verbindungskreise; eine Ausnahme bildet dessen Fehlen im Beispiel von f. 141br4.</scriptNote>
+                                <scriptNote>Im gesamten Text findet sich nur eine einzige Sonderligatur: ml (141av1).</scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="initial">
+                                    Wie aus der Tabelle hervorgeht, entspricht die Morphologie der Initialen jener der normalen Textschrift und überragen diese, anders als die Überschrift und die Incipita (vgl. unten), lediglich an Größe (3-6mm). Nur drei von ihnen verfügen auch über Verzierungen: zunächst das gleich am Beginn des Dm.s platzierte V (141ar1), dessen Winkel von einem Halbkreis umrahmt wird, sowie die beiden in Doppelkontur ausgeführten Buchstaben R (141ar9) und E (141av2). Alle Initialen sind darüber hinaus gelb übertüncht.</decoNote>
+                                <decoNote type="paratext">Die Überschrift über dem Textbeginn und die einzelnen Incipita der folgenden Abschnitte entsprechen nach Form und weitgehend auch Größe gänzlich der Textschrift. Ihre Hervorhebung erfolgt, ähnlich wie bei den Initialen, durch gelbe Übertünchung (141ar2, 141av9, 141bv5), wobei die Gesamtüberschrift vom Rest noch zusätzlich durch eine über die ganze Zeile reichende einfache Flechte (141ar2) abgehoben ist. Wie die Überschrift dürfte auch die darauffolgende Trennleiste erst nachträglich hinzugefügt worden sein unter Verwendung der bereits vorhandenen Linien.</decoNote>
+                            </decoDesc>   
+                            <additions>
+                                <p>Kyrillische Einstreuungen. Eingestreut auf f. 141bv unten bis zum Beginn von f. 141c finden sich insgesamt 15 kyrillische Buchstaben, die das Lesen der Stelle deutlich erschweren und die Ersttransliteration der Stelle negativ beeinflussten. Auffällig und vielleicht auf einem Schreibfehler beruht die Sonderform des kyr. Z von з©бъие in der ersten der beiden Zeilen, die auf den ersten Blick den Eindruck erweckt, als handle es sich um eine invertierte Form des glag. C. Ein weiteres Spezifikum stellt das auch im PsDem-A auftretende, geschlossene kyr. E dar.</p>
+                                <p>Korrekturen. In der Hs. finden sich auch einige wenige Korrekturen, die jeweils vom Schreiber selbst durchgeführt wurden: so auf f. 141br2-3 eine Rasur von ca. 13 Buchstaben, ferner: <!--CHARACHTERS-->
+                                <list>
+                                    <item><locus>141br8</locus></item>
+                                    <item><locus>141br10 </locus></item>
+                                    <item><locus>141bv2</locus></item>
+                                    </list>.
+                                    Nicht auf Korrektur, sondern Zeilenauslastung beruhen dagegen die Hochstellungen:
+                                    <list>
+                                        <item><locus>141ar18-19</locus></item>
+                                        <item><locus>141av20</locus></item>
+                                        <item><locus>141br18</locus></item>
+                                        <item><locus>141bv5</locus></item>
+                                        <item><locus>141bv9</locus></item>
+                                        <item><locus>141bv15-16 </locus></item>
+                                        <item><locus>141cr8-9</locus></item>
+                                    </list>.</p>
+                                <p></p>
+<!--                                ############### add facsimile markup if picture available-->
+                                <p>F. 141ar4 unten: Federprobe bzw. Schreibübung. Die Formen des I und Š sprechen für die Hand des Schreibers.</p>
+                                <p>F. 141br unten: Schreibübung, bestehend aus dem Anfang des glagolitischen Abeces (A, B, V, G?) in heller Tinte sowie ein D (?) und T (oder zwei T) in etwas dunklerem Ton.</p>
+                                <p>F. 141fv leer bis auf Federprobe (oben).</p>
+                                <p>Reste von Vorbeschriftungen: F. 141av: Hier finden sich im linken oberen Eck des (um 90 Grad gedrehten) Blattes zunächst drei kalligraphisch geschriebene lateinische Initial-Majuskeln STE, worauf dann in lat. Minuskel wiederum als Abkürzung ecle folgt. Zu lesen ist also offenbar S<add>ANC</add>T<add>A</add>E ec<add>c</add>l<add>esia</add>e):</p>
+                                <p>Noch in derselben Zeile, etwas weiter rechts, erscheint ein weiteres, etwas kleineres Majuskel-S. </p>
+                                    <p>Unter STE lesen wir in der nächsten Zeile in etwas kleinerer Majuskel die Buchstaben SO oder SC.</p>
+                                    <p>Am linken Rand, etwa in der Seitenmitte (wiederum des gedrehten Blatts), findet sich noch ein lat. Majuskel-C und im unmittelbaren Anschluss offenbar sein glag. Pendant (Schriftprobe oder Transliteration?).</p>
+                                    <p>Eine darüber liegende, große glag. Initiale Iže deutet aber darauf hin, dass wir es auch im Falle der glag. Beschriftung nicht nur mit Einzelbuchstaben zu tun haben, sondern vielmehr dem Rest eines ehemaligen Texts.</p>
+                                    <p>In der Mitte des rechten Randes beobachtet man einen weiteren, relativ großen und mit deutlichen Konturen gezogenen Buchstaben einer möglicherweise nicht-slavischen Schrift.</p> 
+                                   <p>Passim auf derselben Seite finden sich noch weitere, schwer zu deutende Buchstaben, darunter auch Initialen bzw. Majuskeln.</p>
+                                <list>
+                                    <item>F. 141br: Eindeutig identifizierbar ist hier ein glag. M rechts am äußeren Rand, auf der Höhe von Zeile 7.</item>
+                                <item>F. 141bv: Parallel zur Letztbeschriftung am Außenrand findet sich eine Vignette und eine darunter befindliche große Initiale (Omega, nicht ausgeschlossen aber auch Nasalvokal-Digraph und darüber liegendes T). Im oberen äußeren Eck ist noch eine Initiale mit einem nach unten weisenden phytomorphen Auswuchs zu sehen.</item> 
+                                <item>F. 141cr: Unten rechts ungefähr auf der Höhe der Zeile 12 findet sich ein unter der alten Zeilenlinie hängendes glag. M.</item>
+                                <item>F. 141cv: Diverse Spuren glag. Beschriftung, überwiegend am Innenrand; so auf der Höhe von Zeile 2 ein O (oder eine Ligatur aus Cher und O?), darunter auf der Höhe der 3. Zeile (d.h. der zwischen Zeile 2 und 3 verlaufenden alten) ein K oder A. Links oben auf der 1. und 2. Zeile je eine glag. Initiale. Links unten auf derselben Seite sind noch rund vier glag. Buchstaben erkennbar, darunter A, D oder Ž, I (?) und G (?)</item>                                
+                                <item>F. 141fv oben rechts am Innenrand (i.e. links von der Mitte des gedrehten Blatts unter dem Bug)  ca. 11 glag. Buchstaben.</item> 
+                                </list>                                
+                            </additions> 
+                            <bindingDesc>
+                                <binding>
+                                    <p>Das Heft fand sich lose eingefügt zwischen die ff. 141 und 142 des PsDem (wo es auch heute aufbewahrt ist) und verfügt über keinen Einband und keine eigene Signatur. </p>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                            
+                        </physDesc>
+                        <history>
+                            <origin><p>Der kleine Umfang der MedBl, aber auch das Fehlen einer künstlerischen Ausstattung sowie aussagekräftiger Vergleichsbeispiele für ihre kodikologischen Besonderheiten mit der Ausnahme des PsDem erschweren ihre zeitlich-räumliche Einordnung beträchtlich. Wie im Fall des PsDem muss also für ein endgültiges Urteil noch die graphematische und phonemsprachliche Analyse abgewartet werden. Erste Ergebnisse hierzu siehe in <bibl>Miklas, Gau, Hürner</bibl> (im Druck).</p>
+                               <p> Kodikologisch ähneln die MedBl dem PsDem zunächst durch die Anwesenheit wieder beschrifteter Blätter und die Art der Technik, mit der die älteren Beschriftungen entfernt wurden; dann aber auch durch den Lagen- und Liniierungsbefund (Seite, von der liniiert wurde, Punktierung), obgleich hier auch gewisse Unterschiede bei den Liniierungsschemata zu beobachten sind. Interessant, aber schwieriger zu erklären ist ferner, dass wie im PsDem auf den Palimpsestteilen der MedBl stellenweise roströtliche Flecken zu beobachten sind.</p>
+                                <p>Paläographisch kennzeichnen das Denkmal einige ältere Formen wie das zweistrichige E, die klassischen Varianten des M oder die Verbindungskreise bei den NV-Digraphen. Es erscheint nicht undenkbar, dass manche dieser älteren Züge auf den Einfluss einer Vorlage zurückgehen.</p>
+                                <p>Zu den jüngeren Merkmalen des Schreibers zählt zunächst die generelle Halbeckigkeit, dann das O ohne Abstand zwischen den Ösen, das R mit einem Zierstrich am oberen Ende der Vertikale, die U-Ligatur sowie das trapezförmige Jat.</p>
+                                <p>Territoriale Relevanz besitzen wiederum das geschlossene Ęsъ, das kyr. E sowie der rechte Teils des Jęsъ-Digraphen – Formen, die, wenngleich nur unregelmäßig, auch in PsDem-A anzutreffen sind und westlich-lateinischen Einfluss verraten. Im Einklang damit stehen wichtige Parallelen zu frühen kroatischen Dmm.; so insbesondere bei den Buchstaben B (Gršk), V (neben PsDem-B vgl. auch Mih, Gršk, DubrIn sowie das Graff), G´een’na (Mih), R (Bud, Graff, DubrIn), Cher (Gršk), C (Mih und Gršk) sowie Ju(že) (wie in den Demetrius-Einträgen, vereinzelt auch in PsDem-A sowie Cloz, MissSin-C, MenSin, WrBl und Gršk). Im Gegensatz dazu fehlen markiert östliche Merkmale wie das breite O; was die Annahme unterstützt, dass sprachliche Bulgarismen wie der in der Literatur hervorgehobene Preslavismus ti für „et“ einer früheren Schicht zuzuordnen sind (siehe sub IV.1).</p>
+                                <p>Der Umstand, dass die Blätter in den Demetrius-Psalter eingelegt sind, das Auftreten eines Mehrfachpalimpsests mit lateinischer und glagolitischer Vorbeschriftung, die einfache und schmucklose Gestaltung sowie kodikologische und paläographische Übereinstimmungen mit dem PsDem legen es nahe, auch die Abfassung der MedBl im Orient, sei es auf dem <origPlace ref="https://www.geonames.org/351820">Sinai</origPlace> oder in <origPlace ref="https://www.geonames.org/281184/">Jerusalem</origPlace> zu suchen, obwohl auch <origPlace ref="https://www.geonames.org/3202210">Dalmatien</origPlace> nicht ganz auszuschließen ist. Altersmäßig stehen die MedBl jedenfalls annähernd auf derselben Stufe wie der Psalter und gehören somit wohl ebenfalls dem <origDate notBefore="1051" notAfter="1075">dritten Viertel des 11. Jh.</origDate>s an. Wie die Kopisten des PsDem wird man auch den Schreiber der MedBl nach seinem paläographischen Befund am ehesten dem westlichen Teil der Balkanhalbinsel zuordnen.</p>
+                                <p>Nicht nur aufgrund der drei älteren Liniierungen, sondern auch der verschiedenen Schriften (zumindest lat. und glag.) besteht kein Zweifel, dass wir es im Fall des ersten und zweiten Doppelblattes mit Mehrfachpalimpsesten zu tun haben. Ähnlich weisen Liniierungs- und Punktierungsspuren darauf hin, dass auch das dritte ein Mehrfachpalimpsest ist, auch wenn von einer Vertikalbeschriftung nichts mehr zu sehen ist. Alle unterscheiden sich von den „klassischen“ Palimpsesttypen dadurch, dass – wie im Falle des PsDem – die Tilgung der Unterschichten so gründlich erfolgte, dass sich nur ganz geringe Schriftreste erhalten haben.</p>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>
