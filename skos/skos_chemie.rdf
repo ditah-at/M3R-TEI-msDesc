@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
+
+    
+    <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/chemie-tax">
+        <dc:title>Chemical elements</dc:title>
+        <skos:hasTopConcept rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"></skos:hasTopConcept>
+    </skos:ConceptScheme>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chemie">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Materialien, Pigmente, Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Materials, pigments, inks</skos:prefLabel>
+        <skos:note xml:lang="en">Taxonomy of types of materials associated with medieval manuscripts.</skos:note>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/support">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Writting support</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/parchment">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Pergament</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Parchment</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/parchment">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Pergament</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Parchment</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paper">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Papier</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Paper</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/papyrus">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Papyrus</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Papyrus</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/papyrus">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Papyrus</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Papyrus</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/wood">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Holz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Wood</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/palm_leaves">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Palmen Blätter</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Palm leaves</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/leather">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Leder</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Leather</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/wax">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Wachs</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Wax</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/textile">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Textilien</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Textile</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/support"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/linen">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Linen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Line</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silk">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Seide</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Silk</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cotton">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Baumwolle</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cotton</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/hemp">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Hanf</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hemp</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/wool">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Wolle</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Wool</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Tinten</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Inks</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-black-brown">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Schwarz-braune Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Black brown ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-iron-gall">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Eisengallustinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Iron-gall ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-carbon">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Rußschwarze Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Carbon black ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Sepia Tinte / Tintenfisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sepia ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Mischungen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixtures</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-red">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Rote Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Red ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-minium">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-vermilion">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Zinnoberrot</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-ink-mixtures">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Mischungen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixtures</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-blue">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Blaue Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Blue ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-green">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Grüne Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Green ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-gold">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="de">Goldene Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gold ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-silver">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Silberne Tinte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Silver ink</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/highlighting">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Hervorhebung der Schrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Highlighting</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/binding-agent">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Bindemittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Binding agents</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/proteinaceous">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Proteinhaltige Bindemittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Proteinaceous binding agent</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/binding-agent"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/egg-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Eiweiß</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Egg white</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/proteinaceous"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/parchment-glue">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Pergamentklebstoff</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Parchment glue</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/proteinaceous"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/carbohydrates">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Kohlenhydrate Bindemittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Carbohydrates binding agent</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/binding-agent"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gums">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Gum</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gums</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbohydrates"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Rote Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Red pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Gelbe Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Yellow pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/blue-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Blaue Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Blue pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/white-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Weiße Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">White pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Grüne Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Green pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Schwarze Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Black pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-pigments">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Gold Pigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gold pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mosaic-gold">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Mosaik Gold</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Muschelgold</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">White pigments</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-pigments"/>
+    </skos:Concept>
+</rdf:RDF>
