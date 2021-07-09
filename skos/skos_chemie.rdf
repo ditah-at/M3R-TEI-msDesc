@@ -249,11 +249,100 @@
         <skos:prefLabel xml:lang="en">Pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/chemie"/>
     </skos:Concept>
+<!-- ################################## RED #######################-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Rote Pigmente</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-ochre">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
+        <skos:definition xml:lang="en">Natural clay earth pigment, which is a mixture of ferric oxide and varying amounts of clay and sand. Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+        <!--        as skos:related the chemical elements Fe and O rdf resource external skos at: http://data.loterre.fr/ark:/67375/37T - under CC 4.0-->
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sinopia</skos:prefLabel>
+        <skos:definition xml:lang="en">Earth pigment. Vaiety of red quarz; used as a base for the application of gold or in the composition of mixtures of colour; used also in writing, for preparatory drawings (Agati). Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cinnabar">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Zinnober </skos:prefLabel>
+        <skos:altLabel xml:lang="de">Cinnabarit</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Cinnabar</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Cinnabarite</skos:altLabel>
+        <skos:definition xml:lang="en">Red inorganic pigment of mineral origin containing mercury sulphate (HgS). Main chemical elements: Hg, S.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vermilion">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
+        <skos:altLabel xml:lang="en"></skos:altLabel>
+        <skos:definition xml:lang="en">Red inorganic pigment; the synthetic form of cinnabar. Main chemical elements: Hg, S.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/minium">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Red lead pigment</skos:altLabel>
+        <skos:definition xml:lang="en">Red synthetic inorganic pigment. Main chemical elements: lead (Pb) and oxygen (O).</skos:definition>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Krapp</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Färberkrapp</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Madder</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Rubia tinctorum</skos:altLabel>
+        <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum).</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder-lake">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Krapplack</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Madder lake</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Brasilin</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Brazilin</skos:prefLabel>
+        <skos:definition xml:lang="en">Oragnic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxydation. Almost always used as a lake. Puprle-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin-lake">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Brasilinlack</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Brazilin lake</skos:prefLabel>
+        <skos:definition xml:lang="en">Oragnic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxydation. Almost always used as a lake. Puprle-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Kermes</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Kermes</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
+        <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
+        <skos:definition xml:lang="en">Oragnic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) found in Southern Europe and North Africa.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes-lake">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
+        <skos:definition xml:lang="en">Oragnic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) and used as a lake.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-pigments">
