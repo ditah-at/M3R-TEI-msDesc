@@ -263,8 +263,10 @@
         <skos:definition xml:lang="en">Natural clay earth pigment, which is a mixture of ferric oxide and varying amounts of clay and sand. Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
         <!--        as skos:related the chemical elements Fe and O rdf resource external skos at: http://data.loterre.fr/ark:/67375/37T - under CC 4.0-->
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+<!--        should one add separate SKOS for hierarchical classification of pigments as types? (i.e. pigments -> organic + inorganic => minerals + earth pigments + synthetic 
+        and add skos:relatedMatch rdf:resource="..../earth-pigment"-->
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
