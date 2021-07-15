@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
 
+    <void:Dataset rdf:about="http://gams.uni-graz.at/">
+        <dc:title>Vocabulary for pigments used in mediaeval manuscripts - SKOS</dc:title>
+        <dc:identifier></dc:identifier>
+        <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
+        <dc:creator>Ivana Dobcheva</dc:creator>
+        <dc:creator>Manfred Schreiner</dc:creator>
+        <dc:creator>Wilfried Vetter</dc:creator>
+        <dc:creator>Federica Cappa</dc:creator>
+<!--        CHECK: how to add reference / cite the secondary literature used within the SKOS? -->
+        <dc:references>N. Eastaugh et al. Pigment Compendium. A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, 2008.</dc:references>        
+    </void:Dataset>
     
     <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/chemie-tax">
         <dc:title>Chemical elements</dc:title>
@@ -260,7 +271,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
-        <skos:definition xml:lang="en">Natural clay earth pigment, which is a mixture of ferric oxide and varying amounts of clay and sand. Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydrooxides of iron; hence the main chemical element present is iron (Fe) and oxygen (O). The red ochre contains the mineral hematite. The pigment is prepared by washing, levigation and grindings; most contain impurities (other minerals such as quartz, clays, gypsum, micas, feldspars, etc.). The precise composition and colour depend on the local (geological) specifications. The colour can be further altered by roasting - red becomes purplich or darkened; red colour can be produced also by roasting yellow ochre.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-pigments"/>
         <!--        as skos:related the chemical elements Fe and O rdf resource external skos at: http://data.loterre.fr/ark:/67375/37T - under CC 4.0-->
         <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
@@ -353,6 +364,80 @@
         <skos:prefLabel xml:lang="en">Yellow pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-ochre">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Gelbe Ocher</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Yellow ochre</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Yellow ocher</skos:altLabel>
+        <skos:altLabel xml:lang="en">Gold ochre</skos:altLabel>
+        <skos:altLabel xml:lang="en">Limonite</skos:altLabel>
+        <skos:definition xml:lang="en">Yellow ochre is produced from rocks and soils primarily composed of oxides and hydrooxides of iron; hence the main chemical element present is iron (Fe). The yellow colour is due to the goethite and/or jarosite group minerals. The pigment is prepared by washing, levigation and grindings; most contain impurities (other minerals such as quartz, clays, gypsum, micas, feldspars, etc.). The precise composition and colour depend on the local (geological) specifications. The colour can be further altered by roasting - yellow becomes often red or brown.</skos:definition>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/orpiment">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Auripigment</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Arsenblende</skos:altLabel>
+        <skos:altLabel xml:lang="de">Gelbe Arsenblende</skos:altLabel>
+        <skos:altLabel xml:lang="de">Rauschgelb</skos:altLabel>
+        <skos:altLabel xml:lang="de">Operment</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Orpiment</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">auripigmentum</skos:prefLabel>
+        <skos:prefLabel xml:lang="gr">arsenikon</skos:prefLabel>
+        <skos:definition xml:lang="en">Yellow or greenish yellow sulfide of arsenic (arsenic trisulfide: As2S3), hence the main chemical elements are arsenic (As) and sulfur (S). The natural orpiment is an inorganic pigment, found as massive encrusting or granular deposits and as volcanis sublimates (mineral formed from volcanic gas) - particularly from Vesuvius and the Phlegrean Fields in Italy. Other deposits are found by hot springs worldwide. Apart from its natural form, orpiment was also produced synthetically (cf. Cennini, Il libro dell'Arte, who also warns about its poisonous fumes).
+            Orpiment reacts with copper- and lead-based pigments (particularly lead white, verdigris and azurite) so artists avoided using these pigments together unless orpiment could be used in isolation (as by heraldic blazonry). Due to its toxicity orpiment was sometimes used to protect manuscript against insects.</skos:definition>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
+        <skos:relatedMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B31MNC3P-0"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-tin-yellow">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Bleizinngelb</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lead-tin-yellow</skos:prefLabel>
+        <skos:definition xml:lang="en">Lead-tin yellow is a synthethic pigment used mainly for oil painting from the thirteenth to eighteenth centuries. According to its chemical composition there are two type, whereby the first one was more commonly used. Type I is a lead tin oxide (Pb2SnO4), the so-called type II is a silicate (Pb(Sn,Si)O3. The main chemical elements are hence: lead (Pb), tin (Sn) and oxyigen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Tin"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Lead"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Färber-Wau</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Weld</skos:prefLabel>
+        <skos:definition xml:lang="en">Weld is a natural dye made from the plant Reseda luteola. To produce the pigment one has to strew the whole dried plant in a wear solution of alum, precipitating it with the addition of calcium sulfate, eggshell or lead white. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Potassium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/saffron">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:definition xml:lang="en">. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Potassium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:definition xml:lang="en">The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Potassium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-pigments"/>
+    </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/blue-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
@@ -360,6 +445,77 @@
         <skos:prefLabel xml:lang="en">Blue pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ultramarine">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Ultramarin</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Lapis lazuli</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Ultramarine</skos:prefLabel>
+        <skos:definition xml:lang="en">Natural inorganic pigment made by grinding lapis lazuli - a rock found in antiquity in Afganistan, beyond the Mediterranean sea (in Latin 'ultra mare' hence the name). The rock is composed of a the mineral lazurite usually mixed with other minerals: calcite and pyrite. The main chemical elements are: potassium (K), Calcium (Ca), (Si), aluminium (Al), sulfur (S) and iron (Fe).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Potassium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Calcium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Iron"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/azurite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Azurit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Bergblau</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Azurite</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Cyprian blue</skos:altLabel>
+        <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral. The main chemical elements from its composition are: copper (Cu), carbon (C) and oxygen (O):</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-indigo">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Indigo (Indigopflanze)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Indigo (indigo plant)</skos:prefLabel>
+        <skos:definition xml:lang="en">There are two way to produce the organic pigment indigo. One was to use the leaves from various Indigofera species. The method include: steeping the leaves in hot alkaline water (by adding urine, ash or slaked lime); beating the soaked leaves to pulp or stirring to oxydise in order for the indigo to form as a precipitate; it is then dried and often formed into balls. Another way to transport it was to soak it onto small linen rectangles. The pigment was usually mixed with white pigments to reduce its dark blue colour. Its main chemical elements are: carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-woad">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Indigo (Färberwaid)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Indigo (woad plant)</skos:prefLabel>
+        <skos:definition xml:lang="en">There are two way to produce the organic pigment indigo. One was to use the leaves of the Isatis tinctoria (woad). The method include: composting the leaves; steeping them in alkaline water (by adding urine, ash or slaked lime); beating the soaked leaves to pulp or stirring to oxydise in order for the indigo to form as a precipitate; it is then dried and often formed into balls. Another way to transport it was to soak it onto small linen rectangles. The pigment was usually mixed with white pigments to reduce its dark blue colour. Its main chemical elements are: carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ocein">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Orcein</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Orcein</skos:prefLabel>
+        <skos:definition xml:lang="en">Orcein is a organic pigment produced by treating the lichen of Rocella tinctoria with ammonia, and then oxidising it. The main chemical elements are cabon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chrozophora-tinctoria">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Chrozophora tinctoria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chrozophora tinctoria</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Folium</skos:altLabel>
+        <skos:definition xml:lang="en">The dye is made out of the Chrozophora tinctoria fruits. The main chemical elements are cabon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
+    </skos:Concept>
+   
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/white-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
@@ -367,12 +523,82 @@
         <skos:prefLabel xml:lang="en">White pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Knochenkohle</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bone-white</skos:prefLabel>
+        <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are calcium (Ca) and phosphorus (P).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Calcium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Phosphorus"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Bleiweiß</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lead white</skos:prefLabel>
+        <skos:definition xml:lang="en">The pigment called "lead white" normally refers to lead carbonate hydroxide (could however also be an umbrella term and hence mean lead chloride oxide, lead phosphates and lead sulfates). As a synthetic pigment was produced by letting lead sheets hung over pots filled with acetic aced in a special closed chamber. If the process was successful, after some three to four months the white lead accumulated on the sheets would be scrapped off, washed and dried. The main chemical elements are: lead (Pb), carbon (C)and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Lead"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-pigments"/>
+    </skos:Concept>
+    
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Grüne Pigmente</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-earth">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Grüne Erde</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Green earth</skos:prefLabel>
+        <skos:definition xml:lang="en">Verona green; Bohemia green. The main chemical elements is: silicon (Si).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silicon"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/malachite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Malachite</skos:prefLabel>
+        <skos:definition xml:lang="en"> The main chemical elements are: copper (Cu) carbon (C) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-indigo">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
+        <skos:definition xml:lang="en"> The main chemical elements are: nitrogen (N), carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Iris green</skos:prefLabel>
+        <skos:definition xml:lang="en"> The main chemical elements are:  carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/verdigris">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Verdigris</skos:prefLabel>
+        <skos:definition xml:lang="en"> The main chemical elements are: copper (Cu), carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-pigments"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-pigments">
@@ -380,6 +606,17 @@
         <skos:prefLabel xml:lang="de">Schwarze Pigmente</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Black pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Beinschwarz</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Knochenkohle</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Bone black</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Animal bone charcoal</skos:altLabel>
+        <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are calcium (Ca) and phosphorus (P).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Calcium"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Phosphorus"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-pigments"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-pigments">
@@ -394,10 +631,10 @@
         <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-pigments"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-shell">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Muschelgold</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">White pigments</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Shell gold</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-pigments"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
