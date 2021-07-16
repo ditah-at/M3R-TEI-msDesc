@@ -35,8 +35,9 @@
                     </msIdentifier>
                     <head>
                         <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
-                        <origDate notBefore="0001" notAfter="0001"></origDate>
+                        <origDate notBefore="0001" notAfter="0010"></origDate>
                         <origPlace></origPlace>
+                        <note></note>                      
                     </head> 
                     <!-- 
                         Bei einheitliche HSS und Miscelanea (Collectanea, compendia) KEIN msPart
@@ -95,7 +96,7 @@
                                         <width max="0" min="0"></width>
                                     </dimensions> 
 <!--                                    optional Zeilenhöhe-->
-                                    <dimensions type="lineHeight">
+                                    <dimensions type="lineHeight" unit="mm">
                                         <height min="0" max="0"></height>
                                     </dimensions>
                                     <!-- Einstichlöcher (en:pricking) und Linierung (en:ruling) freie Beschreibung; mit Referenz zu gedruckten Repertoria; laut D. Muzerelle, De re rigatoria (e.g. D. Muzerelle, De re rigatoria <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>)-->
@@ -188,7 +189,7 @@
     <text>
         <body>
             <head>
-                <title>Transkription des Textes ... </title>
+                <title> ... </title>
             </head>
             <p><pb n="1r"/> ... </p>
         </body>
