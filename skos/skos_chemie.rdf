@@ -510,23 +510,24 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ocein">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
-        <skos:prefLabel xml:lang="de">Orcein</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Orcein</skos:prefLabel>
-        <skos:definition xml:lang="en">Orcein is a organic pigment produced by treating the lichen of Rocella tinctoria with ammonia, and then oxidising it. The main chemical elements are cabon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
-        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
-        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
-        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
-    </skos:Concept>
-<!--    ########### blue or purple ########## -->
+    
+<!--    ########### Purple ########## -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/purple-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Purpur Pigmente</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Purple pigments</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pigments"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ocein">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Orcein</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Orcein</skos:prefLabel>
+        <skos:definition xml:lang="en">Orcein is a organic purple-blue pigment produced by treating the lichen of Rocella tinctoria with ammonia, and then oxidising it. The main chemical elements are carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-pigments"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chrozophora-tinctoria">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
@@ -539,8 +540,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-pigments"/>
-    </skos:Concept>   
-<!--    ########## tyrian purle ??? -->
+    </skos:Concept>  
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/white-pigments">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
