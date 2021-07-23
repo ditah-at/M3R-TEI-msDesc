@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="_tei-msDesc_">
+    <!--    ADD xml:id using MS Shelfmark e.g. onb-cod-732-msDesc_AUTHORNAME-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -148,10 +148,19 @@
                             <bibl/>
                         </listBibl>
                     </additional>
-<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           <msPart>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 1 = ff. </idno>
-                        </altIdentifier>
+                    <!--  XXXXXXXXXXXXX  Für REKONSTRUKKTIONEN fragmentierte HS heute separat aufbewahr msFrag   -->   
+                    <!--<msFrag>
+                        <msIdentifier>
+                            
+                        </msIdentifier>
+                    </msFrag>-->
+                    <!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial     -->                       
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 1 = ff. </idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <head/>
                         <msContents/>
                         <physDesc/>
@@ -160,15 +169,17 @@
                     </msPart>
 <!--XXXXXXXXXXXXXXX  Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
                     <msPart>
-                        <altIdentifier type="palimpsest">
-                            <idno>Palimpsest auf ff. XXX</idno>
-                        </altIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="palimpsest">
+                                <idno>Palimpsest auf ff. XXX</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <head/>
                         <msContents/>
                         <physDesc/>
                         <history/>
                         <additional/>
-                    </msPart>
+                    </msPart>                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
