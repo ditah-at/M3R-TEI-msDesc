@@ -292,7 +292,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vermilion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
-        <skos:prefLabel xml:lang="de">Synthetische Zinnober</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Synthetischer Zinnober</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
         <skos:definition xml:lang="en">Red inorganic pigment; the synthetic form of cinnabar. Main chemical elements: mercury (Hg) and sulfur (S).</skos:definition>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
@@ -386,7 +386,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
-        <skos:prefLabel xml:lang="de">Gelbe Ocher</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gelber Ocher</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Yellow ochre</skos:prefLabel>
         <skos:altLabel xml:lang="en">Yellow ocher</skos:altLabel>
         <skos:altLabel xml:lang="en">Gold ochre</skos:altLabel>
@@ -796,7 +796,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
-        <skos:prefLabel xml:lang="de">Silberblatt</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silver"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
@@ -810,7 +810,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colorant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
-        <skos:prefLabel xml:lang="de">Blech Farbmittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zinn Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin colorant</skos:prefLabel>
         <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver.</skos:definition>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Tin"/>
