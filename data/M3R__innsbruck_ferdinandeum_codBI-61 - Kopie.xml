@@ -95,10 +95,7 @@
                                     They might represent rulings prior to pricking. That the prickings are on a “curved” line might derive from the distortion the parchment underwent over time.
                                 </layout>
                             </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote xml:id="handID" scribe="x" script="x" medium="inkType"><!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.--></handNote>
-                        </handDesc>
+                        </objectDesc>                        
                         <scriptDesc>
                             <scriptNote script="x" medium="x">The ink is either tannin ink or an iron gall ink; however, to take a final decision on the sort of ink an instrumental analysis is preferable (see the spectroscopical analysis of 2011).</scriptNote>
                         </scriptDesc>

@@ -777,6 +777,7 @@
         <skos:prefLabel xml:lang="de">Muschelgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell gold</skos:prefLabel>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Gold"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1594"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
@@ -784,6 +785,7 @@
         <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Gold"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1370"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
     
@@ -799,6 +801,7 @@
         <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silver"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1597"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-shell">
@@ -806,6 +809,7 @@
         <skos:prefLabel xml:lang="de">Muschelsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell silver</skos:prefLabel>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silver"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/3017"/>       
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colorant">
@@ -823,6 +827,16 @@
         <skos:prefLabel xml:lang="en">Alloy colorants</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copper-alloy">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
+        <skos:prefLabel xml:lang="de">Cupferlegierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Copper alloy</skos:prefLabel>
+        <skos:definition xml:lang="en">Alloy containing copper (Cu) as the priinciple element.</skos:definition>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2408"/> 
+        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300010942"/>
+        <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
+    </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brass">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
         <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
@@ -830,7 +844,9 @@
         <skos:definition xml:lang="en">Alloy containing copper (Cu) and zinc (Zn).</skos:definition>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/> 
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Zinc"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2412"/>
+        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300010946"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/copper-alloy"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bronze">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
@@ -838,7 +854,9 @@
         <skos:prefLabel xml:lang="en">Bronze</skos:prefLabel>
         <skos:definition xml:lang="en">Bronze contains copper (Cu) and other additives such as tin (Sn), silicon, aluminum, manganese, phosphorus, or various other elements. One could hence differentiaate between aluminium bronze (aluminium), speculum metal (tin), etc. </skos:definition>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/> 
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
+        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2410"/>
+        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/page/aat/300010957"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/copper-alloy"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-ag">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/chemie-tax"/>
