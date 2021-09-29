@@ -22,12 +22,14 @@
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/dryDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Dry methods</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Dry methods</skos:prefLabel>  
+        <skos:prefLabel xml:lang="de">Tilgungen mit trockenen Mitteln</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/duringWritingDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Delitions during writing</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Delitions during writing</skos:prefLabel>    
+        <skos:prefLabel xml:lang="de">Tilgungen während des Schreibens</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/penknife">
@@ -44,14 +46,15 @@
    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Dry methods after writing</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Dry methods after writing</skos:prefLabel>   
+        <skos:prefLabel xml:lang="de">Tilgungen nach dem Schreiben</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionPumice">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Pumice</skos:prefLabel>   
         <skos:altLabel xml:lang="en">pumice stone</skos:altLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
         <skos:relatedMatch rdf:resource="http://codicologia.irht.cnrs.fr/term-1558"/>
         <skos:note xml:lang="en">Pumice was used to erase text written in all inks on papyrus and parchment. Traces left: parallel scratches visible under magnification and in raking light as darker area. Detectable by: transmitted light (lighter area), raking light (darker/rougher area).</skos:note>
@@ -79,7 +82,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionErasurePowder">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Erasure powder</skos:prefLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tilgeungspulver ??</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionFeathers">
@@ -91,40 +94,47 @@
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/coverDeletion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Covering methods</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Covering methods</skos:prefLabel> 
+        <skos:prefLabel xml:lang="de">Überdecken</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaint">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Overpainting</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Overpainting</skos:prefLabel> 
+        <skos:prefLabel xml:lang="de">Übermalen</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaste">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Overpasting</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Overpasting</skos:prefLabel> 
+        <skos:prefLabel xml:lang="de">Überkleben</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/oversew">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Oversewing</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Oversewing</skos:prefLabel> 
+        <skos:prefLabel xml:lang="de">Überwendlich nähen</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/liftingDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Lifting off</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Lifting off</skos:prefLabel> 
+        <skos:prefLabel xml:lang="de">Abheben ??</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cuttingDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Cutting out</skos:prefLabel>        
+        <skos:prefLabel xml:lang="en">Cutting out</skos:prefLabel>   
+        <skos:prefLabel xml:lang="de">Raußscheiden</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/liquidDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Liquid methods</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tilgungen mit Flüssigkeiten</skos:prefLabel>
         <skos:note xml:lang="en">Liquids work in two ways: they either wash off the inks or modify them in such a way that inks become invisible/less visible (for example by pH changes). A third possible way of using liquid deletion agents is to swell the surface of the parchment and then scratch it off.</skos:note>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
@@ -157,7 +167,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture1">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: lime, vitriol, alum</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Kalk, Vitriol. Alaun</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Cloth must be immersed into the mix and spread over the parchment and later rubbed, varnish is a final step pH of the mix is 13. 
             Material of deletable/deleted text: Most probably meant to delete iron gall inks.
@@ -173,7 +183,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture2">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: vitriol and calium *calium* (calcium or kalium??) or natrium nitrate (English: sodium nitrate??)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Vitriol +++</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: application with a sponge gently rubbing.
             Material of deletable/deleted text: Black letters (soot ink is black, but black might also mean brown).                
@@ -200,7 +210,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture4">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: alum, orange juice</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: alum, Orangensaft</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Alaun, Orangensaft</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: rub over letters, pH value around 2, depending on the sort of orange.  
             Material of deletable/deleted text: Most probably iron gall ink.
@@ -214,7 +224,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture5">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Orange juice, chalk and water</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: Orangensaft, Kalk und Wasser</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Orangensaft, Kreide und Wasser</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Orange juice and sponge rubbing over the letters, then chalk with water applied in the relevant area or as a powder. 
             Material of deletable/deleted text: Most probably iron gall ink.
@@ -229,7 +239,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture6">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: rosin and horse dung</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Harz, Pferdedung</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Rosin as powder, most probably as sort of sucking sand, a cloth to cover the text, horse dung on top and a weight. 
             Material of deletable/deleted text: Most probably iron gall ink.
@@ -240,8 +250,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture7">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Mixture: alum and salmiak (English: ammonium chloride ??)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixture: alum and ammonium chloride</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Alaun, Salmiak</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: A sort of alum – unspecified and salmiak.
             Material of deletable/deleted text: Not specified.
@@ -253,7 +263,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture8">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: powdered hare meat and lime</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Hasenfleisch (pulverisiert), Kalk</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Powdered hare meat and lime, mixed and applied onto the text.
             Material of deletable/deleted text: High pH – iron gall inks?
@@ -265,7 +275,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture9">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: alum, ash, egg shells</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Alaun, Asche, Eierschale</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: application with sponge.
             Material of deletable/deleted text: Most probably iron gall inks.
@@ -278,7 +288,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture10">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Hare flesh fried and salted, wine</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung:</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Hasenfleisch, Wein</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Hare flesh  fried and salted, wine (wine had a low pH in the Middle ages).
             Material of deletable/deleted text: Most probably iron gall inks
@@ -292,7 +302,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture11">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: bone marrow, oil</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Knochenmark, Öl</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">
             Sources: „Ambrogio Ricepte d´Affare piu Colori“ (Thompson:1933).
@@ -302,8 +312,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture12">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Mixture: Malus sylvestris (low pH) juce, and a rough cloth</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixture: Malus sylvestris (low pH) juice, and a rough cloth</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Saft aus Malus sylvestris</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en"> 
             Material of deletable/deleted text: Most probably iron gall inks.
@@ -314,7 +324,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture13">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Wine yeast (saccharomyces cerevisiae), ashes, water</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Weinhefe (saccharomyces cerevisiae), Asche, Wasser</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Wine yeast (saccharomyces cerevisiae), ashes, water – a lieche ?? is the result. pH was 11.
             Material of deletable/deleted text: Most probably iron gall inks. 
@@ -327,7 +337,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture14">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: lime, flour, water, egg shells</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Kalk, Mehl, Wasser, Eierschale</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
         <skos:note xml:lang="en">Method: Lime, flour, water, egg shells, swelling stretching and shaving then application of chalk. The pH of this mixture went up to 14.
             Carrier: Parchment. Krekel believes that this is a recipe for deleting an entire page of text. 
