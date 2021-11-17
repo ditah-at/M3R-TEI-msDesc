@@ -160,7 +160,7 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gelatinization">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Gelatinization</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pergamentgelatiierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pergamentgelatinierung</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paperDegradation">
@@ -219,6 +219,7 @@
         <skos:prefLabel xml:lang="de">Eisengallustinte</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Iron-gall ink</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+<!--        #### Black ink can be used as a black pigment hence the use of skos:broader -->
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-carbon">
@@ -233,12 +234,14 @@
         <skos:prefLabel xml:lang="de">Sepia Tinte / Tintenfisch</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sepia ink</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Mischungen</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Mixtures</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-black-brown"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-red">
@@ -246,24 +249,18 @@
         <skos:prefLabel xml:lang="de">Rote Tinte</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ink</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-minium">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Mennige Tinte</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-vermilion">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Zinnoberrot</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-ink-mixtures">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Mischungen</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Mixtures</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
+<!--        ######### use skos:broader. red inks are made out of pigments, hence the concept "red ink" should be a narrower concept from these red pigments-->
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/minium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/cinnabar"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-ochre"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/vermilion"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/sinopia"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/madder"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/madder-lake"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brazilin"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brazilin-lake"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/kermes"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/kermes-lake"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-blue">
@@ -271,13 +268,24 @@
         <skos:prefLabel xml:lang="de">Blaue Tinte</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Blue ink</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ultramarine"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/azurite"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/indigo-indigo"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/indigo-woad"/>
     </skos:Concept>
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-green">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grüne Tinte</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green ink</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/ink"/>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-earth"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/malachite"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/weld-indigo"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/iris-green"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/verdigris"/>
     </skos:Concept>
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Goldene Tinte</skos:prefLabel>
@@ -299,6 +307,7 @@
         <skos:prefLabel xml:lang="en">Highlighting</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
     </skos:Concept>
+    
 <!--    ############### BINDING  AGENTS ########## -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/binding-agent">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -356,10 +365,10 @@
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
         <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron; hence the main chemical element present is iron (Fe) and oxygen (O). The red ochre contains the mineral hematite. The pigment is prepared by washing, levigation and grindings; most contain impurities (other minerals such as quartz, clays, gypsum, micas, feldspars, etc.). The precise composition and colour depend on the local (geological) specifications. The colour can be further altered by roasting - red becomes purplich or darkened; red colour can be produced also by roasting yellow ochre.</skos:definition>       
-        <!--        as skos:related the chemical elements Fe and O linked to wikipedia URLs // alternative: rdf resource external skos at: http://data.loterre.fr/ark:/67375/37T - under CC 4.0-->
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Iron"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -369,6 +378,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Iron"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cinnabar">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -380,6 +390,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Mercury_(element)"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vermilion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -389,6 +400,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Sulfur"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Mercury_(element)"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/minium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -400,6 +412,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -412,6 +425,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -423,6 +437,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -433,6 +448,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -444,6 +460,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Calcium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -456,6 +473,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Carbon"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -467,8 +485,9 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-red"/>
     </skos:Concept>
-    
+    <!-- #############  YELLOW  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gelbe Farbmittel</skos:prefLabel>
@@ -578,6 +597,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silicon"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Iron"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-blue"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/azurite">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -590,6 +610,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-blue"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-indigo">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -601,6 +622,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-blue"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-woad">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -612,6 +634,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Nitrogen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-blue"/>
     </skos:Concept>
     
 <!--    ########### Purple ########## -->
@@ -656,7 +679,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>
-    
+    <!-- #############  WHITE  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/white-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Weiße Farbmittel</skos:prefLabel>
@@ -717,7 +740,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
-    
+    <!-- #############  GREEN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grüne Farbmittel</skos:prefLabel>
@@ -731,6 +754,7 @@
         <skos:definition xml:lang="en">Verona green; Bohemia green. The main chemical elements is: silicon (Si).</skos:definition>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Silicon"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-green"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/malachite">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -741,6 +765,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-green"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-indigo">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -752,6 +777,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-green"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -762,6 +788,7 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-green"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/verdigris">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -773,13 +800,15 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-green"/>
     </skos:Concept>
-    
+    <!-- #############  BROWN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Braune Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brown colorants</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/sepia"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -810,12 +839,15 @@
         <skos:relatedMatch rdf:resource="https://en.wikipedia.org/wiki/Oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-earth"/>
     </skos:Concept>
-    
+    <!-- #############  BLACK  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Schwarze Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Black colorants</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-iron-gall"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/ink-carbon"/>
+        <skos:narrower rdf:resource="http://gams.uni-graz.at/thesaurus/black-ink-mixtures"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-black">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
