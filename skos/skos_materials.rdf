@@ -552,7 +552,7 @@
         <skos:altLabel xml:lang="en">Fr</skos:altLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/GXFQ6HV4-P">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/radium">
 <skos:exactMatch rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GXFQ6HV4-P"/>
         <skos:prefLabel xml:lang="en">radium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ra</skos:altLabel>
@@ -860,76 +860,7 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/textile"/>
     </skos:Concept>
     
-<!--    ########### Damages #############-->
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/damages">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Schäden</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Damages</skos:prefLabel>
-        <skos:note xml:lang="en">Types of damages in manuscripts.</skos:note>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
-    </skos:Concept>
-    
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyCatalysed">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Externally catalysed damages</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Schäden durch Einflüsse von außen katalysiert</skos:prefLabel>        
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/inkCorrosion">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Ink corrosion</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Tintenfrass</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copperCorrosion">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Copper corrosion</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kupferfrass</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gelatinization">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Gelatinization</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pergamentgelatinierung</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paperDegradation">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Paper degradation</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Papierabbau</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
-    </skos:Concept>
-    
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyInitiated">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Externally initiated damages</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Schäden von außen initiiert</skos:prefLabel>        
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/microbiologicalContamination">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Microbiological contamination</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Zerstörung durch Mikroorganismenbefall</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tornLeaves">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Torn leaves</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Beschädigung durch Zerreissen</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/discolouration">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Discolouration</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ausbleichen/Verbräumen</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="en">Previous repairs</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Alte Reparaturen/Restaurierungen</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
-    </skos:Concept>
+
     
 <!--    ############### BINDING  AGENTS ########## -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/binding-agents">
@@ -988,8 +919,8 @@
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
         <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron; hence the main chemical element present is iron (Fe) and oxygen (O).</skos:definition>       
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
@@ -997,8 +928,8 @@
         <skos:prefLabel xml:lang="de">Sinopia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sinopia</skos:prefLabel>
         <skos:definition xml:lang="en">Earth pigment. Variety of red quartz; used as a base for the application of gold or in the composition of mixtures of colour; used also in writing, for preparatory drawings (Agati). Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cinnabar">
@@ -1008,8 +939,8 @@
         <skos:prefLabel xml:lang="en">Cinnabar</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cinnabarite</skos:altLabel>
         <skos:definition xml:lang="en">Red inorganic pigment of mineral origin containing mercury sulphate (HgS). Main chemical elements: mercury (Hg) and sulfur (S).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vermilion">
@@ -1017,8 +948,8 @@
         <skos:prefLabel xml:lang="de">Synthetischer Zinnober</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
         <skos:definition xml:lang="en">Red inorganic pigment; the synthetic form of cinnabar. Main chemical elements: mercury (Hg) and sulfur (S).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/minium">
@@ -1028,8 +959,8 @@
         <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Red lead pigment</skos:altLabel>
         <skos:definition xml:lang="en">Red lead is a synthetic inorganic pigment, lead tetroxide (Pb3O4). It was used in medieval manuscripts both alone and with vermilion.  Main chemical elements: lead (Pb) and oxygen (O).</skos:definition>   
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder">
@@ -1039,9 +970,9 @@
         <skos:prefLabel xml:lang="en">Madder</skos:prefLabel>
         <skos:altLabel xml:lang="en">Rubia tinctorum</skos:altLabel>
         <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum). The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder-lake">
@@ -1049,10 +980,10 @@
         <skos:prefLabel xml:lang="de">Krapplack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Madder lake</skos:prefLabel>
         <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum), with additive aluminum to prepare a lake. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + aluminium (Al).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin">
@@ -1060,9 +991,9 @@
         <skos:prefLabel xml:lang="de">Brasilin</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brazilin</skos:prefLabel>
         <skos:definition xml:lang="en">Organic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxidation. Almost always used as a lake. Purple-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour. The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin-lake">
@@ -1070,10 +1001,10 @@
         <skos:prefLabel xml:lang="de">Brasilinlack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brazilin lake</skos:prefLabel>
         <skos:definition xml:lang="en">Organic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxidation. Almost always used as a lake. Purple-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + calcium (Ca).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes">
@@ -1083,9 +1014,9 @@
         <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
         <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
         <skos:definition xml:lang="en">Organic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) found in Southern Europe and North Africa. The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes-lake">
@@ -1093,10 +1024,10 @@
         <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
         <skos:definition xml:lang="en">Organic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) and used as a lake. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + aluminium (Al).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <!-- #############  YELLOW  #############  -->
@@ -1114,8 +1045,8 @@
         <skos:altLabel xml:lang="en">Gold ochre</skos:altLabel>
         <skos:altLabel xml:lang="en">Limonite</skos:altLabel>
         <skos:definition xml:lang="en">Yellow ochre is produced from rocks and soils primarily composed of oxides and hydrooxides of iron; hence the main chemical element present is iron (Fe).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/orpiment">
@@ -1127,8 +1058,8 @@
         <skos:altLabel xml:lang="de">Operment</skos:altLabel>
         <skos:prefLabel xml:lang="en">Orpiment</skos:prefLabel>
         <skos:definition xml:lang="en">Yellow or greenish yellow sulfide of arsenic (arsenic trisulfide: As2S3), hence the main chemical elements are arsenic (As) and sulfur (S).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/arsenic"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/arsenic"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-tin-yellow">
@@ -1136,9 +1067,9 @@
         <skos:prefLabel xml:lang="de">Bleizinngelb</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Lead-tin-yellow</skos:prefLabel>
         <skos:definition xml:lang="en">Lead-tin yellow is a synthetic pigment used mainly for oil painting from the thirteenth to eighteenth centuries. According to its chemical composition there are two type, whereby the first one was more commonly used. Type I is a lead tin oxide (Pb2SnO4), the so-called type II is a silicate (Pb(Sn,Si)O3. The main chemical elements are hence: lead (Pb), tin (Sn) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
@@ -1146,11 +1077,11 @@
         <skos:prefLabel xml:lang="de">Färber-Wau</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Weld</skos:prefLabel>
         <skos:definition xml:lang="en">Weld is a natural dye made from the plant Reseda luteola. To produce the pigment one has to strew the whole dried plant in a wear solution of alum, precipitating it with the addition of calcium sulfate, eggshell or lead white. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/saffron">
@@ -1158,11 +1089,11 @@
         <skos:prefLabel xml:lang="de">Safran</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Saffron</skos:prefLabel>
         <skos:definition xml:lang="en">Natural organic dye mixed with alum. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries-yellow">
@@ -1170,11 +1101,11 @@
         <skos:prefLabel xml:lang="de">Kreuzdornbeeren (unreif)</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Buckthorn unripe</skos:prefLabel>
         <skos:definition xml:lang="en">The yellow dye is made of various species of the Rhamnaceae family (most common species throughout Europe were the Rhamnus catharticus) To produce yellow dye the berries must be unripe, while ripe ones give a green colour. For producing the pigment they were mixed with alum. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
@@ -1184,8 +1115,8 @@
         <skos:prefLabel xml:lang="en">Massicot</skos:prefLabel>
         <skos:altLabel xml:lang="en">Yellow litharge</skos:altLabel>
         <skos:definition xml:lang="en">The main chemical elements are: lead (Pb) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
 <!--    ############# BLUE ###############-->
@@ -1201,12 +1132,12 @@
         <skos:altLabel xml:lang="en">Lapis lazuli</skos:altLabel>
         <skos:prefLabel xml:lang="en">Ultramarine</skos:prefLabel>
         <skos:definition xml:lang="en">Natural inorganic pigment made from the mineral lapis lazuli. The main chemical elements are: potassium (K), calcium (Ca), silicon (Si), aluminium (Al), sulfur (S) and iron (Fe).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/potassium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/azurite">
@@ -1216,9 +1147,9 @@
         <skos:prefLabel xml:lang="en">Azurite</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cyprian blue</skos:altLabel>
         <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral. The main chemical elements from its composition are: copper (Cu), carbon (C) and oxygen (O):</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-indigo">
@@ -1226,10 +1157,10 @@
         <skos:prefLabel xml:lang="de">Indigo (Indigopflanze)</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Indigo (indigo plant)</skos:prefLabel>
         <skos:definition xml:lang="en">An organic pigment made from the leaves from various Indigofera species. Its main chemical elements are: carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo-woad">
@@ -1237,10 +1168,10 @@
         <skos:prefLabel xml:lang="de">Indigo (Färberwaid)</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Indigo (woad plant)</skos:prefLabel>
         <skos:definition xml:lang="en">An organic pigmentmade from the leaves of the Isatis tinctoria (woad). Its main chemical elements are: carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     
@@ -1256,10 +1187,10 @@
         <skos:prefLabel xml:lang="de">Orcein</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Orcein</skos:prefLabel>
         <skos:definition xml:lang="en">Orcein is a organic purple-blue pigment produced by treating the lichen of Rocella tinctoria with ammonia, and then oxidising it. The main chemical elements are carbon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chrozophora-tinctoria">
@@ -1268,10 +1199,10 @@
         <skos:prefLabel xml:lang="en">Chrozophora tinctoria</skos:prefLabel>
         <skos:altLabel xml:lang="en">Folium</skos:altLabel>
         <skos:definition xml:lang="en">The dye is made out of the Chrozophora tinctoria fruits. The main chemical elements are cabon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>  
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tyrian-purple">
@@ -1279,11 +1210,11 @@
         <skos:prefLabel xml:lang="de">Purpur</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tyrian purple</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are bromine (Br), cabon (C), hydrogen (H), nitrogen (N) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/bromine"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/bromine"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>
     <!-- #############  WHITE  #############  -->
@@ -1298,8 +1229,8 @@
         <skos:prefLabel xml:lang="de">Knochenkohle</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Bone-white</skos:prefLabel>
         <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are calcium (Ca) and phosphorus (P).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-white">
@@ -1307,9 +1238,9 @@
         <skos:prefLabel xml:lang="de">Bleiweiß</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Lead white</skos:prefLabel>
         <skos:definition xml:lang="en">The pigment called "lead white" normally refers to lead carbonate hydroxide (could however also be an umbrella term and hence mean lead chloride oxide, lead phosphates and lead sulfates). The main chemical elements are: lead (Pb), carbon (C) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>   
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gypsum">
@@ -1319,10 +1250,10 @@
         <skos:altLabel xml:lang="en">Plaster of Paris</skos:altLabel>
         <skos:altLabel xml:lang="en">Gesso</skos:altLabel>
         <skos:definition xml:lang="en">The main chemical elements are: calcium (Ca), sulfur (S), hydrogene (H) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chalk">
@@ -1330,9 +1261,9 @@
         <skos:prefLabel xml:lang="de">Kreide</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are: calcium (Ca), carbon (C) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kaolin">
@@ -1341,10 +1272,10 @@
         <skos:altLabel xml:lang="de">Porzellanerde</skos:altLabel>
         <skos:prefLabel xml:lang="en">Kaolin</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are: aluminium (Al), silicon (Si) carbon (C) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
     <!-- #############  GREEN  #############  -->
@@ -1359,7 +1290,7 @@
         <skos:prefLabel xml:lang="de">Grüne Erde</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green earth</skos:prefLabel>
         <skos:definition xml:lang="en">Verona green; Bohemia green. The main chemical elements is: silicon (Si).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/malachite">
@@ -1367,9 +1298,9 @@
         <skos:prefLabel xml:lang="de">Malachit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Malachite</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are: copper (Cu) carbon (C) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-indigo">
@@ -1377,10 +1308,10 @@
         <skos:prefLabel xml:lang="de">Färber-Wau mit Indigo</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
         <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo. The main chemical elements are: nitrogen (N), carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
@@ -1388,9 +1319,9 @@
         <skos:prefLabel xml:lang="de">Schwertlilien (Iris) grün</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Iris green</skos:prefLabel>
         <skos:definition xml:lang="en">The dye is extracted from the petals of iris flowers (some recipies call for adding giallorino - lead-tin yellow - to get a more green and less green blue colour). The main chemical elements are: carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/verdigris">
@@ -1398,10 +1329,10 @@
         <skos:prefLabel xml:lang="de">Grünspan</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Verdigris</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are: copper (Cu), carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <!-- #############  BROWN  #############  -->
@@ -1418,9 +1349,9 @@
         <skos:prefLabel xml:lang="en">Brown Ochre</skos:prefLabel>
         <skos:altLabel xml:lang="en">Brown Ocher</skos:altLabel>
         <skos:definition xml:lang="en">The main chemical elements are: iron (Fe), silicon (Si) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-earth">
@@ -1435,9 +1366,9 @@
         <skos:prefLabel xml:lang="de">Umbra</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Umber</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are: iron (Fe), Manganese (Mn) and oxygen (O).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/manganese"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/manganese"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-earth"/>
     </skos:Concept>
     <!-- #############  BLACK  #############  -->
@@ -1456,13 +1387,20 @@
         <skos:altLabel xml:lang="en">Oak gall ink</skos:altLabel>
         <skos:altLabel xml:lang="en">Iron gall nut ink</skos:altLabel>
         <skos:definition xml:lang="en">The mixture is usually used as ink (incaustum); it is produced from nutgall or other vegetable products (like algarobillo, myrobolan, etc.), vitriol, gum arabicum, glass.</skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-carbon">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Rußschwarz</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Rußtinte</skos:altLabel>
+        <skos:altLabel xml:lang="de">Ruß</skos:altLabel>
         <skos:prefLabel xml:lang="en">Carbon black</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carbon black ink</skos:altLabel>
+        <skos:altLabel xml:lang="en">Carbon ink</skos:altLabel>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:definition xml:lang="en">Carbon black (atramentum) - from carbonised organic ingredients or from lampblack or soot, used with a binding agent, usually gum arabicum.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
@@ -1470,6 +1408,9 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
@@ -1485,9 +1426,9 @@
         <skos:prefLabel xml:lang="en">Bone black</skos:prefLabel>
         <skos:altLabel xml:lang="en">Animal bone charcoal</skos:altLabel>
         <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are carbon (C), calcium (Ca) and phosphorus (P).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/graphite">
@@ -1495,7 +1436,7 @@
         <skos:prefLabel xml:lang="de">Graphit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical element is carbon (C).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-woad">
@@ -1503,9 +1444,9 @@
         <skos:prefLabel xml:lang="de">Mischung aus Färber-Wau und Färberwaid</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Mixture of weld and woad</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
 <!--    ###### GOLD ########-->
@@ -1513,30 +1454,30 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gold Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold colorants</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mosaic-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Mosaik Gold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-shell">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Muschelgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell gold</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1594"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/1594"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1370"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/1370"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
 <!--    ##########Silver #######-->
@@ -1544,23 +1485,23 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Silber Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver colorants</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/1597"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/1597"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-shell">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Muschelsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell silver</skos:prefLabel>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/3017"/>       
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/3017"/>       
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colorant">
@@ -1568,7 +1509,7 @@
         <skos:prefLabel xml:lang="de">Zinn Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin colorant</skos:prefLabel>
         <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver.</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorants"/>
     </skos:Concept>
 <!--    ############ ALLOY ##########-->
@@ -1583,9 +1524,9 @@
         <skos:prefLabel xml:lang="de">Cupferlegierung</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Copper alloy</skos:prefLabel>
         <skos:definition xml:lang="en">Alloy containing copper (Cu) as the principle element.</skos:definition>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2408"/> 
-        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300010942"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/2408"/> 
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300010942"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brass">
@@ -1593,10 +1534,10 @@
         <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brass</skos:prefLabel>
         <skos:definition xml:lang="en">Alloy containing copper (Cu) and zinc (Zn).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/zinc"/>
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2412"/>
-        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300010946"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/zinc"/>
+        <skos:related rdf:resource="http://w3id.org/lob/concept/2412"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300010946"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/copper-alloy"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bronze">
@@ -1604,9 +1545,9 @@
         <skos:prefLabel xml:lang="de">Bronze</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Bronze</skos:prefLabel>
         <skos:definition xml:lang="en">Bronze contains copper (Cu) and other additives such as tin (Sn), silicon, aluminum, manganese, phosphorus, or various other elements. One could hence differentiaate between aluminium bronze (aluminium), speculum metal (tin), etc. </skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
-        <skos:relatedMatch rdf:resource="http://w3id.org/lob/concept/2410"/>
-        <skos:relatedMatch rdf:resource="http://vocab.getty.edu/page/aat/300010957"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
+        <skos:related rdf:resource="http://w3id.org/lob/concept/2410"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/page/aat/300010957"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/copper-alloy"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-ag">
@@ -1614,8 +1555,8 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Silber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold and silver</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au) and silver (Ag).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-ag-cu">
@@ -1623,9 +1564,9 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Silber und Kupfer</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold, silver and copper</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au), silver (Ag) and copper (Cu).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-cu">
@@ -1633,8 +1574,8 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Kupfer</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold and copper</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au) and copper (Cu).</skos:definition>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
-        <skos:relatedMatch rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     

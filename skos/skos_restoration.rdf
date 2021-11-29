@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
+    
+    <void:Dataset rdf:about="http://gams.uni-graz.at/">
+        <dc:title>Vocabulary for restoration, damages, etc.</dc:title>
+        <dc:identifier></dc:identifier>
+        <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
+    </void:Dataset>
+    <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/restoration">
+        <dc:title>Materials used for Medieval Manuscripts</dc:title>
+        <skos:hasTopConcept rdf:resource="http://gams.uni-graz.at/thesaurus/restoration"/>
+        <skos:note xml:lang="en">Taxonomy of types of materials associated with medieval manuscripts.</skos:note>
+    </skos:ConceptScheme>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/restoration">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/restoration"/>
+        <skos:prefLabel xml:lang="de">Restoration</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Restoration</skos:prefLabel>
+    </skos:Concept>
+    <!--    ########### Damages #############-->
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/damages">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Schäden</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Damages</skos:prefLabel>
+        <skos:note xml:lang="en">Types of damages in manuscripts.</skos:note>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyCatalysed">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Externally catalysed damages</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schäden durch Einflüsse von außen katalysiert</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/inkCorrosion">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Ink corrosion</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tintenfrass</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copperCorrosion">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Copper corrosion</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kupferfrass</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gelatinization">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Gelatinization</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pergamentgelatinierung</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paperDegradation">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Paper degradation</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Papierabbau</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyInitiated">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Externally initiated damages</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schäden von außen initiiert</skos:prefLabel>        
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/microbiologicalContamination">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Microbiological contamination</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zerstörung durch Mikroorganismenbefall</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tornLeaves">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Torn leaves</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Beschädigung durch Zerreissen</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/discolouration">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Discolouration</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ausbleichen/Verbräumen</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Previous repairs</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Alte Reparaturen/Restaurierungen</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
+    </skos:Concept>
+    
+</rdf:RDF>
