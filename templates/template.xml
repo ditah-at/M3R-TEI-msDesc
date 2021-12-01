@@ -21,7 +21,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="de" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="xxx-xxx">
                     <msIdentifier>
                         <country></country>
                         <settlement></settlement>
@@ -37,7 +37,7 @@
                         <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
                         <origDate notBefore="0001" notAfter="0010"></origDate>
                         <origPlace></origPlace>
-                        <note></note>                      
+                        <note type="summary"></note>                      
                     </head> 
                     <!-- 
                         Bei einheitliche HSS und Miscelanea (Collectanea, compendia) KEIN msPart
@@ -75,7 +75,7 @@
                                 </support>
                                 <extent>
                                     <measure type="leavesCount" quantity="0" unit="folio"><!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
-                                    <dimensions type="leaf" unit="mm">
+                                    <dimensions type="leaf_current" unit="mm">
                                         <height></height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
                                         <width></width>
                                     </dimensions>
