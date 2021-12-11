@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <head>
                         <title>Wiener Moamin</title>
-                        <origDate notBefore="1201" notAfter="1300">13<hi rend="sup">th</hi>. c.</origDate>
+                        <origDate notBefore="1240" notAfter="1300">s. XIII<hi rend="sup">2</hi>.</origDate>
                         <origPlace>Italy</origPlace>
-                        <note>Richly illustrated treatise on falconry</note>                      
+                        <note>Richly illustrated treatise on falconry. The Wiener Moamin, also known as <foreign>De Scientia Venandi per Aves</foreign> or <foreign>Latin Moamin</foreign>, was written and illuminated in the 13th century probably in Southern Italy on the request of the late Frederick II of Hohenstaufen (1194-1250), King of Sicily.</note>                      
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/> 
@@ -49,36 +49,34 @@
                                         <height>220</height> 
                                         <width>154</width>
                                     </dimensions>
-                                </extent>
+                                </extent><!--
                                 <foliation></foliation>
                                 <collation>
                                     <formula></formula>
                                     <catchwords></catchwords>
                                     <signatures></signatures>
                                 </collation>
-                                <condition>well preserved</condition>
+                                <condition>well preserved</condition>-->
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="33" writtenLines="33" columns="1">
-                                  
-                                </layout>
+                                <layout ruledLines="33" writtenLines="33" columns="1"/>
                             </layoutDesc>
                         </objectDesc>
                         <scriptDesc>
-                            <scriptNote>Gleichmäßige dunkelbraune Schrift mit roten Kapitelüberschriften.</scriptNote>
+                            <scriptNote>Written in dark brown ink with red initials.</scriptNote>
                         </scriptDesc>
                       <decoDesc>
-                          <decoNote>101 historisierte Initialen. Der Buchschmuck ist in Deckfarbenmalerei auf Goldgrund ausgeführt.</decoNote>
+                          <decoNote>101 historiated initials on gold background.</decoNote>
                       </decoDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Renaissanceeinband aus der Mitte des 15. Jahrhunderts, grüner gemusterter Samt über Holzdeckeln, 2 Metallschließen. </p>
+                                <p>Binding from the mid 15<hi rend="sup">th</hi> c.: green velvet with decoration, 2 metal clasps.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="1201" notAfter="1300">13. cent.</origDate>
+                            <origDate notBefore="1251" notAfter="1300">Second half of the 13<hi rend="sup">th</hi> c.</origDate>
                             <origPlace>Italy</origPlace>
                         </origin>
                         <provenance/>
@@ -121,14 +119,14 @@
     </revisionDesc>
     </teiHeader>
      <facsimile>
-        <graphic url="" n="1r"/>
+        <graphic url=""/>
     </facsimile>
     <text>
         <body>
             <head>
                 <title></title>
             </head>
-            <p>... </p>
+            <p/>
         </body>
     </text>
 </TEI>

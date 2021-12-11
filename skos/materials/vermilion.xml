@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vermilion</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>         
+         <div xml:id="info">
+            <head>
+               <title></title>
+            </head>            
+            <p>Vermilion is a bright red pigment containing mercury sulfide (HgS). It is the synthetic analogue of cinnabar. For its preparation, according to <bibl><abbr>Theophilus</abbr> (ch. 34)</bibl>, one took sulfur, broken into pieces, and added to it two equal parts of mercury. The mixtures was placed in a glass jar and buried in blazing coals until one hears a crashing inside, as mercury and sulful combine.<bibl><abbr>Cennini</abbr> (ch. 40)</bibl> suggested, there are many methods of preparation and receipts and adviced his readers to buy vermilion from the druggists'.</p>
+            <p>Vermilion and cinnabar are almost impossible to distinguish analytically, since they have the same chemical composition.</p>
+         </div>
+         <div xml:id="analysis">
+            <head>
+               <title>Material analysis</title>
+            </head>
+            <p></p>
+         </div>
+         <div xml:id="images">
+            <head>
+               <title>Images</title>
+            </head>
+            <figure>
+               <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/e5/Cinnabarit_01.jpg"/>
+               <head>Cinnabar mineral</head>
+               <figDesc>Staatliches Museum für Naturkunde Karlsruhe, Germany. Source: <ref target="https://commons.wikimedia.org/wiki/File:Cinnabarit_01.jpg">Wikimedia</ref> (CC BY-SA 3.0 H. Zell).</figDesc>
+            </figure>
+         </div>
+         <div xml:id="bibl">
+            <head>
+               <title>References</title>
+            </head>
+            <listBibl>
+               <bibl><ref target="https://materialarchiv.ch/de/ma:material_1851/?maapi:f_all_groups=ma:group_610">Material archiv</ref></bibl>
+               <bibl><ref target="https://colourlex.com/project/vermilion/">ColourLex</ref></bibl>
+               <bibl>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</bibl>
+               <bibl>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</bibl>
+               <bibl></bibl>
+            </listBibl>
+            <p></p>
+         </div>
+      </body>
+   </text>
+</TEI>
