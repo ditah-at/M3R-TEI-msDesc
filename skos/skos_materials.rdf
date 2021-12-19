@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
 
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
         <dc:title>Vocabulary for pigments used in mediaeval manuscripts - SKOS</dc:title>
@@ -813,14 +813,24 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
-    </skos:Concept>
+    </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cinnabar">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Zinnober</skos:prefLabel>
         <skos:altLabel xml:lang="de">Cinnabarit</skos:altLabel>
         <skos:prefLabel xml:lang="en">Cinnabar</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cinnabarite</skos:altLabel>
-        <skos:definition xml:lang="en">Red inorganic pigment of mineral origin containing mercury sulphate (HgS). Main chemical elements: mercury (Hg) and sulfur (S).</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e5/Cinnabarit_01.jpg</skos:example>
+        <skos:note>The natural cinnabar is a bright red inorganic pigment made of the mineral cinnabar (cinnabarite) containing mercury sulfide (HgS). The main source of cinnabar in Europe, according to Pliny the Elder (NH, XXXIII, 40) were the mercury deposits of Almadén in Spain.</skos:note>
+        <skos:definition>To make the pigment one had to ground and washed to remove as many mineral impurity as possible. Depending on its geological provenance, the pigment may containt the following elements: Sb, As, Se (Bi, Te, U, W) in the primary hydrothermal formation, or Ag, Au, Cu, Fe,Pb, Sn, Cr, Zn as secondary formation in the oxidationzone of ore deposits (Nöller, 2014). The elemental composition of different deposits is the most characteristic fingerprint for determiningthe local origin of the mercury ore (Nöller, 2012). For example the cinnabar imported from China has a characteristic light red colour due to the addition of antimony (Nöller, 2014).</skos:definition>
+        <skos:definition>Cinnabar has also a synthetic analogue, vermilion. The two colourant are not always possible to distinguish analytically, since they habe the same chemical composition (Nöller, 2013).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Nöller, Renate. ‘Cinnabar Reviewed: Characterization of the Red Pigment and Its Reactions’. Studies in Conservation 60 (2014): 1–9.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Nöller, Renate. ‘Zinnoberlagerstätten im Vergleich. Auswahl historisch bedeutender Vorkommen’. Metalla, 19 (2012): 61–76.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Nöller, Renate. ‘Zinnoberlagerstätten im Vergleich. Auswahl historisch bedeutender Vorkommen’. Metalla, 19 (2012): 61–76.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_888</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
@@ -828,11 +838,23 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vermilion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Synthetischer Zinnober</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Quicksilberzinnober</skos:altLabel>
+        <skos:altLabel xml:lang="de">Vermillion</skos:altLabel>
         <skos:prefLabel xml:lang="en">Vermilion</skos:prefLabel>
-        <skos:definition xml:lang="en">Red inorganic pigment; the synthetic form of cinnabar. Main chemical elements: mercury (Hg) and sulfur (S).</skos:definition>
+        <skos:altLabel xml:lang="en">Vermillion</skos:altLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/d/d4/Vermilion_pigment.jpg</skos:example>
+        <skos:note>Vermilion is a bright red inorganic pigment containing mercury sulfide (HgS). It is the synthetic analogue of cinnabar. Vermilion and cinnabar are almost impossible to distinguish analytically, since they have the same chemical composition.</skos:note>
+        <skos:definition>For its preparation, according to Theophilus (ch. 34), one took sulfur, broken into pieces, and added to it two equal parts of mercury. The mixtures was placed in a glass jar and buried in blazing coals until one hears a crashing inside, as mercury and sulful combine.Cennini (ch. 40) suggested, there are many methods of preparation and receipts and adviced his readers to buy vermilion from the druggists'.</skos:definition>        
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_1851</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/vermilion/</dct:bibliographicCitation>
+        </skos:definition>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/minium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
