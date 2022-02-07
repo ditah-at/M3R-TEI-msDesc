@@ -800,7 +800,15 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
-        <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron; hence the main chemical element present is iron (Fe) and oxygen (O).</skos:definition>       
+        <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron (hematite Fe2O3). The term red ochre (ocher) or red earth describes various kinds of iron oxide pigments.</skos:definition>
+        <skos:definition xml:lang="en">Red ochres are prepared by washing the mineral in order to separate it from sand and other impurities. After draying it is being grinded. The pigments are stable and are used for book illustrations, icons, indoor and outdoor frescos.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 326-327.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>
+            <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e9/Drei_verschiedene_Ockert%C3%B6ne.JPG</skos:example>
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
@@ -809,7 +817,14 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Sinopia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sinopia</skos:prefLabel>
-        <skos:definition xml:lang="en">Earth pigment. Variety of red quartz; used as a base for the application of gold or in the composition of mixtures of colour; used also in writing, for preparatory drawings (Agati). Main chemical elements: iron (Fe) and oxygen (O).</skos:definition>
+        <skos:altLabel xml:lang="en">Sinoper</skos:altLabel>
+        <skos:definition xml:lang="en">Earth pigment, a variety of high-quality red ochre that was traded from the Ionian Greek port Sinope in modern day Turkey. Its reddish colour comes from the iron oxide compound hematite (Fe2O3).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 349-350.</dct:bibliographicCitation>
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
@@ -821,9 +836,9 @@
         <skos:prefLabel xml:lang="en">Cinnabar</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cinnabarite</skos:altLabel>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e5/Cinnabarit_01.jpg</skos:example>
-        <skos:note>The natural cinnabar is a bright red inorganic pigment made of the mineral cinnabar (cinnabarite) containing mercury sulfide (HgS). The main source of cinnabar in Europe, according to Pliny the Elder (NH, XXXIII, 40) were the mercury deposits of Almadén in Spain.</skos:note>
-        <skos:definition>To make the pigment one had to ground and washed to remove as many mineral impurity as possible. Depending on its geological provenance, the pigment may containt the following elements: Sb, As, Se (Bi, Te, U, W) in the primary hydrothermal formation, or Ag, Au, Cu, Fe,Pb, Sn, Cr, Zn as secondary formation in the oxidationzone of ore deposits (Nöller, 2014). The elemental composition of different deposits is the most characteristic fingerprint for determiningthe local origin of the mercury ore (Nöller, 2012). For example the cinnabar imported from China has a characteristic light red colour due to the addition of antimony (Nöller, 2014).</skos:definition>
-        <skos:definition>Cinnabar has also a synthetic analogue, vermilion. The two colourant are not always possible to distinguish analytically, since they habe the same chemical composition (Nöller, 2013).</skos:definition>
+        <skos:definition xml:lang="en">The natural cinnabar is a bright red inorganic pigment made of the mineral cinnabar (cinnabarite) containing mercury sulfide (HgS). The main source of cinnabar in Europe, according to Pliny the Elder (NH, XXXIII, 40) were the mercury deposits of Almadén in Spain.</skos:definition>
+        <skos:definition xml:lang="en">To make the pigment one had to ground and washed to remove as many mineral impurity as possible. Depending on its geological provenance, the pigment may containt the following elements: Sb, As, Se (Bi, Te, U, W) in the primary hydrothermal formation, or Ag, Au, Cu, Fe,Pb, Sn, Cr, Zn as secondary formation in the oxidationzone of ore deposits (Nöller, 2014). The elemental composition of different deposits is the most characteristic fingerprint for determiningthe local origin of the mercury ore (Nöller, 2012). For example the cinnabar imported from China has a characteristic light red colour due to the addition of antimony (Nöller, 2014).</skos:definition>
+        <skos:definition xml:lang="en">Cinnabar has also a synthetic analogue, vermilion. The two colourant are not always possible to distinguish analytically, since they habe the same chemical composition (Nöller, 2013).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Nöller, Renate. ‘Cinnabar Reviewed: Characterization of the Red Pigment and Its Reactions’. Studies in Conservation 60 (2014): 1–9.</dct:bibliographicCitation>
@@ -846,8 +861,8 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/d/d4/Vermilion_pigment.jpg</skos:example>
-        <skos:note>Vermilion is a bright red inorganic pigment containing mercury sulfide (HgS). It is the synthetic analogue of cinnabar. Vermilion and cinnabar are almost impossible to distinguish analytically, since they have the same chemical composition.</skos:note>
-        <skos:definition>For its preparation, according to Theophilus (ch. 34), one took sulfur, broken into pieces, and added to it two equal parts of mercury. The mixtures was placed in a glass jar and buried in blazing coals until one hears a crashing inside, as mercury and sulful combine.Cennini (ch. 40) suggested, there are many methods of preparation and receipts and adviced his readers to buy vermilion from the druggists'.</skos:definition>        
+        <skos:definition xml:lang="en">Vermilion is a bright red inorganic pigment containing mercury sulfide (HgS). It is the synthetic analogue of cinnabar. Vermilion and cinnabar are almost impossible to distinguish analytically, since they have the same chemical composition.</skos:definition>
+        <skos:definition xml:lang="en">For its preparation, according to Theophilus (ch. 34), one took sulfur, broken into pieces, and added to it two equal parts of mercury. The mixtures was placed in a glass jar and buried in blazing coals until one hears a crashing inside, as mercury and sulful combine.Cennini (ch. 40) suggested, there are many methods of preparation and receipts and adviced his readers to buy vermilion from the druggists'.</skos:definition>        
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
@@ -862,10 +877,17 @@
         <skos:altLabel xml:lang="de">Bleimennige</skos:altLabel>
         <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Red lead pigment</skos:altLabel>
-        <skos:definition xml:lang="en">Red lead is a synthetic inorganic pigment, lead tetroxide (Pb3O4). It was used in medieval manuscripts both alone and with vermilion.  Main chemical elements: lead (Pb) and oxygen (O).</skos:definition>   
+        <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was produced according to Theophilus by pouring vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. It was used in medieval manuscripts both alone and in combination with cinnabar or vermilion.</skos:definition> 
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/ae/Red_lead.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>           
+            <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_944/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/red-lead/</dct:bibliographicCitation>
+        </skos:definition>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -873,7 +895,16 @@
         <skos:altLabel xml:lang="de">Färberkrapp</skos:altLabel>
         <skos:prefLabel xml:lang="en">Madder</skos:prefLabel>
         <skos:altLabel xml:lang="en">Rubia tinctorum</skos:altLabel>
-        <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum). The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:definition xml:lang="en">Madder is an organic dye made from dried and threshed madder root (Rubia tinctorum). The plant is native to Europe, the Mediterranean and western Asia. The range of colours achieved from it varies from yellow through orange to red and purple or brown, depending on the production of the organic colourants and the inorganic substrates (Eastaugh, 2008).</skos:definition>
+        <skos:definition xml:lang="en">Theophilus mentioned the colourant when discussing methods to colour animal bones (book III, ch. 94). According to his recipe, the dried roots of the plant are pounded in a mortar. After mixing it with a strong alkaline solution it is put to boil in a pot.</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/a9/Krapplack.JPG</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 250-251.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -884,6 +915,13 @@
         <skos:prefLabel xml:lang="de">Krapplack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Madder lake</skos:prefLabel>
         <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum), with additive aluminum to prepare a lake. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + aluminium (Al).</skos:definition>
+        <skos:definition xml:lang="en">Modern preparation following a 19th-century recipe described by Kremer: the shredded and washed madder roots are boiled in an alum solution, then filtered through a cloth. Sodium carbonate is added to the cold madder solution and brought to boiling point. The liquid is then pumped through a high pressure filter system, so that the extracted pigment stays in the filters. After the filters are left to dry, the pigment is collected and can be further pounded to powder.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation>            <dct:bibliographicCitation>https://www.kremer-pigmente.com/elements/resources/products/files/madder-lake-production.pdf</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -893,8 +931,16 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Brasilin</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Brasilholz</skos:altLabel>
         <skos:prefLabel xml:lang="en">Brazilin</skos:prefLabel>
-        <skos:definition xml:lang="en">Organic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxidation. Almost always used as a lake. Purple-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour. The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:altLabel xml:lang="en">Brazilwood</skos:altLabel>
+        <skos:definition xml:lang="en">Ther term 'brazilwood' encompasses a group of brown-red wood of the genus Caesalpinia and Haematoxylum, from which one produces a red dye with the colouring matter brazilin. The wood was chopped into small pieces and rasped to facilitate oxidation. The organic dye is almost always used as a lake (see Brazilwood lake).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2183/</dct:bibliographicCitation>
+          
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -904,7 +950,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Brasilinlack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brazilin lake</skos:prefLabel>
-        <skos:definition xml:lang="en">Organic pigment made from brazilwood, which was chopped into small pieces and rasped to facilitate oxidation. Almost always used as a lake. Purple-pink in colour; mixed with lead white it gives a bright rose colour, while mixed with woad it gives a purple colour. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + calcium (Ca).</skos:definition>
+        <skos:definition xml:lang="en">The organic dye extracted from brazilwood was almost always used as a lake. It seems to have been rarely use, as relatively few identifications of brazilwood-based pigments have been made, including some 15th-century French manuscripts (Eastaugh 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation>                      
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -917,7 +967,13 @@
         <skos:prefLabel xml:lang="en">Kermes</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
         <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
-        <skos:definition xml:lang="en">Organic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) found in Southern Europe and North Africa. The main chemical elements are: carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:definition xml:lang="en">Red dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region. The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 216-217.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/21/Kermes_-_Neve_Tzuf.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -927,7 +983,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
-        <skos:definition xml:lang="en">Organic pigment made from the larvae of an insect of the cochineal family (the occus ilicis) and used as a lake. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + aluminium (Al).</skos:definition>
+        <skos:definition xml:lang="en"> and used as a lake (adding aluminium (Al).</skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -1354,67 +1410,82 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
 <!--    ###### GOLD ########-->
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-colorant">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-colourant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
+        <skos:definition xml:lang="en">There are three methods for applying gold on manuscript pages. The first is to use shell gold, while the other two methods involve gold leaf - either applied over glue or guesso.</skos:definition>
+        <skos:example>https://ids.lib.harvard.edu/ids/iiif/11732825/full/full/0/native.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mosaic-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Mosaik-Gold</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Musivgold</skos:altLabel>
         <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-colorant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
+        <skos:definition xml:lang="en">Tin(IV) sulfide used to imitate gilding. There are various recipes; some call for melting equal parts tin, mercury, sulfur amd ammonium chloride. The colour was also referred to as porporino, purpurino, </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 274.</dct:bibliographicCitation> 
+        </skos:definition>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-shell">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Muschelgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell gold</skos:prefLabel>
+        <skos:definition xml:lang="en">A powdered gold mixed with glair or gum arabic to create a gold ink, which was applied with pen or brush. The method was used particularly in detailed work and in chrysography (writing in gold). Unlike leaf gold, it was added after the colour.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>http://web.ceu.hu/medstud/manual/MMM/gilding.html</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000718s/f51/full/full/0/native.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1594"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-colorant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-leaf">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1370"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M-colorant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
+        <skos:example>https://www.e-codices.unifr.ch/loris/ubb/ubb-AN-VIII-0045/ubb-AN-VIII-0045_0014r.jp2/full/full/0/default/jpg</skos:example>
     </skos:Concept>
 <!--    ##########Silver #######-->
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-colorants">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-colourant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-leaf">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1597"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-shell">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-silver">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Muschelsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell silver</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/3017"/>       
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z-colorant">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colourant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin</skos:prefLabel>
         <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver.</skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
 <!--    ############ ALLOY ##########-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-colorants">
@@ -1423,7 +1494,7 @@
         <skos:prefLabel xml:lang="en">Alloy colorants</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6-alloy">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copper-alloy">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kupferlegierung</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Copper alloy</skos:prefLabel>
@@ -1442,7 +1513,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZH5RPRR9-D"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/2412"/>
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300010946"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6-alloy"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bronze">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1452,7 +1523,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/> 
         <skos:related rdf:resource="http://w3id.org/lob/concept/2410"/>
         <skos:related rdf:resource="http://vocab.getty.edu/page/aat/300010957"/>
-        <skos:broader rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6-alloy"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-ag">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
