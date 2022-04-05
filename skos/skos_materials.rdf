@@ -646,7 +646,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Krapplack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Madder lake</skos:prefLabel>
-        <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum), with additive aluminum to prepare a lake. The main chemical elements are: carbon (C), oxygen (O), hydrogen (H) + aluminium (Al).
+        <skos:definition xml:lang="en">Red organic pigment made from dried and threshed madder root (Rubia tinctorum), with additive aluminum to prepare a lake.
             Modern preparation following a 19th-century recipe described by Kremer: the shredded and washed madder roots are boiled in an alum solution, then filtered through a cloth. Sodium carbonate is added to the cold madder solution and brought to boiling point. The liquid is then pumped through a high pressure filter system, so that the extracted pigment stays in the filters. After the filters are left to dry, the pigment is collected and can be further pounded to powder.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
@@ -776,7 +776,7 @@
         </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, pp. 146-147.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. pp. 146-147.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 291-292.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella, Deirdre Elizabeth Jackson, and Paola Ricciardi, eds. Colour : The Art and Science of Illuminated Manuscripts. Turnhout: Brepols, 2016.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
@@ -831,7 +831,7 @@
         <skos:prefLabel xml:lang="de">Safran</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Saffron</skos:prefLabel>
         <skos:definition xml:lang="en">Natural organic dye extracted from the stamens of the saffron crocus flower (crocus sativus). For producing the pigment they were mixed with alum. It was labour intensive to harvest and expensive, but also appreciated for its golden hue and its quality to serve as a buffer to the corrosive properties of verdigris (Panayotova 2016).
-            The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+            </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
@@ -872,7 +872,7 @@
         <skos:altLabel xml:lang="de">Gelbe Bleiglätte</skos:altLabel>
         <skos:prefLabel xml:lang="en">Massicot</skos:prefLabel>
         <skos:altLabel xml:lang="en">Yellow litharge</skos:altLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: lead (Pb) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en"></skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
@@ -898,10 +898,10 @@
         <skos:altLabel xml:lang="en">Lapis lazuli</skos:altLabel>
         <skos:prefLabel xml:lang="en">Ultramarine</skos:prefLabel>
         <skos:definition xml:lang="en">Natural inorganic pigment made from the mineral lapis lazuli, complex sulfur-containing sodium-silicate (Na8–10Al6Si6O24S2–4). The mineral was found in the medieval period only in modern-day Afganistan. Due to the long transportation and the labour-extensice process of production ultramarine was an expesive pigment. 
-            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It was used in manuscripts throughout the middle ages; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).<!--The main chemical elements are: potassium (K), calcium (Ca), silicon (Si), aluminium (Al), sulfur (S) and iron (Fe).--></skos:definition>
+            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It was used in manuscripts throughout the middle ages; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, pp. 138-139.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 138-139.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 35-36, 93-95.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
@@ -930,7 +930,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 34-35, 95-96.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, pp. 139-140.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 139-140.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 39.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_905/</dct:bibliographicCitation>
@@ -952,7 +952,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 39, 96-98.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, pp. 140-141.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 140-141.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 200-201.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_990/</dct:bibliographicCitation>
@@ -972,7 +972,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 35.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, pp. 141-142.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 141-142.
             </dct:bibliographicCitation>            
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_936/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/egyptian-blue/</dct:bibliographicCitation>
@@ -992,7 +992,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 37.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, p. 142.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, p. 142.
             </dct:bibliographicCitation>            
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_933/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/smalt/</dct:bibliographicCitation>
@@ -1019,7 +1019,7 @@
         <skos:definition xml:lang="en">Orcein is an organic purple-blue pigment produced from different types of lichens, both from sea and land sources (Rabitsch 2020). It has been identified in numerous manuscripts dating from the sixth to the sixteenth century (Panayotova 2020). The dye was applied alone or in combination with other organic blue or red dyes for the colouration of textile fibres (Rabitsch 2020). For the preparation of the dye see Rabitsch 2020.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, p. 146.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, esp. p. 146.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Rabitsch, Sophie, Inge Boesken Kanold, and Christa Hoffmann. ‘Purple Dyeing of Parchment’. In The Vienna Genesis: Material Analysis and Conservation of a Late Antique Illuminated Manuscript on Purple Parchment, edited by Christa Hofmann, 71–101. Vienna: Böhlau Verlag, 2020.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 289.</dct:bibliographicCitation>    
@@ -1042,7 +1042,7 @@
         <skos:definition xml:lang="en">Folium is an organic dye, which offered three different hues depending on the preparation method: purple, red or blue (Panayotova 2020). It is extracted from the fruits and parts of the plant Chrozophora tinctoria, which is native ot the Mediterranean region and central/south Asia. Like orchil, it was cheaper and easier to extract than shellfish purple but much more light-sensitive (Rabitsch 2020).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, p. 146.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, p. 146.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Rabitsch, Sophie, Inge Boesken Kanold, and Christa Hoffmann. ‘Purple Dyeing of Parchment’. In The Vienna Genesis: Material Analysis and Conservation of a Late Antique Illuminated Manuscript on Purple Parchment, edited by Christa Hofmann, 71–101. Vienna: Böhlau Verlag, 2020.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Aceto, Maurizio et al. "On the identification of folium and orchil on illuminated manuscripts." In Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy (2016) 171: 461-469. 10.1016/j.saa.2016.08.046. </dct:bibliographicCitation>
@@ -1067,7 +1067,7 @@
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 24-25, 83-85.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Rabitsch, Sophie, Inge Boesken Kanold, and Christa Hoffmann. ‘Purple Dyeing of Parchment’. In The Vienna Genesis: Material Analysis and Conservation of a Late Antique Illuminated Manuscript on Purple Parchment, edited by Christa Hofmann, 71–101. Vienna: Böhlau Verlag, 2020.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella, ed. The Art and Science of Illuminated Manuscripts: A Handbook. Turnhout: Brepols, 2020, p. 144.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, esp. p. 144.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 379-380.</dct:bibliographicCitation>  
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/tyrian-purple/</dct:bibliographicCitation>
@@ -1089,8 +1089,14 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-white">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Knochenkohle</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Bone-white</skos:prefLabel>
-        <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are calcium (Ca) and phosphorus (P).</skos:definition>
+        <skos:prefLabel xml:lang="en">Bone calcined</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Bone white</skos:altLabel>
+        <skos:altLabel xml:lang="en">Bone ash</skos:altLabel>
+        <skos:definition xml:lang="en">A white pigment can be produced from white calcinated bone dust in some recipes mixing it with pumice powder, adding them to oil, which is then boiled. Such white has been found in the Glajor gospel, an illustrated Armenian gospel book of the fourteenth century (Eastaugh 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 64.</dct:bibliographicCitation>            
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-VC1M1XR4-F"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
@@ -1099,7 +1105,21 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bleiweiß</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Lead white</skos:prefLabel>
-        <skos:definition xml:lang="en">The pigment called "lead white" normally refers to lead carbonate hydroxide (could however also be an umbrella term and hence mean lead chloride oxide, lead phosphates and lead sulfates). The main chemical elements are: lead (Pb), carbon (C) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en">Lead white, often called ceruse in Latin sources, is a lead carbonate hydroxide (2 PbCO3·Pb(OH)2). It is found in nature as basic lead carbonate, but was routinely manufactured in the medieval period by exposing leaf strips to the vapours of vinegar in a pot sealed and buried under hot manute (Panayotova 2020). The manufacture is described in several antique and medieval; see for instance Theophilus (I, 37). The pigment was supplied either in dried cakes or ground with oil. The latter method was safer as it reduced the dispersion of poisonous dusts (Eastaugh 2008).
+            Lead white was used extensively since antiquity and especially for painting flesh tones. It was commonly adulterated with other white pigments, particularly chalk, baryte and kaolinite (Eastaugh 2008). A thin layer of lead white applied over the underdrawing provided a smooth white surface and enhanced the brightness of pigments (Panayotova 2020). To whiten the parchment leaves some artists used a thin wash of lead white instead the usual treatment with chalk (Cheese 2020). 
+            Lead white mixed with aqueous binders reacts with sulfur and turns black Leadsulfid (PbS). Medieval treatises mention the incompatibility of lead white and orpiment (which consists of sulfur) and recommend the use of another white for mixing with orpiment - either chalk or a pigment produced from burnt bones (ossa combusta) (Kühn 1984).</skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:BleiweissDuerer.JPG</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 18-19, 98-99.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, esp. p. 137.
+            </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Cheese, Edward. ‘From Pelt to Painted Page: Western Medieval Manuscript Parchments’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 73–94. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979, pp. 41-42.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 239-241.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_982/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/lead-white/</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
@@ -1108,10 +1128,15 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gypsum">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gips</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Gipsum</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gypsum</skos:prefLabel>
         <skos:altLabel xml:lang="en">Plaster of Paris</skos:altLabel>
-        <skos:altLabel xml:lang="en">Gesso</skos:altLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: calcium (Ca), sulfur (S), hydrogene (H) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en">Gypsum is a calciumsulfat (CaSO4·2H2O). Significant deposits are found in Thuringia, Franken, Württemberg, in the Baltic reagion (Courland and Livonia), Italy. Gypsum was rarely used as a white pigment per se. It was mixed with animal glue binder and chalk to make gesso used for ground for illumination and gilding (Panayotova 2020).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. p. 137.
+            </dct:bibliographicCitation>            
+        </skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Gypsum_(12249949575).jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
@@ -1122,7 +1147,17 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kreide</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: calcium (Ca), carbon (C) and oxygen (O).</skos:definition>
+        <skos:altLabel xml:lang="en">Calcite</skos:altLabel>
+        <skos:definition xml:lang="en">Chalk is a natural occuring calcium carbonate (CaCO3). Deposists exist in the UK, western continental Europe (France, Denmark, Sweden), in the eastern Mediterranean, on the coast of the Baltic Sea, and in Austria (Müllendorf). Since the pigment was abundant and easily processed, it was cherished for its whiteness, sofness and fine-grained nature. Being transparent, it is often used in combination with other pigments and with animal glues as a ground for painting rather than as a white pigment on its own (Eastaugh 2008). It is also find on parchment leaves, which were treated with chalk during manufacure to remove remaining grease and fat or for whitening the skin (Cheese 2020).</skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Chalk_(%22Upper_Chalk%22_Formation,_Upper_Cretaceous;_White_Cliffs_of_Dover,_England,_southern_Britain).jpg</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. p. 137.
+            </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Cheese, Edward. ‘From Pelt to Painted Page: Western Medieval Manuscript Parchments’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 73–94. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 98-99.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/calcite/</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
@@ -1133,7 +1168,16 @@
         <skos:prefLabel xml:lang="de">Kaolin</skos:prefLabel>
         <skos:altLabel xml:lang="de">Porzellanerde</skos:altLabel>
         <skos:prefLabel xml:lang="en">Kaolin</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: aluminium (Al), silicon (Si) carbon (C) and oxygen (O).</skos:definition>
+        <skos:altLabel xml:lang="en">Kaolinite</skos:altLabel>
+        <skos:definition xml:lang="en">Kaolin, a common name for kaolinite, is a white clay, an aluminium silicate hydroxide mineral of composition Al4[Si4O10](OH)8. Calcium, iron, magnesium and potassium can be found as trace elements or impurities (Eastaugh 2008).
+            Chemically very resistant, it decreases the crack formation and increases the surface stability of paintings (Kremer-pigmente.com).</skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Erbsl%C3%B6h_Geisenheim_Kaolin_(02).jpg</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 214-215.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_932/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Kremer Pigmente https://shop.kremerpigments.com/elements/resources/products/files/58250e.pdf</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
