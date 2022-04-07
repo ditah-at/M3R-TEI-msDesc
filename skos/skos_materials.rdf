@@ -510,6 +510,11 @@
         <skos:prefLabel xml:lang="de">Farbmittel und Tinten</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Colorants and Inks</skos:prefLabel>
         <skos:altLabel xml:lang="en">Colourants and Inks</skos:altLabel>
+        <skos:definition xml:lang="de">Dieses SKOS Dokument präsentiert eine Klassifikation von Farbmitteln (farbgebende Substanzen), die in mittelalterlichen Handschriften verwendet worden sind.
+            Farbmittel ist eine Sammelbezeichnung für alle farbgebenden Stoffe, die nach ihrer 1) Löslichkeit: in Pigmente (unlöslich) und Farbstoffe (löslich); 2) chemischen Struktur in anorganische (Mineralien und Erde) und organische (hergestellt aus pflanzlichen und tierischen Produkten); 3)Herkunft: in natürliche und synthetische oder 4) nach der Farbqualität in rote, weiße, grüne usw. eingeteilt werden können. In dieser Klassifikation werden Farbmittel nach der Farbe eingeteilt.
+        </skos:definition>
+        <skos:definition xml:lang="en">The following SKOS document is meant as a classification of colourants (colouring materials) used in mediaeval manuscripts. One can differentiate colourants based on their: 1) solubility: in this case we speak of pigments (insoluble) and dyes (soluble); 2) chemical structure: organic (made from plants and animal products) and inorganic (minerals and earths); 3) method of preparation: natural and synthetic; 4) colour: red, white, green etc. In this qualification we group colourants based on colour.
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials_role"/>
     </skos:Concept>
 <!-- ################################## RED #######################-->
@@ -524,12 +529,13 @@
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
         <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron (hematite Fe2O3). The term red ochre (ocher) or red earth describes various kinds of iron oxide pigments.
-            Red ochres are prepared by washing the mineral in order to separate it from sand and other impurities. After draying it is being grinded. The pigments are stable and are used for book illustrations, icons, indoor and outdoor frescos.
-        Through extensive heat one can also change yellow ochre to red or burnt ochre. The process is described by ancient Roman authors and also known throughout the Middle Ages.</skos:definition>
+            Red ochres are prepared by washing the mineral in order to separate it from sand and other impurities. After draying it is being grinded. The pigments are stable and are used for book illustrations, icons, indoor and outdoor frescos. Red ochre varied enormously in colour (Clemens 2007).
+        Through extensive heat one can also change yellow ochre to red or burnt ochre. The process is described by ancient Roman authors and also known throughout the Middle Ages. By roasting (calcination) one could also obtain a richer more opaque earth colour (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 326-327.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 77-78.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>            
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e9/Drei_verschiedene_Ockert%C3%B6ne.JPG</skos:example>
@@ -592,7 +598,7 @@
         <skos:altLabel xml:lang="de">Bleimennige</skos:altLabel>
         <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Red lead pigment</skos:altLabel>        
-        <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was already known in antiquity. Theophilus gives the following recipe: pour vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. The pigment was used in medieval manuscripts both alone and in combination with cinnabar or vermilion. Exposed on light for a long time, Minium changes to dark brown or black lead dioxide (PbO2) especially when it was used with aqueous binders (Kühn 1984).</skos:definition> 
+        <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was already known in antiquity. Theophilus gives the following recipe: pour vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. The pigment was used in medieval manuscripts both alone and in combination with cinnabar or vermilion. Exposed on light for a long time, minium can corrode and turn to dark brown or black lead dioxide (PbO2) especially when it was used with aqueous binders (Kühn 1984).</skos:definition> 
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/ae/Red_lead.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
@@ -628,12 +634,13 @@
         <skos:prefLabel xml:lang="en">Madder</skos:prefLabel>
         <skos:altLabel xml:lang="en">Rubia tinctorum</skos:altLabel>
         <skos:definition xml:lang="en">Madder is an organic dye made from dried and threshed madder root (Rubia tinctorum). The plant is native to Europe, the Mediterranean and western Asia. The range of colours achieved from it varies from yellow through orange to red and purple or brown, depending on the production of the organic colourants and the inorganic substrates (Eastaugh, 2008).
-            Theophilus mentioned the colourant when discussing methods to colour animal bones (book III, ch. 94). According to his recipe, the dried roots of the plant are pounded in a mortar. After mixing it with a strong alkaline solution it is put to boil in a pot.</skos:definition>
+            To produce the dye, the madder root was dried and threshed. In order to store the dye, artists usually incorporated it into clothlets rather than lakes (Clemens 2007). Theophilus mentioned the colourant when discussing methods to colour animal bones (book III, ch. 94). According to his recipe, the dried roots of the plant are pounded in a mortar. After mixing it with a strong alkaline solution it is put to boil in a pot.</skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/a9/Krapplack.JPG</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 250-251.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
         </skos:definition>
@@ -666,7 +673,7 @@
         <skos:altLabel xml:lang="de">Brasilholz</skos:altLabel>
         <skos:prefLabel xml:lang="en">Brazilin</skos:prefLabel>
         <skos:altLabel xml:lang="en">Brazilwood</skos:altLabel>
-        <skos:definition xml:lang="en">Ther term 'brazilwood' encompasses a group of brown-red wood of the genus Caesalpinia and Haematoxylum, from which one produces a red dye with the colouring matter brazilin. The wood was chopped into small pieces and rasped to facilitate oxidation. The organic dye is almost always used as a lake (see Brazilwood lake).</skos:definition>
+        <skos:definition xml:lang="en">Ther term 'brazilwood' encompasses a group of brown-red wood of the genus Caesalpinia and Haematoxylum, from which one produces a red dye with the colouring matter brazilin (Eastaugh 2008). The wood, harvested in Asia in the Middle Ages, was chopped into small pieces and rasped to facilitate oxidation. The organic dye is almost always used as a lake (see Brazilwood lake). Mixed with woad it gave a purple colourant, and with lead white - a bright rose one (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation> 
@@ -698,10 +705,11 @@
         <skos:prefLabel xml:lang="en">Kermes</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
         <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
-        <skos:definition xml:lang="en">Red dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region. The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material.</skos:definition>
+        <skos:definition xml:lang="en">Red dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region. The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material. It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 216-217.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/21/Kermes_-_Neve_Tzuf.jpg</skos:example>
@@ -714,7 +722,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
-        <skos:definition xml:lang="en">A red lack produced by adding alum (aluminium (Al) to the dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region.</skos:definition>
+        <skos:definition xml:lang="en">A red lack produced by adding alum (aluminium (Al)) to the dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region.</skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
@@ -772,7 +780,7 @@
         <skos:altLabel xml:lang="de">Operment</skos:altLabel>
         <skos:prefLabel xml:lang="en">Orpiment</skos:prefLabel>
         <skos:definition xml:lang="en">Orpiment is one of the most common yellow pigments identified in manuscripts (Panayotova 2016). It is a natural occuring yellow or greenish yellow mineral containing sulfide of arsenic (arsenic trisulfide: As2S3). Both orpiment and realgar (closely related orange mineral) are found as a massive encrusting or granular deposits. In antiquity and the middle ages deposits were limited to Hungary, Macedonia and Asia Minor (Panayotova 2020). The synthetic form of orpiment was known already in the Middle Ages (Cennini, ch. 47). It was prepared either by heating or by precipitating a mixture of sulfur and arsenic by sublimation.
-            Due to its toxicity it has poisonous fumes and foul smell, making it unpleasant to work with. It also reacts with copper and lead-based pigments, as well as silver - a reason why it should be used in isolation from such pigments as in the case of heraldic blazonry (Naples MS; Eastaugh 2008; Panayotova 2020).
+            Due to its toxicity it has poisonous fumes and foul smell, making it unpleasant to work with. It also reacts with copper and lead-based pigments, and particularly silver, to blacken them - a reason why it should be used in isolation from such pigments as in the case of heraldic blazonry (Naples MS; Eastaugh 2008; Panayotova 2020).
         </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
@@ -793,7 +801,9 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bleizinngelb</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Lead-tin-yellow</skos:prefLabel>
-        <skos:definition xml:lang="en">Lead-tin yellow is a synthetic pigment used almost exclusively in Europe or in places and cultures with specific trade with Europe (Eastaugh 2008). According to its chemical composition there are two types: type I is a lead tin oxide (Pb2SnO4), type II is a silicate (Pb(Sn,Si)O3). Type I was more commonly used and identified in a large number of manuscripts and in paintings throughout Europe until ithe first half of the eighteenth century. Lead-tin yellow of type II was used in the ancient glass industry; first seen in use by painters in thirteenth century Florence (Panayotova 2016).</skos:definition>
+        <skos:definition xml:lang="en">Lead-tin yellow is a synthetic pigment used almost exclusively in Europe or in places and cultures with specific trade with Europe (Eastaugh 2008). According to its chemical composition there are two types: type I is a lead tin oxide (Pb2SnO4), type II is a silicate (Pb(Sn,Si)O3). Type I was more commonly used and identified in a large number of manuscripts and in paintings throughout Europe until the first half of the eighteenth century. Lead-tin yellow of type II was used in the ancient glass industry; first seen in use by painters in thirteenth century Florence (Panayotova 2016).
+        Lead-tin yellow was inexpensive, unaffected by light and unlike orpiment could be safely mixed with other pigments; it could however blacken over time (Clemens 2007).
+        </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 238-239.</dct:bibliographicCitation>
@@ -812,10 +822,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Färber-Wau</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Weld</skos:prefLabel>
-        <skos:definition xml:lang="en">Weld is a natural dye made from the plant Reseda luteola. It was widely used in the textile production, but also mentioned in treaties on book illumination (by Cennini referred to as 'arzica' in ch. 50; in Naples MS as 'herba roccia'). To produce the pigment one has to strew the whole dried plant in a wear solution of alum, precipitating it with the addition of calcium sulfate, eggshell or lead white. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:definition xml:lang="en">Weld is a natural dye made from the plant Reseda luteola, cultivated in southern Europe. It was widely used in the textile production, but also mentioned in treaties on book illumination (Cennini referred to it as 'arzica' in ch. 50; Naples MS as 'herba roccia'). To produce the pigment one has to strew the whole dried plant in a wear solution of alum, precipitating it with the addition of calcium sulfate, eggshell or lead white (Eastaugh 2008). It gave a lighfast yellow, which could be mixed with indigo to create green, with woad to make black, or with lead white to make it opaque (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 400-401.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1039/</dct:bibliographicCitation>         
         </skos:definition>
         <skos:example></skos:example>
@@ -851,13 +862,11 @@
         <skos:prefLabel xml:lang="de">Kreuzdornbeeren (unreif)</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Buckthorn unripe</skos:prefLabel>
         <skos:definition xml:lang="en">The yellow dye is made of various species of the Rhamnaceae family (most common species throughout Europe were the Rhamnus catharticus). As a lake the pigment was quite popular with a wide geographical production (Eastaugh 2008).
-            To get a yellow dye the berries must be unripe (ripe ones make a green colour). For producing the pigment they were mixed with alum. The main chemical elements are: aluminium (Al), potassium (K), sulfur (S), oxygen (O) and hydrogen (H).</skos:definition>
+            To get a yellow dye the berries must be unripe (ripe ones make a green colour). For producing the pigment they were mixed with alum.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 71.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation>  
-            
-        </skos:definition>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation> </skos:definition>
         <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
@@ -877,7 +886,7 @@
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
@@ -898,14 +907,14 @@
         <skos:altLabel xml:lang="en">Lapis lazuli</skos:altLabel>
         <skos:prefLabel xml:lang="en">Ultramarine</skos:prefLabel>
         <skos:definition xml:lang="en">Natural inorganic pigment made from the mineral lapis lazuli, complex sulfur-containing sodium-silicate (Na8–10Al6Si6O24S2–4). The mineral was found in the medieval period only in modern-day Afganistan. Due to the long transportation and the labour-extensice process of production ultramarine was an expesive pigment. 
-            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It was used in manuscripts throughout the middle ages; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).</skos:definition>
+            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It has been identified in manuscripts from the tenth ceuntury onwards; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 138-139.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 35-36, 93-95.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2357.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
@@ -924,17 +933,19 @@
         <skos:altLabel xml:lang="en">Cyprian blue</skos:altLabel>
         <skos:altLabel xml:lang="en">Blue verditer</skos:altLabel>
         <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral (2 CuCO3·Cu(OH)2). The pigment has been prepared either from naturally occurring mineral or produced synthetically. The artificial variety is known under the name blue verditer.
-            The pigment was known already in antiquity and was the most used blue pigment in european painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Although mined locally in Europe azurite could fethc considerable prices if free of impurities and coarsely ground (Panayotova 2020). 
-            The pigment was heavily used in Carolingian manuscripts, especially from the tenth century onwards. It may be applied alone or as mixed or layered with ultramarine (Panayotova 2020).</skos:definition>
+            The pigment was known already in antiquity and was the most used blue pigment in European painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Although mined locally in Europe azurite could fetch considerable prices if free of impurities and coarsely ground (Panayotova 2020). 
+            The pigment was heavily used in Carolingian manuscripts, especially from the tenth century onwards. It may be applied alone or as mixed or layered with ultramarine (Panayotova 2020). The colour of azurite varied according to the level of grind: the more coarse powder was dark blue, the finer - more grey. Artists could thus achieve different hues - from pale blue to light green (Clemens 2007).</skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Azuritepigment.jpg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 34-35, 95-96.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 139-140.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 39.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_905/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/azurite/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-447.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
@@ -947,13 +958,14 @@
         <skos:altLabel xml:lang="de">Färberwaid</skos:altLabel>
         <skos:prefLabel xml:lang="en">Indigo</skos:prefLabel>        
         <skos:altLabel xml:lang="en">Woad</skos:altLabel>
-        <skos:definition xml:lang="en">Indigo and woad are organic dyes made from the leaves from various Indigofera species (indigo) or of the Isatis tinctoria (woad), grown in Asia and Europe. The two are chemically identical and cannot be distinguished with non-invasive techniques. In antiquity indigo was mainly imported from India and China, while woad was cultivated already priod to Hellenism in Egypt and Mesopotamia. Woad was also native in Eastern Europe and spread throughout Northern Europe; it was cultivated in the medieval period in Southern France, Picardie, North Germany and above all in Thuringia, also in England (Kühn 1984). Hence, woad was a likelier source for the blue indigo used in manuscript illumination, either on its own or mixed with lead white to create shades of blue, violet and grey (Panayotova 2020).</skos:definition>
+        <skos:definition xml:lang="en">Indigo and woad are organic dyes made from the leaves from various Indigofera species (indigo) or of the Isatis tinctoria (woad), grown in Asia and Europe. The two are chemically identical and cannot be distinguished with non-invasive techniques. In antiquity indigo was mainly imported from India and China, while woad was cultivated already priod to Hellenism in Egypt and Mesopotamia. Woad was also native in Eastern Europe and spread throughout Northern Europe. In the medieval period it was cultivated in Southern France, Picardy, Spain, northern Italy, northern Germany and above all in Thuringia, also in England (Kühn 1984; Clemens 2007). Hence, woad was a likelier source for the blue indigo colour used in manuscript illumination, either on its own or mixed with lead white to create shades of blue, violet and grey (Panayotova 2020).</skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Indigo-guizhou.jpg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 39, 96-98.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 140-141.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 200-201.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_990/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/indigo/</dct:bibliographicCitation>
@@ -972,7 +984,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 35.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, pp. 141-142.
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>            
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_936/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/egyptian-blue/</dct:bibliographicCitation>
@@ -1195,15 +1207,42 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grüne Erde</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green earth</skos:prefLabel>
-        <skos:definition xml:lang="en">Verona green; Bohemia green. The main chemical elements is: silicon (Si).</skos:definition>
+        <skos:altLabel xml:lang="en">terre verte</skos:altLabel>
+        <skos:definition xml:lang="en">Green earth is a natural inorganic pigment prepared from the complex silicate minerals glaukonite and seladonite. Other chemical elements present are Mg, Al, Fe, Ca (Kühn 1984).
+            Green earth is a permanent, stable and ureactive pigment. As other earth colourant, the preparation includes washing, grinding and picking to remove impurities (Eastaugh 2008).
+            The green hue depends on the local depost and may vary from neutral green to yellowish green or greenish grey (Kühn 1984). Allegedly the best green earth was from Verona and hence called Verona green; Bohemian green had a more yellow-brown hue and was used by artist as an underlayer to flesh tones (Clemens 2007). Green earth turns brown on heating and is referred to then as burnt green earth. Rarely used in Northern European manuscripts, the pigment was employed extensively in Byzantine manuscripts and icons, as well as in manuscripts made between 1128 and 1130 in the Latin Kingdom of Jerusalem (Panayotova 2020).</skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Gr%C3%BCnerde-_Pigment.JPG</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 30-31, 89.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 180-181.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/green-earth/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/malachite">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Malachit</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Berggrün</skos:altLabel>
         <skos:prefLabel xml:lang="en">Malachite</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: copper (Cu) carbon (C) and oxygen (O).</skos:definition>
+        <skos:altLabel xml:lang="en">Mountain green</skos:altLabel>
+        <skos:altLabel xml:lang="en">Copper green</skos:altLabel>
+        <skos:definition xml:lang="en">Malachit is a basic copper carbonate (CuCO3·Cu(OH)2). As mineral it is found often together with azurite. There are also recipes for its artificial production but the synthetic form is of much less quality in terms both of colour and stability (Kühn 1984). As with other minerals, the production of the pigment included crushing, grinding, washing and levigating the mineral (Eastaugh 2008).
+            The sources of malchite in mediaeval times are not well known; the copper mines in Hungary, Central Europe and France may have been used (Eastaugh 2008). Malachite has been identified in very few Western European manuscripts predating the fifteenth century. Similarly, there are exceedingly rare mentiond of malachite in archival records and artists' treatises before c. 1400 (Panayotova 2020). Some modern studies explain this with the fact that malachite grind to a small grain size has a much paler green colour. Artists may have therefore preferred using  synthetic copper green (Eastaugh 2008).
+        </skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/Category:Malachite?uselang=de#/media/File:2013-03_Malachit_aus_Gumeschewsk,_Ural_anagoria.JPG</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 31, 89-90.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/malachite/</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2550.html</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
@@ -1213,7 +1252,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Färber-Wau mit Indigo</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
-        <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo. The main chemical elements are: nitrogen (N), carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo.</skos:definition>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
@@ -1234,12 +1273,34 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grünspan</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Verdigris</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: copper (Cu), carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
+        <skos:definition xml:lang="en">
+            Verdigris is a collective name for various copper-based greens (Cu2CO3(OH)2). They were produced synthetically by placing copper plates over acidic damp (hot vinegar, distilled wine or urine) and scraping off the corrosion product formed on the surface. Depending on the exact chemical composition its colour can vary from deep sea green to yellowish-green, blue-green or whitish bright green (Kühn 1984). 
+            Used in manuscript illumination, verdigris is highly ustable as it can crumble and flake off. Moreover it is often corrosive and can 'eat through' the writing support (Panayotova 2020). Altough its incompatibility with lead-containing pigments was well-known, artists from the eleventh century onwards tried to modify the hue of verdigris with lead white but by also adding organic yellows to stabilise the mixture (Panayotova 2020). Another shortcoming is that the pigment darkens when mixed with sulfur-containing pigments such as ultramarine or orpiment (ColourLex).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , 90-91.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vergaut">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Vergaut</skos:prefLabel>
+        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , 91.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
+        </skos:definition>
     </skos:Concept>
     <!-- #############  BROWN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-colorants">
@@ -1372,11 +1433,16 @@
         <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
-        <skos:definition xml:lang="en">Tin(IV) sulfide used to imitate gilding. There are various recipes; some call for melting equal parts tin, mercury, sulfur amd ammonium chloride. The colour was also referred to as porporino, purpurino, </skos:definition>
+        <skos:definition xml:lang="en">Mosaic gold  is a tin(IV) sulfide used to imitate gilding. There are various recipes for its production; some call for melting equal parts tin, mercury, sulfur amd ammonium chloride.  
+        The earliest example of its use in manuscripts is from the second half of the thirteenth century produced in England and Italy (Panayotova 2020).
+        </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 274.</dct:bibliographicCitation> 
         </skos:definition>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
