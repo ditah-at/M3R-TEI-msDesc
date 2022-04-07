@@ -818,6 +818,31 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Massicot</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Gelbe Bleiglätte</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Massicot</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Yellow litharge</skos:altLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Organische gelbe Farbstoffe</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organic yellows</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>   
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+    </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Färber-Wau</skos:prefLabel>
@@ -835,7 +860,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/saffron">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -855,7 +880,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries-yellow">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -867,32 +892,15 @@
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 71.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation> </skos:definition>
-        <skos:example></skos:example>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Rhamnus_catharticus_leaves_and_fruit.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Massicot</skos:prefLabel>
-        <skos:altLabel xml:lang="de">Gelbe Bleiglätte</skos:altLabel>
-        <skos:prefLabel xml:lang="en">Massicot</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Yellow litharge</skos:altLabel>
-        <skos:definition xml:lang="en"></skos:definition>
-        <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
-        </skos:definition>
-        <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
-    </skos:Concept>
+    
 <!--    ############# BLUE ###############-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/blue-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1201,6 +1209,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grüne Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green colorants</skos:prefLabel>
+        <skos:definition xml:lang="en">Mediaeval artists used both green organic and inorganic colourant as well as mixtures of blue and yellow colourants. In some miniatures the green colour was obtained not by mixing but by layering and overlapping blue and yellow pigments. Using organic pigments over copper-based greens also gave more stability and deminished the corrosive character of the latter (Panayotova 2020).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-earth">
@@ -1248,42 +1261,21 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-indigo">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Färber-Wau mit Indigo</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
-        <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo.</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Schwertlilien (Iris) grün</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Iris green</skos:prefLabel>
-        <skos:definition xml:lang="en">The dye is extracted from the petals of iris flowers (some recipies call for adding giallorino - lead-tin yellow - to get a more green and less green blue colour). The main chemical elements are: carbon (C), hydrogen (H) and oxygen (O).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
-    </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/verdigris">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grünspan</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Verdigris</skos:prefLabel>
         <skos:definition xml:lang="en">
-            Verdigris is a collective name for various copper-based greens (Cu2CO3(OH)2). They were produced synthetically by placing copper plates over acidic damp (hot vinegar, distilled wine or urine) and scraping off the corrosion product formed on the surface. Depending on the exact chemical composition its colour can vary from deep sea green to yellowish-green, blue-green or whitish bright green (Kühn 1984). 
-            Used in manuscript illumination, verdigris is highly ustable as it can crumble and flake off. Moreover it is often corrosive and can 'eat through' the writing support (Panayotova 2020). Altough its incompatibility with lead-containing pigments was well-known, artists from the eleventh century onwards tried to modify the hue of verdigris with lead white but by also adding organic yellows to stabilise the mixture (Panayotova 2020). Another shortcoming is that the pigment darkens when mixed with sulfur-containing pigments such as ultramarine or orpiment (ColourLex).</skos:definition>
+            Verdigris is a collective name for various copper-based greens including copper acetate compunds but also copper carbonate and chloride compounds. They were produced synthetically by placing copper plates over acidic damp (hot vinegar, distilled wine or urine) and scraping off the encrustination from the surface. The product can then be further refined by dissolution in vinegar and subsequent recrystallisation through evaporation (Eastaugh 2008). Depending on the exact chemical composition its colour can vary from deep sea green to yellowish-green, blue-green or whitish bright green (Kühn 1984). 
+            Used in manuscript illumination, verdigris is highly unstable as it can crumble and flake off. Moreover it is often corrosive and can 'eat through' the writing support (Panayotova 2020). Altough its incompatibility with lead-containing pigments was well-known, artists from the eleventh century onwards tried to modify the hue of verdigris with lead white but by also adding organic yellows to stabilise the mixture (Panayotova 2020). Another shortcoming is that the pigment darkens when mixed with sulfur-containing pigments such as ultramarine or orpiment (ColourLex).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , 90-91.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 31-32, 90-91.</dct:bibliographicCitation>            
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
         </skos:definition>
-        <skos:example></skos:example>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Copper(II)-acetate.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
@@ -1293,15 +1285,70 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vergaut">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Vergaut</skos:prefLabel>
-        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vergaut</skos:prefLabel>
+        <skos:definition xml:lang="en">Vergaut is a generic term for pigment mixtures from blue and yellow. Heraclius (Lib. III, 56) for instannce suggests mixing orpiment with indigo or ultramarine, yellow ochre with indigo or verdigris.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , 91.</dct:bibliographicCitation>            
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 91, 91.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>  
         </skos:definition>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-colorants-organic">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Grüne organische Farbmittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organic green colourants</skos:prefLabel>
+        <skos:definition xml:lang="en">There are a few organic green colorants. Green on the basis of chlorophyll is a cheap and easy to extract, but also less light-resistant. Artists' treatises mention various plants as sources for green colourants such as iris, buchthorn berries, cabbage, leek, elderberry, rue, parsley and columbine, honeysuckle and nightshade (Kühn 1984; Eastaugh 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 92-93.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-indigo">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Färber-Wau mit Indigo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
+        <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo.</skos:definition>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Schwertlilien (Iris) grün</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Iris green</skos:prefLabel>
+        <skos:definition xml:lang="en">The dye is extracted from the petals of iris flowers. In mediaeval sources sometimes the dye is referred to as sap green. The dye was prepared for use either as clothlet (a piece of linen dipped into the juice) or by extracting the juice and mixing it with an aluminium hydroxide (alum) base (Eastaugh 2008). (some recipies call for adding giallorino - lead-tin yellow - to get a more green and less green blue colour).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
+    </skos:Concept>    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries-green">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Kreuzdornbeeren (reif)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Buckthorn berries ripe</skos:prefLabel>
+        <skos:definition xml:lang="en">An organic green is also made from the ripe berries of various species of the Rhamnaceae family (most common species throughout Europe were the Rhamnus catharticus). As a lake the pigment was quite popular with a wide geographical production (Eastaugh 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation> 
+        </skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Rhamnus_catharticus_leaves_and_fruit.jpg</skos:example>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
+    </skos:Concept>
+    
     <!-- #############  BROWN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
