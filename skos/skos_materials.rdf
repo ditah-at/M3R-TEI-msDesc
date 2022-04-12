@@ -598,7 +598,8 @@
         <skos:altLabel xml:lang="de">Bleimennige</skos:altLabel>
         <skos:prefLabel xml:lang="en">Minium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Red lead pigment</skos:altLabel>        
-        <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was already known in antiquity. Theophilus gives the following recipe: pour vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. The pigment was used in medieval manuscripts both alone and in combination with cinnabar or vermilion. Exposed on light for a long time, minium can corrode and turn to dark brown or black lead dioxide (PbO2) especially when it was used with aqueous binders (Kühn 1984).</skos:definition> 
+        <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was already known in antiquity. Theophilus gives the following recipe: pour vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. The pigment was used in medieval manuscripts both alone and in combination with cinnabar or vermilion. Exposed on light for a long time, minium can corrode and turn to dark brown or black lead dioxide (PbO2) especially when it was used with aqueous binders (Kühn 1984).
+        For a list with notable occurances from Europe, the Near East, India and the Far East see FitzHugh (FitzHugh 1984).</skos:definition> 
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/ae/Red_lead.jpg</skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
@@ -606,6 +607,7 @@
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 22.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>FitzHugh, Elisabeth West. ‘Red Lead and Minium’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:109–39. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_944/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/red-lead/</dct:bibliographicCitation>
@@ -702,13 +704,16 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kermes</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Cochenille</skos:altLabel>
         <skos:prefLabel xml:lang="en">Kermes</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
+        <skos:altLabel xml:lang="en">Cochineal</skos:altLabel>
         <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
-        <skos:definition xml:lang="en">Red dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region. The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material. It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
+        <skos:definition xml:lang="en">Kermes is one of the oldest organic colorants. The red dyestuff is prepared from the larvae of various species of scale insects: cochineal, native of North, Central and South America and kermes, which was native in the Mediterranean region (Schweppe et al. 1986). The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material. It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 216-217.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Schweppe, Helmut, and Heinz Roosen-Runge. ‘Carmine - Cochineal Carmine and Kermes Carmine’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:255–83. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
         </skos:definition>
@@ -836,22 +841,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
-    ?<skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Gamboge</skos:prefLabel>
-        <skos:definition xml:lang="en">Gamboge is an organic pigment derived from the resin of the Gacinia handburyi tree, which is native to Southeast Asia. It has been identified in works from the Far East dating back to the eight century (Zagorski 2007) and in thirteenth-century Armenian manuscripts (Mathews 1994).</skos:definition>
-        <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Zagorski, Melissa. ‘The Geography of Significant Colorants: Antiquity to the Twentieth Century’. George Mason University, 2007. https://hdl.handle.net/1920/2951.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Mathews, Thomas F., and Roger S. Wieck, eds. Treasures in Heaven: Armenian Illuminated Manuscripts ; New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
-        </skos:definition>
-        <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
-    </skos:Concept>
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Organische gelbe Farbstoffe</skos:prefLabel>
@@ -859,21 +849,44 @@
         <skos:definition xml:lang="en"></skos:definition>   
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
-   ? <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gamboge">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Gummigutta</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Gamboge</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Gamboge</skos:prefLabel>
+        <skos:definition xml:lang="en">Gamboge is an organic pigment derived from the resin of the Gacinia handburyi tree, which is native to Southeast Asia. The gum resin is produced in the form of a juice of leaves and shoots of the tree, which is is then dried and rolled into cylinders (Kremer Pigmente). The organic pigment been identified in works from the Far East dating back to the eight century including an eighth-cenutry illustrated scroll of the Ingakyo and an early twelfth-century Japanese hand scroll (Winter 1997). The pigment was also detected in thirteenth-century Armenian manuscripts (Merian et al. 1994). Its import in Europe started in the seventeenth century (Winter 1997).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Winter, John. ‘Gamboge’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Elisabeth West FitzHugh, 3:143–55. Washington: National Gallery of Art, 1997. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol3.pdf.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Kremer Pigmente (accessed April 2022) https://www.kremer-pigmente.com/elements/resources/products/files/37050-37060e.pdf</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Gummi_gutti1.JPG</skos:example>
+        check for elements; check Eastaugh
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
+    </skos:Concept>
+   <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indian_yellow">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Indischgelb</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Indian yellow</skos:prefLabel>
        <skos:definition xml:lang="en">Indian yellow is a complex pigment consisting primarily of euxanthic acid salts (magnesium euxanthate and calcium euxanthate) (Eastaugh 2008). The pigment was allegedly produced by the urine of cows, fed with indigestible mango leaves (Ploeger 2019).
-           Indian yellow was widely used in Indian art, as for instance in Rajput-Mughal miniatures from the sixteenth to the nineteenth century, where it was appreciated for its intense luminance (Zagorski).
+           Indian yellow was not employed in Indian miniatures of the palm-leaf period from the thirteenth and fourteenth centuries. Hence, scholars suppose it was introduced into India in the fifteenth century from Persia. Tehreafter itwas used in miniatures instance in Rajput-Mughal miniatures from the sixteenth to the nineteenth centuries. In Europe the pigment was used by some painters from the eighteenth century (Baer et al. 1986). 
            The pigment can be clearly distinguished by spectroscopic techniques (Ploeger 2019).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Zagorski, Melissa. ‘The Geography of Significant Colorants: Antiquity to the Twentieth Century’. George Mason University, 2007. https://hdl.handle.net/1920/2951.</dct:bibliographicCitation>   
-            <d>Ploeger, R. et al. "Late 19th century accounts of Indian yellow: The analysis of samples from the Royal Botanic Gardens, Kew". Dyes and Pigments 160 (2019): 418–431. doi:10.1016/j.dyepig.2018.08.014.</d>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>               
+            <dct:bibliographicCitation>Ploeger, R. et al. "Late 19th century accounts of Indian yellow: The analysis of samples from the Royal Botanic Gardens, Kew". Dyes and Pigments 160 (2019): 418–431. doi:10.1016/j.dyepig.2018.08.014.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Baer, N.S., A. Joel, R.L. Feller, and N. Indictor. ‘Indian Yellow’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:17–36. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1014/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/indian-yellow/</dct:bibliographicCitation>
         </skos:definition>
-       <skos:example>https://commons.wikimedia.org/wiki/File:Indisch-Gelb.jpg</skos:example>        
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+       <skos:example>https://commons.wikimedia.org/wiki/File:Indisch-Gelb.jpg</skos:example> 
+       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-S4R6VJD9-W"/> 
+       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
+       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+       <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1236,6 +1249,7 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
+    Shell white or one generic term calcium carbonate (for calcite, chalk, lime white, shell white and coral). While calcium carbonate is one of the easiest materials to identify by chemical and microscopical methods, it is difficult to identify the specific varieties (. Flieder identified calcite in 19 illuminated manuscripts from the tenth to the sixteenth century (Flieder 1968).
     <!-- #############  GREEN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1255,13 +1269,14 @@
         <skos:altLabel xml:lang="en">terre verte</skos:altLabel>
         <skos:definition xml:lang="en">Green earth is a natural inorganic pigment prepared from the complex silicate minerals glaukonite and seladonite. Other chemical elements present are Mg, Al, Fe, Ca (Kühn 1984).
             Green earth is a permanent, stable and ureactive pigment. As other earth colourant, the preparation includes washing, grinding and picking to remove impurities (Eastaugh 2008).
-            The green hue depends on the local depost and may vary from neutral green to yellowish green or greenish grey (Kühn 1984). Allegedly the best green earth was from Verona and hence called Verona green; Bohemian green had a more yellow-brown hue and was used by artist as an underlayer to flesh tones (Clemens 2007). Green earth turns brown on heating and is referred to then as burnt green earth. Rarely used in Northern European manuscripts, the pigment was employed extensively in Byzantine manuscripts and icons, as well as in manuscripts made between 1128 and 1130 in the Latin Kingdom of Jerusalem (Panayotova 2020).</skos:definition>
+            The green hue depends on the local depost and may vary from neutral green to yellowish green or greenish grey (Kühn 1984). Allegedly the best green earth was from Verona and hence called Verona green; Bohemian green had a more yellow-brown hue and was used by artist as an underlayer to flesh tones (Clemens 2007). Green earth turns brown on heating and is referred to then as burnt green earth. 
+            The pigment was used already in antiquity for pottery and wall paintings (Grissom 1986). Rarely used in Northern European manuscripts, the pigment was employed extensively in Byzantine manuscripts and icons, as well as in manuscripts made between 1128 and 1130 in the Latin Kingdom of Jerusalem (Panayotova 2020).</skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Gr%C3%BCnerde-_Pigment.JPG</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 30-31, 89.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
-            
+            <dct:bibliographicCitation>Grissom, Carol A. ‘Green Earth’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:141–67. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 180-181.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/green-earth/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
