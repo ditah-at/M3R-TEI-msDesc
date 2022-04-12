@@ -836,11 +836,43 @@
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
+    ?<skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Gamboge</skos:prefLabel>
+        <skos:definition xml:lang="en">Gamboge is an organic pigment derived from the resin of the Gacinia handburyi tree, which is native to Southeast Asia. It has been identified in works from the Far East dating back to the eight century (Zagorski 2007) and in thirteenth-century Armenian manuscripts (Mathews 1994).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Zagorski, Melissa. ‘The Geography of Significant Colorants: Antiquity to the Twentieth Century’. George Mason University, 2007. https://hdl.handle.net/1920/2951.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Mathews, Thomas F., and Roger S. Wieck, eds. Treasures in Heaven: Armenian Illuminated Manuscripts ; New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example></skos:example>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+    </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Organische gelbe Farbstoffe</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Organic yellows</skos:prefLabel>
         <skos:definition xml:lang="en"></skos:definition>   
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
+    </skos:Concept>
+   ? <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Indischgelb</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Indian yellow</skos:prefLabel>
+       <skos:definition xml:lang="en">Indian yellow is a complex pigment consisting primarily of euxanthic acid salts (magnesium euxanthate and calcium euxanthate) (Eastaugh 2008). The pigment was allegedly produced by the urine of cows, fed with indigestible mango leaves (Ploeger 2019).
+           Indian yellow was widely used in Indian art, as for instance in Rajput-Mughal miniatures from the sixteenth to the nineteenth century, where it was appreciated for its intense luminance (Zagorski).
+           The pigment can be clearly distinguished by spectroscopic techniques (Ploeger 2019).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Zagorski, Melissa. ‘The Geography of Significant Colorants: Antiquity to the Twentieth Century’. George Mason University, 2007. https://hdl.handle.net/1920/2951.</dct:bibliographicCitation>   
+            <d>Ploeger, R. et al. "Late 19th century accounts of Indian yellow: The analysis of samples from the Royal Botanic Gardens, Kew". Dyes and Pigments 160 (2019): 418–431. doi:10.1016/j.dyepig.2018.08.014.</d>
+        </skos:definition>
+       <skos:example>https://commons.wikimedia.org/wiki/File:Indisch-Gelb.jpg</skos:example>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
@@ -1354,7 +1386,26 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Braune Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brown colorants</skos:prefLabel>
+        <skos:definition xml:lang="en">Brown colours are often produced by mixing red, yellow, blue and black colourant together. There are also natural occuring brown pigments, the most common being brown ochre and umber, which receive their brown colour due to the iron and manganese content.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
+    </skos:Concept>
+   ? <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bister">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Bister</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bister</skos:prefLabel>
+        <skos:definition xml:lang="en">Bister, a carbon-based brown-black pigment, was produced from the soot of burnt wood, tar and resin. Bister was used in manuscript illumination since at least the fourteenth century (Ball 2002).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 41.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Ball, Philip. Bright earth : art and the invention of color. London: Viking, 2001.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/bister-bistre/</dct:bibliographicCitation>    
+        </skos:definition>
+       <skos:example>https://commons.wikimedia.org/wiki/File:Jhfragonard2.jpg</skos:example>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1363,6 +1414,14 @@
         <skos:prefLabel xml:lang="en">Brown Ochre</skos:prefLabel>
         <skos:altLabel xml:lang="en">Brown Ocher</skos:altLabel>
         <skos:definition xml:lang="en">The main chemical elements are: iron (Fe), silicon (Si) and oxygen (O).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
@@ -1373,17 +1432,45 @@
         <skos:prefLabel xml:lang="de">Braune Erde</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brown earth</skos:prefLabel>
         <skos:altLabel xml:lang="en">Manganese brown</skos:altLabel>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/umber">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Umbra</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Umber</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: iron (Fe), Manganese (Mn) and oxygen (O).</skos:definition>
+        <skos:altLabel xml:lang="en">Burnt umber</skos:altLabel>
+        <skos:definition xml:lang="en">Umber is a generic term for sedimentary mineral substance with a significant manganese oxide content besides iron oxides. It is the high amount of manganese compounds (5 to 20%) which defines a sedimentary rock as an umber and not as ochre. Umber in sensu stricto sediment occurs in limited geographical regions and the principal source are deposits in Cyprus, Levant and the Middle East. Under the term umber may be included, however, also weathering and alteration product of magnesian limestones, deposits of which are found in central England (Eastaugh 2008).
+            The ground pigment  is prepared by washing, levigation and drying. Calcinated umber, often referred to as burnt umber, has a more dark red colour. Compatible with all other pigments, it was used on its own (especially to create shadowns) or to darken other colours.
+            </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
+        </skos:definition>
+        <skos:example></skos:example>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZHXJ4D8T-H"/>
         <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-earth"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
     </skos:Concept>
     <!-- #############  BLACK  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-colorants">
@@ -1418,15 +1505,7 @@
         <skos:definition xml:lang="en">Carbon black (atramentum) - from carbonised organic ingredients or from lampblack or soot, used with a binding agent, usually gum arabicum.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
-    </skos:Concept>
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Mischungen aus Eisengallustinte und Rußschwarz</skos:prefLabel>
