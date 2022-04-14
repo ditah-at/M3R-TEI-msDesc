@@ -959,13 +959,17 @@
         <skos:prefLabel xml:lang="de">Ultramarin</skos:prefLabel>
         <skos:altLabel xml:lang="en">Lapis lazuli</skos:altLabel>
         <skos:prefLabel xml:lang="en">Ultramarine</skos:prefLabel>
-        <skos:definition xml:lang="en">Natural inorganic pigment made from the mineral lapis lazuli, complex sulfur-containing sodium-silicate (Na8–10Al6Si6O24S2–4). The mineral was found in the medieval period only in modern-day Afganistan. Due to the long transportation and the labour-extensice process of production ultramarine was an expesive pigment. 
-            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It has been identified in manuscripts from the tenth ceuntury onwards; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).</skos:definition>
+        <skos:definition xml:lang="en">Natural inorganic pigment made from the mineral lapis lazuli, complex sulfur-containing sodium-silicate (Na8–10Al6Si6O24S2–4). The mineral was found in the medieval period only in modern-day Afganistan. Due to the long transportation and the labour-extensice process of production ultramarine was an expesive pigment. Ultramarine is a stable pigment and altough it contains sulfur, it was regularly mixed with lead white without causing any blackening of the lead pigment (Plesters 1993).
+            In antiquity lapis lazuli was used as a gem and decoration but there are no reference of its use as a pigment prior to the early middle ages (Kühn 1984). It has been identified in manuscripts from the tenth ceuntury onwards; from the early fourteenth century its use deminished as azurite became more prevalent (Panayotova 2020).
+        Outside Europe ultramarine has been identified on Persian miniatures of the thirteenth and fourteenth cenutries, on Chinese painitings of the tenth to eleventh cenutry, in Indian mural paintings of the eleventh, twelfth and seventeenth cenutries (Plesters 1993); in illuminations in Byzantine, Armenian manuscripts from the tenth century onwards, in Iranian manuscripts from the fourteenth to the seveteenth cenutries, in Indian, Persian and Turkish manuscripts from te fifteenth cenutry onwards (Merian et al. 1994).
+        </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 35-36, 93-95.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Plesters, Joyce. ‘Ultramarine Blue, Natural and Artificial’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Ashok Roy, 2:37–65. Washington, DC: National Gallery of Art, 1993. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol2.pdf.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2357.html</dct:bibliographicCitation>
         </skos:definition>
@@ -986,14 +990,18 @@
         <skos:altLabel xml:lang="en">Cyprian blue</skos:altLabel>
         <skos:altLabel xml:lang="en">Blue verditer</skos:altLabel>
         <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral (2 CuCO3·Cu(OH)2). The pigment has been prepared either from naturally occurring mineral or produced synthetically. The artificial variety is known under the name blue verditer.
-            The pigment was known already in antiquity and was the most used blue pigment in European painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Although mined locally in Europe azurite could fetch considerable prices if free of impurities and coarsely ground (Panayotova 2020). 
-            The pigment was heavily used in Carolingian manuscripts, especially from the tenth century onwards. It may be applied alone or as mixed or layered with ultramarine (Panayotova 2020). The colour of azurite varied according to the level of grind: the more coarse powder was dark blue, the finer - more grey. Artists could thus achieve different hues - from pale blue to light green (Clemens 2007).</skos:definition>
+            The pigment was known already in antiquity and was the most used blue pigment in European painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Hunagry was, however, the principal source of azurite in Europe until the Ottoman invasion in mid seventeenth century, when supplies from there were cut off (Rutherford et FitzHugh 1993). Although mined locally in Europe azurite could fetch considerable prices if free of impurities and coarsely ground (Panayotova 2020). The colour of azurite varied according to the level of grind: the more coarse powder was dark blue, the finer - more grey. Artists could thus achieve different hues - from pale blue to light green (Clemens 2007).
+            The pigment was heavily used in Carolingian manuscripts, especially from the tenth century onwards. It may be applied alone or as mixed or layered with ultramarine (Panayotova 2020). Azurite has been identified in several Eastern Armenian manuscripts from the fourteenth century as well as in a thirteenth-cenutry Byzantine manuscript and in Persian ones from the sixteenth and seventeeth cenutry (Merian et al. 1994).
+            Outside Europe azurite was also used in the Far East as for example in wall paintings of the Sung and Ming dynasties in Central China or for Japanese paintings of the Ukiyo-e School (Rutherford et FitzHugh 1993).
+            </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Azuritepigment.jpg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 34-35, 95-96.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Rutherford, J. Gettens, and Elisabeth West FitzHugh. ‘Azurite and Blue Verditer’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Ashok Roy, 2:23–35. Washington, DC: National Gallery of Art, 1993. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol2.pdf.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 39.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_905/</dct:bibliographicCitation>
@@ -1008,14 +1016,20 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Indigo</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Indigotin</skos:altLabel>
         <skos:altLabel xml:lang="de">Färberwaid</skos:altLabel>
-        <skos:prefLabel xml:lang="en">Indigo</skos:prefLabel>        
+        <skos:altLabel xml:lang="de">Waid</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Indigo</skos:prefLabel>   
+        <skos:altLabel xml:lang="en">Indigotin</skos:altLabel>
         <skos:altLabel xml:lang="en">Woad</skos:altLabel>
-        <skos:definition xml:lang="en">Indigo and woad are organic dyes made from the leaves from various Indigofera species (indigo) or of the Isatis tinctoria (woad), grown in Asia and Europe. The two are chemically identical and cannot be distinguished with non-invasive techniques. In antiquity indigo was mainly imported from India and China, while woad was cultivated already priod to Hellenism in Egypt and Mesopotamia. Woad was also native in Eastern Europe and spread throughout Northern Europe. In the medieval period it was cultivated in Southern France, Picardy, Spain, northern Italy, northern Germany and above all in Thuringia, also in England (Kühn 1984; Clemens 2007). Hence, woad was a likelier source for the blue indigo colour used in manuscript illumination, either on its own or mixed with lead white to create shades of blue, violet and grey (Panayotova 2020).</skos:definition>
+        <skos:altLabel xml:lang="en">Wood</skos:altLabel>
+        <skos:definition xml:lang="en">Indigo is a generic term used for the blue dyes prepared from various plants of the Indigofera (indigo) and the Isatis tinctoria (woad) species, grown in Asia and Europe (Schweppe 1997; Eastaugh 2007). The two are chemically identical and cannot be distinguished with non-invasive techniques. 
+            In antiquity indigo was mainly imported from India and China, while woad was cultivated already priod to Hellenism in Egypt and Mesopotamia. Woad was also native in Eastern Europe and spread throughout Northern Europe. In the medieval period it was cultivated in Southern France, Picardy, Spain, northern Italy, northern Germany and above all in Thuringia, also in England (Kühn 1984; Clemens 2007). Hence, woad was a likelier source for the blue indigo colour used in manuscript illumination, either on its own or mixed with lead white to create shades of blue, violet and grey (Panayotova 2020).</skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Indigo-guizhou.jpg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 39, 96-98.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Schweppe, Helmut. ‘Indigo and Woad’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Elisabeth West FitzHugh, 3:81–107. Washington: National Gallery of Art, 1997. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol3.pdf.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
@@ -1033,12 +1047,17 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Ägyptischblau</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Egyptian blue</skos:prefLabel>
-        <skos:definition xml:lang="en">Egyptian blue is a synthetic blue pigment, a calcium copper silicate (CaCuSi2O5, CaCuSi4O10 or CaOCuO(SiO2)4). It was produced by heating a mixture of quartz sand, a copper compound, and lime (Kühn 1984). The pigment was widely used in antiquity but fell from use after the Roman era suggesting that its recipe was forgotten during the Migration Period. During some recent material analysis of medieval manuscripts, however, scientist found Egyptian blue either as the dominant blue used or as a blue mixture. The pigment in these cases may have been reused from Roman sites but it is also possible that its production survived into the ninth century (Panayotova 2020).</skos:definition>
+        <skos:definition xml:lang="en">Egyptian blue is a synthetic blue pigment, a calcium copper silicate (CaCuSi2O5, CaCuSi4O10 or CaOCuO(SiO2)4). It was produced by heating together a calcium compound (such as powdered limestone), a copper compound (such as malachite), and silica (usually in the form og quartz sand). Depending on its exact composition and process of manufacture its colour varies from a dark blue to a whitish blue. It is completely stable in all media (Riederer 1997). 
+            Egyptian blue was widely used in antiquity in Egypt, Greece and Rome. It was used also in ancient Mesopotamia and Persia as well as in West Asia. There are no reported use of the pigment in India, central and East Asia, suggesting that the other blue pigments available in sufficient quantities such as ultramarine, azurite and indigo made the production of Egyptian blue unnecessary (Riederer 1997). 
+            The pigment fell from use after the Roman era suggesting that its recipe was forgotten during the Migration Period (Kühn 1984). There are a few reports of Egyptian blue used on wall paintings from the early Middle Ages in Rome and in Müstair, Switzerland (Riederer 1997). During some recent material analysis of medieval manuscripts, however, scientists found Egyptian blue either as the dominant blue used in blue mixtures. The pigment in these cases may have been reused from Roman sites but it is also possible that its production survived into the ninth century (Panayotova 2020).
+        </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 35.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
-            </dct:bibliographicCitation>            
+            </dct:bibliographicCitation>  
+            <dct:bibliographicCitation>Riederer, Josef. ‘Egyptian Blue’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Elisabeth West FitzHugh, 3:23–45. Washington: National Gallery of Art, 1997. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol3.pdf.
+            </dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_936/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/egyptian-blue/</dct:bibliographicCitation>
         </skos:definition>
@@ -1053,12 +1072,16 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Smalte</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Smalt</skos:prefLabel>
-        <skos:definition xml:lang="en">Smalt is a cobalt-containing glass (Co(SiO2)), that was ground into a fine powder and used as a pigment. Its earliest use in manuscript illumination was reported in manuscripts made c. 1420-1440 on the island of Murano in the Venetian lagoon (Panayotova 2020).</skos:definition>        <skos:example>https://upload.wikimedia.org/wikipedia/commons/9/9c/Smalte-Historische_Farbstoffsammlung.jpg</skos:example>
+        <skos:definition xml:lang="en">Smalt is a cobalt-containing glass (Co(SiO2)), that was ground into a fine powder and used as a pigment. The pigment was used in Europe at least from the fifteenth century onwards. In the Near East smalt was first produced several centuries earlier (Mühlethaler et Thissen 1993) but there is no record of its use for book illuminations.
+            Its earliest use in manuscript illumination was reported in manuscripts made c. 1420-1440 on the island of Murano in the Venetian lagoon (Panayotova 2020). Smalt has been identified also in at least one Armenian manuscript from the fifteenth cenutry and in Persian and Turkish manuscripts from the sixteenth to the eighteenth century (Merian et al. 1994). Mühlethaler et Thissen (1993) suggest the use of smalt increassed in the seventeeth cenutry when other blue pigments such as ultramarine and azurite became scarce. SInce however smalt is a glass and its particles are transparent, it was employed for skies and backgrounds of paintings where an intense blue was not needed (Mühlethaler et Thissen 1993).
+            </skos:definition>        <skos:example>https://upload.wikimedia.org/wikipedia/commons/9/9c/Smalte-Historische_Farbstoffsammlung.jpg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 37.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020, p. 142.
-            </dct:bibliographicCitation>            
+            </dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Mühlethaler, Bruno, and Jean Thissen. ‘Smalt’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Ashok Roy, 2:113–30. Washington, DC: National Gallery of Art, 1993. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol2.pdf.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_933/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/smalt/</dct:bibliographicCitation>
         </skos:definition>
