@@ -2,13 +2,12 @@
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
 
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
-        <dc:title>Vocabulary for pigments used in mediaeval manuscripts - SKOS</dc:title>
+        <dc:title>Vocabulary for materials used in mediaeval manuscripts - SKOS</dc:title>
         <dc:identifier></dc:identifier>
         <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
-        <dc:creator>Ivana Dobcheva</dc:creator>
+        <dc:creator>Ivana Dobcheva (rdf encoding; description texts)</dc:creator>
         <dc:creator>Manfred Schreiner</dc:creator>
-        <dc:creator>Wilfried Vetter</dc:creator>
-        <dc:creator>Katharina Hoffer</dc:creator>        
+        <dc:creator>Wilfried Vetter</dc:creator>       
     </void:Dataset>
     
     <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/mss-materials">
@@ -30,319 +29,358 @@
         <skos:definition xml:lang="en">Chemical elements detected in materials from manuscripts, either as constant ingredients of substances or as so-called impurities within main substances or mixtures.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/hydrogen">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">hydrogen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Wasserstoff</skos:prefLabel>
         <skos:altLabel xml:lang="en">H</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/carbon">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">carbon</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Kohlenstoff</skos:prefLabel>
         <skos:altLabel xml:lang="en">C</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/nitrogen">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">nitrogen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Stickstoff</skos:prefLabel>
         <skos:altLabel xml:lang="en">N</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/oxygen">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">oxygen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Sauerstoff</skos:prefLabel>
         <skos:altLabel xml:lang="en">O</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-XNB95WRM-4">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fluorine">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">fluorine</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Fluor</skos:prefLabel>
         <skos:altLabel xml:lang="en">F</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-XNB95WRM-4"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-D9J9ZG62-C">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sodium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:altLabel xml:lang="en">Na</skos:altLabel>
         <skos:prefLabel xml:lang="en">sodium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Natrium</skos:prefLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-D9J9ZG62-C"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-S4R6VJD9-W">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/magnesium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">magnesium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Mg</skos:altLabel>
         <skos:prefLabel xml:lang="de">Magnesium</skos:prefLabel>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/magnesium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/aluminium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">aluminium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Aluminium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Al</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silicon">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">silicon</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Silicium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Si</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-VC1M1XR4-F">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/phosphorus">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">phosphorus</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Phosphor</skos:prefLabel>
         <skos:altLabel xml:lang="en">P</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-VC1M1XR4-F"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sulfur">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">sulfur</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schwefel</skos:prefLabel>
         <skos:altLabel xml:lang="en">S</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HKV44ZNF-C">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chlorine">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">chlorine</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Chlor</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cl</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HKV44ZNF-C"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-XZG1JMS2-0">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/argon">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">argon</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Argon</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ar</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-XZG1JMS2-0"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kalium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:altLabel xml:lang="en">K</skos:altLabel>
         <skos:prefLabel xml:lang="de">Kalium</skos:prefLabel>
         <skos:prefLabel xml:lang="en">potassium</skos:prefLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/calcium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">calcium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Calcium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ca</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-B46N74X6-Z">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/titanium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">titanium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Titan</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ti</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B46N74X6-Z"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-W2MFT88M-C">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chromium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">chromium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Chrom</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cr</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-W2MFT88M-C"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-ZHXJ4D8T-H">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/manganese">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">manganese</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mangan</skos:prefLabel>
         <skos:altLabel xml:lang="en">Mn</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZHXJ4D8T-H"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iron">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">iron</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Eisen</skos:prefLabel>
         <skos:altLabel xml:lang="en">Fe</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-BVR52VXN-F">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cobalt">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">cobalt</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Cobalt</skos:prefLabel>
         <skos:altLabel xml:lang="en">Co</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-BVR52VXN-F"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-FDQVX1R1-D">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/nickel">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">nickel</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Nickel</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ni</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FDQVX1R1-D"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copper">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">copper</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Kupfer</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cu</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-ZH5RPRR9-D">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/zinc">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">zinc</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Zink</skos:prefLabel>
         <skos:altLabel xml:lang="en">Zn</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZH5RPRR9-D"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-B31MNC3P-0">
+   
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/arsenic">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">arsenic</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Arsen</skos:prefLabel>
         <skos:altLabel xml:lang="en">As</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B31MNC3P-0"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-SSFNCHSK-B">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/selenium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">selenium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Selen</skos:prefLabel>
         <skos:altLabel xml:lang="en">Se</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SSFNCHSK-B"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-JKQD0SHX-7">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bromine">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">bromine</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Brom</skos:prefLabel>
         <skos:altLabel xml:lang="en">Br</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-JKQD0SHX-7"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
         
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-GL3J8X2V-F">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/strontium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">strontium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Strontium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Sr</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GL3J8X2V-F"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NCV4MKFK-N">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/zirconium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">zirconium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Zirconium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Zr</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NCV4MKFK-N"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-KZJDHQWD-3">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/molybdenum">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">molybdenum</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Molybdän</skos:prefLabel>
         <skos:altLabel xml:lang="en">Mo</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-KZJDHQWD-3"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
-    </skos:Concept>
+    </skos:Concept>   
     
-    
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-FKKNQWB0-B">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/rhodium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">rhodium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Rhodium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Rh</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FKKNQWB0-B"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">silver</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ag</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-R5TL4FBV-J">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cadmium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">cadmium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Cadmium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cd</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-R5TL4FBV-J"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">tin</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:altLabel xml:lang="en">Sn</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-LGWKM8TW-9">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/antimony">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">antimony</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Antimon</skos:prefLabel>
         <skos:altLabel xml:lang="en">Sb</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGWKM8TW-9"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-W76CCWHW-C">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iod">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:altLabel xml:lang="en">I</skos:altLabel>
         <skos:prefLabel xml:lang="de">Iod</skos:prefLabel>
         <skos:prefLabel xml:lang="en">iodine</skos:prefLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-W76CCWHW-C"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    
-    
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-P1S60994-X">
+        
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/barium">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">barium</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Barium</skos:prefLabel>
         <skos:altLabel xml:lang="en">Ba</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-P1S60994-X"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>   
    
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-B030NV4K-M">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tungsten">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">tungsten</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Wolfram</skos:prefLabel>
         <skos:altLabel xml:lang="en">W</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B030NV4K-M"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HCSZZCGN-4">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/platinum">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">platinum</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Platin</skos:prefLabel>
         <skos:altLabel xml:lang="en">Pt</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HCSZZCGN-4"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">gold</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>
         <skos:altLabel xml:lang="en">Au</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mercury">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">mercury</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Quecksilber</skos:prefLabel>
         <skos:altLabel xml:lang="en">Hg</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
    
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">lead</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Blei</skos:prefLabel>
         <skos:altLabel xml:lang="en">Pb</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-SLTRM919-5">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bismuth">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">bismuth</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Bismut</skos:prefLabel>
         <skos:altLabel xml:lang="en">Bi</skos:altLabel>
+        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SLTRM919-5"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/elements"/>
-    </skos:Concept>
-    
+    </skos:Concept>   
    
     
 <!--    ######### Materials by role -->
@@ -507,13 +545,13 @@
 <!--    ############ COLORANTS and Inks ########### -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Farbmittel und Tinten</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Colorants and Inks</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Colourants and Inks</skos:altLabel>
-        <skos:definition xml:lang="de">Dieses SKOS Dokument präsentiert eine Klassifikation von Farbmitteln (farbgebende Substanzen), die in mittelalterlichen Handschriften verwendet worden sind.
+        <skos:prefLabel xml:lang="de">Farbmittel, Tinten und Metalen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Colorants, Inks and Metals</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Colourants, Inks and Metals</skos:altLabel>
+        <skos:definition xml:lang="de">Dieses SKOS Dokument präsentiert eine Klassifikation von Farbmitteln (farbgebende Substanzen), Tinte und Metalen, die in mittelalterlichen Handschriften verwendet worden sind.
             Farbmittel ist eine Sammelbezeichnung für alle farbgebenden Stoffe, die nach ihrer 1) Löslichkeit: in Pigmente (unlöslich) und Farbstoffe (löslich); 2) chemischen Struktur in anorganische (Mineralien und Erde) und organische (hergestellt aus pflanzlichen und tierischen Produkten); 3)Herkunft: in natürliche und synthetische oder 4) nach der Farbqualität in rote, weiße, grüne usw. eingeteilt werden können. In dieser Klassifikation werden Farbmittel nach der Farbe eingeteilt.
         </skos:definition>
-        <skos:definition xml:lang="en">The following SKOS document is meant as a classification of colourants (colouring materials) used in mediaeval manuscripts. One can differentiate colourants based on their: 1) solubility: in this case we speak of pigments (insoluble) and dyes (soluble); 2) chemical structure: organic (made from plants and animal products) and inorganic (minerals and earths); 3) method of preparation: natural and synthetic; 4) colour: red, white, green etc. In this qualification we group colourants based on colour.
+        <skos:definition xml:lang="en">The following SKOS document is meant as a classification of colourants (colouring materials), inks and metals used in mediaeval manuscripts. One can differentiate colourants based on their: 1) solubility: in this case we speak of pigments (insoluble) and dyes (soluble); 2) chemical structure: organic (made from plants and animal products) and inorganic (minerals and earths); 3) method of preparation: natural and synthetic; 4) colour: red, white, green etc. In this qualification we group colourants based on colour.
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials_role"/>
     </skos:Concept>
@@ -539,25 +577,26 @@
             <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>            
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e9/Drei_verschiedene_Ockert%C3%B6ne.JPG</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Sinopia</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Sinopia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Sinoper</skos:altLabel>
-        <skos:definition xml:lang="en">Earth pigment, a variety of high-quality red ochre that was traded from the Ionian Greek port Sinope in modern day Turkey. Its reddish colour comes from the iron oxide compound hematite (Fe2O3).</skos:definition>
+        <skos:prefLabel xml:lang="en">Sinoper</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Sinopia</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sinopis</skos:altLabel>
+        <skos:definition xml:lang="en">Sinoper is an iron oxide pigment, a variety of high-quality red ochre that was traded from the Ionian Greek port Sinope in modern day Turkey (Eastaugh). Red an yellow earth were used in recipes for pigment mixtures found in Latin medieval texts. Sinopia is mentioned by the Mappae Claviculae as an ingrediant together with siricum (red lead or minium) to produce a red colour similiar to cinnabar (Helwig 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 349-350.</dct:bibliographicCitation>
-            <dct:bibliographicCitation></dct:bibliographicCitation>
+            <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-ochre"/>
     </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cinnabar">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -587,8 +626,8 @@
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_1851</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/vermilion/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     
@@ -601,8 +640,8 @@
         <skos:definition xml:lang="en">Minium is a red lead oxide mineral of composition Pb3O4. The mineral minium occurs in small amounts as a bright red or orange powder or crust by lead ore deposits. Its synthetic analogue was already known in antiquity. Theophilus gives the following recipe: pour vinegar or urine over lead plates; after a month collect the white lead built over them, grind it and set it on blazing coals until it gets the desired red colour. The pigment was used in medieval manuscripts both alone and in combination with cinnabar or vermilion. Exposed on light for a long time, minium can corrode and turn to dark brown or black lead dioxide (PbO2) especially when it was used with aqueous binders (Kühn 1984).
         For a list with notable occurances from Europe, the Near East, India and the Far East see FitzHugh (FitzHugh 1984).</skos:definition> 
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/a/ae/Red_lead.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
@@ -613,21 +652,17 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/red-lead/</dct:bibliographicCitation>
         </skos:definition>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/realgar">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/organic-reds">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Realgar</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Realgar</skos:prefLabel>
-        <skos:definition xml:lang="en">Realgar is an red-orange arsenic sulfide (As4S4), which occurs naturally as a mineral most often together with orpiment (Kühn 1984). It synthetic analogue can be prepared by heating and subsequent sublimation of a mixture of sulfur and arsenic oxide.</skos:definition> 
-        <skos:example>https://commons.wikimedia.org/wiki/File:Realgar-229713.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B31MNC3P-0"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:prefLabel xml:lang="de">Organische rote Farbmittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organic red colorants</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:example></skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 22.</dct:bibliographicCitation>            
-            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_887/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/realgar/</dct:bibliographicCitation>
+            <dct:bibliographicCitation></dct:bibliographicCitation>
         </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -646,10 +681,10 @@
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/madder-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -663,11 +698,11 @@
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -681,10 +716,10 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation> 
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2183/</dct:bibliographicCitation>          
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brazilin-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -695,11 +730,11 @@
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 251.</dct:bibliographicCitation>                      
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -709,45 +744,77 @@
         <skos:altLabel xml:lang="en">Carmine</skos:altLabel>
         <skos:altLabel xml:lang="en">Cochineal</skos:altLabel>
         <skos:altLabel xml:lang="en">Crimson</skos:altLabel>
-        <skos:definition xml:lang="en">Kermes is one of the oldest organic colorants. The red dyestuff is prepared from the larvae of various species of scale insects: cochineal, native of North, Central and South America and kermes, which was native in the Mediterranean region (Schweppe et al. 1986). The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material. It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
+        <skos:definition xml:lang="en">Kermes is one of the oldest organic colorants. The red dyestuff is prepared from the larvae of various species of scale insects: cochineal, native to North, Central and South America and kermes, which was native to the Mediterranean region (Schweppe et al. 1986). The so-called Armenian cochineal was produced from another insect species (Porphyrophora hamelii) native to the Middle East and central Asia. The pigment was used for illuminated Armenian manuscripts (Phipps 2010). Another insect known as Polish cochineal (Porphyrophora polonica) was also used for producing red dye. Insects from the genus Porphyrophora are native to sandy areas in central and eastern Europe, Ukraine, Caucasus, Turkistan and western Siberia (Phipps 2010).
+            The insect cases and larvae were collected together with the twig on which they had clustered, leading sometimes to the false conclusion that the dye derived from the leaves of trees (Eastaugh 2008). 
+            The dried insects had to be boiled in water in order to extract the carminic or kermesic acid. The dye was prepared then by precipitation of the extract from previously dyed material. To preserve the dye one had to add a mordant or mineral salt (aluminum sulfate) turning the dye to a lake. Cochineal has a naturally bright pink hue; using other additives (acids and alkali) however, one could achieve a deep crimson, purple or even black colour (Phipps 2010). 
+             Cochineal could be extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007; Phipps 2010).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 216-217.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Schweppe, Helmut, and Heinz Roosen-Runge. ‘Carmine - Cochineal Carmine and Kermes Carmine’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:255–83. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Phipps, Elena. ‘Cochineal Red: The Art History of a Color’. The Metropolitan Museum of Art Bulletin 67, no. 3 (2010): 1–48.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/carmine/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/21/Kermes_-_Neve_Tzuf.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kermes-lake">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
-        <skos:definition xml:lang="en">A red lack produced by adding alum (aluminium (Al)) to the dyestuff made from the larvae of various species of Coccoidea (scale insects) native in the Mediterranean region.</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:definition xml:lang="en">A red lack produced by adding alum (aluminium (Al)) to the red dyestuff is prepared from the larvae of various species of scale insects: cochineal, native of North, Central and South America and kermes, which was native in the Mediterranean region (Schweppe et al. 1986).
+            It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 216-217.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Schweppe, Helmut, and Heinz Roosen-Runge. ‘Carmine - Cochineal Carmine and Kermes Carmine’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:255–83. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Phipps, Elena. ‘Cochineal Red: The Art History of a Color’. The Metropolitan Museum of Art Bulletin 67, no. 3 (2010): 1–48.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/carmine/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/dragons_blood">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Drachenblut</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Dragons's blood</skos:prefLabel>
-        <skos:definition xml:lang="en">Dragons's blood is a brown-red natural dye produced from the resin exuded by the plant Pterocarpus draco L. or Dracoena draco L. Pliny referred to it as 'cinnabaris', saying it was imported from India(XXIX, 25).</skos:definition>
+        <skos:definition xml:lang="en">Dragons's blood is a brown-red natural dye produced from the resin exuded by the plant Pterocarpus draco L. or Dracoena draco L. Pliny referred to it as 'cinnabaris', saying it was imported from India(XXIX, 25). Cennini (Ch. XLIII) says the red pigment was used occasionally on parchment for illuminating.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 25, 81-82.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Dragon%27s_blood_(Daemomorops_draco).jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lac_dye">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Lac Dye</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Färberlack</skos:altLabel>
+        <skos:altLabel xml:lang="de">Gummilack</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Lac dye</skos:prefLabel>
+        <skos:definition xml:lang="en">Lac dye is extracted from a resin secreted by lac insects (Kerria lacca) native to Asia and particulary India. The dye is known to be imported to the western Mediterranean from the eleventh century onwards through Arab commercial routes. It was used as ink and pigment for illuminations either alone or together with other red pigments (vermilion) or with lead white (Castro et al. 2016).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Castro, Rita, Adelaide Miranda, and Maria Melo. ‘Interpreting Lac Dye in Medieval Written Sources: New Knowledge from the Reconstruction of Recipes Relating to Illuminations in Portuguese Manuscripts’, 88–99, 2016. https://www.researchgate.net/publication/298429268_Interpreting_lac_dye_in_medieval_written_sources_new_knowledge_from_the_reconstruction_of_recipes_relating_to_illuminations_in_Portuguese_manuscripts</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1013</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Lac_as_a_natural_dye.jpg</skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
     <!-- #############  YELLOW  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants">
@@ -772,36 +839,39 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1119/</dct:bibliographicCitation>           
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/orpiment">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Auripigment</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Auripigment / Realgar</skos:prefLabel>
         <skos:altLabel xml:lang="de">Arsenblende</skos:altLabel>
         <skos:altLabel xml:lang="de">Gelbe Arsenblende</skos:altLabel>
         <skos:altLabel xml:lang="de">Rauschgelb</skos:altLabel>
-        <skos:altLabel xml:lang="de">Operment</skos:altLabel>
-        <skos:prefLabel xml:lang="en">Orpiment</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Operment / Realgar</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Orpiment / Realgar</skos:prefLabel>
         <skos:definition xml:lang="en">Orpiment is one of the most common yellow pigments identified in manuscripts (Panayotova 2016). It is a natural occuring yellow or greenish yellow mineral containing sulfide of arsenic (arsenic trisulfide: As2S3). Both orpiment and realgar (closely related orange mineral) are found as a massive encrusting or granular deposits. In antiquity and the middle ages deposits were limited to Hungary, Macedonia and Asia Minor (Panayotova 2020). The synthetic form of orpiment was known already in the Middle Ages (Cennini, ch. 47). It was prepared either by heating or by precipitating a mixture of sulfur and arsenic by sublimation.
-            Due to its toxicity it has poisonous fumes and foul smell, making it unpleasant to work with. It also reacts with copper and lead-based pigments, and particularly silver, to blacken them - a reason why it should be used in isolation from such pigments as in the case of heraldic blazonry (Naples MS; Eastaugh 2008; Panayotova 2020).
+            Realgar is an red-orange arsenic sulfide (As4S4), which occurs naturally as a mineral most often together with orpiment (Kühn 1984). It synthetic analogue can be prepared by heating and subsequent sublimation of a mixture of sulfur and arsenic oxide.
+            Due to its toxicity the pigments have poisonous fumes and foul smell, making it unpleasant to work with. Cennini (ch. XLVIII) warns for its poisonous character. They can also react with copper and lead-based pigments, and particularly silver, to blacken them - a reason why they should be used in isolation from such pigments as in the case of heraldic blazonry (Naples MS; Eastaugh 2008; Panayotova 2020).
         </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. pp. 146-147.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 291-292.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 22.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella, Deirdre Elizabeth Jackson, and Paola Ricciardi, eds. Colour : The Art and Science of Illuminated Manuscripts. Turnhout: Brepols, 2016.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
-            <d>Naples, Bibl. Naz., ms. XII, E. 27 (Italy, 14th c.).</d>
+            <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>            
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_887/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/realgar/</dct:bibliographicCitation>
             <dct:bibliographicCitation>https://www.mindat.org/min-3021.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/4/46/Orpiment-148270.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-B31MNC3P-0"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/arsenic"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
-    </skos:Concept>
+    </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-tin-yellow">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bleizinngelb</skos:prefLabel>
@@ -818,9 +888,9 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_939/</dct:bibliographicCitation>            
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/massicot">
@@ -837,16 +907,16 @@
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Organische gelbe Farbstoffe</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Organic yellows</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>   
+        <skos:prefLabel xml:lang="de">Organische gelbe Farbmittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organic yellow colorants</skos:prefLabel>
+        <skos:definition xml:lang="en">Organic yellows can be derived from a variety of plants producing bright, vivid hues. As other organic colours, however, they are often not stable and lightfast (tend to fade when exposed to light). They cannot be securely distinguished using non-invasive analytical methods.</skos:definition>   
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gamboge">
@@ -863,7 +933,9 @@
             <dct:bibliographicCitation>Kremer Pigmente (accessed April 2022) https://www.kremer-pigmente.com/elements/resources/products/files/37050-37060e.pdf</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Gummi_gutti1.JPG</skos:example>
-        check for elements; check Eastaugh
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indian_yellow">
@@ -871,21 +943,22 @@
         <skos:prefLabel xml:lang="de">Indischgelb</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Indian yellow</skos:prefLabel>
        <skos:definition xml:lang="en">Indian yellow is a complex pigment consisting primarily of euxanthic acid salts (magnesium euxanthate and calcium euxanthate) (Eastaugh 2008). The pigment was allegedly produced by the urine of cows, fed with indigestible mango leaves (Ploeger 2019).
-           Indian yellow was not employed in Indian miniatures of the palm-leaf period from the thirteenth and fourteenth centuries. Hence, scholars suppose it was introduced into India in the fifteenth century from Persia. Tehreafter itwas used in miniatures instance in Rajput-Mughal miniatures from the sixteenth to the nineteenth centuries. In Europe the pigment was used by some painters from the eighteenth century (Baer et al. 1986). 
-           The pigment can be clearly distinguished by spectroscopic techniques (Ploeger 2019).</skos:definition>
+           Indian yellow was not employed in Indian miniatures of the palm-leaf period from the thirteenth and fourteenth centuries. Hence, scholars suppose it was introduced into India in the fifteenth century from Persia. Thereafter it was used in miniatures instance in Rajput-Mughal miniatures from the sixteenth to the nineteenth centuries. In Europe the pigment was used by some painters from the eighteenth century (Baer et al. 1986). The pigment was detected also using ultraviolet imaging in Islamic manuscripts dated from the 13th to 19th centuries particularly those with Mughal influence (Knipe et al. 2018). 
+           Indian yellow can be clearly distinguished by spectroscopic techniques (Ploeger 2019).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>               
             <dct:bibliographicCitation>Ploeger, R. et al. "Late 19th century accounts of Indian yellow: The analysis of samples from the Royal Botanic Gardens, Kew". Dyes and Pigments 160 (2019): 418–431. doi:10.1016/j.dyepig.2018.08.014.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Baer, N.S., A. Joel, R.L. Feller, and N. Indictor. ‘Indian Yellow’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:17–36. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Knipe, Penley, Katherine Eremin, Marc Walton, Agnese Babini, and Georgina Rayner. ‘Materials and Techniques of Islamic Manuscripts’. Heritage Science 6, no. 1 (2018): 1–40. https://doi.org/10.1186/s40494-018-0217-y.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1014/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/indian-yellow/</dct:bibliographicCitation>
         </skos:definition>
        <skos:example>https://commons.wikimedia.org/wiki/File:Indisch-Gelb.jpg</skos:example> 
-       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-S4R6VJD9-W"/> 
-       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-       <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+       <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/magnesium"/> 
+       <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+       <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+       <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld">
@@ -900,11 +973,8 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1039/</dct:bibliographicCitation>         
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/saffron">
@@ -920,11 +990,8 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1035/</dct:bibliographicCitation>         
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/1/1c/Safran-Weinviertel_Niederreiter_2_Gramm_8285.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries-yellow">
@@ -938,11 +1005,8 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 71.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation> </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Rhamnus_catharticus_leaves_and_fruit.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants-organic"/>
     </skos:Concept>
     
@@ -973,12 +1037,12 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2357.html</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/kalium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/azurite">
@@ -1008,9 +1072,16 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/azurite/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-447.html</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/organic-blue-colorants">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Organic blue colourants</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Organische blaue Farbmittel</skos:prefLabel>
+        <skos:definition>There is a variety of plants, the extract of which makes an organic blue dye including the blue/purple iris blooms, the petals of the cornflower or the saffron crocus, hyacinth flower and berries of the dogwood tree. The most common and widely used in the Middle Ages was however was the blue from woad and indigo.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/indigo">
@@ -1037,35 +1108,36 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_990/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/indigo/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-blue-colorants"/>
     </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/egyptian_blue">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Ägyptischblau</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Egyptian blue</skos:prefLabel>
-        <skos:definition xml:lang="en">Egyptian blue is a synthetic blue pigment, a calcium copper silicate (CaCuSi2O5, CaCuSi4O10 or CaOCuO(SiO2)4). It was produced by heating together a calcium compound (such as powdered limestone), a copper compound (such as malachite), and silica (usually in the form og quartz sand). Depending on its exact composition and process of manufacture its colour varies from a dark blue to a whitish blue. It is completely stable in all media (Riederer 1997). 
+        <skos:definition xml:lang="en">Egyptian blue is a synthetic blue pigment, a calcium copper silicate (CaCuSi2O5, CaCuSi4O10 or CaOCuO(SiO2)4). It was produced by heating together a calcium compound (such as powdered limestone), a copper compound (such as malachite), and silica (usually in the form of quartz sand). Depending on its exact composition and process of manufacture its colour varies from a dark blue to a whitish blue. It is completely stable in all media (Riederer 1997). 
             Egyptian blue was widely used in antiquity in Egypt, Greece and Rome. It was used also in ancient Mesopotamia and Persia as well as in West Asia. There are no reported use of the pigment in India, central and East Asia, suggesting that the other blue pigments available in sufficient quantities such as ultramarine, azurite and indigo made the production of Egyptian blue unnecessary (Riederer 1997). 
-            The pigment fell from use after the Roman era suggesting that its recipe was forgotten during the Migration Period (Kühn 1984). There are a few reports of Egyptian blue used on wall paintings from the early Middle Ages in Rome and in Müstair, Switzerland (Riederer 1997). During some recent material analysis of medieval manuscripts, however, scientists found Egyptian blue either as the dominant blue used in blue mixtures. The pigment in these cases may have been reused from Roman sites but it is also possible that its production survived into the ninth century (Panayotova 2020).
+            The pigment fell from use after the Roman era suggesting that its recipe was forgotten during the Migration Period (Kühn 1984). There are a few reports of Egyptian blue used on wall paintings from the early Middle Ages in Rome and in Müstair, Switzerland (Riederer 1997). During some recent material analysis of medieval manuscripts, however, scientists found Egyptian blue either as the dominant blue used in blue mixtures. The pigment in these cases may have been reused from Roman sites but it is also possible that its production survived into the ninth century (Panayotova 2020; Denoël et al. 2018).
         </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 35.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.
             </dct:bibliographicCitation>  
+            <dct:bibliographicCitation>Denoël, Charlotte, Patricia Roger Puyo, Anne-Marie Brunet, and Nathalie Poulain Siloe. ‘Illuminating the Carolingian Era: New Discoveries as a Result of Scientific Analyses’. Heritage Science 6, no. 1 (2018): 1–19. https://doi.org/10.1186/s40494-018-0194-1.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Riederer, Josef. ‘Egyptian Blue’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Elisabeth West FitzHugh, 3:23–45. Washington: National Gallery of Art, 1997. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol3.pdf.
             </dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_936/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/egyptian-blue/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Egyptian_blue.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/smalt">
@@ -1085,9 +1157,9 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_933/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/smalt/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-BVR52VXN-F"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/cobalt"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/blue-colorants"/>
     </skos:Concept>
     
@@ -1114,10 +1186,10 @@
             <dct:bibliographicCitation>Aceto, Maurizio et al. "On the identification of folium and orchil on illuminated manuscripts." In Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy (2016) 171: 461-469. 10.1016/j.saa.2016.08.046. </dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Orcein2.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chrozophora-tinctoria">
@@ -1135,10 +1207,10 @@
             <dct:bibliographicCitation>Rabitsch, Sophie, Inge Boesken Kanold, and Christa Hoffmann. ‘Purple Dyeing of Parchment’. In The Vienna Genesis: Material Analysis and Conservation of a Late Antique Illuminated Manuscript on Purple Parchment, edited by Christa Hofmann, 71–101. Vienna: Böhlau Verlag, 2020.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Aceto, Maurizio et al. "On the identification of folium and orchil on illuminated manuscripts." In Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy (2016) 171: 461-469. 10.1016/j.saa.2016.08.046. </dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>  
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tyrian-purple">
@@ -1161,10 +1233,10 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/tyrian-purple/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/bromine"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/purple-colorants"/>
     </skos:Concept>
     <!-- #############  WHITE  #############  -->
@@ -1180,16 +1252,16 @@
         <skos:prefLabel xml:lang="en">Bone calcined</skos:prefLabel>
         <skos:altLabel xml:lang="en">Bone white</skos:altLabel>
         <skos:altLabel xml:lang="en">Bone ash</skos:altLabel>
-        <skos:definition xml:lang="en">A white pigment can be produced from white calcinated bone dust in some recipes mixing it with pumice powder, adding them to oil, which is then boiled. Such white has been found in the Glajor gospel, an illustrated Armenian gospel book of the fourteenth century (Eastaugh 2008).</skos:definition>
+        <skos:definition xml:lang="en">The white pigment can be produced from white calcinated bone dust in some recipes mixing it with pumice powder, adding them to oil, which is then boiled. Such white has been found in the Glajor gospel, an illustrated Armenian gospel book of the fourteenth century (Eastaugh 2008).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 64.</dct:bibliographicCitation>            
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-VC1M1XR4-F"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H-white">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lead-white">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bleiweiß</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Lead white</skos:prefLabel>
@@ -1208,9 +1280,9 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_982/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/lead-white/</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NRPKN8GG-H"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>   
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gypsum">
@@ -1225,30 +1297,10 @@
             </dct:bibliographicCitation>            
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Gypsum_(12249949575).jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chalk">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Kreide</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Calcite</skos:altLabel>
-        <skos:definition xml:lang="en">Chalk is a natural occuring calcium carbonate (CaCO3). Deposists exist in the UK, western continental Europe (France, Denmark, Sweden), in the eastern Mediterranean, on the coast of the Baltic Sea, and in Austria (Müllendorf). Since the pigment was abundant and easily processed, it was cherished for its whiteness, sofness and fine-grained nature. Being transparent, it is often used in combination with other pigments and with animal glues as a ground for painting rather than as a white pigment on its own (Eastaugh 2008). It is also find on parchment leaves, which were treated with chalk during manufacure to remove remaining grease and fat or for whitening the skin (Cheese 2020).</skos:definition>
-        <skos:example>https://commons.wikimedia.org/wiki/File:Chalk_(%22Upper_Chalk%22_Formation,_Upper_Cretaceous;_White_Cliffs_of_Dover,_England,_southern_Britain).jpg</skos:example>
-        <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>            
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. p. 137.
-            </dct:bibliographicCitation>
-            <dct:bibliographicCitation>Cheese, Edward. ‘From Pelt to Painted Page: Western Medieval Manuscript Parchments’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 73–94. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 98-99.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/calcite/</dct:bibliographicCitation>
-        </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/kaolin">
@@ -1266,13 +1318,106 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_932/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kremer Pigmente https://shop.kremerpigments.com/elements/resources/products/files/58250e.pdf</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
     </skos:Concept>
-    Shell white or one generic term calcium carbonate (for calcite, chalk, lime white, shell white and coral). While calcium carbonate is one of the easiest materials to identify by chemical and microscopical methods, it is difficult to identify the specific varieties (. Flieder identified calcite in 19 illuminated manuscripts from the tenth to the sixteenth century (Flieder 1968).
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Calcium carbonate white</skos:prefLabel>
+        <skos:definition xml:lang="en">While calcium carbonate is one of the easiest materials to identify by chemical and microscopical methods, it is difficult to identify the specific varieties. </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/white-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/chalk">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Kreide</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Calcite</skos:altLabel>
+        <skos:definition xml:lang="en">Chalk is a natural occuring calcium carbonate (CaCO3). Deposists exist in the UK, western continental Europe (France, Denmark, Sweden), in the eastern Mediterranean, on the coast of the Baltic Sea, and in Austria (Müllendorf). Since the pigment was abundant and easily processed, it was cherished for its whiteness, sofness and fine-grained nature. Being transparent, it is often used in combination with other pigments and with animal glues as a ground for painting rather than as a white pigment on its own (Eastaugh 2008). It is also find on parchment leaves, which were treated with chalk during manufacure to remove remaining grease and fat or for whitening the skin (Cheese 2020).</skos:definition>
+        <skos:example>https://commons.wikimedia.org/wiki/File:Chalk_(%22Upper_Chalk%22_Formation,_Upper_Cretaceous;_White_Cliffs_of_Dover,_England,_southern_Britain).jpg</skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020. p. 137.
+            </dct:bibliographicCitation>
+            <dct:bibliographicCitation>Cheese, Edward. ‘From Pelt to Painted Page: Western Medieval Manuscript Parchments’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 73–94. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 98-99.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/calcite/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Shell white</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:example></skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/calcite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Calcite</skos:prefLabel>
+        <skos:definition xml:lang="en">Flieder identified calcite in 19 illuminated manuscripts from the tenth to the sixteenth century (Flieder 1968).</skos:definition>
+        <skos:example></skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lime-white">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lime white</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:example></skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/coral">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coral</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:example></skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/calcium-carbonate-white"/>
+    </skos:Concept>
     <!-- #############  GREEN  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1304,7 +1449,19 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/green-earth/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-copper-colorants">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Grüne Kupferpigmente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Green copper-based pigments</skos:prefLabel>
+        <skos:definition xml:lang="en">
+            </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation></dct:bibliographicCitation>            
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/malachite">
@@ -1326,10 +1483,44 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/malachite/</dct:bibliographicCitation> 
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2550.html</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-copper-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brochantite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Brochantit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Brochantite</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation></dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Mindat https://www.mindat.org/min-779.html</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e9/Brochantite-md75a.jpg</skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-copper-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/atacamite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Atacamite</skos:prefLabel>
+        <skos:definition xml:lang="en">
+        </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation></dct:bibliographicCitation>            
+        </skos:definition>
+        <skos:example></skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-copper-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/verdigris">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1346,22 +1537,24 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Copper(II)-acetate.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-copper-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/vergaut">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Vergaut</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Vergaut</skos:prefLabel>
-        <skos:definition xml:lang="en">Vergaut is a generic term for pigment mixtures from blue and yellow. Heraclius (Lib. III, 56) for instannce suggests mixing orpiment with indigo or ultramarine, yellow ochre with indigo or verdigris.</skos:definition>
+        <skos:definition xml:lang="en">Vergaut is a generic term for pigment mixtures from blue and yellow. Heraclius (Lib. III, 56) for instannce suggests mixing orpiment with indigo or ultramarine, yellow ochre with indigo or verdigris. Cennini (ch. XLVIIII) advices for using a mixture of verdigris and saffron to make "the most perfect grass color imaginable". He also gives recipes for mixing orpiment with indigo (ch. LIII), azurite and 'giallorino' (ch. LIIII), ultramarine and orpiment (ch. LV), lead-white or lime white and green earth (LVII).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 91, 91.</dct:bibliographicCitation>            
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>  
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Cennini, Cennino. The Craftsman’s Handbook: The Italian "Il Libro Dell’ Arte. Edited by Daniel Varney Thompson. New York: Dover, 1933.</dct:bibliographicCitation>
         </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/green-colorants-organic">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1380,24 +1573,24 @@
         <skos:prefLabel xml:lang="de">Färber-Wau mit Indigo</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Weld with indigo</skos:prefLabel>
         <skos:definition xml:lang="en">Mixture of weld (plant reseda luteola) and indigo.</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iris-green">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Schwertlilien (Iris) grün</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Iris green</skos:prefLabel>
-        <skos:definition xml:lang="en">The dye is extracted from the petals of iris flowers. In mediaeval sources sometimes the dye is referred to as sap green. The dye was prepared for use either as clothlet (a piece of linen dipped into the juice) or by extracting the juice and mixing it with an aluminium hydroxide (alum) base (Eastaugh 2008). (some recipies call for adding giallorino - lead-tin yellow - to get a more green and less green blue colour).</skos:definition>
+        <skos:definition xml:lang="en">The dye is extracted from the petals of iris flowers. In mediaeval sources sometimes the dye is referred to as sap green. The dye was prepared for use either as clothlet (a piece of linen dipped into the juice) or by extracting the juice and mixing it with an aluminium hydroxide (alum) base (Eastaugh 2008). Some recipies call for adding giallorino - lead-tin yellow - to get a more green and less green blue colour).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
     </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/buckthorn-berries-green">
@@ -1411,11 +1604,11 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_2118/</dct:bibliographicCitation> 
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Rhamnus_catharticus_leaves_and_fruit.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-X55C5RJ1-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-LGJQJQQ9-N"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/kalium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants-organic"/>
     </skos:Concept>
     
@@ -1427,7 +1620,14 @@
         <skos:definition xml:lang="en">Brown colours are often produced by mixing red, yellow, blue and black colourant together. There are also natural occuring brown pigments, the most common being brown ochre and umber, which receive their brown colour due to the iron and manganese content.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
-   ? <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bister">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/organic-brown-colorants">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Organische braune Farbmittel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organic brown colorants</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
+    </skos:Concept>
+   <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bister">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bister</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Bister</skos:prefLabel>
@@ -1440,10 +1640,10 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/bister-bistre/</dct:bibliographicCitation>    
         </skos:definition>
        <skos:example>https://commons.wikimedia.org/wiki/File:Jhfragonard2.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+       <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-brown-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1460,9 +1660,9 @@
             <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-Q69H14CX-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-earth">
@@ -1496,19 +1696,19 @@
             <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
         </skos:definition>
         <skos:example></skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZHXJ4D8T-H"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/manganese"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-earth"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-FMW7R7GT-H"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-brown-colorants"/>
     </skos:Concept>
     <!-- #############  BLACK  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-colorants">
@@ -1517,7 +1717,7 @@
         <skos:prefLabel xml:lang="en">Black colorants</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5-gall">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iron-gall">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Eisengallustinte</skos:prefLabel>
         <skos:altLabel xml:lang="de">Gallustinte</skos:altLabel>
@@ -1526,9 +1726,9 @@
         <skos:altLabel xml:lang="en">Oak gall ink</skos:altLabel>
         <skos:altLabel xml:lang="en">Iron gall nut ink</skos:altLabel>
         <skos:definition xml:lang="en">The mixture is usually used as ink (incaustum); it is produced from nutgall or other vegetable products (like algarobillo, myrobolan, etc.), vitriol, gum arabicum, glass.</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NQ0K580N-5"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-carbon">
@@ -1539,7 +1739,7 @@
         <skos:prefLabel xml:lang="en">Carbon black</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carbon black ink</skos:altLabel>
         <skos:altLabel xml:lang="en">Carbon ink</skos:altLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:definition xml:lang="en">Carbon black (atramentum) - from carbonised organic ingredients or from lampblack or soot, used with a binding agent, usually gum arabicum.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
@@ -1557,17 +1757,17 @@
         <skos:prefLabel xml:lang="en">Bone black</skos:prefLabel>
         <skos:altLabel xml:lang="en">Animal bone charcoal</skos:altLabel>
         <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are carbon (C), calcium (Ca) and phosphorus (P).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-SX8VX34H-4"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-VC1M1XR4-F"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/graphite">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Graphit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
-        <skos:definition xml:lang="en">The main chemical element is carbon (C).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
+        <skos:definition xml:lang="en">Graphite also known as black lead can be  The main chemical element is carbon (C).</skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-woad">
@@ -1575,9 +1775,47 @@
         <skos:prefLabel xml:lang="de">Mischung aus Färber-Wau und Färberwaid</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Mixture of weld and woad</skos:prefLabel>
         <skos:definition xml:lang="en">The main chemical elements are carbon (C), oxygen (O) and hydrogen (H).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-GPJ5KG69-K"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-RX5D8P7R-1"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-DTLN6DML-5"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/antimony-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Antimon Schwarz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Antimony black</skos:prefLabel>
+        <skos:definition xml:lang="en">Antimony black is produced by ground stibnite, a dark grey sulphide of antimony (Sb2S3). Antimony black has been identified in a group of Italian manuscripts and easel paintings dating to c. 1500 (Panayotova 2020).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/antimony"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bismuth-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Bismut Schwarz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bismuth black</skos:prefLabel>
+        <skos:definition xml:lang="en">Black pigment using the metallic bismuth has been identified in a several fifteenth-century illuminated manuscripts illuminated by the French miniature painter Jean Bourdichon. The Master of the Antiphoner Q (active c. 1440-1470 in the Veneto and Lombardy) used bismuth black as an ink to draw thin silvery-black branches of foliage (Panayotova 2020).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/bismuth"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/pyrolusite-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Pyrolusit Schwarz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pyrolusite black</skos:prefLabel>
+        <skos:definition xml:lang="en">A black pigment produced from pyrolusite (a manganese dioxide) has been found in an initial in a late fifteenth-cenutry Italian manuscript (Panayotova 2020).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/manganese"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
 <!--    ###### GOLD ########-->
@@ -1587,7 +1825,7 @@
         <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
         <skos:definition xml:lang="en">There are three methods for applying gold on manuscript pages. The first is to use shell gold, while the other two methods involve gold leaf - either applied over glue or guesso.</skos:definition>
         <skos:example>https://ids.lib.harvard.edu/ids/iiif/11732825/full/full/0/native.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mosaic-gold">
@@ -1595,7 +1833,7 @@
         <skos:prefLabel xml:lang="de">Mosaik-Gold</skos:prefLabel>
         <skos:altLabel xml:lang="de">Musivgold</skos:altLabel>
         <skos:prefLabel xml:lang="en">Mosaic gold</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
         <skos:definition xml:lang="en">Mosaic gold  is a tin(IV) sulfide used to imitate gilding. There are various recipes for its production; some call for melting equal parts tin, mercury, sulfur amd ammonium chloride.  
         The earliest example of its use in manuscripts is from the second half of the thirteenth century produced in England and Italy (Panayotova 2020).
@@ -1604,9 +1842,9 @@
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 274.</dct:bibliographicCitation> 
         </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-H9J0KWB5-L"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-NK1JKPQC-4"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-gold">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1618,7 +1856,7 @@
             <dct:bibliographicCitation>http://web.ceu.hu/medstud/manual/MMM/gilding.html</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000718s/f51/full/full/0/native.jpg</skos:example>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1594"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
     </skos:Concept>
@@ -1626,7 +1864,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1370"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
         <skos:example>https://www.e-codices.unifr.ch/loris/ubb/ubb-AN-VIII-0045/ubb-AN-VIII-0045_0014r.jp2/full/full/0/default/jpg</skos:example>
@@ -1636,14 +1874,19 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
+        <skos:definition>Silver could be applied directly on the parchment, over a gypsum and/or calcium carbonate ground or over paint layers. In layering with other pigments, silver could be the final or the background layer. In situ non-invasive techniques are not effective in acquiring information regarding the silver paints stratigraphy; a new method was proposed using using in situ examination (microscope) and analytical methods (μ-EDXRF and μ-Raman) on microsamples (Araújo et al. 2018).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Araújo, Rita, Paula Nabais, Isabel Pombo Cardoso, Conceição Casanova, Ana Lemos, and Maria J. Melo. ‘Silver Paints in Medieval Manuscripts: A First Molecular Survey into Their Degradation’. Heritage Science 6, no. 1 (2018): 1–13. https://doi.org/10.1186/s40494-018-0172-7.</dct:bibliographicCitation>    
+        </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1597"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
@@ -1651,7 +1894,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Muschelsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Shell silver</skos:prefLabel>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/3017"/>       
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
@@ -1660,7 +1903,7 @@
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin</skos:prefLabel>
         <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver.</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZK5FBL3T-Z"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
     </skos:Concept>
 <!--    ############ ALLOY ##########-->
@@ -1677,7 +1920,7 @@
         <skos:definition xml:lang="en">Alloy containing copper (Cu) as the principle element.</skos:definition>
         <skos:related rdf:resource="http://w3id.org/lob/concept/2408"/> 
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300010942"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brass">
@@ -1685,8 +1928,8 @@
         <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brass</skos:prefLabel>
         <skos:definition xml:lang="en">Alloy containing copper (Cu) and zinc (Zn).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/> 
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-ZH5RPRR9-D"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/zinc"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/2412"/>
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300010946"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
@@ -1696,7 +1939,7 @@
         <skos:prefLabel xml:lang="de">Bronze</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Bronze</skos:prefLabel>
         <skos:definition xml:lang="en">Bronze contains copper (Cu) and other additives such as tin (Sn), silicon, aluminum, manganese, phosphorus, or various other elements. One could hence differentiaate between aluminium bronze (aluminium), speculum metal (tin), etc. </skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/> 
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/> 
         <skos:related rdf:resource="http://w3id.org/lob/concept/2410"/>
         <skos:related rdf:resource="http://vocab.getty.edu/page/aat/300010957"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
@@ -1706,8 +1949,8 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Silber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold and silver</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au) and silver (Ag).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-ag-cu">
@@ -1715,9 +1958,9 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Silber und Kupfer</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold, silver and copper</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au), silver (Ag) and copper (Cu).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-MBPSKJ5K-B"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/alloy-au-cu">
@@ -1725,8 +1968,8 @@
         <skos:prefLabel xml:lang="de">Goldlegierung mit Kupfer</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Alloy of gold and copper</skos:prefLabel> 
         <skos:definition xml:lang="en">Alloy containing gold (Au) and copper (Cu).</skos:definition>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-HD8QM9KB-M"/>
-        <skos:related rdf:resource="http://data.loterre.fr/ark:/67375/8HQ-G3VCNX8B-6"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/alloy-colorants"/>
     </skos:Concept>
     
