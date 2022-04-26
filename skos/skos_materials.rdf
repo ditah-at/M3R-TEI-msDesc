@@ -560,18 +560,25 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Rote Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Red colorants</skos:prefLabel>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/8/82/Red_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
-    </skos:Concept>
+    </skos:Concept>   
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/red-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Roter Ocker</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Eisenoxyd</skos:altLabel>
+        <skos:altLabel xml:lang="de">Rote Erde</skos:altLabel>
         <skos:prefLabel xml:lang="en">Red ochre</skos:prefLabel>
-        <skos:definition xml:lang="en">Natural clay earth pigment, produced from rocks and soils primarily composed of oxides and hydroxides of iron (hematite Fe2O3). The term red ochre (ocher) or red earth describes various kinds of iron oxide pigments.
+        <skos:altLabel xml:lang="en">Iron oxide red pigments</skos:altLabel>
+        <skos:altLabel xml:lang="en">Red earth</skos:altLabel>
+        <skos:definition xml:lang="en"> The term red ochre (ocher) or red earth describes various kinds of iron oxide pigments, which occur as natural clay rocks and soils. Helwig (2007) provides a list of historical names for iron oxide pigments such as Rubica, Sinopis etc. 
             Red ochres are prepared by washing the mineral in order to separate it from sand and other impurities. After draying it is being grinded. The pigments are stable and are used for book illustrations, icons, indoor and outdoor frescos. Red ochre varied enormously in colour (Clemens 2007).
         Through extensive heat one can also change yellow ochre to red or burnt ochre. The process is described by ancient Roman authors and also known throughout the Middle Ages. By roasting (calcination) one could also obtain a richer more opaque earth colour (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 326-327.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 77-78.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>            
@@ -580,6 +587,21 @@
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/hematite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Hämatit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hematite</skos:prefLabel>
+        <skos:definition xml:lang="en">Hematite is a mineral containing iron oxide (Fe2O3). In contrast to other pigments made of iron oxide such as red earths and ochers, the hematite pigment is produced by crushing the mineral (Helwig 2007).
+            Cennini was the first artist writer to refer to hematite as a pigment (Helwig 2007). For mansucript illuminations dark red hematite was used either alone or mixed with orpiment to produce a brownish colour; the pigment was identified in a sixteenth-century miniature from Iran (Ricciardi et al. 2016).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Ricciardi, Paola, and Kristine Rose Beers. ‘The Illuminators’ Palette’. In Colour : The Art and Science of Illuminated Manuscripts, edited by Stella Panayotova, Deirdre Elizabeth Jackson, and Paola Ricciardi, 27–73. Turnhout: Brepols, 2016.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>  
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1711/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/f/f1/Quartz-Hematite-113680.jpg</skos:example>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-ochre"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sinopia">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -645,7 +667,7 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/red-colorants"/>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 22.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984.</dct:bibliographicCitation>
             <dct:bibliographicCitation>FitzHugh, Elisabeth West. ‘Red Lead and Minium’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Robert L. Feller, 1:109–39. Washington, D.C.: National Gallery of Art, 1986.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_944/</dct:bibliographicCitation>
@@ -656,7 +678,8 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Organische rote Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Organic red colorants</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en">The most common organics red are madder, Brazil wood, kermes. Other red-purple organic pigments  are listed under 'Purple colorants'.
+            Organic colourants can be used as a dye, or turned into lake pigments (e.g. Madder lake) which allows them to be stored for later use.</skos:definition>
         <skos:example></skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
@@ -816,11 +839,13 @@
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-reds"/>
     </skos:Concept>
+    
     <!-- #############  YELLOW  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gelbe Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Yellow colorants</skos:prefLabel>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/d/d2/Yellow_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/yellow-ochre">
@@ -1016,6 +1041,7 @@
         <skos:prefLabel xml:lang="de">Blaue Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Blue colorants</skos:prefLabel>
         <skos:definition xml:lang="en">There are three main blues used in manuscript illumination in the middle ages: ultramarine, azurite and indigo. Recently one was able to detect also the use of Egyptian blue in some Anglo-Saxon manuscripts, as well as smalt in some fifteenth-century manuscripts from Venice.</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/7/7d/Blue_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ultramarine">
@@ -1053,8 +1079,8 @@
         <skos:prefLabel xml:lang="en">Azurite</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cyprian blue</skos:altLabel>
         <skos:altLabel xml:lang="en">Blue verditer</skos:altLabel>
-        <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral (2 CuCO3·Cu(OH)2). The pigment has been prepared either from naturally occurring mineral or produced synthetically. The artificial variety is known under the name blue verditer.
-            The pigment was known already in antiquity and was the most used blue pigment in European painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Hunagry was, however, the principal source of azurite in Europe until the Ottoman invasion in mid seventeenth century, when supplies from there were cut off (Rutherford et FitzHugh 1993). Although mined locally in Europe azurite could fetch considerable prices if free of impurities and coarsely ground (Panayotova 2020). The colour of azurite varied according to the level of grind: the more coarse powder was dark blue, the finer - more grey. Artists could thus achieve different hues - from pale blue to light green (Clemens 2007).
+        <skos:definition xml:lang="en">Azurite is a bright blue hydrated copper carbonate mineral (2 CuCO3·Cu(OH)2). The pigment has been prepared either from naturally occurring mineral or produced synthetically. Blue verditer, the synthetic form of azurite, was allegedly an accidental discovery in the seventeenth century (Eastaugh 2008).
+            Azurite was known already in antiquity and was the most used blue pigment in European painting till the seventeeth century. Natural deposits were found in antiquity in Mount Sinai; in the mediaeval period in south Italy and Spain, also north of the Alps in England, Germany and Hungary (Kühn 1984). Hunagry was, however, the principal source of azurite in Europe until the Ottoman invasion in mid seventeenth century, when supplies from there were cut off (Rutherford et FitzHugh 1993). Although mined locally in Europe azurite could fetch considerable prices if free of impurities and coarsely ground (Panayotova 2020). The colour of azurite varied according to the level of grind: the more coarse powder was dark blue, the finer - more grey. Artists could thus achieve different hues - from pale blue to light green (Clemens 2007).
             The pigment was heavily used in Carolingian manuscripts, especially from the tenth century onwards. It may be applied alone or as mixed or layered with ultramarine (Panayotova 2020). Azurite has been identified in several Eastern Armenian manuscripts from the fourteenth century as well as in a thirteenth-cenutry Byzantine manuscript and in Persian ones from the sixteenth and seventeeth cenutry (Merian et al. 1994).
             Outside Europe azurite was also used in the Far East as for example in wall paintings of the Sung and Ming dynasties in Central China or for Japanese paintings of the Ukiyo-e School (Rutherford et FitzHugh 1993).
             </skos:definition>
@@ -1168,8 +1194,9 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Purpur Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Purple colorant</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
         <skos:definition xml:lang="en">Illuminators in the medieval period achieved purple and violet colour either by applying organic purple dyes or by mixing organic reds with ultramarine, indigo or azurite (either by mixing the substance or by layering the colours). Apart from illuminations, there are also parchment leaves dyed in purple.</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/7/78/Purple_tints_and_shades.svg</skos:example>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/orcein">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -1244,6 +1271,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Weiße Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">White colorants</skos:prefLabel>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/0/07/White_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-white">
@@ -1424,6 +1452,7 @@
         <skos:prefLabel xml:lang="de">Grüne Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green colorants</skos:prefLabel>
         <skos:definition xml:lang="en">Mediaeval artists used both green organic and inorganic colourant as well as mixtures of blue and yellow colourants. In some miniatures the green colour was obtained not by mixing but by layering and overlapping blue and yellow pigments. Using organic pigments over copper-based greens also gave more stability and deminished the corrosive character of the latter (Panayotova 2020).</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/f/fb/Green_tints_and_shades.svg</skos:example>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
@@ -1492,7 +1521,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Brochantit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brochantite</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en"/>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation></dct:bibliographicCitation> 
@@ -1617,45 +1646,56 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Braune Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brown colorants</skos:prefLabel>
-        <skos:definition xml:lang="en">Brown colours are often produced by mixing red, yellow, blue and black colourant together. There are also natural occuring brown pigments, the most common being brown ochre and umber, which receive their brown colour due to the iron and manganese content.</skos:definition>
+        <skos:definition xml:lang="en">Brown colours are often produced by mixing red, yellow, blue and black colourants together. There are also natural occuring brown pigments, the most common being brown ochre and umber, which receive their brown colour due to the iron and manganese content.</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/ef/Brown_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/organic-brown-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Organische braune Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Organic brown colorants</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en">Among the organic brown colorants are sepia and bister, which came in use during the late middle ages.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
+        <skos:definition xml:lang="en">Sepia is a brown organic pigment produced from the ink of the cuttlefish (Sepia officinalis). </skos:definition>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-brown-colorants"/>
     </skos:Concept>
    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bister">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bister</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Bister</skos:prefLabel>
-        <skos:definition xml:lang="en">Bister, a carbon-based brown-black pigment, was produced from the soot of burnt wood, tar and resin. Bister was used in manuscript illumination since at least the fourteenth century (Ball 2002).</skos:definition>
-        <skos:definition rdf:parseType="Resource">
+        <skos:definition xml:lang="en">Bister is a carbon-based brown-black pigment produced from the soot of burnt wood, tar and resin. The soot is washed with water and allowed to settle; then collected and dried (Winter et al. 2007). Bister was used in manuscript illumination since at least the fourteenth century (Ball 2002).</skos:definition>
+      ? check Eastaugh  
+       <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, p. 41.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Ball, Philip. Bright earth : art and the invention of color. London: Viking, 2001.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/bister-bistre/</dct:bibliographicCitation>    
         </skos:definition>
        <skos:example>https://commons.wikimedia.org/wiki/File:Jhfragonard2.jpg</skos:example>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
+       <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-brown-colorants"/>
-    </skos:Concept>
+    </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brown-ochre">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Braunocker</skos:prefLabel>
         <skos:altLabel xml:lang="de">Brauner Ocker</skos:altLabel>
         <skos:prefLabel xml:lang="en">Brown Ochre</skos:prefLabel>
         <skos:altLabel xml:lang="en">Brown Ocher</skos:altLabel>
-        <skos:definition xml:lang="en">The main chemical elements are: iron (Fe), silicon (Si) and oxygen (O).</skos:definition>
+        <skos:definition xml:lang="en"></skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
         </skos:definition>
@@ -1670,10 +1710,11 @@
         <skos:prefLabel xml:lang="de">Braune Erde</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brown earth</skos:prefLabel>
         <skos:altLabel xml:lang="en">Manganese brown</skos:altLabel>
+        <skos:definition xml:lang="en"></skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
         </skos:definition>
@@ -1687,34 +1728,30 @@
         <skos:altLabel xml:lang="en">Burnt umber</skos:altLabel>
         <skos:definition xml:lang="en">Umber is a generic term for sedimentary mineral substance with a significant manganese oxide content besides iron oxides. It is the high amount of manganese compounds (5 to 20%) which defines a sedimentary rock as an umber and not as ochre. Umber in sensu stricto sediment occurs in limited geographical regions and the principal source are deposits in Cyprus, Levant and the Middle East. Under the term umber may be included, however, also weathering and alteration product of magnesian limestones, deposits of which are found in central England (Eastaugh 2008).
             The ground pigment  is prepared by washing, levigation and drying. Calcinated umber, often referred to as burnt umber, has a more dark red colour. Compatible with all other pigments, it was used on its own (especially to create shadowns) or to darken other colours.
+            Thompson (1956) suggest that umber was introduce into general use in Europe before the close of the fifteenth century. According to Helwig (2007) while the general term 'brown earth' was used in earlier treatises, the more specific name 'umber' did not appear until the sixteenth cenutry; the brown pigment containting manganese and iron is identified in sixteenth-century paintings.
             </skos:definition>
         <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. .</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Material Archiv </dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex </dct:bibliographicCitation>    
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Thompson, Daniel Varney. The Materials and Techniques of Medieval Painting. Edited by Bernard Berenson. New York: Dover Publications, 1956.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1720/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/umber/</dct:bibliographicCitation>    
         </skos:definition>
-        <skos:example></skos:example>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/5/54/Terra_ombra_naturale_umber.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/manganese"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/brown-earth"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/sepia">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/organic-brown-colorants"/>
-    </skos:Concept>
+    
     <!-- #############  BLACK  #############  -->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-colorants">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Schwarze Farbmittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Black colorants</skos:prefLabel>
+        <skos:definition xml:lang="en">Among black colorants carbon-based black pigments were probably the most easily available and widely used for writing as inks and pigments. Apart from using black colourants, one could also mix dark blue and red pigments or use them in combination with black ones to achieve a wide range of shades of black.</skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/26/Black_tints_and_shades.svg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/iron-gall">
@@ -1731,44 +1768,110 @@
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/ink-carbon">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Mischungen aus Eisengallustinte und Rußschwarz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixtures of carbon-based black and iron gall</skos:prefLabel>
+        <skos:definition xml:lang="en"></skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/carbon-based-black">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Rußschwarz</skos:prefLabel>
         <skos:altLabel xml:lang="de">Rußtinte</skos:altLabel>
         <skos:altLabel xml:lang="de">Ruß</skos:altLabel>
-        <skos:prefLabel xml:lang="en">Carbon black</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Carbon black ink</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Carbon-based black pigments and inks</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Carbon-based black ink</skos:altLabel>
         <skos:altLabel xml:lang="en">Carbon ink</skos:altLabel>
+        <skos:definition xml:lang="en">The group of carbon-based pigments comprises black or dark-brown writing and drawing pigments composed primarily of carbon. Depending on their preparation or nature occurance carbon-based blacks can be divided into 1) chars, produced by carbonised plant ingredients (vegetable or plant blacks, charcoal); 2) cokes, made fron animal material and yeasts (bone and ivory black); 3) flame carbons, produced in gas phase (lampblack) and 4) the natural occuring ones (graphite) (Eastaugh 2008; Winter et al. 2007). Carbon blacks are stable pigments, lightfast and compatible with all other pigments.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>    
+        </skos:definition> <skos:example>https://en.wikipedia.org/wiki/Carbon_black#/media/File:Carbon_black.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:definition xml:lang="en">Carbon black (atramentum) - from carbonised organic ingredients or from lampblack or soot, used with a binding agent, usually gum arabicum.</skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
-    </skos:Concept>
-    
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Mischungen aus Eisengallustinte und Rußschwarz</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Mixtures of carbon black and iron gall</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-black">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Beinschwarz</skos:prefLabel>
-        <skos:altLabel xml:lang="de">Knochenkohle</skos:altLabel>
-        <skos:prefLabel xml:lang="en">Bone black</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Animal bone charcoal</skos:altLabel>
-        <skos:definition xml:lang="en">Pigment produced from white calcinated bone dust (in some recipes mixing it with pumice powder, adding them to oil and boiling them). The main chemical elements are carbon (C), calcium (Ca) and phosphorus (P).</skos:definition>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
-        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/graphite">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Graphit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
-        <skos:definition xml:lang="en">Graphite also known as black lead can be  The main chemical element is carbon (C).</skos:definition>
+        <skos:definition xml:lang="en">Graphite, also known as black lead, occurs as a mineral and can be manufactured. (Winter et al. 2007).
+            Graphite was used in art from early on and has been detected on Greek pottery from the fifth millenium B.C.E. In medieval and Renaissence art it has been identified as pigment only in murial paintings (Winter et al. 2007).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Colourlex https://colourlex.com/project/graphite/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/3/3d/Graphite-233436.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbon-based-black"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lampblack">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Lampenschwarz</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Flammruss</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Lampblack</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Lamp black</skos:altLabel>
+        <skos:definition xml:lang="en">Lampblack is produced by collecting carbon from a sooting flame (Winter et al. 2007). The material (usually olis or resin) is not burn completely (incomplete combustion) but the fine carbon particles remain as soot along with other unburned chemicals. It was originally made from soot collected from oil lamps, hence the name. The narrow definition in modern technology for carbon pigments made by the burning or pyrolysis of gas and oil is 'carbon black' (Winter et al. 2007).
+            The very fine particles give an intense black color with extreme opacity. As other carbon-based pigment it is stable, lightfast and compatible with all other pigments.
+        </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Colourlex https://colourlex.com/project/lampblack/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material-Archiv  https://materialarchiv.ch/de/ma:material_1770/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/9/98/Carbon_black.jpg</skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbon-based-black"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/plant-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Pflanzenschwarz</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Holzkohleschwarz</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Vegetable or plant blacks</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Charcoal black</skos:altLabel>
+        <skos:definition>Plant black is made by charring (carbonising) a variety of plant materials. Often one used wood, hence the narrower term 'charcoal black' (Winter et al. 2007). A particular type is the so-called vine black produced by charring vine stalks, twigs or grape skins. Pliny the Elder referred to it as 'tryginon' saying it was used by Athenian painters (Kühl 1984; Winter et al. 2007).
+        Charcoal was probably the earliest carbon-based pigment, available from the remains of fires in prehistoric times. The medieval treatises transmitted under the name of Hercalius lists a variety of soft wood material, peach stones or twigs, which when burnt should be doused with wine (Kühl 1984). Charcoal used to produce a blue colour was detected in two early English mediaeval paintings; the pigment wa also found on German playing cards from the fifteenth century (Eastaugh 2007).
+        </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Colourlex https://colourlex.com/project/charcoal-black/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Material-Archiv  https://materialarchiv.ch/de/ma:material_996/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/4/4a/Charcoal_sticks_051907.jpg</skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbon-based-black"/>
+    </skos:Concept>    
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/bone-black">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Beinschwarz</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Knochenkohle</skos:altLabel>
+        <skos:altLabel xml:lang="de">Knochenschwarz</skos:altLabel>
+        <skos:altLabel xml:lang="de">Elfenbeinschwarz</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Bone black</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Ivory black</skos:altLabel>
+        <skos:altLabel xml:lang="en">Carbon animal</skos:altLabel>
+        <skos:altLabel xml:lang="en">Animal bone charcoal</skos:altLabel>
+        <skos:definition xml:lang="en">Bone black is produced from calcinated bone dust (in some recipes mixing the substance with pumice powder, adding them to oil and boiling them). As other carbon-based pigments, bone black is stable, lightfast and compatible with all other pigments. Fairly definite identification of ivory and bone black is possible due to the presence of calcium phosphate using chemical methods or X-ray diffraction (Winter et al. 2007).
+        Bone black may have been used already in ancient Egypt. It was detected in Greek gravestones from the third- to second-century B.C.E., in Roman sites in England. Descriptions of bone and ivory black are found in medieval treatises on painting and the pigments have been detected in  fifteenth-century paintings (Winter et al. 2007). Eastaugh lists further identification of bone/ivory black including Armenian Glajor Gospel book (Eastaugh 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. , .</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/bone-black/</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/1/1d/%C5%BDivo%C4%8Di%C5%A1n%C3%A9_uhl%C3%AD_%28Carbocit%29.jpg</skos:example>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
+        <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/phosphorus"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbon-based-black"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/weld-woad">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
