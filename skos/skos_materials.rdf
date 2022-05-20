@@ -588,7 +588,8 @@
             <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 77-78.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>https://colourlex.com/project/red-ochre/</dct:bibliographicCitation>     
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/red-ochre-k-11574/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/e9/Drei_verschiedene_Ockert%C3%B6ne.JPG</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
@@ -655,6 +656,7 @@
             <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_1851</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/vermilion/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/vermilion-k-10610/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/mercury"/>
@@ -680,6 +682,7 @@
             <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_944/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/red-lead/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/red-lead-k-42500/</dct:bibliographicCitation>
         </skos:definition>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/organic-reds">
@@ -707,6 +710,7 @@
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+            
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
@@ -725,6 +729,7 @@
             <dct:bibliographicCitation>https://www.kremer-pigmente.com/elements/resources/products/files/madder-lake-production.pdf</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material archiv https://materialarchiv.ch/de/ma:material_2001/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/madder-lake/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/madder-lake-k-372051/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
@@ -795,6 +800,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Kermeslack</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Kermes lake</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Carmine lake</skos:altLabel>
         <skos:definition xml:lang="en">A red lack produced by adding alum (aluminium (Al)) to the red dyestuff is prepared from the larvae of various species of scale insects: cochineal, native of North, Central and South America and kermes, which was native in the Mediterranean region (Schweppe et al. 1986).
             It produced a rich scarlet red that was extremely expensive. In the second half of the sixteenth century, kermes was largely replaced by the much cheaper chochineal made from female insects harvested from cactus plants in the New World (Clemens 2007).</skos:definition>
         <skos:definition rdf:parseType="Resource">
@@ -804,6 +810,7 @@
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Phipps, Elena. ‘Cochineal Red: The Art History of a Color’. The Metropolitan Museum of Art Bulletin 67, no. 3 (2010): 1–48.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/carmine/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/carmine-lake-k-42100/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
@@ -840,6 +847,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Castro, Rita, Adelaide Miranda, and Maria Melo. ‘Interpreting Lac Dye in Medieval Written Sources: New Knowledge from the Reconstruction of Recipes Relating to Illuminations in Portuguese Manuscripts’, 88–99, 2016. https://www.researchgate.net/publication/298429268_Interpreting_lac_dye_in_medieval_written_sources_new_knowledge_from_the_reconstruction_of_recipes_relating_to_illuminations_in_Portuguese_manuscripts</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1013</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/lac-dye-k-36020/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Lac_as_a_natural_dye.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -889,7 +897,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 407-408.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/yellow-ochre/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1119/</dct:bibliographicCitation>           
+            <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1119/</dct:bibliographicCitation>           <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/yellow-ochre-k-40010/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example></skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -920,6 +928,7 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/orpiment/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/realgar/</dct:bibliographicCitation>
             <dct:bibliographicCitation>https://www.mindat.org/min-3021.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/orpiment-k-10700/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/4/46/Orpiment-148270.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/sulfur"/>
@@ -942,6 +951,8 @@
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/zinc-yellow/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_938/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_939/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra lead tin yellow I by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/lead-tin-yellow-i-k-10100</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra lead tin yellow II by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): hhttps://chsopensource.org/lead-tin-yellow-ii-k-10120/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example></skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -964,7 +975,7 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
         </skos:definition>
-        <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
+        <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/massicot-k-43010/</dct:bibliographicCitation> <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorants"/>
@@ -1007,6 +1018,7 @@
             <dct:bibliographicCitation>Winter, John. ‘Gamboge’. In Artists’ Pigments: A Handbook of Their History and Characteristics, edited by Elisabeth West FitzHugh, 3:143–55. Washington: National Gallery of Art, 1997. https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/artists-pigments-vol3.pdf.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Kremer Pigmente (accessed April 2022) https://www.kremer-pigmente.com/elements/resources/products/files/37050-37060e.pdf</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/gamboge-k-37050/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Gummi_gutti1.JPG</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -1065,6 +1077,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, p. 337.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Panayotova, Stella, Deirdre Elizabeth Jackson, and Paola Ricciardi, eds. Colour : The Art and Science of Illuminated Manuscripts. Turnhout: Brepols, 2016.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1035/</dct:bibliographicCitation>         
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/saffron-k-37110/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/1/1c/Safran-Weinviertel_Niederreiter_2_Gramm_8285.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -1115,6 +1128,7 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/ultramarine-natural/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2357.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/ultramarine-natural-k-10510/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/8/8a/Natural_ultramarine_pigment.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/aluminium"/>
@@ -1151,6 +1165,7 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_905/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/azurite/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-447.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/azurite-k-10200/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
@@ -1187,6 +1202,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 200-201.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_990/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/indigo/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/indigo-k-36005/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
@@ -1213,6 +1229,7 @@
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_936/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/egyptian-blue/</dct:bibliographicCitation>
         </skos:definition>
+        <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/egyptian-blue-k-10060/</dct:bibliographicCitation>
         <skos:example>https://commons.wikimedia.org/wiki/File:Egyptian_blue.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
@@ -1237,6 +1254,7 @@
             <dct:bibliographicCitation>Merian, Sylvie, Thomas Mathews, and Mary Virginia Orna. ‘The Making of an Armenian Manuscript’. In Treasures in Heaven: Armenian Illuminated Manuscripts, edited by Thomas F. Mathews and Roger S. Wieck, 124–42. New York: Pierpont Morgan Library, 1994.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_933/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/smalt/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/smalt-k-10000/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/cobalt"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
@@ -1366,6 +1384,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_982/</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/lead-white/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/lead-white-k-46000/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -1380,7 +1399,8 @@
         <skos:definition xml:lang="en">Gypsum is a calciumsulfat (CaSO4·2H2O). Significant deposits are found in Thuringia, Franken, Württemberg, in the Baltic reagion (Courland and Livonia), Italy. Gypsum was rarely used as a white pigment per se. It was mixed with animal glue binder and chalk to make gesso used for ground for illumination and gilding (Panayotova 2020).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>            
-            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>   
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/gypsum-k-58300/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Gypsum_(12249949575).jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
@@ -1462,6 +1482,7 @@
             <dct:bibliographicCitation>Cheese, Edward. ‘From Pelt to Painted Page: Western Medieval Manuscript Parchments’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 73–94. Turnhout: Brepols, 2020.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/calcite/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/chalk-k-58000/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -1530,6 +1551,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008, pp. 180-181.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/green-earth/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/green-earth-k-11000/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silicon"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
@@ -1561,6 +1583,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/malachite/</dct:bibliographicCitation> 
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2550.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/malachite-k-10300/</dct:bibliographicCitation>
         </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
@@ -1613,7 +1636,8 @@
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984, pp. 31-32, 90-91.</dct:bibliographicCitation>            
             <dct:bibliographicCitation>Panayotova, Stella. ‘Painting Materials and Techniques in Western Illuminated  Manuscripts c. 600 -c. 1600’. In The Art and Science of Illuminated Manuscripts: A Handbook, edited by Stella Panayotova, 127–70. Turnhout: Brepols, 2020.</dct:bibliographicCitation>            
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/verdigris/</dct:bibliographicCitation>  
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/verdigris-k-44450/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://commons.wikimedia.org/wiki/File:Copper(II)-acetate.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/copper"/>
@@ -1712,6 +1736,11 @@
         <skos:prefLabel xml:lang="de">Sepia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Sepia</skos:prefLabel>
         <skos:definition xml:lang="en">Sepia is a brown organic pigment produced from the ink of the cuttlefish (Sepia officinalis). </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Ricciardi, Paola, and Kristine Rose Beers. ‘The Illuminators’ Palette’. In Colour : The Art and Science of Illuminated Manuscripts, edited by Stella Panayotova, Deirdre Elizabeth Jackson, and Paola Ricciardi, 27–73. Turnhout: Brepols, 2016.</dct:bibliographicCitation>   
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/sepia-k-12401/</dct:bibliographicCitation>
+        </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/hydrogen"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/nitrogen"/>
@@ -1785,7 +1814,8 @@
             <dct:bibliographicCitation>Helwig, Kate. ‘Iron Oxide Pigments’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:39–109. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Thompson, Daniel Varney. The Materials and Techniques of Medieval Painting. Edited by Bernard Berenson. New York: Dover Publications, 1956.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_1720/</dct:bibliographicCitation>
-            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/umber/</dct:bibliographicCitation>    
+            <dct:bibliographicCitation>ColourLex https://colourlex.com/project/umber/</dct:bibliographicCitation> 
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/raw-umber-k-40610/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/5/54/Terra_ombra_naturale_umber.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/iron"/>
@@ -1821,7 +1851,8 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/black-colorants"/>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
-            <dct:bibliographicCitation>The Iron Gall Ink Website https://irongallink.org/index.html</dct:bibliographicCitation>    
+            <dct:bibliographicCitation>The Iron Gall Ink Website https://irongallink.org/index.html</dct:bibliographicCitation>   
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/iron-gall-ink-k12030/</dct:bibliographicCitation>
         </skos:definition>       
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/black-ink-mixtures">
@@ -1886,6 +1917,7 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Colourlex https://colourlex.com/project/lampblack/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material-Archiv  https://materialarchiv.ch/de/ma:material_1770/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/lamp-black-k-47250/</dct:bibliographicCitation>
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/9/98/Carbon_black.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
@@ -1931,7 +1963,9 @@
             <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Winter, John, and Elisabeth West FitzHugh. ‘Pigments Based on Carbon’. In Artists’ Pigments. A Handbook of Their History and Characteristics, edited by Barbara H. Berrie, 4:1–37. Washington: National Gallery of Art, 2007.</dct:bibliographicCitation> 
             <dct:bibliographicCitation>ColourLex https://colourlex.com/project/bone-black/</dct:bibliographicCitation>
-        </skos:definition>
+            <dct:bibliographicCitation>Spectra ivory black by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/ivory-black-k-12000/</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra bone black by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/bone-black-k-47100/</dct:bibliographicCitation>
+        </skos:definition>        
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/1/1d/%C5%BDivo%C4%8Di%C5%A1n%C3%A9_uhl%C3%AD_%28Carbocit%29.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/carbon"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/calcium"/>
