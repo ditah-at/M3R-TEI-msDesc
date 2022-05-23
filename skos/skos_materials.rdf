@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
 <!-- expand add definition / check Eastaugh for
-    green: copper group 
-    browns: Sepia, Bister 
+     
+    browns: Bister 
     metals: definitions
     
     Binding agents; ?? Sulphates; Additives
+    Blue green vitriol ??
     -->
 
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
@@ -1560,8 +1561,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grüne Kupferpigmente</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Green copper-based pigments</skos:prefLabel>
-        <skos:definition xml:lang="en">There is a variety of copper-based green pigments either derived from natural minerals containing copper, or produced synthetically when copper is exposed to outdoor atmosphere (air, moisture and acid) and then covered by natural patina.
-            </skos:definition>
+        <skos:definition xml:lang="en">There is a variety of copper-based green pigments either derived from natural minerals containing copper, or produced synthetically when copper is exposed to outdoor atmosphere (air, moisture and acid) and then covered by natural patina. The copper group can be subdivided into various groups depending on their chemical structure as for instance copper carbonates (including malachite), copper sulfates and hydroxide sulfates (including brochantite), or copper halides (including atacamite) (Eastaugh et al. 2008).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>    
+        </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/0/07/Patina_an_Kupfer.jpg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/green-colorants"/>
     </skos:Concept>
@@ -1594,9 +1598,10 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Brochantit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Brochantite</skos:prefLabel>
-        <skos:definition xml:lang="en">Brochantite is a cupric sulfate mineral with the chemical formula Cu4SO4(OH)6. Apart from natural occurring mineral, brochantite is found as a synthetic corrosion product on bronze sculptures.</skos:definition>
+        <skos:definition xml:lang="en">Brochantite is a green copper sulfate hydroxide mineral (Cu4SO4(OH)6). The mineral is relatively common found at copper deposits in Europe, England, Morocco, Namibia (Eastaugh et al. 2008). Apart from natural occurring mineral, brochantite is found as a synthetic corrosion product on bronze sculptures.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>CAMEO Database https://cameo.mfa.org/wiki/Brochantite</dct:bibliographicCitation> 
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-779.html</dct:bibliographicCitation>
         </skos:definition>
@@ -1611,10 +1616,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Atacamit</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Atacamite</skos:prefLabel>
-        <skos:definition xml:lang="en">Atacamite is a relatively rare copper mineral with the formula Cu2Cl(OH)3. As synthetic pigment it occurs as patina or alteration on bronze and copper material. Theophilus recipe (?). 
+        <skos:definition xml:lang="en">Atacamite is a relatively rare copper mineral with the formula Cu2Cl(OH)3. As synthetic pigment it occurs as patina or alteration on bronze and copper material. It is probably the synthetic form (copper chloride hydroxide, atacamite type) that was used as pigment in medieval illuminations, as attested by numerous medaeval recipes for green copper pigment (Eastaugh et al. 2008). 
         </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>CAMEO Database https://cameo.mfa.org/wiki/Atacamite</dct:bibliographicCitation>            
         </skos:definition>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/4/4e/Atacamite-235102.jpg</skos:example>
@@ -1628,8 +1634,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Grünspan</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Verdigris</skos:prefLabel>
-        <skos:definition xml:lang="en">
-            Verdigris is a collective name for various copper-based greens including copper acetate compounds but also copper carbonate and chloride compounds. They were produced synthetically by placing copper plates over acidic damp (hot vinegar, distilled wine or urine) and scraping off the encrustination from the surface. The product can then be further refined by dissolution in vinegar and subsequent recrystallisation through evaporation (Eastaugh et al. 2008). Depending on the exact chemical composition its colour can vary from deep sea green to yellowish-green, blue-green or whitish bright green (Kühn 1984). 
+        <skos:definition xml:lang="en">Verdigris is a collective name for various copper-based greens including copper acetate compounds but also copper carbonate and chloride compounds. They were produced synthetically by placing copper plates over acidic damp (hot vinegar, distilled wine or urine) and scraping off the encrustination from the surface. The product can then be further refined by dissolution in vinegar and subsequent recrystallisation through evaporation (Eastaugh et al. 2008). Depending on the exact chemical composition its colour can vary from deep sea green to yellowish-green, blue-green or whitish bright green (Kühn 1984). 
             Used in manuscript illumination, verdigris is highly unstable as it can crumble and flake off. Moreover it is often corrosive and can 'eat through' the writing support (Panayotova 2020). Although its incompatibility with lead-containing pigments was well-known, artists from the eleventh century onwards tried to modify the hue of verdigris with lead white but by also adding organic yellows to stabilise the mixture (Panayotova 2020). Another shortcoming is that the pigment darkens when mixed with sulfur-containing pigments such as ultramarine or orpiment (ColourLex).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
@@ -1738,6 +1743,7 @@
         <skos:definition xml:lang="en">Sepia is a brown organic pigment produced from the ink of the cuttlefish (Sepia officinalis). </skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Eastaugh, Nicholas, Valentine Walsh, Tracey Chaplin, and Ruth Siddall. Pigment Compendium: A Dictionary and Optical Microscopy of Historical Pigments. Amsterdam: Elsevier, Butterworth-Heinemann, 2008.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Ricciardi, Paola, and Kristine Rose Beers. ‘The Illuminators’ Palette’. In Colour : The Art and Science of Illuminated Manuscripts, edited by Stella Panayotova, Deirdre Elizabeth Jackson, and Paola Ricciardi, 27–73. Turnhout: Brepols, 2016.</dct:bibliographicCitation>   
             <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/sepia-k-12401/</dct:bibliographicCitation>
         </skos:definition>
@@ -2099,10 +2105,15 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin</skos:prefLabel>
-        <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver.</skos:definition>
+        <skos:definition xml:lang="en">Tin was used as a common, less expensive substitute for silver leaf and shell silver. Apart from its cheaper prise, tin was often preferred because it tends to oxidize and tarnish much slower than silver (Clemens and Graham 2007). One could further paint it with organic yellow (as for instance saffron) and imitate gold (Theophilius book I, ch. 30).</skos:definition>
         <skos:example></skos:example>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Theophilus, Presbyter. On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking and Metalwork. Translated by John G. Hawthorne. New York: Dover, 1979.</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Clemens, Raymond, and Timothy Graham. Introduction to Manuscript Studies. Ithaca, NY: Cornell University Press, 2007.</dct:bibliographicCitation>    
+        </skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/tin"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/metal-pigments"/>
     </skos:Concept>    
     
 <!--    ############ ALLOY ##########-->
