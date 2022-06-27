@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
-<!-- expand add definition / check Eastaugh for
-     
-    browns: Bister 
+<!-- 
     metals: definitions
     
-    Binding agents; ?? Sulphates; Additives
+    Sulphates; Additives ??
     Blue green vitriol ??
     -->
 
@@ -518,24 +516,33 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Bindemittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Binding agents</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Binders</skos:altLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials_role"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/proteinaceous">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Proteinhaltige Bindemittel</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Proteinaceous binding agents</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Proteinic binders</skos:altLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/binding-agents"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/egg-white">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Eiweiß</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Egg white</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Egg glair</skos:altLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/proteinaceous"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/milk">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="de">Milch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Milk</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/proteinaceous"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/parchment-glue">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
-        <skos:prefLabel xml:lang="de">Pergamentklebstoff</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Parchment glue</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pergamentklebstoff, Hornleim und Fischleim</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Parchment, horn and fish glue</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/proteinaceous"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/carbohydrates">
@@ -548,6 +555,9 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gummen</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gums</skos:prefLabel>
+        <skos:definition xml:lang="en">The most common gum is gum arabic, which is made from the hardened sap of various species of acacia trees native to the Arabian peninsula and Africa.
+        </skos:definition>
+        <skos:example>https://upload.wikimedia.org/wikipedia/commons/3/37/Gummi_arabicum_pieces_and_powder.jpg</skos:example>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/carbohydrates"/>
     </skos:Concept>
 <!--    ############ COLORANTS and Inks ########### -->
@@ -2061,7 +2071,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattgold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold leaf</skos:prefLabel>
-        <skos:definition xml:lang="en">A thinly beaten or rolled sheet of gold applied over a ground layer of gypsum and a red clay</skos:definition>
+        <skos:definition xml:lang="en">A thinly beaten or rolled sheet of gold applied over a ground layer of gypsum and a red clay.</skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1370"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
@@ -2085,7 +2095,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Blattsilber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver leaf</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en">A thinly beaten or rolled sheet of silver.</skos:definition>
         <skos:example></skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1597"/>
