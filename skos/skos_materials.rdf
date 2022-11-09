@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
-<!-- 
-    metals: definitions
-    
-    Sulphates; Additives ??
-    Blue green vitriol ??
-    -->
 
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
         <dc:title>Vocabulary for materials used in mediaeval manuscripts - SKOS</dc:title>
         <dc:identifier></dc:identifier>
         <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
-        <dc:creator>Ivana Dobcheva (rdf encoding; description texts)</dc:creator>
+        <dc:creator>Ivana Dobcheva (rdf encoding; skos:definition texts)</dc:creator>
         <dc:creator>Manfred Schreiner</dc:creator>
         <dc:creator>Wilfried Vetter</dc:creator>       
     </void:Dataset>
