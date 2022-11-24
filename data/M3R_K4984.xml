@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="khm_moamin_tei-msDesc_">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wiener Moamin</title>
+                <respStmt>  
+                    <resp>Metadata compiled by </resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien, Computer Vision Lab</affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="K4984">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution>Kunsthistorisches Museum Wien</institution>
+                        <collection>Hofjagd- und Rüstkammer</collection>
+                        <idno>Inv.-Nr. K 4984</idno>                 
+                    </msIdentifier>
+                    <head>
+                        <title>Wiener Moamin</title>
+                        <origDate notBefore="1240" notAfter="1300">s. XIII<hi rend="sup">2</hi>.</origDate>
+                        <origPlace>Italy</origPlace>
+                        <note>Richly illustrated treatise on falconry. The Wiener Moamin, also known as <foreign>De Scientia Venandi per Aves</foreign> or <foreign>Latin Moamin</foreign>, was written and illuminated in the 13th century probably in Southern Italy on the request of the late Frederick II of Hohenstaufen (1194-1250), King of Sicily.</note>                      
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/> 
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="54" unit="folio">54</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>220</height> 
+                                        <width>154</width>
+                                    </dimensions>
+                                </extent><!--
+                                <foliation></foliation>
+                                <collation>
+                                    <formula></formula>
+                                    <catchwords></catchwords>
+                                    <signatures></signatures>
+                                </collation>
+                                <condition>well preserved</condition>-->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="33" writtenLines="33" columns="1"/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote>Written in dark brown ink with red initials.</scriptNote>
+                        </scriptDesc>
+                      <decoDesc>
+                          <decoNote>101 historiated initials on gold background.</decoNote>
+                      </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Binding from the mid 15<hi rend="sup">th</hi> c.: green velvet with decoration, 2 metal clasps.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1251" notAfter="1300">Second half of the 13<hi rend="sup">th</hi> c.</origDate>
+                            <origPlace>Italy</origPlace>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <!-- <recordHist>
+                                <source>Gives the source(s) for the current MS description (e.g. Summary description by X based on ... / Beschreibung adaptiert nach:) Source in bibl with date for the adaptation.
+                                    <bibl></bibl> 
+                                    (<date when="2021">2021</date>).
+                                </source>                                
+                            </recordHist> -->
+                            <custodialHist>
+                                <custEvent>20.06.2017: Multispectral imaging of folia 1, 10, 17, 19, 26, 27, 37, 47, 48 (recto and verso)</custEvent>
+                                <custEvent>19.06.2017-22.06.2017: Chemical investigations using XRF/FTIR/Raman</custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates>
+                            <p>Multispectral images of folia 1, 10, 17, 19, 26, 27, 37, 47, 48 (recto and verso)</p>
+                            <p>Material measurements on folia 1r, 1v, 3r, 3v, 10v, 16v, 19r, 37r, 37v, 44v, 47v, 48v, 51v</p>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+     <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p><pb n="1r"/><hi rend="rubric">Incipit tractatus genera uolatilium uiuentium de rapina quibus utitur gens aucupando sunt quattuor et quatuordecin species. Genera autem sunt haec accipitres falcones, saccares et aquile, uiuenitum de rapina.</hi> Genera uolatilium iuuencium de rapina, quibus utitur gens aucupando sunt quatuor et quatuordecim species. Genera autem sunt haec accipitres, falcones, saccares et aquile. accipitrum quinque sunt species; et unus est melior alio, unius tamen moralitatis et unius nature. primus quidem nobiliorem accipiter simpliciter secundus in lingua persarum nymin, scilicet dimidius accipiter; et est accipiter macer parum rapiens. Tercius est turciolus et hic habet moralitatem accipitris et rapiet pernicies et non potent rapere grues. Quartus est speruenus rapiens uolatile quodcumque rapit accipiter, exceptis mangis auibus. Quintus dicitur sabech et egiptii istum uocant bayda et est minor sperauerio et illu similis, habens tamen celestes oculos.</p> 
+            <p>Secundum autem genus nobilius aliis speciebus est Gyrofalco et est mirabilis in opere suo, et potencior omnibus generibus auium uiuencium de rapine et nascitur in partibus frigidis ut in dacia  et noruegia. Secunda autem species est falco. Tercius dicitur aynoki et maxime utuntur hec greci et syri et rapit minores aues. Quartus uocatur cotain, et est similis falconi in disposicione sua et colore, et est uelox uolatu acutus animo. Tercium genus est in quo nobilior est saccarum. secunda species est choec, ba-</p>
+        </body>
+    </text>
+</TEI>
