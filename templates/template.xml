@@ -89,13 +89,13 @@
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-<!--                                mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                            <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
                                 <layout ruledLines="0" writtenLines="0" columns="0">
                                     <dimensions type="written" unit="mm">
                                         <height max="0" min="0"></height>
                                         <width max="0" min="0"></width>
                                     </dimensions> 
-<!--                                    optional Zeilenhöhe-->
+                                    <!-- optional Zeilenhöhe -->
                                     <dimensions type="lineHeight" unit="mm">
                                         <height min="0" max="0"></height>
                                     </dimensions>

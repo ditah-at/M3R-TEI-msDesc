@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="5.0"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+    xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codicology Clozianus-fragment Ferdinandeum Cod. B I/61</title>
+                <respStmt>
+                    <resp>Codicological description by </resp>
+                    <persName>
+                        <forename>Patricia</forename>
+                        <surname>Engel</surname>
+                        <affiliation/>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital
+                    Humanities, Universität Graz</publisher>
+                <idno type="PID"
+                    ><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="innsbruck-BI-61">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Innsbruck</settlement>
+                        <institution>Tiroler Landesmuseum Ferdinandeum</institution>
+                        <repository>Bibliothek des Ferdinandeums</repository>
+                        <collection/>
+                        <idno>Cod. B I/61</idno>
+                        <altIdentifier type="catalog">
+                            <idno>Dip. 973-C</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head>
+                        <title>Glagolita Clozianus</title>
+                        <origDate notBefore="1001" notAfter="1100">11. Jh.</origDate>
+                        <origPlace/>
+                        <note>Glagolitic Old Church Slavonic canon miscellany</note>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="chu"/>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="leaf">
+                            <supportDesc material="perg">
+                                <support>
+                                    <p>The <material>parchment</material> is most probably
+                                            <material>goat</material>, the hair follicles are well
+                                        visible; the hair sides are 1r and 2v, consequently the
+                                        flesh sides are 1v and 2r. There are stains, which result
+                                        from the colour of the goat. The upper edge of the bifolio
+                                        seems to be stretched more than the rest, which hints toward
+                                        the fact that this is the softer area of the skin, i.e.
+                                        close to the belly. As the bifolio measures about 40 cm
+                                        width from right to left, the goat might have been of app. 1
+                                        meter length as it might have been positioned like “A” (cf.
+                                        sketch by Jiri Vnoucek where the page with the initial is on
+                                        the left and the upper edge of the bifolio on the
+                                        right).</p>
+                                    <p>The big hole in the middle of the bifolio was there before
+                                        writing started; this hints toward the fact that even second
+                                        class parchment was good enough for the codex. This is also
+                                        indicated by the size of the skin, which hints towards a
+                                        grown animal; consequently, the parchment maker did not
+                                        strive to produce best possible quality, but took a skin he
+                                        could reach.</p>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="2" unit="folio">1
+                                        bifolium</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height/>
+                                        <width>400</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula/>
+                                    <catchwords/>
+                                    <signatures/>
+                                </collation>
+                                <condition>
+                                    <p>In the centre of the fold we find remnants of the binding
+                                        technique: i. e. slits 10 mm, 25mm, 160mm, 235mm and 250mm
+                                        from the upper edge. However, there are also round sewing
+                                        holes: 7 mm and 40 mm both pricked from outside. There are
+                                        countless other piercings. They correspond with each other
+                                        on both semifolios and were pierced from outside through to
+                                        the second semifolio. The third use, so to speak, comes from
+                                        the fact that the bifolio was folded twice to result in a 4
+                                        layer piece of somewhat more than 100 mm x 144mm, perhaps to
+                                        stiffen something like a book cover?</p>
+                                    <p>
+                                        <list>
+                                            <head>Deletions</head>
+                                            <item>There is a scraping with a knife on the second
+                                                line from the bottom on the 3rd page in the
+                                                centre.</item>
+                                            <item>There are also erased letters at the beginning of
+                                                the 6th line from the bottom on the very same
+                                                page.</item>
+                                        </list>
+                                    </p>
+                                    <p>
+                                        <list>
+                                            <head>Damages</head>
+                                            <item>The bifolio is <term
+                                                  ref="http://gams.uni-graz.at/thesaurus/gelatinization"
+                                                  >gelatinized</term>.</item>
+                                            <item>There are some tears.</item>
+                                            <item>There are also several cuts, one of which is on
+                                                the second folio in the corner and astonishingly
+                                                does not appear in the same position on the other
+                                                half of the folio.</item>
+                                            <item>Another cut is in the upper area, which clearly
+                                                appeared after the parchment had been made and not
+                                                before, otherwise it would appear as a hole now as a
+                                                result of the stretching procedure.</item>
+                                            <item>There is a black stain along the fold, possibly
+                                                char coal? Strong cross wise folds.</item>
+                                            <item>On the upper edge a strong fold, possibly from
+                                                secondary use in a book binding.</item>
+                                            <item>Broken parchment along the folds and
+                                                elsewhere.</item>
+                                            <item>There are numerous scratches.</item>
+                                        </list>
+                                    </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="40"> There are 40 lines on each folio,
+                                        <dimensions type="lineHeight" unit="mm">
+                                        <height>5</height>
+                                    </dimensions> mm wide from each other, made with medium sharp
+                                    tools from “inside”, i.e. solely from the flesh side. The lower
+                                    two lines exceed the marginal lines towards the outer edge in an
+                                    irregular way. They are terminated by 2 vertical lines on each
+                                    page, 135 mm from each other. Prickings on the outer margins
+                                    correspond with the line position. Interestingly, there is a
+                                    groove along the pierced holes for the lines. They might
+                                    represent rulings prior to pricking. That the prickings are on a
+                                    “curved” line might derive from the distortion the parchment
+                                    underwent over time. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x">The ink is either tannin ink or an
+                                iron gall ink; however, to take a final decision on the sort of ink
+                                an instrumental analysis is preferable (see the spectroscopical
+                                analysis of 2011).</scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source><!--Gives the source(s) for the current MS description (e.g. Summary description by X based on ... / Beschreibung adaptiert nach:) Source in bibl with date for the adaptation.-->
+                                    <bibl/> (<date when="2021">2021</date>). </source>
+                            </recordHist>
+                            <custodialHist>
+                                <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates>
+                            <p><!--List and description of the surrogates / verbal description of the available surrogates (e.g. multi- hyper spectral imaging of fols. X and Yetc.)--></p>
+                            <ref/>
+                        </surrogates>
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>

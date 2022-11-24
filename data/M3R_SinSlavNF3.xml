@@ -1,0 +1,208 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="_tei-msDesc_">
+    <!--    ADD xml:id using MS Shelfmark e.g. onb-cod-732-msDesc_AUTHORNAME-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
+                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                    <resp></resp>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                    <msIdentifier>
+                        <country></country>
+                        <settlement></settlement>
+                        <institution></institution> <!--z.B. : Universität Wien-->
+                        <repository></repository> <!--z.B.: Universitätsbibliothek; Österreichische Nationalbibliothek etc.-->
+                        <collection></collection>
+                        <idno><!--Signatur--></idno>
+                        <altIdentifier type="former"> <!--@type: former für Olim Signature / @type:catalog für Nummer im gedruckten Katalog -->
+                            <idno></idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
+                        <origDate notBefore="0001" notAfter="0010"></origDate>
+                        <origPlace></origPlace>
+                        <note type="summary"></note>                      
+                    </head> 
+                    <!-- 
+                        Bei einheitliche HSS und Miscelanea (Collectanea, compendia) KEIN msPart
+                        Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial - siehe unten
+                        Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest - siehe unten
+                        Für Fragmente -> msPart @type = partial
+                        Für jedes msPart eigene msIdentifier, head(optional), msContent, physDesc und history
+                    -->
+                    <msContents>
+                        <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                        <msItem>
+<!--                            optional @class for text type (e.g. liturgica, sermones) or classification-->
+                            <locus from="x" to="x"/>
+                            <title/> <!--optional @type = attested (so in MS), supplied (by later scribe), elaborated (by cataloguer) -->
+                            <author/>
+                            <rubric/>
+                            <incipit/> <!--optional @defective with value true or false-->
+                            <explicit/> <!--optional @defective with value true or false-->
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note/>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                            <textLang mainLang="deu"></textLang> <!--wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material><!--(Pergament, Papier etc.)--></material> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio"><!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height></height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Für ehemalige und moderne am besten separate foliation element mit xml:id="original" bzw. "modern"</foliation>
+                                <collation>
+                                    <formula></formula>
+                                    <catchwords></catchwords>
+                                    <signatures></signatures>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                            <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0"></height>
+                                        <width max="0" min="0"></width>
+                                    </dimensions> 
+                                    <!-- optional Zeilenhöhe -->
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                    <!-- Einstichlöcher (en:pricking) und Linierung (en:ruling) freie Beschreibung; mit Referenz zu gedruckten Repertoria; laut D. Muzerelle, De re rigatoria (e.g. D. Muzerelle, De re rigatoria <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>)-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="handID" scribe="x" script="x" medium="inkType"><!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.--></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia, spätere Notizen etc.-->
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente / Makulatur oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source><!--Gives the source(s) for the current MS description (e.g. Summary description by X based on ... / Beschreibung adaptiert nach:) Source in bibl with date for the adaptation.-->
+                                    <bibl></bibl> 
+                                    (<date when="2021">2021</date>).
+                                </source>                                
+                            </recordHist>
+                            <custodialHist>
+                                <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates>
+                            <p><!--List and description of the surrogates / verbal description of the available surrogates (e.g. multi- hyper spectral imaging of fols. X and Yetc.)--></p>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                    <!--  XXXXXXXXXXXXX  Für REKONSTRUKKTIONEN fragmentierte HS heute separat aufbewahr msFrag   -->   
+                    <!--<msFrag>
+                        <msIdentifier>
+                            
+                        </msIdentifier>
+                    </msFrag>-->
+                    <!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial     -->                       
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 1 = ff. </idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head/>
+                        <msContents/>
+                        <physDesc/>
+                        <history/>
+                        <additional/>
+                    </msPart>
+<!--XXXXXXXXXXXXXXX  Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="palimpsest">
+                                <idno>Palimpsest auf ff. XXX</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head/>
+                        <msContents/>
+                        <physDesc/>
+                        <history/>
+                        <additional/>
+                    </msPart>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title> ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>
