@@ -4,21 +4,43 @@
         <fileDesc>
             <titleStmt>
                 <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
-                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                <respStmt ana="marcrelator:mrk"><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
                     <resp></resp>
                     <persName>
                         <forename></forename>
                         <surname></surname>
                         <affiliation></affiliation>
                     </persName>
-                </respStmt>                
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName><!--insert project / funding agency--></orgName>
+                </funder>                
             </titleStmt>
             <publicationStmt>
-                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
-                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
-                <availability status="restricted">
-                    <licence></licence>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
                 </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="xxx-xxx">
@@ -184,6 +206,27 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
             <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
                 <p></p>
             </editorialDecl>

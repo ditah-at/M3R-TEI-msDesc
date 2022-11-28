@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sin. Slav. NF 3, Psalterium Demetrii Sinaitici<!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
-                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                <respStmt ana="marcrelator:mrk"><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
                     <resp>manuscript description</resp>
                     <persName>
                         <forename>Heinz</forename>
@@ -54,15 +54,38 @@
                         <affiliation>TU Wien</affiliation>
                     </persName>
                 </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
             </titleStmt>
             <publicationStmt>
-                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
-                <publisher>Computer Vision Lab - Institut for Visual Computing &amp; Human-Centered Technology, TU Wien</publisher>
-                <publisher>Institute for Natural Sciences and Technology in the Art, Academy of Fine Arts Vienna</publisher>
-                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
-                <availability status="restricted">
-                    <licence>CC BY-NC 4.0</licence>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                    <orgName corresp="https://cvl.tuwien.ac.at">
+                        Computer Vision Lab - Institute of Visual Computing &amp; Human-Centered Technology, TU Wien
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
                 </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.sinslavnf3" type="context"/>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="sin-slav-nf3">
