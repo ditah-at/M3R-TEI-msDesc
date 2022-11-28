@@ -3,41 +3,85 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
+                <title>Sin. Slav. NF 3, Psalterium Demetrii Sinaitici<!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
                 <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
-                    <resp></resp>
+                    <resp>manuscript description</resp>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
-                        <affiliation></affiliation>
+                        <forename>Heinz</forename>
+                        <surname>Miklas</surname>
+                        <affiliation>University of Vienna</affiliation>
                     </persName>
-                </respStmt>                
+                </respStmt>
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Florian</forename>
+                        <surname>Kleber</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <publisher>Computer Vision Lab - Institut for Visual Computing &amp; Human-Centered Technology, TU Wien</publisher>
+                <publisher>Institute for Natural Sciences and Technology in the Art, Academy of Fine Arts Vienna</publisher>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <availability status="restricted">
-                    <licence></licence>
+                    <licence>CC BY-NC 4.0</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="sin-slav-nf3">
                     <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
-                        <institution></institution> <!--z.B. : Universität Wien-->
+                        <country>Egypt</country>
+                        <settlement>Sinai</settlement>
+                        <institution>St. Catherine's Monastery</institution> <!--z.B. : Universität Wien-->
                         <repository></repository> <!--z.B.: Universitätsbibliothek; Österreichische Nationalbibliothek etc.-->
-                        <collection></collection>
-                        <idno><!--Signatur--></idno>
+                        <collection>Collection of New Finds (NF)</collection>
+                        <idno>Sin. slav. NF 3</idno>
                         <altIdentifier type="former"> <!--@type: former für Olim Signature / @type:catalog für Nummer im gedruckten Katalog -->
-                            <idno></idno>
+                            <idno>Sin. slav. 3N</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
-                        <origDate notBefore="0001" notAfter="0010"></origDate>
-                        <origPlace></origPlace>
-                        <note type="summary"></note>                      
+                        <title>Psalterium Demetrii Sinaitici</title>
+                        <origDate notBefore="1058" notAfter="1100"></origDate>
+                        <origPlace>Most likely St. Catherine’s Monastery or surroundings</origPlace>
+                        <note type="summary">Liturgical Psalter and later entries by Demetrius Sinaiticus.</note>                      
                     </head> 
                     <!-- 
                         Bei einheitliche HSS und Miscelanea (Collectanea, compendia) KEIN msPart
@@ -47,75 +91,258 @@
                         Für jedes msPart eigene msIdentifier, head(optional), msContent, physDesc und history
                     -->
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
-                        <msItem>
+                        <textLang mainLang="chu" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                        <msItem class="psalter">
 <!--                            optional @class for text type (e.g. liturgica, sermones) or classification-->
-                            <locus from="x" to="x"/>
-                            <title/> <!--optional @type = attested (so in MS), supplied (by later scribe), elaborated (by cataloguer) -->
+                            <locus from="1" to="145"/>
+<!--                            <title/> <!-\-optional @type = attested (so in MS), supplied (by later scribe), elaborated (by cataloguer) -\->
                             <author/>
                             <rubric/>
-                            <incipit/> <!--optional @defective with value true or false-->
-                            <explicit/> <!--optional @defective with value true or false-->
+                            <incipit/> <!-\-optional @defective with value true or false-\->
+                            <explicit/> <!-\-optional @defective with value true or false-\->
                             <finalRubric/>
                             <colophon></colophon>
-                            <decoNote></decoNote>
-                            <note/>
-                            <filiation></filiation>
-                            <listBibl>
+                            <decoNote></decoNote>-->
+                            <note>
+                                Liturgical Psalter, comprising 151 psalms according to the Septuagint, originally with 
+                                Cantica and further texts at the end (as in the somewhat older Psalterium Sinaiticum), 
+                                from which only the title of the first Canticum is preserved. Spaces left over for miniatures 
+                                were later used by Demetrius for a circle of later entries.
+                            </note>
+                            <!--<filiation></filiation>-->
+<!--                            <listBibl>
                                 <bibl/>
-                            </listBibl>
-                            <textLang mainLang="deu"></textLang> <!--wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-->
+                            </listBibl>-->
+                            <!--<textLang mainLang="deu"></textLang>--> <!--wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-->
+                        </msItem>
+                        <msItem class="entries">
+                            <!--                            optional @class for text type (e.g. liturgica, sermones) or classification-->
+                            <locus from="1" to="144"/>
+                            <!--<title/> <!-\-optional @type = attested (so in MS), supplied (by later scribe), elaborated (by cataloguer) -\->-->
+                            <author>
+                                <name>Demetrius Sinaiticus</name>
+                            </author>
+                            <!--
+                            <rubric/>
+                            <incipit/> <!-\-optional @defective with value true or false-\->
+                            <explicit/> <!-\-optional @defective with value true or false-\->
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>-->
+                            <note>
+                                Demetrius’ secondary entries on ff. 1r, 2r, 3r14-21, 34v, 140r11m, 14-23, 140v, 141r in marg. and 144r, 
+                                containing two marginal name-mentions (ff. 1r and 141r above top line), a four part prayer cycle 
+                                (1. f. 1r2-17; 2. f. 2r2-13; 3. ff. 2r14-20, 3r14-21, 34v1-4; 4. ff. 34v4, 140r13-23, 140v1-9, 144r1-24), 
+                                a short statement of the author (f. 1r18-19), one tripartite Greek-Latin-Glagolitic abecedarium (f. 1r20-25) 
+                                and short liturgical instructions (Alleluia, Psalm verse, f. 34v1-3).
+                            </note>
+                            <!--<filiation></filiation>-->
+                            <!--                            <listBibl>
+                                <bibl/>
+                            </listBibl>-->
+                            <!--<textLang mainLang="deu"></textLang>--> <!--wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-->
+                        </msItem>
+                        <msItem class="lat-entries">
+                            <!--                            optional @class for text type (e.g. liturgica, sermones) or classification-->
+                            <locus from="1r" to="1r"/>
+                            <!--<title/> <!-\-optional @type = attested (so in MS), supplied (by later scribe), elaborated (by cataloguer) -\->
+                            <author>
+                                <name>Demetrius Sinaiticus</name>
+                            </author>
+                            <rubric/>
+                            <incipit/> <!-\-optional @defective with value true or false-\->
+                            <explicit/> <!-\-optional @defective with value true or false-\->
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>-->
+                            <note>
+                                Marginal Latin abcedarium above the top line of f. 2r .
+                            </note>
+                            <!--<filiation></filiation>-->
+                            <!--                            <listBibl>
+                                <bibl/>
+                            </listBibl>-->
+                            <!--<textLang mainLang="deu"></textLang>--> <!--wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-->
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <material><!--(Pergament, Papier etc.)--></material> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
+                                    <!--<material>(Pergament, Papier etc.)</material>--> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
+                                    Parchment of mediocre quality and mostly medium thickness, 
+                                    sometimes callused (especially ff. 1 and 145). 
+                                    Partly old material was used, sometimes washed and/or scraped off 
+                                    before reuse and showing remains of old lines, scrapes or shavings, 
+                                    rarely also of possible script-remnants.  Correspondingly, the color 
+                                    of the leaves also changes and ranges from pale yellow to the brown 
+                                    of darkened hair sides, especially in the beginning (between ff. 1 and 27r) 
+                                    and final part (from f. 139v). Individual pages are also roughened
+                                    (cf. ff. 1v and 43r) or show darkened pores.
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio"><!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
+                                    <measure type="leavesCount" quantity="145" unit="folio">145<!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height></height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
-                                        <width></width>
+                                        <height>135</height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
+                                        <width>110</width>
                                     </dimensions>
                                 </extent>
-                                <foliation>Für ehemalige und moderne am besten separate foliation element mit xml:id="original" bzw. "modern"</foliation>
+                                <!--<foliation>Für ehemalige und moderne am besten separate foliation element mit xml:id="original" bzw. "modern"</foliation>-->
                                 <collation>
-                                    <formula></formula>
+                                    The 145 ff. are arranged in altogether 19 quires and form 17 quaternios, 
+                                    one ternio and one binio. The penultimate sheet of the last quaternio is missing, 
+                                    resulting in the following formula: 2x8+1x4+1x6+14x8+1x7 [8-1]. Altogether we are 
+                                    dealing with 72 bifolia and a single leaf, the former partner of f. 140. The quires 
+                                    are prepared for combination by slits and are not pricked.
+                                    <!--<formula></formula>
                                     <catchwords></catchwords>
-                                    <signatures></signatures>
+                                    <signatures></signatures>-->
                                 </collation>
-                                <condition/>
+                                <condition>
+                                    Comparatively well, but about 2-3 quaternios (ca. 16-24 ff.) at the end 
+                                    missing with lost text and one folio without text loss within the last 
+                                    quaternio (f. 144’). It seems to have been preserved for an emblematic 
+                                    miniature.
+                                    46 ff. show more severe mechanical damage, but only a few of them with 
+                                    (mostly minor) text loss (ff. 1, 51, 52, 53, 111r, 118r, 119v, 131r, 139r, 
+                                    144v, 145v). The legibility of the text can be impaired in places by dirt 
+                                    or sand, water stains, fading and rejection of the ink, as on ff. 1v, 8v, 
+                                    32v, 33v, 34v, 42v etc.).
+                                    In addition to holes or cutouts that were already present (larger ones on 
+                                    ff. 21 and 33) in the parchment, there are sometimes also later holes 
+                                    (as on ff. 1 and 51-53) or cutouts (as on f. 34, from which the entire 
+                                    upper third is missing), frayed or eroded edges, inturned corners, 
+                                    scrapes and the like. Regrettable is the loss of part of the tripartite 
+                                    abecedarium on f. 1r. From f. 4v the left part of the initial is missing 
+                                    due to trimming, etc.
+                                </condition>
                             </supportDesc>
                             <layoutDesc>
                             <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout ruledLines="17 29" writtenLines="15 29" columns="1">
+                                    <note>
+                                        <p>
+                                            The ruled lines are subject to large fluctuations. Thus, their number is initially 17-20 
+                                            (in exceptional cases caused by old lining up to approx. 23/24), and subsequently 
+                                            between 24-29, with an average of 25 lines.
+                                        </p>
+                                        <p>
+                                            The ruling is irregular over long distances. In many cases we are dealing with old and new lines, which are not always objectively 
+                                            distinguishable without microscope. Nevertheless, some basic statements can be made:
+                                            First, the ms. was obviously ruled by several people, who predominantly used a basic scheme. What they have in common, is that they 
+                                            worked quickly, so numerous transition patterns can be observed. The ruling manner is clearly discernable, e.g., on the 
+                                            middle bifolium ff. 118v+119r, where some lines are not completely continuous, but interrupted and taken up again.
+                                            Of the traces of complex rulings, some are certainly related to the last writing, but others stem from an earlier, perhaps only partial 
+                                            text layer, as on f. 21v. This also suggests various instruments used for the rulings. Among the complex rulings there are multiple lines 
+                                            from one side, but individual ones (as a rule verticals, such as the right one on f. 5v, but now and then also horizontals, 
+                                            e.g., on ff. 12, 18, 21, 28) were added from the other side.
+                                            The old lines, some of which are accompanied by different prickings, fall into at least two groups: one of more (f. 1) or less (ff. 26, 27) 
+                                            lines running diagonally to the last line, which suggests somewhat larger dimensions of the original sheet. 
+                                            And on quite a few folios, e.g., on ff. 12, 13, 17, 18, 28, 30-35 etc., one gets the impression that there is still an older ruling running 
+                                            at right angles to the last one, as in palimpsest-mss. It includes the remains of old prickings on the upper and sometimes also the lower 
+                                            (in the case of a rotated sheet, outer or inner) margin, e.g., on ff. 13 and 41.
+                                            In the majority of cases, the opened quire was ruled from top (inside) to bottom (outside), each bifolium separately, such as in quire 10. 
+                                            However, indirect lines do occur, e.g., in quires 1, 3-5, 7, 18 and maybe 6. However, only quires 3-4 and 18 reveal a rule in this respect. 
+                                            Exceptionally, there are also rulings that were made over the folded bifolium, for example in quires 1, 2, 5 and 7. In addition, at least 
+                                            twice the bifolium was not lined in its entirety, but only one half, namely f. 13r in quire 2 and f. 66r (partially) in quire 9. Such rare 
+                                            variants can also be observed in the Psalterium Sinaiticum and in the Medical Folia.
+                                            The only recurring ruling type is the pattern (&lt;&lt;)&lt;&lt;ǁ&gt;&gt;(&gt;&gt;), which occurs in several variants at least in seven cases 
+                                            (quires 3, 4, 7, 9-12, 19). The ruling was executed predominantly from the hair side, although there are also ample examples of flesh side ruling. 
+                                            Where lines are also drawn from the opposite side, it can either be an archaic practice, contamination of old and new lines, or mere corrections.
+                                            Prickings: Here also various differences can be observed, but the differences in the position only partly result from deliberate deviations, and 
+                                            often come from the folio shape and its trimming. Therefore, only the total number of prickings, the position (inside vs. outside) and the type 
+                                            and thus also the instrument of their execution (punctiform insertion of a stylus or punctorium vs. shorter or longer cut, caused by the use of 
+                                            a knife) are decisive.
+                                            As a rule, one can assume that the outer prickings, almost always cut with a knife, are the ones that apply to the main text and that possible 
+                                            traces on the inside can at least partly come from older prickings.
+                                        </p>
+                                        <p>
+                                            The main scribe A does not always stick to the lines, which also results in differences 
+                                            between the lined and the written lines. With the exception of the last f. 145v with 11 
+                                            lines their minimum number is 15, the maximum number 29, while we most frequently observe 24-26 written lines.
+                                            In the smallest, B-part of the manuscript, the number of lines varies between 17 and 21, the average being 18-19 written lines.
+                                            The C-hand, which covers about halfway between the other two, shows (apart from the transitional 
+                                            page of parts B and C and the last page 34r with only 11 lines) 16-23, but mostly 19-20 written lines.
+                                        </p>
+                                    </note>
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
+                                        <height max="105" min="105"></height>
+                                        <width max="80" min="80"></width>
                                     </dimensions> 
                                     <!-- optional Zeilenhöhe -->
                                     <dimensions type="lineHeight" unit="mm">
-                                        <height min="0" max="0"></height>
+                                        <height min="3" max="5"></height>
                                     </dimensions>
                                     <!-- Einstichlöcher (en:pricking) und Linierung (en:ruling) freie Beschreibung; mit Referenz zu gedruckten Repertoria; laut D. Muzerelle, De re rigatoria (e.g. D. Muzerelle, De re rigatoria <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>)-->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote xml:id="handID" scribe="x" script="x" medium="inkType"><!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.--></handNote>
+                            <!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.-->
+                            <handNote xml:id="originalpart">
+                                Three scribes can be distinguished in the original part (A, B, C), and short insertions of a minor hand (A1) 
+                                as well as at least two correctors. Part A covers about 80.18% of the text (ff. 1v, 2r21-22, 3r1-13, 35r-140r13, 
+                                141r-143v, 144v-145v), part B about 6.1% (ff. 2v, 3v-14r11), while the third hand C is involved with just over 11% 
+                                (ff. 14r12-34r). The writing of all scribes generally hangs from the top line, but especially in the C section, 
+                                there are numerous fluctuations in the direction of a standing or floating script. All of them use Cyrillic interspersions, 
+                                particularly in the headings, whose paleography reveals clear differences between A and the other copyists. Taken together, 
+                                the paleographic specifics assign at least the main scribe, but in all probability also his (main) corrector, to the 
+                                western part of the Balkan Peninsula; cf., e.g., the occasionally occurring Latin-influenced Cyrillic E with a closed 
+                                loop (e.g., ff. 35v12-13, 95v24-25), the similar Glagolitic Ęs (e.g., f. 35r24) and the right part of the nasal digraphs 
+                                (ff. 35v6, 36r6 etc.). The latter feature is also found relatively frequently in the Medical Folia, which offers a certain 
+                                indication of the common origin or training of the scribes.
+                                The assumption of a Western-Latin influence is also supported by occasional interruptions in the scriptura continua 
+                                (cf. ff. 37v10, 17; 38r23; 38v1, 40v1 etc.), although the scribe does not always correctly grasp the word boundaries.
+                            </handNote>
+                            <handNote xml:id="demetrius">
+                                The scribe (Demetrius Sinaiticus) writes on existing lines, which he mostly disregards, as well as vertical page margins. Thus, his ductus is partly 
+                                hanging, partly standing or floating. The constantly changing letter size and slant, pronounced variety and frequent orientation 
+                                to the style of his colleagues are indications of the lack of classical writing training.
+                            </handNote>
+                            <handNote xml:id="latin">
+                                Well-trained Latin scribe, Latin minuscle, Carolingian style.
+                            </handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote script="glagolitic" medium="iron gall ink">
+                                Old Church Slavonic Glagolica, still rounded, but with a 
+                                beginning tendency towards angularity
+                            </scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="x"/>
+                            <p>
+                                There is no preserved illumination, and the empty space forseen for illuminations was covered by Demtrius’s secondary entries.
+                            </p>
+                            <p>
+                                However, all three scribes of the Psalter text show decorated initials colored in an ocher-yellow, organic dye, which often was 
+                                “washed” over the relevant passages, i.e., applied without precise consideration of the letter contours. Individual yellow markings 
+                                are distinguished by an additional proportion of arsenic and sulfur, suggesting the use of arsenic sulfide (auripigment or realgar).
+                            </p>
+                            <p>
+                                In addition to these open colorings, there are also closed colorings, especially in large initials and marginalia such as the psalm 
+                                counts, which are partially or completely surrounded by circles, see, e.g. ff. 50r, 51r, 52v. The filling can sometimes take place 
+                                within the letter contours, sometimes also in the spaces between them. There are certain differences in the way of coloring between 
+                                the copyist B and the other two hands of the Psalter, as hand B almost exclusively fills in the headings, while the main copyist A 
+                                only decides to do so towards the end of the writing process.
+                            </p>
+                            <p>
+                                Overall, these data remind particularly of the Psalterium Sinaiticum (whose red and blue markings are obviously later overpaintings).
+                            </p>
+                            <!--<decoNote type="x"/>-->
                         </decoDesc>   
                         <additions/> <!--Marginalia, spätere Notizen etc.-->
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
+                            <binding> <!--notBefore="0001" notAfter="0001"-->
+                                <p>
+                                    Wooden boards, covered with dark leather, according to the 
+                                    Byzantine tradition. The partly broken boards obviously had 
+                                    been used before for another book. The two original leather 
+                                    straps, buckles and pins used to fasten them are now lost. 
+                                    The slightly curved spine is glued under the leather with a 
+                                    natural-colored textile fabric in a linen weave, which still 
+                                    spans the rear third of the lid. In the front cover, only partially 
+                                    filled zigzag-shaped grooves in which the capital cords are sunk.
+                                </p> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
                             </binding>
                         </bindingDesc>
                         <accMat/> <!--z.B. Fragmente / Makulatur oder beiliegende Notizen, die nicht Teil der HS sind-->
@@ -145,7 +372,19 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>
+                                Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. 
+                                Ad editionem phototypicam praeparaverunt Melania Gau, Dana Hürner, Florianus Kleber, Martinus Lettner, 
+                                Henricus Miklas sub redactione Henrici Miklas. Cum praefationibus sacri monasterii atque Ioannis Tarnanidae 
+                                (Glagolitica Sinaitica 1). Wien: Holzhausen, 2012 (https://library.oapen.org/handle/20.500.12657/51767).
+                            </bibl>
+                            <bibl>
+                                Psalterium Demetrii Sinaitici et Folia Medicinalia (Monasterii s. Catharinae codex slavicus NF 3). 
+                                Editio critica. Praeparaverunt Henricus Miklas, Catharina Maria MacRobert, Andreas N. Sobolev, Dana Hürner, 
+                                Florianus Wandl, Melania Gau. Includuntur etiam dissertationes Petrae Stankovska, Simonis Brenner, Floriani Kleber, 
+                                Manfredi Schreiner, Michaelis Melcher, Ernesti Georgii Hammerschmid (Glagolitica Sinaitica 2). Wien: Holzhausen, 
+                                2021 (https://library.oapen.org/handle/20.500.12657/51767).
+                            </bibl>
                         </listBibl>
                     </additional>
                     <!--  XXXXXXXXXXXXX  Für REKONSTRUKKTIONEN fragmentierte HS heute separat aufbewahr msFrag   -->   
