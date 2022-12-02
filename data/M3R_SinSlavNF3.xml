@@ -295,15 +295,409 @@
         </listChange>
     </revisionDesc>
     </teiHeader>
-    <!--<facsimile>
-        <graphic url="" n="1r"/>
-    </facsimile>-->
+    <facsimile>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1v">
+            <graphic n="1v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1V" />
+        </surface>
+        <surface start="#sinslavnf3.2r">
+            <graphic n="2r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.2R" />
+        </surface>
+        <surface start="#sinslavnf3.2v">
+            <graphic n="2v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.2V" />
+        </surface>
+        <surface start="#sinslavnf3.3r">
+            <graphic n="3r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.3R" />
+        </surface>
+        <surface start="#sinslavnf3.8v">
+            <graphic n="8v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.8V" />
+        </surface>
+        <surface start="#sinslavnf3.21r">
+            <graphic n="21r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.21R" />
+        </surface>
+        <surface start="#sinslavnf3.32r">
+            <graphic n="32r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.32R" />
+        </surface>
+        <surface start="#sinslavnf3.32v">
+            <graphic n="32v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.32V" />
+        </surface>
+        <surface start="#sinslavnf3.33v">
+            <graphic n="33v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.33V" />
+        </surface>
+        <surface start="#sinslavnf3.34r">
+            <graphic n="34r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.34R" />
+        </surface>
+        <surface start="#sinslavnf3.34v">
+            <graphic n="34v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.34V" />
+        </surface>
+        <surface start="#sinslavnf3.38r">
+            <graphic n="38r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.38R" />
+        </surface>
+        <surface start="#sinslavnf3.42v">
+            <graphic n="42v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.42V" />
+        </surface>
+        <surface start="#sinslavnf3.43r">
+            <graphic n="43r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.43R" />
+        </surface>
+        <surface start="#sinslavnf3.49r">
+            <graphic n="49r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.49R" />
+        </surface>
+        <surface start="#sinslavnf3.51v">
+            <graphic n="51v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.51V" />
+        </surface>
+        <surface start="#sinslavnf3.52v">
+            <graphic n="52v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.52V" />
+        </surface>
+        <surface start="#sinslavnf3.53r">
+            <graphic n="53r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.53R" />
+        </surface>
+        <surface start="#sinslavnf3.54v">
+            <graphic n="54v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.54V" />
+        </surface>
+        <surface start="#sinslavnf3.56v">
+            <graphic n="56v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.56V" />
+        </surface>
+        <surface start="#sinslavnf3.60v">
+            <graphic n="60v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.60V" />
+        </surface>
+        <surface start="#sinslavnf3.62r">
+            <graphic n="62r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.62R" />
+        </surface>
+        <surface start="#sinslavnf3.74v">
+            <graphic n="74v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.74V" />
+        </surface>
+        <surface start="#sinslavnf3.75r">
+            <graphic n="75r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.75R" />
+        </surface>
+        <surface start="#sinslavnf3.91r">
+            <graphic n="91r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.91R" />
+        </surface>
+        <surface start="#sinslavnf3.101v">
+            <graphic n="101v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.101V" />
+        </surface>
+        <surface start="#sinslavnf3.106r">
+            <graphic n="106r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.106R" />
+        </surface>
+        <surface start="#sinslavnf3.117r">
+            <graphic n="117r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.117R" />
+        </surface>
+        <surface start="#sinslavnf3.143r">
+            <graphic n="143r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.143R" />
+        </surface>
+        <surface start="#sinslavnf3.143v">
+            <graphic n="143v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.143V" />
+        </surface>
+        <surface start="#sinslavnf3.144r">
+            <graphic n="144r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.144R" />
+        </surface>
+        <surface start="#sinslavnf3.145r">
+            <graphic n="145r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.145R" />
+        </surface>
+        <surface start="#sinslavnf3.145v">
+            <graphic n="145v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.145V" />
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <!--<head>
-                <title> ... </title>
-            </head>-->
-            <p><pb n="1r"/> ... </p>
+            <pb n="1r" />
+            <p>
+                азъ дъмтръ [грıшъ]никъ ол[е]
+                въ им­ отЃца и сЃна и сЃ[.Ѓ.]г дЃх[.]
+                Възлэз© на гор© велик©:
+                и възов© гласомъ велико-
+                мъ: азъ в­ж© sвэръ: и ¹слъ-
+                ишитъ м­ стЃЃъЃи: дмЃтръ: от-
+                ъ солąна: и речетъ ми къ[то]
+                тъ естъ в­ж©и sвэръ: чло-
+                вэкъ естъ в­ж©и sвэръ ме-
+                двэдъ и медвэдиц©: вл[.]-
+                к[ъ] и влъчиц©: лисиц© и [.и]-
+                сичищъ: игъл© и нищи«: т[.]-
+                ести« и оловом[ъ]: и ножъ в-
+                ъ чрънэ чрэн¹ вонъз© въ
+                капи сво­: и донелэже с[е]-
+                и ножъ из[ъ]м© ис капи: в[л]-
+                ъкъ да с{. .}е раздрэшитъ
+                писахъ {ж. .}е нъ не вэдэт[.]
+                коли [л]{...}ъ: ¹ свЃто мЃрЃи[«]
+                <add>
+                    ΑΒ{Γ....}ΗΚΛΜΝξΟΠΡC
+                    Τ[Υ]{....}AbCdEFGhIKL
+                    [M]NO{...}[S]TUXYZ: абв
+                    где[ζ]{..}¶ийклмно
+                    прс{т...Έ}*цчшú[.]
+                    {  ?..^}«ю[­]
+                </add>
+            </p>
+            <pb n="1v" />
+            <p>
+                1.1a Блаженъ м©жъ ¶же н[е]
+                ¶детъ на съвэтъ нечъ-
+                ст¶въ¶хъ:–; 1b н¶ на п©т¶
+                грэшънъ¶хъ не ста;–
+                1c Í¶ на сэдал¶щ¶ г¹б¶телъ
+                не сэде: 2a нъ в[ъ з]аконэ гнЃ¶ во-
+                лэ ег[о ..] 2b ˛ в[ъ] законэ его по¹-
+                ч¶мъ с­ денъ ∙ ноштъ:––
+                3a ˛ б©детъ эко дрэво сажденое
+                пр¶ ¶с[х]од¶щ¶[х]ъ водъ: 3b ¶ е-
+                же плодъ св[о¶] дастъ въ врэ-
+                м­ свое: 3c ¶ л¶[.т]ъ его не ¹паде-
+                тъ: 3d ¶ въсе ел¶ко сътвор¶т[.]
+                поспэетъ с­ е{...}:–– 4a Не тако не-
+                ч[ъ]ст¶в¶ н[.] {....} 4b Нъ эко прахъ
+                егоже възм{.....}ъ вэтръ от
+                л¶ца земи: 5a {.... ..}[.]¶ не воскр-
+                сн©тъ нечъ{с.... .. ...}ъ: 5b н¶
+                грэшън¶ц¶ {.. .... ..}[а]ве-
+                дънъ¶хъ:ᴗ‧ 6a Эк[о] {......}ъ гЃъ
+                [п©]тъ праведън{...}[.] 6b ˛ [п©]-
+                ть нечъст¶в{.... ..}ъ¶{.....}
+            </p>
+            <pb n="2r" />
+            <p>
+                abcdefghıklmnopqrs
+                tuxy млтва о влъцэ да не в-
+                [ъ]лазитъ въ кошар©╞ 
+                Г[и] исЃ-хе: бже нашъ: и стЃъи: таръ-
+                сии: бжее иже-си знаменалъ ą-
+                ст[.] лъвова: о данилэ прро-
+                цэ: и о текълэ: тъи знамена
+                и ąста влъчиэ: и дивихъ
+                песъ: да не вълаз­тъ въ
+                кошар©: ни исказ­тъ бр[.]-
+                ва: раба твоего сего: им[Ş]р
+                и нъинэ и присно и вэкъи [а:]
+                Печатъ даръ стŤаго дЃх[.]
+                помилąи гЃи сиª домъи
+                и скотъи-хъ денъ и нощъ: и
+                стЃъимъ [.]ригориемъ и бЃц-
+                « нищ­ª и хромъиª съхр[а]-
+                нэи: и добъиваниэ ихъ [м]-
+                олимъ т­ гЃи: и млад-
+                енъц­
+                2.1a Въск©ю ш­таш­ с­ ª[з....]
+                1b ¶ [л]юд¶е поąч¶ш­ с­ т[ъř.-
+                е]тъ[нъ]∙мъ:
+            </p>
+            <pb n="2v" />
+            <p>
+                2a Присташ­ цэсари зе-
+                мъсти ı: 2b и кън­sи
+                собъраш­ с­ въкyпэ
+                2c на гЃа и на хЃа его":
+                3a Растръгнэмъ ©зъи и-
+                хъ ı: 3b и отъвръsэмъ
+                отъ насъ иго ихъ ı–
+                4a Жив©и на небесехъ
+                посмэетъ с­ имъ ı:"
+                4b и гЃъ пор©гаетъ с­ и-
+                мъ ı–
+                5a Тогда въз[л]ЃтЃъ къ ни-
+                мъ гнэвомъ свои-
+                мъ ı: 5b и эрости«
+                свое« съм­тетъ
+                Є–
+                6a Азъ же поставенъ
+                есмъ цЃрЃъ отъ него ı:
+                6b Íадъ сиономъ гор©
+                сЃтЃ©« его ı: 7a възвэ-
+                щаЄ повелэние {.}Ѓне"–
+            </p>
+            <pb n="3r" />
+            <p>
+                7b ГЃъ рече ко мънэ сЃнъ мо¶ ес¶
+                тъ¶: 7c азъ дънесъ род¶хъ т­:–	
+                8a Прос¶ отъ мене ¶ дамъ т¶ ª-
+                зъ¶къ: достоэн¶е твое	
+                8b ¶ Ήдръжан¶е твое коне-
+                цъ зем¶:––
+                9a 1пасеш¶ ª пал¶цею желэ-
+                зною: 9b эко със©дъ ск©де-
+                лън¶ка съкрюш¶ш¶ ª:––
+                10a ² нъ¶нэ цЃр¶ разΉмэ¶-
+                те: 10b ¶ накажэте с­ въс¶
+                с©д­ще¶ зем¶:––
+                11a Работа¶те гвЃ¶ съ страхомъ:
+                и скотъи: въспэстΉ-и въс- 
+                питэи юностъ: младенъц­
+                Ήтэши: тъщивъимъ крес-
+                тъ помощъ: съ крестъ в[э]-
+                рънъимъ естъ спЃние.: Бэ-
+                сомь прогонителъ: кЃ[р]сЃт
+                слэпъимъ вожд[ъ: д]ем[о]-
+                [.]ом[ъ с©].ждение в[се]
+            </p>
+            <pb n="8v" />
+            <p>
+                штимъ ми зъло:" 5b отъ-
+                падэмъ отъ врагъ м-
+                ои(и)хъ тоштъ:–
+                6a Äа поженетъ yбо врагъ
+                дЃшЃ© мою и постигне-
+                тъ:" 6b и поперетъ на зе-
+                ми животъ мои:" 6c и сл[а-]
+                в© мою въ пръстъ въ-
+                с[е]литъ–
+                7a Âоскръсни гЃи гнэвомъ
+                твоимъ:" 7b възнеси с-
+                ­ въ конъцихъ врагъ
+                твоихъ–
+                7c È вст[ан. гЃ]и бЃе мои пове-
+                лэн[..]мъ твоимъ
+                мъж[е] заповэдэ:" 8a и
+                сънемъ людеи оби-
+                [д]етъ т­:" 8b и о томъ [..]
+                [.]ъисот© обратит[ъ]
+                с­–
+            </p>
+            <pb n="21r" />
+            <p>
+                13a Вьскрьсни гЃ∙ вари ª ¶ прэ-
+                дэ¶-мъ:, 13b ∙зба дЃшЃ© мо«
+                отъ нечьтива 13c ор©жиэ тв-
+                оего"," отъ врагъ р©къ¶ твоеª}
+                14a ГЃь отъ мала от[ъ] земл­ 14b разд-
+                эли ª въ животэ ихъ"," 14c съ-
+                кръвенъ∙х[ъ] твоих{}ъ ис-
+                плъни сª ©троба ихъ}
+                14d Насъ¶тиш­ сª сЃвЃънов: 14e ∙ ос-
+                тавиш­ одълэк[ъ] младе-
+                ньцемъ своимъ}}
+                15a Азъ же правъд© авл© сª
+                лицю твоем¹ [;] 
+                15b насъ¶шт© сª
+                егъда эвитъ
+                ми сª слва
+                твоэ}
+                17.1 СЛАВА
+            </p>
+            <pb n="32r" />
+            <p>
+                31b Вьзвэститъ гЃвЃи родъ гр­-
+                д­и", 32a ∙ вьзвэст­тъ правъд© го}
+                32b Людемъ род­штеимъ сª ªже съ-
+                твори гЃь} 22.1 ПЃСЃАЃЛЃМЃЪ ДЃВЃДЃВЃЪ
+                1a ГЃь пасетъ м­ и ничесо-
+                же мене лишитъ; 2a вь мэстэ
+                паствиньнэ т¹ м­ вьсели}
+                2b На водэ покоиниэ вьс-
+                питэ м­ 3a дЃшЃ© мо« обрати",
+                3b наставилъ м­ е-стъ-s­ праведьнъ¶ª}
+                3c ˛мене его ради", 4a аште бо ∙ поид©
+                посрэдэ сэни смрътьнъ¶ª}
+                4b Не ¹бо« с­ зъла эко тъ¶ съ мъ-
+                но« еси", 4c жезлъ твои ¶ палица
+                твоэ та м­ ¹тэшисте}
+                5a 1готовалъ еси прэдъ мно« прапез©[:,]
+            </p>
+            <pb n="32v" />
+            <p>
+                [....ъ] сът©жа«штими мьнэ}
+                5b [.мас]тилъ еси олэемъ глав© 
+                мо«"", 5c ˛ чаша твоэ ¹паэ«-
+                штиэ м­ коль дръжавьна естъ}
+                6a ˛ милость твоэ поженетъ м­
+                вьс­ дьни живота моего}
+                6b ˛ да вьселю с­ въ дом¹ гЃнЃь
+                длъгот© дьнеи}
+                23.1 ПЃСЃАЃЛЃМЃЪ ДЃАЃВЃДЃВЃЪ:
+                иƒв 1a ГнЃэ естъ землэ ¶ ¶слъне-
+                ние-ª:, 1b вьселенаа ∙ вьси
+                жив©ште на неи}
+                2a Тъ на морихъ основалъ « е-
+                стъ", 2b ∙ на рэкахъ ¹готова-
+                лъ « естъ}
+                3a Къто вьзидетъ на гор© гЃнЃ«",
+                3b ли (къ) къто станетъ на мэстэ
+                сЃтЃэмь его:} 
+                4a Неповиненъ р©кама ∙ читъ
+                сръдьцемъ}
+            </p>
+            <pb n="33v" />
+            <p>
+                9c ¶ вьнидетъ
+                цЃсЃрЃъ с[л]авэ}
+                10a Къто тъ естъ [цЃ]сЃръ
+                славэ", 10b гЃъ си-
+                ламъ тъ естъ
+                [.....ъ] цсЃрь с[л]ав[э]}
+                24.1 ПСЃ[ЃАЃ]ЃЛЃМЃЪ ДАЃВЃЪ: СЃЛЃАЃВЃА: [. Ѓ• .] 
+                1a Къ тебэ гЃ∙ вьздвигъ
+                дЃш© мо«", бЃъ мои 2a на
+                т­ ¹пъвахъ де не по-
+                стъ∙жд© сª вь вэкъ}	
+                2b Ни посмэ«тъ ми сª
+                враsи мои", 3a ∙бо вьси
+                тръп­штеи т­ не постъ¶д­тъ с­}
+                3b Да постъ¶д­тъ сª безако-
+                ньн¹«щеи вьс¹е", 4a п©ти
+                твоª гЃ∙ съкажи ми 4b ∙ сть-
+                замъ твоимъ на¹чи м­}
+                5a Настави м­ на истин© тво«",
+            </p>
+            <pb n="34r" />
+            <p>
+                5b ∙ на¹чи м­ эко т¶ еси бЃъ съ-
+                пЃсъ мои", 5c ¶ тебе тръпэхъ вь-
+                сь день}
+                6a Помэни штедротъ∙ твоª гЃ∙",
+                6b ∙ милости твоª эко отъ [в]э-
+                ка с©дъ}
+                7a Грэхъ юности моеª ¶ невэдэ-
+                ниэ моего не помэни", 7b по ми-
+                лости твоеи помэни м­ тъ∙[}]
+                7c Благосъ¶н­ твоеª ради гЃ∙"",
+                8a благъ ¶ правъ гЃь}
+            </p>
+            <pb n="34v" />
+            <p>Transcription of folio 34v (to-do)</p>
+            <pb n="38r" />
+            <p>Transcription of folio 38r (to-do)</p>
+            <pb n="42v" />
+            <p>Transcription of folio 42v (to-do)</p>
+            <pb n="43r" />
+            <p>Transcription of folio 43r (to-do)</p>
+            <pb n="49r" />
+            <p>Transcription of folio 49r (to-do)</p>
+            <pb n="51v" />
+            <p>Transcription of folio 51v (to-do)</p>
+            <pb n="52v" />
+            <p>Transcription of folio 52v (to-do)</p>
+            <pb n="53r" />
+            <p>Transcription of folio 53r (to-do)</p>
+            <pb n="54v" />
+            <p>Transcription of folio 54v (to-do)</p>
+            <pb n="56v" />
+            <p>Transcription of folio 56v (to-do)</p>
+            <pb n="60v" />
+            <p>Transcription of folio 60v (to-do)</p>
+            <pb n="62r" />
+            <p>Transcription of folio 62r (to-do)</p>
+            <pb n="74v" />
+            <p>Transcription of folio 74v (to-do)</p>
+            <pb n="75r" />
+            <p>Transcription of folio 75r (to-do)</p>
+            <pb n="91r" />
+            <p>Transcription of folio 91r (to-do)</p>
+            <pb n="101v" />
+            <p>Transcription of folio 101v (to-do)</p>
+            <pb n="106r" />
+            <p>Transcription of folio 106r (to-do)</p>
+            <pb n="117r" />
+            <p>Transcription of folio 117r (to-do)</p>
+            <pb n="143r" />
+            <p>Transcription of folio 143r (to-do)</p>
+            <pb n="143v" />
+            <p>Transcription of folio 143v (to-do)</p>
+            <pb n="144r" />
+            <p>Transcription of folio 144r (to-do)</p>
+            <pb n="145r" />
+            <p>Transcription of folio 145r (to-do)</p>
+            <pb n="145v" />
+            <p>Transcription of folio 145v (to-do)</p>
         </body>
     </text>
 </TEI>
