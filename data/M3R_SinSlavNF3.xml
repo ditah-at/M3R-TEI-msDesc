@@ -102,8 +102,8 @@
                     </msIdentifier>
                     <head>
                         <title>Psalterium Demetrii Sinaitici</title>
-                        <origDate notBefore="1058" notAfter="1100">Main part ca. third qu. of 11th c. (graphematic estimation: 1058-1066) and last qu. of 11th c., secondary texts by Demetrius</origDate>
-                        <origPlace>Most likely St. Catherine’s Monastery or surroundings</origPlace>
+                        <origDate notBefore="1058" notAfter="1100">1058-1100</origDate>
+                        <origPlace>Mount Sinai</origPlace>
                         <note type="summary">Liturgical Psalter and later entries by Demetrius Sinaiticus.</note>                      
                     </head>                     
                     <msContents>
@@ -222,14 +222,18 @@
                             </binding>
                         </bindingDesc>
                     </physDesc>
-                    <!--<history>
+                    <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            <origDate notBefore="1058" notAfter="1100">
+                                Main part ca. third qu. of 11th c. (graphematic estimation: 1058-1066) and last qu. of 11th c., secondary texts by Demetrius
+                            </origDate> 
+                            <origPlace>
+                                Most likely St. Catherine’s Monastery (Mt. Sinai) or surroundings
+                            </origPlace>
                         </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>-->
+                        <!--<provenance/>
+                        <acquisition/>-->
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -242,10 +246,7 @@
                                 <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates>
-                            <p><!--List and description of the surrogates / verbal description of the available surrogates (e.g. multi- hyper spectral imaging of fols. X and Yetc.)--></p>
-                            <ref/>
-                        </surrogates> 
+                        <surrogates/>
                         <listBibl>
                             <bibl>
                                 Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. 
