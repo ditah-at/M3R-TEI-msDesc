@@ -2035,7 +2035,7 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/colorants"/>
     </skos:Concept>
 <!--    ###### GOLD ########-->
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-colourant">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-colorant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
@@ -2059,7 +2059,7 @@
         <skos:example>https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000718s/f51/full/full/0/native.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1594"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gold-leaf">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -2068,11 +2068,11 @@
         <skos:definition xml:lang="en">A thinly beaten or rolled sheet of gold applied over a ground layer of gypsum and a red clay.</skos:definition>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/gold"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1370"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colourant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/gold-colorant"/>
         <skos:example>https://upload.wikimedia.org/wikipedia/commons/e/eb/Blattgold%2C_2010_%2801%29.jpg</skos:example>
     </skos:Concept>
 <!--    ##########Silver #######-->
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-colourant">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/silver-colorant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
@@ -2093,7 +2093,7 @@
         <skos:example></skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/1597"/>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorant"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/shell-silver">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
@@ -2103,9 +2103,9 @@
         <skos:example></skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/silver"/>
         <skos:related rdf:resource="http://w3id.org/lob/concept/3017"/>       
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colourant"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/silver-colorant"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colourant">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tin-colorant">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Tin</skos:prefLabel>
