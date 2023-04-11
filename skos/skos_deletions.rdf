@@ -28,7 +28,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/duringWritingDeletions">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Delitions during writing</skos:prefLabel>    
+        <skos:prefLabel xml:lang="en">Deletions during writing</skos:prefLabel>    
         <skos:prefLabel xml:lang="de">Tilgungen während des Schreibens</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
     </skos:Concept>

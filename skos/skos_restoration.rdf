@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
     
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
-        <dc:title>Vocabulary for restoration, damages, etc.</dc:title>
+        <dc:title>Vocabulary for materials used in mediaeval manuscripts - SKOS</dc:title>
         <dc:identifier></dc:identifier>
         <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
+        <dc:creator>Ivana Dobcheva (rdf encoding; skos:definition texts)</dc:creator>
+        <dc:creator>Patricia Engel</dc:creator>       
     </void:Dataset>
     <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/restoration">
         <dc:title>Materials used for Medieval Manuscripts</dc:title>
@@ -25,28 +26,60 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyCatalysed">
+    <!--<skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyCatalysed">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Externally catalysed damages</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schäden durch Einflüsse von außen katalysiert</skos:prefLabel>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>-->
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/surfaceDirt">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Surface dirt</skos:prefLabel>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/demages"/>
     </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/stains">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Stains. Ingrained stains</skos:prefLabel>
+        <skos:definition xml:lang="en">Stains are areas, which show a colour or surface gloss which is different from that of the surrounding area.
+            
+            Virtually any substance may cause a stain. Stains are often caused by drinks (coffee, tea or wine), ink splashed onto the page or candle material (wax and other components). If the stain was caused by a liquid, it shows the characteristic splashes.
+            
+            Stains however can also be produced by the excrement of insects, bird, bats and rodents, by iron movement from one page to the other in case of ink- or copper corrosion or silver leaf in precious manuscripts; they can be caused by insects or spiders squeezed in a fold or from plants pressed in books. Greasy stains may come from food and often stains are caused by renovation work in the room where the book is kept, from scholars who tried to read a deleted text and applied mixes of substances to bring out the text or by conservators, who used the wrong material.
+            
+            Sometimes stains occur only over time – for example, when transparent surface sizing is used on paper and turns yellow only with aging. Such stains should not be treated, as these are an immediate part of the paper..</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/demages"/>
+    </skos:Concept>
+    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/inkCorrosion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Ink corrosion</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Tintenfrass</skos:prefLabel>
+        <skos:definition xml:lang="en">Ink corrosion involves a presence of iron gall ink, often brown text and the corroded area, if it creates a lacuna, is brown on the verso and brittle. The appearance of ink corrosion at its various stages has been well described by Reissland.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Reissland, Birgit. "Ink Corrosion. Aqueous and Non-Aqueous Treatment of Paper Objects – State of the Art" , vol. 20, no. 3-4, 1999, pp. 167-180. https://doi-org.uaccess.univie.ac.at/10.1515/rest.1999.20.3-4.167</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copperCorrosion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Copper corrosion</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Kupferfrass</skos:prefLabel>
+        <skos:definition xml:lang="en">In case of copper corrosion the green copper pigment turns brown in colour and the edges of the lacuna are sharp and the area is actually broken out.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/flaking">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Flaking</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"></skos:prefLabel>
+        <skos:definition xml:lang="en">Flaking off of areas of metal leaf or pigment/dye – binder composites are caused either by priming or binder quality, bad handling or a fluctuation of temperature and humidity.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gelatinization">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Gelatinization</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Pergamentgelatinierung</skos:prefLabel>
+        <skos:definition xml:lang="en">Occurs on parchment and is caused by elevated humidity and temperature. The appearance is a yellow glossy glass-like and hard parchment.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paperDegradation">
@@ -56,12 +89,12 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyCatalysed"/>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyInitiated">
+    <!--<skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/externallyInitiated">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Externally initiated damages</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schäden von außen initiiert</skos:prefLabel>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
-    </skos:Concept>
+    </skos:Concept>-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/microbiologicalContamination">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Microbiological contamination</skos:prefLabel>
@@ -78,7 +111,15 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Discolouration</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Ausbleichen/Verbräumen</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/externallyInitiated"/>
+        <skos:definition xml:lang="en">Colour change can be caused by internal reaction of substances or by light impact. Any dye (including some inks) can fade to lighter or even invisible colour. Green pigments change to brown over time and red and while lead pigments change to black.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mould">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:prefLabel xml:lang="en">Mould</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schimmel</skos:prefLabel>
+        <skos:definition xml:lang="en">Due to the inherent weaknesses in material(s) and/or poor environment.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
