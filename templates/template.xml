@@ -162,10 +162,7 @@
                                 <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates>
-                            <p><!--List and description of the surrogates / verbal description of the available surrogates (e.g. multi- hyper spectral imaging of fols. X and Yetc.)--></p>
-                            <ref/>
-                        </surrogates> 
+                        <surrogates/>
                         <listBibl>
                             <bibl/>
                         </listBibl>
@@ -238,14 +235,22 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
     </facsimile>
     <text>
         <body>
-            <head>
+            <!--<head>
                 <title> ... </title>
-            </head>
-            <p><pb n="1r"/> ... </p>
+            </head>-->
+            <!--<pb n="1r" xml:id="sinslavnf3.1r" />
+            <p>Transcription of folio 1r (to-do)</p>
+            <pb n="1v" xml:id="sinslavnf3.1v" />
+            <p>Transcription of folio 1v (to-do)</p>-->
         </body>
     </text>
 </TEI>

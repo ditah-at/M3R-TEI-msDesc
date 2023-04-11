@@ -102,8 +102,8 @@
                     </msIdentifier>
                     <head>
                         <title>Psalterium Demetrii Sinaitici</title>
-                        <origDate notBefore="1058" notAfter="1100">Main part ca. third qu. of 11th c. (graphematic estimation: 1058-1066) and last qu. of 11th c., secondary texts by Demetrius</origDate>
-                        <origPlace>Most likely St. Catherine’s Monastery or surroundings</origPlace>
+                        <origDate notBefore="1058" notAfter="1100">1058-1100</origDate>
+                        <origPlace>Mount Sinai</origPlace>
                         <note type="summary">Liturgical Psalter and later entries by Demetrius Sinaiticus.</note>                      
                     </head>                     
                     <msContents>
@@ -222,14 +222,18 @@
                             </binding>
                         </bindingDesc>
                     </physDesc>
-                    <!--<history>
+                    <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            <origDate notBefore="1058" notAfter="1100">
+                                Main part ca. third qu. of 11th c. (graphematic estimation: 1058-1066) and last qu. of 11th c., secondary texts by Demetrius
+                            </origDate> 
+                            <origPlace>
+                                Most likely St. Catherine’s Monastery (Mt. Sinai) or surroundings
+                            </origPlace>
                         </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>-->
+                        <!--<provenance/>
+                        <acquisition/>-->
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -242,10 +246,7 @@
                                 <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates>
-                            <p><!--List and description of the surrogates / verbal description of the available surrogates (e.g. multi- hyper spectral imaging of fols. X and Yetc.)--></p>
-                            <ref/>
-                        </surrogates> 
+                        <surrogates/>
                         <listBibl>
                             <bibl>
                                 Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. 
@@ -295,15 +296,396 @@
         </listChange>
     </revisionDesc>
     </teiHeader>
-    <!--<facsimile>
-        <graphic url="" n="1r"/>
-    </facsimile>-->
+    <facsimile>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1v">
+            <graphic n="1v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1V" />
+        </surface>
+        <surface start="#sinslavnf3.2r">
+            <graphic n="2r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.2R" />
+        </surface>
+        <surface start="#sinslavnf3.2v">
+            <graphic n="2v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.2V" />
+        </surface>
+        <surface start="#sinslavnf3.3r">
+            <graphic n="3r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.3R" />
+        </surface>
+        <surface start="#sinslavnf3.8v">
+            <graphic n="8v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.8V" />
+        </surface>
+        <surface start="#sinslavnf3.21r">
+            <graphic n="21r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.21R" />
+        </surface>
+        <surface start="#sinslavnf3.32r">
+            <graphic n="32r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.32R" />
+        </surface>
+        <surface start="#sinslavnf3.32v">
+            <graphic n="32v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.32V" />
+        </surface>
+        <surface start="#sinslavnf3.33v">
+            <graphic n="33v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.33V" />
+        </surface>
+        <surface start="#sinslavnf3.34r">
+            <graphic n="34r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.34R" />
+        </surface>
+        <surface start="#sinslavnf3.34v">
+            <graphic n="34v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.34V" />
+        </surface>
+        <surface start="#sinslavnf3.38r">
+            <graphic n="38r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.38R" />
+        </surface>
+        <surface start="#sinslavnf3.42v">
+            <graphic n="42v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.42V" />
+        </surface>
+        <surface start="#sinslavnf3.43r">
+            <graphic n="43r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.43R" />
+        </surface>
+        <surface start="#sinslavnf3.49r">
+            <graphic n="49r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.49R" />
+        </surface>
+        <surface start="#sinslavnf3.51v">
+            <graphic n="51v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.51V" />
+        </surface>
+        <surface start="#sinslavnf3.52v">
+            <graphic n="52v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.52V" />
+        </surface>
+        <surface start="#sinslavnf3.53r">
+            <graphic n="53r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.53R" />
+        </surface>
+        <surface start="#sinslavnf3.54v">
+            <graphic n="54v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.54V" />
+        </surface>
+        <surface start="#sinslavnf3.56v">
+            <graphic n="56v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.56V" />
+        </surface>
+        <surface start="#sinslavnf3.60v">
+            <graphic n="60v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.60V" />
+        </surface>
+        <surface start="#sinslavnf3.62r">
+            <graphic n="62r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.62R" />
+        </surface>
+        <surface start="#sinslavnf3.74v">
+            <graphic n="74v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.74V" />
+        </surface>
+        <surface start="#sinslavnf3.75r">
+            <graphic n="75r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.75R" />
+        </surface>
+        <surface start="#sinslavnf3.91r">
+            <graphic n="91r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.91R" />
+        </surface>
+        <surface start="#sinslavnf3.101v">
+            <graphic n="101v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.101V" />
+        </surface>
+        <surface start="#sinslavnf3.106r">
+            <graphic n="106r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.106R" />
+        </surface>
+        <surface start="#sinslavnf3.117r">
+            <graphic n="117r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.117R" />
+        </surface>
+        <surface start="#sinslavnf3.143r">
+            <graphic n="143r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.143R" />
+        </surface>
+        <surface start="#sinslavnf3.143v">
+            <graphic n="143v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.143V" />
+        </surface>
+        <surface start="#sinslavnf3.144r">
+            <graphic n="144r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.144R" />
+        </surface>
+        <surface start="#sinslavnf3.145r">
+            <graphic n="145r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.145R" />
+        </surface>
+        <surface start="#sinslavnf3.145v">
+            <graphic n="145v" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.145V" />
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <!--<head>
-                <title> ... </title>
-            </head>-->
-            <p><pb n="1r"/> ... </p>
+            <pb n="1r" xml:id="sinslavnf3.1r" />
+            <p>азъ дъмтръ [грıшъ]никъ ол[е</p>
+            <p>въ им­ отЃца и сЃна и сЃ[.Ѓ.]г дЃх[.</p>
+            <p>Възлэз© на гор© велик©</p>
+            <p>и възов© гласомъ велико</p>
+            <p>мъ: азъ в­ж© sвэръ: и ¹слъ</p>
+            <p>ишитъ м­ стЃЃъЃи: дмЃтръ: от</p>
+            <p>ъ солąна: и речетъ ми къ[то</p>
+            <p>тъ естъ в­ж©и sвэръ: чло</p>
+            <p>вэкъ естъ в­ж©и sвэръ ме</p>
+            <p>двэдъ и медвэдиц©: вл[.]</p>
+            <p>к[ъ] и влъчиц©: лисиц© и [.и]</p>
+            <p>сичищъ: игъл© и нищи«: т[.]</p>
+            <p>ести« и оловом[ъ]: и ножъ в</p>
+            <p>ъ чрънэ чрэн¹ вонъз© в</p>
+            <p>капи сво­: и донелэже с[е]</p>
+            <p>и ножъ из[ъ]м© ис капи: в[л]</p>
+            <p>ъкъ да с{. .}е раздрэшит</p>
+            <p>писахъ {ж. .}е нъ не вэдэт[.</p>
+            <p>коли [л]{...}ъ: ¹ свЃто мЃрЃи[«</p>
+            <p>ΑΒ{Γ....}ΗΚΛΜΝξΟΠΡ</p>
+            <p>Τ[Υ]{....}AbCdEFGhIK</p>
+            <p>[M]NO{...}[S]TUXYZ: аб</p>
+            <p>где[ζ]{..}¶ийклмн</p>
+            <p>прс{т...Έ}*цчшú[.</p>
+            <p>{  ?..^}«ю[­</p>
+                
+            <pb n="1v" xml:id="sinslavnf3.1v" />
+            <p>1.1a Блаженъ м©жъ ¶же н[е</p>
+            <p>¶детъ на съвэтъ нечъ</p>
+            <p>ст¶въ¶хъ:–; 1b н¶ на п©т</p>
+            <p>грэшънъ¶хъ не ста;</p>
+            <p>1c Í¶ на сэдал¶щ¶ г¹б¶тел</p>
+            <p>не сэде: 2a нъ в[ъ з]аконэ гнЃ¶ во</p>
+            <p>лэ ег[о ..] 2b ˛ в[ъ] законэ его по¹</p>
+            <p>ч¶мъ с­ денъ ∙ ноштъ:–</p>
+            <p>3a ˛ б©детъ эко дрэво саждено</p>
+            <p>пр¶ ¶с[х]од¶щ¶[х]ъ водъ: 3b ¶ е</p>
+            <p>же плодъ св[о¶] дастъ въ врэ</p>
+            <p>м­ свое: 3c ¶ л¶[.т]ъ его не ¹паде</p>
+            <p>тъ: 3d ¶ въсе ел¶ко сътвор¶т[.</p>
+            <p>поспэетъ с­ е{...}:–– 4a Не тако не</p>
+            <p>ч[ъ]ст¶в¶ н[.] {....} 4b Нъ эко прах</p>
+            <p>егоже възм{.....}ъ вэтръ о</p>
+            <p>л¶ца земи: 5a {.... ..}[.]¶ не воскр</p>
+            <p>сн©тъ нечъ{с.... .. ...}ъ: 5b н</p>
+            <p>грэшън¶ц¶ {.. .... ..}[а]ве</p>
+            <p>дънъ¶хъ:ᴗ‧ 6a Эк[о] {......}ъ гЃ</p>
+            <p>[п©]тъ праведън{...}[.] 6b ˛ [п©]</p>
+            <p>ть нечъст¶в{.... ..}ъ¶{.....</p>
+            
+            <pb n="2r" xml:id="sinslavnf3.2r" />
+            <p>abcdefghıklmnopqr</p>
+            <p>tuxy млтва о влъцэ да не в</p>
+            <p>[ъ]лазитъ въ кошар©╞</p>
+            <p>Г[и] исЃ-хе: бже нашъ: и стЃъи: таръ</p>
+            <p>сии: бжее иже-си знаменалъ ą</p>
+            <p>ст[.] лъвова: о данилэ прро</p>
+            <p>цэ: и о текълэ: тъи знамен</p>
+            <p>и ąста влъчиэ: и дивих</p>
+            <p>песъ: да не вълаз­тъ в</p>
+            <p>кошар©: ни исказ­тъ бр[.]</p>
+            <p>ва: раба твоего сего: им[Ş]</p>
+            <p>и нъинэ и присно и вэкъи [а:</p>
+            <p>Печатъ даръ стŤаго дЃх[.</p>
+            <p>помилąи гЃи сиª домъ</p>
+            <p>и скотъи-хъ денъ и нощъ: </p>
+            <p>стЃъимъ [.]ригориемъ и бЃц</p>
+            <p>« нищ­ª и хромъиª съхр[а]</p>
+            <p>нэи: и добъиваниэ ихъ [м]</p>
+            <p>олимъ т­ гЃи: и млад</p>
+            <p>енъц</p>
+            <p>2.1a Въск©ю ш­таш­ с­ ª[з....</p>
+            <p>1b ¶ [л]юд¶е поąч¶ш­ с­ т[ъř.</p>
+            <p>е]тъ[нъ]∙мъ</p>
+            
+            <pb n="2v" xml:id="sinslavnf3.2v" />
+            <p>2a Присташ­ цэсари зе</p>
+            <p>мъсти ı: 2b и кън­s</p>
+            <p>собъраш­ с­ въкyп</p>
+            <p>2c на гЃа и на хЃа его"</p>
+            <p>3a Растръгнэмъ ©зъи и</p>
+            <p>хъ ı: 3b и отъвръsэм</p>
+            <p>отъ насъ иго ихъ ı</p>
+            <p>4a Жив©и на небесех</p>
+            <p>посмэетъ с­ имъ ı:</p>
+            <p>4b и гЃъ пор©гаетъ с­ и</p>
+            <p>мъ ı</p>
+            <p>5a Тогда въз[л]ЃтЃъ къ ни</p>
+            <p>мъ гнэвомъ свои</p>
+            <p>мъ ı: 5b и эрости</p>
+            <p>свое« съм­тет</p>
+            <p>Є</p>
+            <p>6a Азъ же поставен</p>
+            <p>есмъ цЃрЃъ отъ него ı</p>
+            <p>6b Íадъ сиономъ гор</p>
+            <p>сЃтЃ©« его ı: 7a възвэ</p>
+            <p>щаЄ повелэние {.}Ѓне"</p>
+            
+            <pb n="3r" xml:id="sinslavnf3.3r" />
+            <p>7b ГЃъ рече ко мънэ сЃнъ мо¶ ес</p>
+            <p>тъ¶: 7c азъ дънесъ род¶хъ т­:–</p>
+            <p>8a Прос¶ отъ мене ¶ дамъ т¶ ª</p>
+            <p>зъ¶къ: достоэн¶е твое</p>
+            <p>8b ¶ Ήдръжан¶е твое коне</p>
+            <p>цъ зем¶:–</p>
+            <p>9a 1пасеш¶ ª пал¶цею желэ</p>
+            <p>зною: 9b эко със©дъ ск©де</p>
+            <p>лън¶ка съкрюш¶ш¶ ª:–</p>
+            <p>10a ² нъ¶нэ цЃр¶ разΉмэ¶</p>
+            <p>те: 10b ¶ накажэте с­ въс</p>
+            <p>с©д­ще¶ зем¶:–</p>
+            <p>11a Работа¶те гвЃ¶ съ страхомъ</p>
+            <p>и скотъи: въспэстΉ-и въс-</p>
+            <p>питэи юностъ: младенъц</p>
+            <p>Ήтэши: тъщивъимъ крес</p>
+            <p>тъ помощъ: съ крестъ в[э]</p>
+            <p>рънъимъ естъ спЃние.: Бэ</p>
+            <p>сомь прогонителъ: кЃ[р]сЃ</p>
+            <p>слэпъимъ вожд[ъ: д]ем[о]</p>
+            <p>[.]ом[ъ с©].ждение в[се</p>
+            
+            <pb n="8v" xml:id="sinslavnf3.8v" />
+            <p>штимъ ми зъло:" 5b отъ</p>
+            <p>падэмъ отъ врагъ м</p>
+            <p>ои(и)хъ тоштъ:</p>
+            <p>6a Äа поженетъ yбо враг</p>
+            <p>дЃшЃ© мою и постигне</p>
+            <p>тъ:" 6b и поперетъ на зе</p>
+            <p>ми животъ мои:" 6c и сл[а-</p>
+            <p>в© мою въ пръстъ въ</p>
+            <p>с[е]литъ</p>
+            <p>7a Âоскръсни гЃи гнэвом</p>
+            <p>твоимъ:" 7b възнеси с</p>
+            <p>­ въ конъцихъ враг</p>
+            <p>твоихъ</p>
+            <p>7c È вст[ан. гЃ]и бЃе мои пове</p>
+            <p>лэн[..]мъ твоим</p>
+            <p>мъж[е] заповэдэ:" 8a </p>
+            <p>сънемъ людеи оби</p>
+            <p>[д]етъ т­:" 8b и о томъ [..</p>
+            <p>[.]ъисот© обратит[ъ</p>
+            <p>с­</p>
+            
+            <pb n="21r" xml:id="sinslavnf3.21r" />
+            <p>13a Вьскрьсни гЃ∙ вари ª ¶ прэ</p>
+            <p>дэ¶-мъ:, 13b ∙зба дЃшЃ© мо</p>
+            <p>отъ нечьтива 13c ор©жиэ тв</p>
+            <p>оего"," отъ врагъ р©къ¶ твоеª</p>
+            <p>14a ГЃь отъ мала от[ъ] земл­ 14b разд</p>
+            <p>эли ª въ животэ ихъ"," 14c съ</p>
+            <p>кръвенъ∙х[ъ] твоих{}ъ ис</p>
+            <p>плъни сª ©троба ихъ</p>
+            <p>14d Насъ¶тиш­ сª сЃвЃънов: 14e ∙ ос</p>
+            <p>тавиш­ одълэк[ъ] младе</p>
+            <p>ньцемъ своимъ}</p>
+            <p>15a Азъ же правъд© авл© с</p>
+            <p>лицю твоем¹ [;]</p>
+            <p>15b насъ¶шт© с</p>
+            <p>егъда эвит</p>
+            <p>ми сª слв</p>
+            <p>твоэ</p>
+            <p>17.1 СЛАВ</p>
+            
+            <pb n="32r" xml:id="sinslavnf3.32r" />
+            <p>31b Вьзвэститъ гЃвЃи родъ гр­</p>
+            <p>д­и", 32a ∙ вьзвэст­тъ правъд© го</p>
+            <p>32b Людемъ род­штеимъ сª ªже съ</p>
+            <p>твори гЃь} 22.1 ПЃСЃАЃЛЃМЃЪ ДЃВЃДЃВЃ</p>
+            <p>1a ГЃь пасетъ м­ и ничесо</p>
+            <p>же мене лишитъ; 2a вь мэст</p>
+            <p>паствиньнэ т¹ м­ вьсели</p>
+            <p>2b На водэ покоиниэ вьс</p>
+            <p>питэ м­ 3a дЃшЃ© мо« обрати"</p>
+            <p>3b наставилъ м­ е-стъ-s­ праведьнъ¶ª</p>
+            <p>3c ˛мене его ради", 4a аште бо ∙ поид</p>
+            <p>посрэдэ сэни смрътьнъ¶ª</p>
+            <p>4b Не ¹бо« с­ зъла эко тъ¶ съ мъ</p>
+            <p>но« еси", 4c жезлъ твои ¶ палиц</p>
+            <p>твоэ та м­ ¹тэшисте</p>
+            <p>5a 1готовалъ еси прэдъ мно« прапез©[:,</p>
+            
+            <pb n="32v" xml:id="sinslavnf3.32v" />
+            <p>[....ъ] сът©жа«штими мьнэ</p>
+            <p>5b [.мас]тилъ еси олэемъ глав©</p>
+            <p>мо«"", 5c ˛ чаша твоэ ¹паэ«</p>
+            <p>штиэ м­ коль дръжавьна естъ</p>
+            <p>6a ˛ милость твоэ поженетъ м</p>
+            <p>вьс­ дьни живота моего</p>
+            <p>6b ˛ да вьселю с­ въ дом¹ гЃнЃ</p>
+            <p>длъгот© дьнеи</p>
+            <p>23.1 ПЃСЃАЃЛЃМЃЪ ДЃАЃВЃДЃВЃЪ</p>
+            <p>иƒв 1a ГнЃэ естъ землэ ¶ ¶слъне</p>
+            <p>ние-ª:, 1b вьселенаа ∙ вьс</p>
+            <p>жив©ште на неи</p>
+            <p>2a Тъ на морихъ основалъ « е</p>
+            <p>стъ", 2b ∙ на рэкахъ ¹готова</p>
+            <p>лъ « естъ</p>
+            <p>3a Къто вьзидетъ на гор© гЃнЃ«"</p>
+            <p>3b ли (къ) къто станетъ на мэст</p>
+            <p>сЃтЃэмь его:}</p>
+            <p>4a Неповиненъ р©кама ∙ чит</p>
+            <p>сръдьцемъ</p>
+        
+            <pb n="33v" xml:id="sinslavnf3.33v" />
+            <p>9c ¶ вьнидет</p>
+            <p>цЃсЃрЃъ с[л]авэ</p>
+            <p>10a Къто тъ естъ [цЃ]сЃр</p>
+            <p>славэ", 10b гЃъ си</p>
+            <p>ламъ тъ ест</p>
+            <p>[.....ъ] цсЃрь с[л]ав[э]</p>
+            <p>24.1 ПСЃ[ЃАЃ]ЃЛЃМЃЪ ДАЃВЃЪ: СЃЛЃАЃВЃА: [. Ѓ• .]</p>
+            <p>1a Къ тебэ гЃ∙ вьздвиг</p>
+            <p>дЃш© мо«", бЃъ мои 2a н</p>
+            <p>т­ ¹пъвахъ де не по</p>
+            <p>стъ∙жд© сª вь вэкъ}</p>
+            <p>2b Ни посмэ«тъ ми с</p>
+            <p>враsи мои", 3a ∙бо вьс</p>
+            <p>тръп­штеи т­ не постъ¶д­тъ с­</p>
+            <p>3b Да постъ¶д­тъ сª безако</p>
+            <p>ньн¹«щеи вьс¹е", 4a п©т</p>
+            <p>твоª гЃ∙ съкажи ми 4b ∙ сть</p>
+            <p>замъ твоимъ на¹чи м­</p>
+            <p>5a Настави м­ на истин© тво«"</p>
+            
+            <pb n="34r" xml:id="sinslavnf3.34r" />
+            <p>5b ∙ на¹чи м­ эко т¶ еси бЃъ съ</p>
+            <p>пЃсъ мои", 5c ¶ тебе тръпэхъ вь</p>
+            <p>сь день</p>
+            <p>6a Помэни штедротъ∙ твоª гЃ∙"</p>
+            <p>6b ∙ милости твоª эко отъ [в]э</p>
+            <p>ка с©дъ</p>
+            <p>7a Грэхъ юности моеª ¶ невэдэ</p>
+            <p>ниэ моего не помэни", 7b по ми</p>
+            <p>лости твоеи помэни м­ тъ∙[}</p>
+            <p>7c Благосъ¶н­ твоеª ради гЃ∙""</p>
+            <p>8a благъ ¶ правъ гЃь</p>
+            
+            <pb n="34v" xml:id="sinslavnf3.34v" />
+            <p>Transcription of folio 34v (to-do)</p>
+            <pb n="38r" xml:id="sinslavnf3.38r" />
+            <p>Transcription of folio 38r (to-do)</p>
+            <pb n="42v" xml:id="sinslavnf3.42v" />
+            <p>Transcription of folio 42v (to-do)</p>
+            <pb n="43r" xml:id="sinslavnf3.43r" />
+            <p>Transcription of folio 43r (to-do)</p>
+            <pb n="49r" xml:id="sinslavnf3.49r" />
+            <p>Transcription of folio 49r (to-do)</p>
+            <pb n="51v" xml:id="sinslavnf3.51v" />
+            <p>Transcription of folio 51v (to-do)</p>
+            <pb n="52v" xml:id="sinslavnf3.52v" />
+            <p>Transcription of folio 52v (to-do)</p>
+            <pb n="53r" xml:id="sinslavnf3.53r" />
+            <p>Transcription of folio 53r (to-do)</p>
+            <pb n="54v" xml:id="sinslavnf3.54v" />
+            <p>Transcription of folio 54v (to-do)</p>
+            <pb n="56v" xml:id="sinslavnf3.56v" />
+            <p>Transcription of folio 56v (to-do)</p>
+            <pb n="60v" xml:id="sinslavnf3.60v" />
+            <p>Transcription of folio 60v (to-do)</p>
+            <pb n="62r" xml:id="sinslavnf3.62r" />
+            <p>Transcription of folio 62r (to-do)</p>
+            <pb n="74v" xml:id="sinslavnf3.74v" />
+            <p>Transcription of folio 74v (to-do)</p>
+            <pb n="75r" xml:id="sinslavnf3.75r" />
+            <p>Transcription of folio 75r (to-do)</p>
+            <pb n="91r" xml:id="sinslavnf3.91r" />
+            <p>Transcription of folio 91r (to-do)</p>
+            <pb n="101v" xml:id="sinslavnf3.101v" />
+            <p>Transcription of folio 101v (to-do)</p>
+            <pb n="106r" xml:id="sinslavnf3.106r" />
+            <p>Transcription of folio 106r (to-do)</p>
+            <pb n="117r" xml:id="sinslavnf3.117r" />
+            <p>Transcription of folio 117r (to-do)</p>
+            <pb n="143r" xml:id="sinslavnf3.143r" />
+            <p>Transcription of folio 143r (to-do)</p>
+            <pb n="143v" xml:id="sinslavnf3.143v" />
+            <p>Transcription of folio 143v (to-do)</p>
+            <pb n="144r" xml:id="sinslavnf3.144r" />
+            <p>Transcription of folio 144r (to-do)</p>
+            <pb n="145r" xml:id="sinslavnf3.145r" />
+            <p>Transcription of folio 145r (to-do)</p>
+            <pb n="145v" xml:id="sinslavnf3.145v" />
+            <p>Transcription of folio 145v (to-do)</p>
         </body>
     </text>
 </TEI>
