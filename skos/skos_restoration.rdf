@@ -51,11 +51,15 @@
         <skos:prefLabel xml:lang="en">Stains. Ingrained stains</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Flecken</skos:prefLabel>
         <skos:definition xml:lang="en">Stains are areas, which show a colour or surface gloss which is different from that of the surrounding area.            
-            Virtually any substance may cause a stain. Stains are often caused by drinks (coffee, tea or wine), ink splashed onto the page or candle material (wax and other components). If the stain was caused by a liquid, it shows the characteristic splashes.
-            
-            Stains however can also be produced by the excrement of insects, bird, bats and rodents, by iron movement from one page to the other in case of ink- or copper corrosion or silver leaf in precious manuscripts; they can be caused by insects or spiders squeezed in a fold or from plants pressed in books. Greasy stains may come from food and often stains are caused by renovation work in the room where the book is kept, from scholars who tried to read a deleted text and applied mixes of substances to bring out the text or by conservators, who used the wrong material.
-            
-            Sometimes stains occur only over time – for example, when transparent surface sizing is used on paper and turns yellow only with aging. Such stains should not be treated, as these are an immediate part of the paper.</skos:definition>
+            Virtually any substance may cause a stain. Stains are often caused by drinks (coffee, tea or wine), ink splashed onto the page or candle material (wax and other components). If the stain was caused by a liquid, it shows the characteristic splashes.            
+            Stains however can also be produced by the excrement of insects, bird, bats and rodents, by iron movement from one page to the other in case of ink- or copper corrosion or silver leaf in precious manuscripts; they can be caused by insects or spiders squeezed in a fold or from plants pressed in books. Greasy stains may come from food and often stains are caused by renovation work in the room where the book is kept, from scholars who tried to read a deleted text and applied mixes of substances to bring out the text or by conservators, who used the wrong material.            
+            Sometimes stains occur only over time – for example, when transparent surface sizing is used on paper and turns yellow only with aging. Such stains should not be treated, as these are an immediate part of the paper.
+        A particular kind of fleck-like spots on paper is characteristic to foxing - a chemical damage inflicting paper.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>            
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 42-45 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/demages"/>
     </skos:Concept>
     
@@ -65,7 +69,9 @@
         <skos:prefLabel xml:lang="de">Tintenfraß</skos:prefLabel>
         <skos:definition xml:lang="en">Ink corrosion involves a presence of iron gall ink, often brown text and the corroded area, if it creates a lacuna, is brown on the verso and brittle. The appearance of ink corrosion at its various stages has been well described by Reissland.</skos:definition>
         <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>            
+            <rdf:value>References</rdf:value>   
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 46-51 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
             <dct:bibliographicCitation>Reissland, Birgit. "Ink Corrosion. Aqueous and Non-Aqueous Treatment of Paper Objects – State of the Art" , vol. 20, no. 3-4, 1999, pp. 167-180. https://doi-org.uaccess.univie.ac.at/10.1515/rest.1999.20.3-4.167</dct:bibliographicCitation>
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
@@ -75,18 +81,38 @@
         <skos:prefLabel xml:lang="en">Copper corrosion</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Kupferfraß</skos:prefLabel>
         <skos:definition xml:lang="en">In case of copper corrosion green-painted sections on paper or parchment bleed through to the reverse side and turn brown. The lacuna has sharp edges and the area is actually broken out. The stability of the writing material (especially that of paper) decreases sharply, so that the leaves may break under low stress, e.g. when turning the pages.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>   
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 52-57 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/waterDamage">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLabel xml:lang="en">Water damage</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wasserchaden</skos:prefLabel>
+        <skos:definition xml:lang="en">Possible damages caused by water: stains and discolourations, felting, mould, stuck sheets and warping of the text block due to excessive moisture.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 117-139 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Salvaging library and archive collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/salvaging-library-and-archive-collections-preservation-guide.pdf</dct:bibliographicCitation>            
+        </skos:definition>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fireDamage">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Fire damage</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Brandschaden</skos:prefLabel>
-        <skos:definition xml:lang="en">Possible damages caused by fire, smoke and indirect heat: charred areas; fragile and brittle leaves; illegible writing; leaves burnt along their edges; smudge. In the event of fire books often suffer furthermore damages through the impact of water and extinguishing agents.</skos:definition>
+        <skos:definition xml:lang="en">The Archive Damage Atlas classifies fire damage as chemical one, because burning is essentially oxidation (a reaction with oxygen). Possible damages caused by fire, gas, smoke and indirect heat: charred areas; fragile and brittle leaves; illegible writing; leaves burnt along their edges; smudge. In the event of fire books often suffer furthermore damages through the impact of water and extinguishing agents.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 36-41 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
             <dct:bibliographicCitation>Salvaging library and archive collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/salvaging-library-and-archive-collections-preservation-guide.pdf</dct:bibliographicCitation>            
             <dct:bibliographicCitation>Völkel Laura et al. Assessing Fire-Damage in Historical Papers and Alleviating Damage with Soft Cellulose Nanofibers".  In Nano-Micro Small 18 (2022). https://doi.org/10.1002/smll.202105420</dct:bibliographicCitation>
-            <y>Pottier Fabien et al. "Recovering illegible writings in fire-damaged medieval manuscripts through data treatment of UV-fluorescence photography". Journal of Cultural Heritage 36(2019): 183-190. https://hal.science/hal-03027994</y>
+            <dct:bibliographicCitation>Pottier Fabien et al. "Recovering illegible writings in fire-damaged medieval manuscripts through data treatment of UV-fluorescence photography". Journal of Cultural Heritage 36(2019): 183-190. https://hal.science/hal-03027994</dct:bibliographicCitation>
         </skos:definition>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
@@ -107,17 +133,27 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lacuna">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
-        <skos:prefLabel xml:lang="en">Missing area of the leaf</skos:prefLabel>
+        <skos:prefLabel xml:lang="en"></skos:prefLabel>
         <skos:prefLbel xml:lang="de">Fehlstelle</skos:prefLbel>
         <skos:altLabel xml:lang="de">Lacuna</skos:altLabel>
-        <skos:definition xml:lang="en">An area of the leaf.</skos:definition>
+        <skos:definition xml:lang="en">Missing area of the leaf due to .</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Adam Agnes and Wolfgang Kreuzer. Die Fehlstellenergänzung von Pergament am Einband und am Schriftträger. Forschungsblog (accessed 13.04.2023)
+                https://www.onb.ac.at/news-einzelansicht/die-fehlstellenergaenzung-von-pergament-am-einband-und-am-schrifttraeger</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mechanical">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Mechanical damage</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mechanische Schäden</skos:prefLabel>
-        <skos:definition xml:lang="en">Damage due to wear, transport or mishandling the material. May include kinks, folds and cracks of the leaves which may further lead to tears or even detached leaves or fragments thereof.</skos:definition>
+        <skos:definition xml:lang="en">Damage due to wear, transport or mishandling the material. May include kinks, folds and cracks of the leaves, which may further lead to tears, fractures or even detached leaves or fragments thereof.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 81-99 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+        </skos:definition>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fold">
@@ -126,18 +162,21 @@
         <skos:altLbel xml:lang="en">Crease</skos:altLbel>
         <skos:prefLabel xml:lang="de">Falte</skos:prefLabel>
         <skos:altLbel xml:lang="de">Knick</skos:altLbel>
-        <skos:definition xml:lang="en">Deformation .</skos:definition>
+        <skos:definition xml:lang="en">Deformation of leaves which weaken its structure and can further lead to tears.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tear">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Tear</skos:prefLabel>
-        <skos:altLbel xml:lang="en">Tears along the edges</skos:altLbel>
-        <skos:altLbel xml:lang="en">Frayed edges</skos:altLbel>
         <skos:prefLabel xml:lang="de">Riss</skos:prefLabel>
         <skos:altLbel xml:lang="de">Abrisse</skos:altLbel>
         <skos:altLabel xml:lang="de">Beschädigung durch Zerreißen</skos:altLabel>
-        <skos:definition xml:lang="en">Tears may be observed particularly on the leaves' edges (frayed edges). In most cases these are due too mechanical use.</skos:definition>
+        <skos:definition xml:lang="en">Tears may be observed particularly on the leaves' edges (tears along the edges or else known as frayed edges). In most cases these are due to careless use often in combination with improper storage.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 81-99 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/detachedLeaves">
@@ -180,9 +219,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Mould</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schimmel</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en">Mould is a type of fungus. In favourable conditions its spores can quickly germinate and cause severe damage: from small spots and discolourations to decomposition of parts of the paper.</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 128-133 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mould outbreaks in library and archive collections (PDF format). British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/mould-outbreaks-in-libraries-preservation-guide.pdf</dct:bibliographicCitation>
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
@@ -235,7 +276,7 @@
         <skos:definition xml:lang="en">Implied are all previous measures intended to secure the conservation of the book. Previous repairs may have been carries out already during or immediately after the production of the manuscript (e.g. repairing holes in the parchment by stitching or gluing additional parchment pieces). In modern times one used materials which in time damaged the document (e.g. tape to glue together fragments or chemical solutions to enhance faded writing).</skos:definition>
         <skos:definition rdf:parseType="Resource">
             <rdf:value>References</rdf:value>             
-            <dct:bibliographicCitation>Archives Damage Atlas, pp. 75-79 (accessed 13.04.2023)
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 58-63 and 75-79 (accessed 13.04.2023)
                 metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
