@@ -1,25 +1,25 @@
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
     
     <void:Dataset rdf:about="http://gams.uni-graz.at/">
-        <dc:title>Vocabulary for materials used in mediaeval manuscripts - SKOS</dc:title>
+        <dc:title>Vocabulary for conservation measures in mediaeval manuscripts - SKOS</dc:title>
         <dc:identifier></dc:identifier>
         <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
-        <dc:creator>Ivana Dobcheva (rdf encoding; skos:definition texts)</dc:creator>
+        <dc:creator>Ivana Dobcheva (rdf encoding)</dc:creator>
         <dc:creator>Patricia Engel</dc:creator>       
     </void:Dataset>
-    <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/restoration">
-        <dc:title>Materials used for Medieval Manuscripts</dc:title>
+    <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/conservation">
+        <dc:title>Damages in Medieval Manuscripts</dc:title>
         <skos:hasTopConcept rdf:resource="http://gams.uni-graz.at/thesaurus/restoration"/>
-        <skos:note xml:lang="en">Taxonomy of types of materials associated with medieval manuscripts.</skos:note>
+        <skos:note xml:lang="en">Taxonomy of types of damages found in medieval manuscripts.</skos:note>
     </skos:ConceptScheme>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/restoration">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/restoration"/>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/conservation">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="de">Restauration</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Restoration</skos:prefLabel>
     </skos:Concept>
     <!--    ########### Damages #############-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/damages">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
         <skos:prefLabel xml:lang="de">Schäden</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Damages</skos:prefLabel>
         <skos:note xml:lang="en">Types of damages in manuscripts.</skos:note>
@@ -33,21 +33,21 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/surfaceDirt">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Surface dirt</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Verschmutzung</skos:prefLabel>
         <skos:definition xml:lang="en"></skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/demages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en"></skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schemmränder</skos:prefLabel>
         <skos:definition xml:lang="en"></skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/demages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/stains">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Stains. Ingrained stains</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Flecken</skos:prefLabel>
         <skos:definition xml:lang="en">Stains are areas, which show a colour or surface gloss which is different from that of the surrounding area.            
@@ -60,7 +60,7 @@
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/inkCorrosion">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Ink corrosion</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Tintenfraß</skos:prefLabel>
         <skos:definition xml:lang="en">Ink corrosion involves a presence of iron gall ink, often brown text and the corroded area, if it creates a lacuna, is brown on the verso and brittle. The appearance of ink corrosion at its various stages has been well described by Reissland.</skos:definition>
@@ -71,70 +71,104 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/copperCorrosion">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Copper corrosion</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kupferfrass</skos:prefLabel>
-        <skos:definition xml:lang="en">In case of copper corrosion the green copper pigment turns brown in colour and the edges of the lacuna are sharp and the area is actually broken out.</skos:definition>
+        <skos:prefLabel xml:lang="de">Kupferfraß</skos:prefLabel>
+        <skos:definition xml:lang="en">In case of copper corrosion green-painted sections on paper or parchment bleed through to the reverse side and turn brown. The lacuna has sharp edges and the area is actually broken out. The stability of the writing material (especially that of paper) decreases sharply, so that the leaves may break under low stress, e.g. when turning the pages.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fireDamage">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Fire damage</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Brandschaden</skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en">Possible damages caused by fire, smoke and indirect heat: charred areas; fragile and brittle leaves; illegible writing; leaves burnt along their edges; smudge. In the event of fire books often suffer furthermore damages through the impact of water and extinguishing agents.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Salvaging library and archive collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/salvaging-library-and-archive-collections-preservation-guide.pdf</dct:bibliographicCitation>            
+            <dct:bibliographicCitation>Völkel Laura et al. Assessing Fire-Damage in Historical Papers and Alleviating Damage with Soft Cellulose Nanofibers".  In Nano-Micro Small 18 (2022). https://doi.org/10.1002/smll.202105420</dct:bibliographicCitation>
+            <y>Pottier Fabien et al. "Recovering illegible writings in fire-damaged medieval manuscripts through data treatment of UV-fluorescence photography". Journal of Cultural Heritage 36(2019): 183-190. https://hal.science/hal-03027994</y>
+        </skos:definition>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/flaking">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Flaking</skos:prefLabel>
         <skos:prefLabel xml:lang="de"></skos:prefLabel>
         <skos:definition xml:lang="en">Flaking off of areas of metal leaf or pigment/dye–binder composites are caused either by priming or binder quality, bad handling or a fluctuation of temperature and humidity.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/warping">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Warping</skos:prefLabel>
         <skos:altLbel xml:lang="en">Distortion</skos:altLbel>
         <skos:prefLabel xml:lang="de">Verwerfungen</skos:prefLabel>
-        <skos:definition xml:lang="en">Deformation by which the cover often together with the book block bends outwards on the open side of the book.</skos:definition>
+        <skos:definition xml:lang="en">Deformation by which the cover, often together with the book block, bends outwards on the open side of the book.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/lacuna">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLabel xml:lang="en">Missing area of the leaf</skos:prefLabel>
+        <skos:prefLbel xml:lang="de">Fehlstelle</skos:prefLbel>
+        <skos:altLabel xml:lang="de">Lacuna</skos:altLabel>
+        <skos:definition xml:lang="en">An area of the leaf.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mechanical">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLabel xml:lang="en">Mechanical damage</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mechanische Schäden</skos:prefLabel>
+        <skos:definition xml:lang="en">Damage due to wear, transport or mishandling the material. May include kinks, folds and cracks of the leaves which may further lead to tears or even detached leaves or fragments thereof.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fold">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Fold</skos:prefLabel>
         <skos:altLbel xml:lang="en">Crease</skos:altLbel>
         <skos:prefLabel xml:lang="de">Falte</skos:prefLabel>
         <skos:altLbel xml:lang="de">Knick</skos:altLbel>
-        <skos:definition xml:lang="en">Deformation by which the cover bends outwards on the open side of the book.</skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+        <skos:definition xml:lang="en">Deformation .</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tear">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Tear</skos:prefLabel>
-        <skos:altLbel xml:lang="en">Torn leaves</skos:altLbel>
         <skos:altLbel xml:lang="en">Tears along the edges</skos:altLbel>
         <skos:altLbel xml:lang="en">Frayed edges</skos:altLbel>
         <skos:prefLabel xml:lang="de">Riss</skos:prefLabel>
-        <skos:altLbel xml:lang="de">Fehlstelle</skos:altLbel>
-        <skos:altLabel xml:lang="de">Beschädigung durch Zerreissen</skos:altLabel>
-        <skos:definition xml:lang="en">.</skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
+        <skos:altLbel xml:lang="de">Abrisse</skos:altLbel>
+        <skos:altLabel xml:lang="de">Beschädigung durch Zerreißen</skos:altLabel>
+        <skos:definition xml:lang="en">Tears may be observed particularly on the leaves' edges (frayed edges). In most cases these are due too mechanical use.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/detachedLeaves">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLbel xml:lang="en">Detached leaves and/or gatherings</skos:prefLbel>
+        <skos:prefLabel xml:lang="de">Lose Blätter und/oder Lagen</skos:prefLabel>
+        <skos:definition xml:lang="en">Loose leaves or gatherings, detached from the book block.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/tornLeaves">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLbel xml:lang="en">Torn out leaves</skos:prefLbel>
+        <skos:prefLabel xml:lang="de">Zerrissene Blätter</skos:prefLabel>
+        <skos:definition xml:lang="en">Leaves which are torn out from the book block and missing.</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/gelatinization">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Gelatinization</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Pergamentgelatinierung</skos:prefLabel>
         <skos:definition xml:lang="en">Occurs on parchment and is caused by elevated humidity and temperature. The appearance is a yellow glossy glass-like and hard parchment.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/paperDegradation">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Paper degradation</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Papierabbau</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/discolouration">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Discolouration</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Ausbleichen</skos:prefLabel>
         <skos:altLbel xml:lang="de">Verbräunen</skos:altLbel>
@@ -143,39 +177,67 @@
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/mould">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Mould</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schimmel</skos:prefLabel>
         <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Mould outbreaks in library and archive collections (PDF format). British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/mould-outbreaks-in-libraries-preservation-guide.pdf</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/pest">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Pest infestation</skos:prefLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:prefLabel xml:lang="de">Schädlingsbefall</skos:prefLabel>
+        <skos:definition xml:lang="en">Pests, such as insects and mice, can cause enormous damage to book and archival materials. Based on the pattern, size and edges of the holes a trained conservator can differentiate between damages caused by rodents (rats and mice) or insects.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value> 
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 101-115 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Managing Pests in Paper-Based Collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/managing-pests-in-paper-based-collections-guide.pdf</dct:bibliographicCitation>
+        </skos:definition> 
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/rodents">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Damages by rodents</skos:prefLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:prefLabel xml:lang="de">Schäden durch Nagetier</skos:prefLabel>
+        <skos:definition xml:lang="en">Rats and mice gnaw parts of books to keep their teeth sharp or use shredded paper to make nests. The holes they produce are usually larger. Additionally, mouse urine and droppings can stain the surface and present a disease hazard (cf. British library guide). </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value> 
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 114-115 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Managing Pests in Paper-Based Collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/managing-pests-in-paper-based-collections-guide.pdf</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pest"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/insects">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Damages by insects</skos:prefLabel>
-        <skos:prefLabel xml:lang="de"></skos:prefLabel>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:prefLabel xml:lang="de">Schäden durch Insekten</skos:prefLabel>
+        <skos:definition xml:lang="en">Different type of insects may attack either the writing surface (paper, wood, parchment etc.) or any additional material applied on it (binding agent, mould, organic debris etc.).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value> 
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 102-113 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Managing Pests in Paper-Based Collections. British Library conservation guide (accessed 13.04.2023). https://www.bl.uk/britishlibrary/~/media/bl/global/conservation/pdf-guides/managing-pests-in-paper-based-collections-guide.pdf</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pest"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
         <skos:prefLabel xml:lang="en">Previous repairs</skos:prefLabel>
         <skos:altLabel xml:lang="en">Previous conservation treatments</skos:altLabel>
         <skos:prefLabel xml:lang="de">Alte Reparaturen</skos:prefLabel>
         <skos:altLabel xml:lang="de">Frühere konservatorische Maßnahme</skos:altLabel>
+        <skos:definition xml:lang="en">Implied are all previous measures intended to secure the conservation of the book. Previous repairs may have been carries out already during or immediately after the production of the manuscript (e.g. repairing holes in the parchment by stitching or gluing additional parchment pieces). In modern times one used materials which in time damaged the document (e.g. tape to glue together fragments or chemical solutions to enhance faded writing).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>             
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 75-79 (accessed 13.04.2023)
+                metamorfoze.nl/search/node/archives%20damage%20atlas</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
     
