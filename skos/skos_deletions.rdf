@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#">
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:void="http://rdfs.org/ns/void#" xmlns:dct="http://purl.org/dc/terms#">
     <void:Dataset>
         <dc:title>Vocabulary for deletions in mediaeval manuscripts - SKOS</dc:title>
         <dc:identifier></dc:identifier>
         <fedora:isMemberOf rdf:resource="info:fedora/context:ontology"/>
         <dc:creator>Patricia Engel</dc:creator>
-        <dc:contributor>Ivana Dobcheva (terms in English, transformation in rdf format)</dc:contributor>        
+        <dc:contributor>Ivana Dobcheva (transformation in rdf format)</dc:contributor>        
     </void:Dataset>
     <skos:ConceptScheme rdf:about="http://gams.uni-graz.at/thesaurus/deletions-tax">
         <dc:title>Deletions</dc:title>
@@ -24,24 +24,36 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Dry methods</skos:prefLabel>  
         <skos:prefLabel xml:lang="de">Tilgungen mit trockenen Mitteln</skos:prefLabel>
+        <skos:defintion xml:lang="en">The more common method of dry deleting is the abrasion of the inks plus the uppermost layer of the parchment. This can be done with a knife, a piece of pumice, sepiolite, deletion bread or a sand stone. A second technique is by dusting off writing material with feathers (Engel 2021).</skos:defintion>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/duringWritingDeletions">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"/>
         <skos:prefLabel xml:lang="en">Deletions during writing</skos:prefLabel>    
         <skos:prefLabel xml:lang="de">Tilgungen während des Schreibens</skos:prefLabel>
+        <skos:definition xml:lang="en">By mistake during the writing of the text scribes would first delete the incorrect letters or words (in most cases using a penknife), and then overwrite the area immediately. </skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/penknife">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"/>
         <skos:prefLabel xml:lang="en">Penknife</skos:prefLabel>   
-        <skos:altLabel xml:lang="en">knife</skos:altLabel>
+        <skos:altLabel xml:lang="en">Knife</skos:altLabel>
         <skos:prefLabel xml:lang="de">Radiermesser</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/duringWritingDeletions"/>
+        <skos:deinition xml:lang="en">Penknives can be used to delete text in all inks on papyrus, parchment and paper. Traces left: thinner and rougher areas. Detection: lighter area (detected using transmitted light), darker area (detected using raking light); locally, smeared inks; the ink written over the area is in most cases blurring (this may also be the case with other dry deleting methods, however if an entire page is cleaned it is often re-polished after this, which is actually not the case when a penknife was used).</skos:deinition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:relatedMatch rdf:resource="http://codicologia.irht.cnrs.fr/term-1554"/>
-        <skos:note xml:lang="en">Penknives can be used to delete text in all inks on papyrus, parchment and paper. Traces left: thinner and rougher areas. Detection: lighter area (detected using transmitted light), darker area (detected using raking light); locally, smeared inks; the ink written over the area is in most cases blurring (this may also be the case with other dry deleting methods, however if an entire page is cleaned it is often re-polished after this, which is actually not the case when a penknife was used). 
-            Methods of detection: comparing with surrounding area. 
-            Pitfalls: some areas might be thinner not because of erasure with a penknife but due to preparation of the parchment. In such cases there the are is not rougher, there is no smearing of ink and no relation to the text.</skos:note>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/duringWritingDeletions"/>
     </skos:Concept>    
    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter">
@@ -53,16 +65,37 @@
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionPumice">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Pumice</skos:prefLabel>   
-        <skos:altLabel xml:lang="en">pumice stone</skos:altLabel>
+        <skos:altLabel xml:lang="en">Pumice stone</skos:altLabel>
         <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
+        <skos:definition xml:lang="en">Pumice is a volcanic rockglass in which the incapsulated gas was released immediately, which accounts for its porous structure. It was used to erase text written in all inks on papyrus and parchment. Traces left: parallel scratches visible under magnification and in raking light as darker area.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:relatedMatch rdf:resource="http://codicologia.irht.cnrs.fr/term-1558"/>
-        <skos:note xml:lang="en">Pumice was used to erase text written in all inks on papyrus and parchment. Traces left: parallel scratches visible under magnification and in raking light as darker area. Detectable by: transmitted light (lighter area), raking light (darker/rougher area).</skos:note>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionCuttlebone">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Cuttlebone</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Cuttlefish bone</skos:altLabel>
         <skos:prefLabel xml:lang="de">Schulp</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Os sepium</skos:altLabel>
+        <skos:definition xml:lang="en">Cuttlebone is the inner skeleton of a sepia fish (sepia officinalis), a light white porous piece consisting mainly of aragonite (calcium carbonate).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionSepiolite">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
+        <skos:prefLabel xml:lang="en">Sepiolite</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Meerschaum</skos:altLabel>
+        <skos:altLabel xml:lang="en">Cuttlefish bone</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Sepiolith</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Meerschaum</skos:altLabel>
+        <skos:definition xml:lang="en">Sepiolite is a soft and porous white clay mineral (a complex magnesium silicate).</skos:definition>        
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionBread">
@@ -70,32 +103,55 @@
         <skos:prefLabel xml:lang="en">Bread</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schleifbrot</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
-        <skos:note xml:lang="en">Bread was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
+        <skos:definition xml:lang="en">Bread (Schleifbrot) is a mixture of flour, chalk, egg white and glass (sometimes yeast was added too and the substance was baked). This chalky “bread” was used in geographic areas far from sea coasts, where pumice and sepiolite were not readily available. It was used to erase text written in all inks on papyrus and parchment.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionSandstone">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
+        <skos:definition xml:lang="en">Sandstone is a natural fine-structured stone which was also readily available in areas far from sea coasts. It was made into sticks and used for deletion of text. It was used to erase text written in all inks on papyrus and parchment. Its use is detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>
-        <skos:note xml:lang="en">Sandstone was used to erase text written in all inks on papyrus and parchment. Detectable by transmitted light (lighter area) and raking light (darker/rougher area).</skos:note>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionErasurePowder">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Erasure powder</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Tilgeungspulver ??</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tilgungspulver</skos:prefLabel>
+        <skos:definition xml:lang="en">Erasure powder is a comparatively late recipe for deleting texts; the powder made of dried powdered hare skin was used in combination with pumice as a tool for rubbing the powder into the letter required to be deleted – the leather fibres penetrated both the pumice and the surface of the writing material (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionFeathers">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Feathers</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Feder</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>        
+        <skos:definition xml:lang="en">Feathers might be used to dust off coal and other pigments applied without binding agents, and so to avoid harming the parchment surface (Engel 2021).</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/dryDeletionsAfter"/>   
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/coverDeletion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Covering methods</skos:prefLabel> 
         <skos:prefLabel xml:lang="de">Überdecken</skos:prefLabel>
+        <skos:definition xml:lang="en">The third main category of deleting methods is to cover the a part of the written surface either with paint or with additional material. The written instructions are not known, but there is ample evidence of this practice in manuscripts.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaint">
@@ -106,13 +162,13 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/overpaste">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Overpasting</skos:prefLabel> 
+        <skos:prefLabel xml:lang="en">Pasting over</skos:prefLabel> 
         <skos:prefLabel xml:lang="de">Überkleben</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/oversew">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Oversewing</skos:prefLabel> 
+        <skos:prefLabel xml:lang="en">Sewing over</skos:prefLabel> 
         <skos:prefLabel xml:lang="de">Überwendlich nähen</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/coverDeletion"/>
     </skos:Concept>
@@ -121,6 +177,11 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Lifting off</skos:prefLabel> 
         <skos:prefLabel xml:lang="de">Abheben ??</skos:prefLabel>
+        <skos:definition xml:lang="en">Lifting off is a deleting technique relevant for charcoal. Cennini recommends fresh bread for this purpose. We might assume that this was a widely used method. However, in manuscripts charcoal was actually only used for first sketches for illuminations (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     
@@ -135,33 +196,55 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Liquid methods</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Tilgungen mit Flüssigkeiten</skos:prefLabel>
-        <skos:note xml:lang="en">Liquids work in two ways: they either wash off the inks or modify them in such a way that inks become invisible/less visible (for example by pH changes). A third possible way of using liquid deletion agents is to swell the surface of the parchment and then scratch it off.</skos:note>
+        <skos:note xml:lang="en">Liquids work in two ways: they either wash off the inks or modify them in such a way that inks become invisible/less visible (for example by pH changes). A third possible way of using liquid deletion agents is to swell the surface of the parchment and then scratch it off (Engel 2021).</skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletions"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionWater">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Wasser</skos:prefLabel>
+        <skos:definition xml:lang="en">Depending on the amount of water used and the way of application we find roughened areas.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionWine">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Wine</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Wein</skos:prefLabel>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMilk">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Milk</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Milch</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
-        <skos:note xml:lang="en">Methods of detection: Grayish line flour in the structure. In case flour was involved: soot ink virtually invisible, the parchment smells more after milk and less goat. Iron gall ink: on smooth side virtually not detectable, on rough side detectable under the microscope; in transmitted light traces detectable. Smells of milk.</skos:note>
+        <skos:definition xml:lang="en">Methods of detection: Grayish line flour in the structure; smell of milk. Soot ink completely deleted on smooth and rough parchment. Iron gall ink vanishes on a smooth surface; on a rough surface remains detectable under the microscope; in transmitted light traces detectable.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/> 
     </skos:Concept>
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung</skos:prefLabel>
+        <skos:definition xml:lang="en">All recipes for mixtures of substances to result in a liquid or, in most cases a pasty mass for deleting text originate from the 15th century or later. They rely on physico-chemical degradation of the ink, washing off, swelling of parchment and, in some cases, additional scratching off the surface (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/liquidDeletions"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture1">
@@ -169,181 +252,144 @@
         <skos:prefLabel xml:lang="en">Mixture: lime, vitriol, alum</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Kalk, Vitriol. Alaun</skos:prefLabel>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Cloth must be immersed into the mix and spread over the parchment and later rubbed, varnish is a final step pH of the mix is 13. 
-            Material of deletable/deleted text: Most probably meant to delete iron gall inks.
-            Carrier: Parchment, entire page.
-            Time: 1418.
-            Sources: Altmünster, Cod. lat. 2942, Staatsbibliothek München, Spalte 1, Seite 1 viertletztes Blatt nach dem Jahr 1418
-            Traces left by the method: CaO, ZnSO4·7H2O, FeSO4·7H2O) (KAl (SO4)2·12 H2O), as the vitriol is not specified: FeSO4 · 7H2O or CuSO4 · 5 H2O) or ZnSO4 · 7H2O. Also alum is not defined: KAl (SO4)2 · 12 H2O or Al2 (SO4)3 · 18 H2O.
-            Detectable by. Deleting reaction: FeSO4+Ca(OH)2→Fe(OH)2+CaSO4. So the ink becomes much lighter, actually yellowish as a first step. Parchment is also yellowish after the application of this recipe. On a smooth parchment the ink may be deleted, on rough parchment a stain is left. Varnish in the way the Domkanoniker do it.
-            Method of detection: Analytical: identification of area with various sorts of vitriol other than from the ink; also alum might be detectable.
-            Pitfalls: Light lines: light brown after water, grayish after milk.
-        </skos:note>
+        <skos:definition xml:lang="en">According to a medieval recipe the mixture was spread over the parchment and later rubbed. The ink becomes much lighter, actually yellowish as a first step. Parchment is also yellowish after the application of this recipe. On a smooth parchment the ink may be deleted, on rough parchment a stain is left. In the area where the mixture was applied one might detect various sorts of vitriol (other than from the ink) and alum (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture2">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Mixture: vitriol and calium *calium* (calcium or kalium??) or natrium nitrate (English: sodium nitrate??)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: Vitriol +++</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixture: vitriol and potassium or sodium nitrate</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Vitriol, Kalium oder Natriumnitrat</skos:prefLabel>
+        <skos:definition xml:lang="en">The method comes from a 15th-century recipe. The deletion is detectable by the yellow stain on paper caused by the Nitration (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: application with a sponge gently rubbing.
-            Material of deletable/deleted text: Black letters (soot ink is black, but black might also mean brown).                
-            Carrier: Paper (this might not mean that it was not used on parchment); Entire page.
-            Time: 15th c.
-            Sources: "Experimenta de coloribus" Jehan le Begue in: Merrifield 1849:47).
-            Detectable by: Nitration, yellow stain on paper (method was not tested on parchment).
-        </skos:note>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture3">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-<!--        ############ is it Calcium or Kalium ??? natrium nitrate should be sodium nitrate ?? ######-->
-        <skos:prefLabel xml:lang="en">Mixture: *calium* (calcium or kalium??) or natrium nitrate (English: sodium nitrate??) and iron sulfate and water</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mischung: *Calium* oder Natriumnitrate und Eisensulfat und Wasser</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixture: potassium or sodium nitrate and iron sulfate and water</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mischung: Kalium oder Natriumnitrat, Eisensulfat und Wasser</skos:prefLabel>
+        <skos:definition xml:lang="en">The method comes from a 15th-century recipe. The deletion is detectable by the yellow stain on paper caused by the Nitration (Engel 2021).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: sponge soaked in the mixture and put on the letter. The mixture is bright yellow and has a pH of 2 – strong smell of iron.
-            Material of deletable/deleted text: Most probably for iron gall ink.
-            Carrier: Paper (this might not mean that it was not used on parchment); entire page.
-            Time: 15th c.
-            Sources: Ricepte d´affare pui colori of Ambrogio di Ser Pietroda Siena after Thompson, D. V. Jr. 1933:346). 
-            Detectable by: Nitration, yellow stain on paper (method was not tested on parchment).
-        </skos:note>
-    </skos:Concept>
+    </skos:Concept>    
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture4">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: alum, orange juice</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Alaun, Orangensaft</skos:prefLabel>
+        <skos:definition xml:lang="en">The method is described in a 15th-century recipe. Iron gall ink becomes much lighter on paper, other writing material, such as stylus, abrasives and soot ink can be deleted completely. Surface texture of paper or parchment stays unchanged. The fresher the inks are the easier they can be deleted using this recipe.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: rub over letters, pH value around 2, depending on the sort of orange.  
-            Material of deletable/deleted text: Most probably iron gall ink.
-            Carrier: paper.
-            Time: 15th c.
-            Sources: “Experimenta de coloribus” by Jehan le Begue.
-            Detectable by: Iron gall ink becomes much lighter on paper, other writing material, such as stylus, abrasives and soot ink can be deleted completely. Surface texture of paper or parchment stays unchanged.
-            The fresher the inks are the easier they can be deleted using this recipe.
-        </skos:note>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture5">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Orange juice, chalk and water</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Orangensaft, Kreide und Wasser</skos:prefLabel>
+        <skos:definition xml:lang="en">The method is described in a 15th-century recipe. The surface should be rubbed with a sponge soaked in orange juice. Then one applies chalk either as powder or in water solution on the relevant area or as a powder. Traces left by the method include chalk, locally different then in unchanged areas. The ink becomes light brown after application of orange juice.</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Orange juice and sponge rubbing over the letters, then chalk with water applied in the relevant area or as a powder. 
-            Material of deletable/deleted text: Most probably iron gall ink.
-            Carrier: Carta – parchment? Entire page
-            Time: 15th c. onwards.
-            Sources: Jehan le Begue nach:Merrifield, 849 59).
-            Traces left by the method: Chalk, locally different then in unchanged areas.
-            Detectable by: We must see the impact of the orange juice on a parchment. Chalk applied locally. Actually the wet application of lime should bring the pH back to 13 and make the ink visible again, therefore it is better to apply the chalk as a powder.
-            Method of detection: Ink is light brown after application of orange juice.
-        </skos:note>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture6">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: rosin and horse dung</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Harz, Pferdedung</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Rosin as powder, most probably as sort of sucking sand, a cloth to cover the text, horse dung on top and a weight. 
-            Material of deletable/deleted text: Most probably iron gall ink.
-            Carrier: Parchment. Entire sheet.
-            Sources: Berlin, Staatsbibliothek Preuß. Kulturbesitz, Ms. germ. qu. 417 Kap. 202, f 67, Datenbank Oltrogge.
-            Method of detection: Horse DNA?
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture7">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
-        <skos:prefLabel xml:lang="en">Mixture: alum and ammonium chloride</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mixture: alum and salmiac</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Alaun, Salmiak</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: A sort of alum – unspecified and salmiak.
-            Material of deletable/deleted text: Not specified.
-            Carrier: Not specified, but acid would help delete iron gall ink.
-            Sources: Berlin, Staatsbibliothek Preuß. Kulturbesitz, Ms. germ. qu. 417 Kap.203, f 67).
-            Traces left by the method: Oltrogge suggests that hydrochloric acid is created as working agent (3153 Data base Oltrogge).
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture8">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: powdered hare meat and lime</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Hasenfleisch (pulverisiert), Kalk</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Powdered hare meat and lime, mixed and applied onto the text.
-            Material of deletable/deleted text: High pH – iron gall inks?
-            Carrier: Entire page?
-            Sources: Berlin, Staatsbibliothek Preuß. Kulturbesitz, Ms. germ. qu. 417 Ms. 8 Folio / Seite F. 67 Kap.204.
-            Traces left by the method: The mixture should have a high pH value.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture9">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: alum, ash, egg shells</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Alaun, Asche, Eierschale</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: application with sponge.
-            Material of deletable/deleted text: Most probably iron gall inks.
-            Carrier: Parchment, full page.
-            Sources: Berlin, Staatsbibliothek Preuß. Kulturbesitz, Ms. germ. qu. 417 Ms. 8, f. 67v, Kap. 205.
-            Detectable by: Egg shells might be an abrasive agent
-            Method of detection: Egg shells.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture10">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Hare flesh fried and salted, wine</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Hasenfleisch, Wein</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Hare flesh  fried and salted, wine (wine had a low pH in the Middle ages).
-            Material of deletable/deleted text: Most probably iron gall inks
-            Carrier: Most probably entire page.
-            Sources: München, Bayerische Staatsbibliothek, Cgm. 824, Ms. 60, f. 72v, Kap 99).
-            Detectable by: The recipe stresses that no additional abrasing is neded to delete the text,
-            It might be that fried hare meat meant active coal.
-            Method of detection: Salt (NaCl).
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture11">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: bone marrow, oil</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Knochenmark, Öl</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">
-            Sources: „Ambrogio Ricepte d´Affare piu Colori“ (Thompson:1933).
-            Traces left by the method: 
-            Detectable by: Active coal? On smooth parchment soot ink was completely deleted, iron gall ink was significantly lighter, on rough parchment and paper a smearing and oil stain was left.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture12">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Malus sylvestris (low pH) juice, and a rough cloth</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Saft aus Malus sylvestris</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en"> 
-            Material of deletable/deleted text: Most probably iron gall inks.
-            Carrier: Parchment most probably entire page.
-            Sources: München, Bayerische Staatsbibliothek, Clm. 20174, Ms. 52, f.254r, Kap 225.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>        
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture13">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: Wine yeast (saccharomyces cerevisiae), ashes, water</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Weinhefe (saccharomyces cerevisiae), Asche, Wasser</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Wine yeast (saccharomyces cerevisiae), ashes, water – a lieche ?? is the result. pH was 11.
-            Material of deletable/deleted text: Most probably iron gall inks. 
-            Carrier: Most probably entire page.
-            Sources: (“Liber illuministarum”, Tegernsee um 1500, Staatsbibliothek München, Cod. germ. 821,fol. 229´).
-            Traces left by the method: A lieche from K2CO3), possibly with parts of KOH – dissolving the iron ink complex.
-            Detectable by: On the smooth parchment both soot ink and iron gall ink could be deleted, iron gall ink left a light tine, on rough parchment the treatment resulted in stains.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletionMixture14">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/deletions-tax"></skos:inScheme>
         <skos:prefLabel xml:lang="en">Mixture: lime, flour, water, egg shells</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Mischung: Kalk, Mehl, Wasser, Eierschale</skos:prefLabel>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/> 
-        <skos:note xml:lang="en">Method: Lime, flour, water, egg shells, swelling stretching and shaving then application of chalk. The pH of this mixture went up to 14.
-            Carrier: Parchment. Krekel believes that this is a recipe for deleting an entire page of text. 
-            Time: Around 1500
-            Sources: Tegernsee um 1500, Staatsbibliothek München, Cod. germ. 821,fol. 36´.
-            Detectable by: The parchment is immersed into the mixture for 6 days, then stretched and shaved – virtually all previous findings should be eliminated.
-        </skos:note>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>
+            <dct:bibliographicCitation>Engel, P. "Deletions in Manuscripts and Conservators´ Decision-Making Depicted in SKOS". Conservation Update 2(2021): 25-49. DOI: 10.48341/rva1-5g91</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/deletionMixture"/>         
     </skos:Concept>    
 </rdf:RDF>
