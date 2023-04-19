@@ -979,8 +979,9 @@
             <dct:bibliographicCitation>Kühn, Hermann. Reclams Handbuch der künstlerischen Techniken. Vol. 1. Farbmittel, Buchmalerei, Tafel-und Leinwandmalerei. 3 vols. Stuttgart: Reclam, 1984.</dct:bibliographicCitation>
             <dct:bibliographicCitation>Material Archiv https://materialarchiv.ch/de/ma:material_940/</dct:bibliographicCitation>
             <dct:bibliographicCitation>Mindat https://www.mindat.org/min-2587.html</dct:bibliographicCitation>
+            <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/massicot-k-43010/</dct:bibliographicCitation>
         </skos:definition>
-        <dct:bibliographicCitation>Spectra by A. Cosentino, Cultural Heritage Science Open Source (CHSOS): https://chsopensource.org/massicot-k-43010/</dct:bibliographicCitation> <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
+         <skos:example>https://upload.wikimedia.org/wikipedia/commons/2/20/Massicot-177335.jpg</skos:example>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/lead"/>
         <skos:related rdf:resource="http://gams.uni-graz.at/thesaurus/oxygen"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/yellow-colorant"/>
