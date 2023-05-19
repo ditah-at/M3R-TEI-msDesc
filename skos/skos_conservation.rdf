@@ -20,8 +20,10 @@
     <!--    ########### Damages #############-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/damages">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
-        <skos:prefLabel xml:lang="de">Schäden</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Veränderung oder Zerfall des Materials</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Schäden</skos:altLabel>
         <skos:prefLabel xml:lang="en">Material alteration and deterioration</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Damages</skos:altLabel>
         <skos:definition xml:lang="en">Taxonomy for damages in manuscripts and works of graphic art made of parchment and paper.
             Damage is a generic term referring to any alteration of the material possibly influencing the readability of the content. In this document we use the division into intentional (e.g. cuttings) and unintentional (e.g. mould) damages, which are further divided according to the agents of deterioration (e.g. pest infestations).</skos:definition>
         <skos:definition rdf:parseType="Resource">
@@ -38,16 +40,41 @@
     <!--    ########### Intentional Damages // Deletions #############-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/intentionalDamage">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
-        <skos:prefLabel xml:lang="en">Intentional damage</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Intentional alteration</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Intentional damage</skos:altLabel>
+        <skos:altLabel xml:lang="de">Absichtliche Veränderung</skos:altLabel>
         <skos:prefLabel xml:lang="de">Absichtliche Schäden</skos:prefLabel>
-        <skos:definition xml:lang="en">An intentional damage on the whole or part of the manuscript.</skos:definition>
+        <skos:definition xml:lang="en">An intentional alteration on the whole or part of the manuscript.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/damages"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fragmentation">
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
+        <skos:prefLabel xml:lang="en">Previous repairs</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Previous conservation treatments</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Schaden durch alte Reparaturen</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Frühere konservatorische Maßnahme</skos:altLabel>
+        <skos:definition xml:lang="en">Implied are all previous measures intended to secure the conservation of the book. Previous repairs may have been carries out already during or immediately after the production of the manuscript (e.g. repairing holes in the parchment by stitching or gluing additional parchment pieces). In modern times one used materials which in time damaged the document (e.g. tape to glue together fragments or chemical solutions to enhance faded writing).</skos:definition>
+        <skos:definition rdf:parseType="Resource">
+            <rdf:value>References</rdf:value>             
+            <dct:bibliographicCitation>Archives Damage Atlas, pp. 58-63 and 75-79 (accessed 13.04.2023)
+                https://www.metamorfoze.nl/sites/default/files/documents/schadeatlas-2010%20engels.pdf</dct:bibliographicCitation>
+        </skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/intentionalDamage"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/palipsest">
+        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
+        <skos:prefLabel xml:lang="de">Palimpsest</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Palimpsest</skos:prefLabel>
+        <skos:definition xml:lang="en">Intentional erasure of the original text.</skos:definition>
+        <skos:related rdf:resource="http://vocab.getty.edu/page/aat/300028576"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/intentionalDamage"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fragment">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
         <skos:prefLabel xml:lang="de">Fragment</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Fragment</skos:prefLabel>
         <skos:definition xml:lang="en">Intentional braking the structure of the original book.</skos:definition>
+        <skos:related rdf:resource="http://vocab.getty.edu/page/aat/300117130"/>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/intentionalDamage"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/brokenBook">
@@ -55,22 +82,22 @@
         <skos:prefLabel xml:lang="de">Disiecta membra</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Broken book</skos:prefLabel>
         <skos:definition xml:lang="en">Intentional braking the structure of the original book in detached and dispersed leaves.</skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragmentation"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragment"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/cutting">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
         <skos:prefLabel xml:lang="de">Schnitt</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Cutting</skos:prefLabel>
         <skos:definition xml:lang="en">Parts usually including illumination cut out from the original leaf.</skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragmentation"/>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragment"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/binding-waste">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-conservation"/>
         <skos:prefLabel xml:lang="de">Makulatur</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Binding waste</skos:prefLabel>
 <!--        #############!-->
-        <skos:definition xml:lang="en"></skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragmentation"/>
+        <skos:definition xml:lang="en">Binging waste is damaged, misprinted, or surplus paper or parchment reused in bookbinding</skos:definition>
+        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/fragment"/>
     </skos:Concept>
 <!--    ###################### DELETIONS ######################-->
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/deletions">
@@ -489,9 +516,7 @@
                 https://www.metamorfoze.nl/sites/default/files/documents/schadeatlas-2010%20engels.pdf</dct:bibliographicCitation>
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/other-agents"/>
-    </skos:Concept>
-    
-   
+    </skos:Concept>  
     
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/waterDamage">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
@@ -554,10 +579,11 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/abbrasion">
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
-        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Wear down</skos:prefLabel>
         <skos:prefLbel xml:lang="de">Abreiben</skos:prefLbel>
-        <skos:altLbel xml:lang="de">Abbrasion</skos:altLbel>
-        <skos:definition xml:lang="en">Cracks or splits of the binding boards.</skos:definition>
+        <skos:altLbel xml:lang="en">Abrasion</skos:altLbel>
+        <skos:altLbel xml:lang="de">Abrasion</skos:altLbel>
+        <skos:definition xml:lang="en"></skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/mechanical"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/fold">
@@ -875,19 +901,6 @@
         </skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/pest"/>
     </skos:Concept>
-    <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/previousRepairs">
-        <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/conservation"/>
-        <skos:prefLabel xml:lang="en">Previous repairs</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Previous conservation treatments</skos:altLabel>
-        <skos:prefLabel xml:lang="de">Schaden durch alte Reparaturen</skos:prefLabel>
-        <skos:altLabel xml:lang="de">Frühere konservatorische Maßnahme</skos:altLabel>
-        <skos:definition xml:lang="en">Implied are all previous measures intended to secure the conservation of the book. Previous repairs may have been carries out already during or immediately after the production of the manuscript (e.g. repairing holes in the parchment by stitching or gluing additional parchment pieces). In modern times one used materials which in time damaged the document (e.g. tape to glue together fragments or chemical solutions to enhance faded writing).</skos:definition>
-        <skos:definition rdf:parseType="Resource">
-            <rdf:value>References</rdf:value>             
-            <dct:bibliographicCitation>Archives Damage Atlas, pp. 58-63 and 75-79 (accessed 13.04.2023)
-                https://www.metamorfoze.nl/sites/default/files/documents/schadeatlas-2010%20engels.pdf</dct:bibliographicCitation>
-        </skos:definition>
-        <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/intentionalDamage"/>
-    </skos:Concept>
+    
     
 </rdf:RDF>
