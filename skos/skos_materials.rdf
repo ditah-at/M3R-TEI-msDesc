@@ -26,7 +26,7 @@
         <skos:inScheme rdf:resource="http://gams.uni-graz.at/thesaurus/mss-materials"/>
         <skos:prefLabel xml:lang="en">Chemical elements</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Chemische Elemente</skos:prefLabel>
-        <skos:definition xml:lang="en">Chemical elements detected in materials from manuscripts, either as constant ingredients of substances or as so-called impurities within main substances or mixtures.</skos:definition>
+        <skos:definition xml:lang="en">Chemical elements detected in materials from manuscripts, either as ingredients of substances or as so-called impurities within main substances or mixtures.</skos:definition>
         <skos:broader rdf:resource="http://gams.uni-graz.at/thesaurus/materials"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://gams.uni-graz.at/thesaurus/hydrogen">
