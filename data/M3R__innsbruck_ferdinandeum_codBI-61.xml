@@ -64,7 +64,7 @@
                                         sketch by Jiri Vnoucek where the page with the initial is on
                                         the left and the upper edge of the bifolio on the
                                         right).</p>
-                                    <p>The big hole in the middle of the bifolio was there before
+                                    <p>The big <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">hole</term></index> in the middle of the bifolio was there before
                                         writing started; this hints toward the fact that even second
                                         class parchment was good enough for the codex. This is also
                                         indicated by the size of the skin, which hints towards a
@@ -100,10 +100,10 @@
                                     <p>
                                         <list>
                                             <head>Deletions</head>
-                                            <item>There is a scraping with a knife on the second
+                                            <item>There is a <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/penknife">scraping with a knife</term></index> on the second
                                                 line from the bottom on the 3rd page in the
                                                 centre.</item>
-                                            <item>There are also erased letters at the beginning of
+                                            <item>There are also <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/deletions">erased letters</term></index> at the beginning of
                                                 the 6th line from the bottom on the very same
                                                 page.</item>
                                         </list>
@@ -111,25 +111,23 @@
                                     <p>
                                         <list>
                                             <head>Damages</head>
-                                            <item>The bifolio is <term
-                                                  ref="http://gams.uni-graz.at/thesaurus/gelatinization"
-                                                  >gelatinized</term>.</item>
-                                            <item>There are some tears.</item>
-                                            <item>There are also several cuts, one of which is on
-                                                the second folio in the corner and astonishingly
+                                            <item>The bifolio is <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/gelatinization">gelatinized</term></index>.</item>
+                                            <item>There are some <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/tear">tears</term></index>.</item>
+                                            <item>There are also several <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cuts</term></index>, one of which is on
+                                                the <locus from="2r">second folio</locus> in the corner and astonishingly
                                                 does not appear in the same position on the other
                                                 half of the folio.</item>
-                                            <item>Another cut is in the upper area, which clearly
+                                            <item>Another <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cut</term></index> is in the upper area, which clearly
                                                 appeared after the parchment had been made and not
                                                 before, otherwise it would appear as a hole now as a
                                                 result of the stretching procedure.</item>
-                                            <item>There is a black stain along the fold, possibly
+                                            <item>There is a <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/stains">black stain </term></index> along the fold, possibly
                                                 char coal? Strong cross wise folds.</item>
-                                            <item>On the upper edge a strong fold, possibly from
+                                            <item>On the upper edge a strong <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/fold">fold</term></index>, possibly from
                                                 secondary use in a book binding.</item>
-                                            <item>Broken parchment along the folds and
+                                            <item><index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">Broken parchment</term></index> along the folds and
                                                 elsewhere.</item>
-                                            <item>There are numerous scratches.</item>
+                                            <item>There are numerous <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">scratches</term></index></item>
                                         </list>
                                     </p>
                                 </condition>
