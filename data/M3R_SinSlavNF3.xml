@@ -200,7 +200,8 @@
                                 <source/>                                                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
+                                <custEvent>RGB/UV of the whole manuscript Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>Material analysis with XRF and p-RFA by M. Schreiner (<date when="2007">2007</date>).</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates/>
