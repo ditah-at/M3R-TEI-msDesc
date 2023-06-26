@@ -1,11 +1,10 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="_tei-msDesc_">
-    <!--    ADD xml:id using MS Shelfmark e.g. onb-cod-732-msDesc_AUTHORNAME-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin-slav-1n_tei-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
+                <title>Sinai, Katharinenkloster, Sin. slav. 1/N. Multimodale Repräsentation</title>
                 <respStmt ana="marcrelator:mrk"><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
-                    <resp>Scholarly description by:</resp>
+                    <resp>Manuscript description by:</resp>
                     <persName>
                         <forename>Heinz</forename>
                         <surname>Miklas</surname>
@@ -63,7 +62,10 @@
                         <idno>1</idno>
                         <altIdentifier type="alternative">
                             <idno>Sin. Slav. NF 1</idno>
-                        </altIdentifier>                       
+                        </altIdentifier>  
+                        <altIdentifier type="alternative">
+                            <idno>Sin. slav. 1/N</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <head>
                         <title>Euchologium Sinaiticum, new part (Euchologii Sinaitici pars nova)</title>
@@ -92,10 +94,7 @@
                             <textLang mainLang="deu"></textLang> <!-\-wenn das msItem in einer anderen Sprache als der Rest der HS geschrieben ist-\->
                         </msItem>
                     </msContents>-->
-                  <!--  <physDesc/>
-                        
-                        
-                    
+                    <physDesc/>                      
                     <history>
                         <origin>
                             <origPlace/>
@@ -107,21 +106,19 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source><!-\-Gives the source(s) for the current MS description (e.g. Summary description by X based on ... / Beschreibung adaptiert nach:) Source in bibl with date for the adaptation.-\->
-                                    <bibl></bibl> 
-                                    (<date when="2021">2021</date>).
+                                <source>Summary description based on material by H. Miklas (<date when="2023">2023</date>).
                                 </source>                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent><!-\-List of custodial events such as photography and conservation-\-></custEvent>
+                                <custEvent>RGB/MSI of ff. 2v, 12v-13r, 13v, 20r, 20v-21r, 22r by Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>Material analysis with XRF and p-RFA by M. Schreiner (<date when="2007">2007</date>).</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates/>
                         <listBibl>
-                            <bibl/>
+                            <bibl><ref target="https://www.loc.gov/item/00279385652-ms/">“Euchologion sinaiticum” (Eu, Euch) – Glagolitic euchologion with extracts of the divine liturgies and other rituals, probably copied at Preslav (11th-century).</ref></bibl>
                         </listBibl>
-                    </additional>
-                   -->
+                    </additional>                   
                     <msPart>
                         <msIdentifier>
                             <altIdentifier type="palimpsest">
@@ -141,23 +138,35 @@
                             <objectDesc form="codex">
                                 <supportDesc material="perg">
                                     <support>
-                                        <material>Parchment</material> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
+                                        <material>Parchment</material>
                                     </support>
                                     <extent>
                                         <measure type="leavesCount" quantity="28" unit="folio">28 ff.</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>140</height>
+                                            <width>111</width>
+                                        </dimensions>
                                     </extent>
+                                    <condition>Ff. 3, 13 and 20 are severely damaged; ff. 1, 2, 4, 11, 12, 18 and 21 are also damaged, but not to such an extent.</condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1">1 column.</layout>
+                                    <layout writtenLines="24 26" columns="1">Written 24-26 long lines.
+                                        <dimensions type="written" unit="mm">
+                                            <height>107</height>
+                                            <width>70</width>
+                                        </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                            </objectDesc>
-                            
+                            </objectDesc>                      
                             <handDesc>
                                 <handNote>One Bulgarian scribe, identical with the main scribe of the Sinaitic Liturgiarium.</handNote>
                             </handDesc>
                                 <scriptDesc>
                                 <scriptNote script="glagolica">Standing, rounded Old Church Slavonic Glagolica.</scriptNote>
                             </scriptDesc>
+                            <decoDesc>
+                                <decoNote>Colored initials (red, green, yellow, azure, black), green or yellow headings; the initials are ornamentally decorated and contain motifs of people or animals at the ends.</decoNote>
+                            </decoDesc>      
                         </physDesc>
                         <history/>
                         <additional>
