@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin_slav_nf3_tei-msDesc_">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin_slav_nf3_tei-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -111,15 +111,10 @@
                         <textLang mainLang="chu" otherLangs="lat"/>
                         <msItem>
                             <locus from="1r" to="145v">1-145</locus>
-                            <note>
-                                Liturgical Psalter, comprising 151 psalms according to the Septuagint, originally with 
-                                Cantica and further texts at the end (as in the somewhat older Psalterium Sinaiticum), 
-                                from which only the title of the first Canticum is preserved. Spaces left over for miniatures 
-                                were later used by Demetrius for a circle of later entries.
-                            </note>                           
+                            <note>Liturgical Psalter, comprising 151 psalms according to the Septuagint, originally with Cantica and further texts at the end (as in the somewhat older Psalterium Sinaiticum), from which only the title of the first Canticum is preserved. Spaces left over for miniatures were later used by Demetrius for a circle of later entries.</note>                           
                         </msItem>
                         <msItem>
-                            <locus from="1r" to="144v">1-144</locus>
+                            <locus from="1r" to="144v">1r-144v</locus>
                             <author>Demetrius Sinaiticus</author>                           
                             <note>Demetrius’ secondary entries on ff. <locus from="1r">1r</locus>, <locus from="2r">2r</locus>, <locus from="3r">3r</locus>14-21, <locus from="34v">34v</locus>, <locus from="140r">140r</locus>11m, 14-23, <locus from="140v">140v</locus>, <locus from="141r">141r</locus> in marg. and <locus from="144r">144r</locus>, containing two marginal name-mentions (ff. <locus from="1r">1r</locus> and <locus from="141r">141r</locus> above top line), a four part prayer cycle (1. f. <locus from="1r">1r</locus>2-17; 2. f. <locus from="2r">2r</locus>2-13; 3. ff. <locus from="2r">2r</locus>14-20, <locus from="3r">3r</locus>14-21, <locus from="34v">34v</locus>1-4; 4. ff. <locus from="34v">34v</locus>4, <locus from="140r">140r</locus>13-23, <locus from="140v">140v</locus>1-9, <locus from="144r">144r</locus>1-24), a short statement of the author (f. <locus from="1r">1r</locus>18-19), one tripartite Greek-Latin-Glagolitic abecedarium (f. <locus from="1r">1r</locus>20-25) and short liturgical instructions (Alleluia, Psalm verse, f. <locus from="34v">34v</locus>1-3).</note>                            
                         </msItem>
@@ -141,9 +136,7 @@
                                         <width>110</width>
                                     </dimensions>
                                 </extent>
-                                <collation>
-                                    The 145 ff. are arranged in altogether 19 quires and form 17 quaternios, one ternio and one binio. The penultimate sheet of the last quaternio is missing, resulting in the following formula: <formula>2x8+1x4+1x6+14x8+1x7 [8-1]</formula>. Altogether we are dealing with 72 bifolia and a single leaf, the former partner of f. <locus from="140r">140</locus>. The quires are prepared for combination by slits and are not pricked.                                   
-                                </collation>
+                                <collation>The 145 ff. are arranged in altogether 19 quires and form 17 quaternios, one ternio and one binio. The penultimate sheet of the last quaternio is missing, resulting in the following formula: <formula>2x8+1x4+1x6+14x8+1x7 [8-1]</formula>. Altogether we are dealing with 72 bifolia and a single leaf, the former partner of f. <locus from="140r">140</locus>. The quires are prepared for combination by slits and are not pricked.</collation>
                                 <condition>Comparatively well preserved, but about 2-3 quaternios (ca. <locus from="16r" to="24v">16-24</locus> ff.) at the end missing with lost text and one folio without <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">text loss</term></index> within the last quaternio (f. <locus from="144r">144</locus>’). It seems to have been preserved for an emblematic miniature. <locus from="46r">46</locus> ff. show more severe <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">mechanical damage</term></index>, but only a few of them with (mostly minor) <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">text loss</term></index> (ff. 1, <locus from="51r">51</locus>, <locus from="52r">52</locus>, <locus from="53r">53</locus>, <locus from="111r">111r</locus>, <locus from="118r">118r</locus>, <locus from="119v">119v</locus>, <locus from="131r">131r</locus>, <locus from="139r">139r</locus>, <locus from="144v">144v</locus>, <locus from="145v">145v</locus>). The legibility of the text can be impaired in places by <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/surfaceDirt">dirt</term></index> or sand, <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/stains">water stains</term></index>, fading and <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/deteriorationInkPigment">rejection of the ink</term></index>, as on ff. <locus from="1v">1v</locus>, <locus from="8v">8v</locus>, <locus from="32v">32v</locus>, <locus from="33v">33v</locus>, <locus from="34v">34v</locus>, <locus from="42v">42v</locus> etc.). In addition to <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">holes</term></index> or <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cutouts</term></index> that were already present (larger ones on ff. <locus from="21r">21</locus> and <locus from="33r">33</locus>) in the parchment, there are sometimes also later <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">holes</term></index> (as on ff. <locus from="1r">1</locus> and <locus from="51r" to="53v">51-53</locus>) or <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cutouts</term></index> (as on f. <locus from="34r">34</locus>, from which the entire upper third is missing), <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/tear">frayed or eroded edges</term></index>, inturned corners, scrapes and the like. Regrettable is the <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">loss</term></index> of part of the tripartite abecedarium on f. <locus from="1r">1r</locus>. From f. <locus from="4v">4v</locus> the left part of the initial is missing due to <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">trimming</term></index>, etc.
                                 </condition>
                             </supportDesc>
@@ -212,11 +205,52 @@
                         </adminInfo>
                         <surrogates/>
                         <listBibl>
-                            <bibl>
-                                Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. Ad editionem phototypicam praeparaverunt Melania Gau, Dana Hürner, Florianus Kleber, Martinus Lettner, Henricus Miklas sub redactione Henrici Miklas. Cum praefationibus sacri monasterii atque Ioannis Tarnanidae (Glagolitica Sinaitica 1). Wien: Holzhausen, 2012 (https://library.oapen.org/handle/20.500.12657/51767).</bibl>
+                            <bibl>Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. Ad editionem phototypicam praeparaverunt Melania Gau, Dana Hürner, Florianus Kleber, Martinus Lettner, Henricus Miklas sub redactione Henrici Miklas. Cum praefationibus sacri monasterii atque Ioannis Tarnanidae (Glagolitica Sinaitica 1). Wien: Holzhausen, 2012 (https://library.oapen.org/handle/20.500.12657/51767).</bibl>
                             <bibl>Psalterium Demetrii Sinaitici et Folia Medicinalia (Monasterii s. Catharinae codex slavicus NF 3). Editio critica. Praeparaverunt Henricus Miklas, Catharina Maria MacRobert, Andreas N. Sobolev, Dana Hürner, Florianus Wandl, Melania Gau. Includuntur etiam dissertationes Petrae Stankovska, Simonis Brenner, Floriani Kleber, Manfredi Schreiner, Michaelis Melcher, Ernesti Georgii Hammerschmid (Glagolitica Sinaitica 2). Wien: Holzhausen, 2021 (https://library.oapen.org/handle/20.500.12657/51767).</bibl>
                         </listBibl>
                     </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="palimpsest">
+                                <idno>Ff. 141a, 141b, and 141c</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <origDate notBefore="1151" notAfter="1175">3rd quarter 11th c.</origDate>
+                            <origPlace ref="https://www.geonames.org/351820/jabal-musa.html">Mount Sinai (?)</origPlace>
+                            <origPlace ref="https://www.geonames.org/3337514/istria.html">Northwest Balkans (?), Istria (?)</origPlace>
+                            <note type="summary">Three leaves (ff. 141av, 141br, 141bv, 141cr, 141cv)  multiple palimpsest with lat., cyrill. and glag. inscription; very poorly recognizable.</note>
+                        </head>
+                        <physDesc>
+                            <objectDesc>
+                               <supportDesc material="perg">
+                                   <support><material>Parchment</material></support>
+                                   <extent>
+                                       <measure type="leavesCount" quantity="3" unit="folio">3 lose leaves ff.</measure>
+                                       <dimensions type="leaf_current" unit="mm">
+                                       <height>85</height>
+                                       <width>68</width>
+                                   </dimensions>
+                                   </extent>                                   
+                                   <condition>All 3 sheets are in good condition and the text is fully legible.</condition>
+                               </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="13 21" columns="1">Written in 13 to 21 long lines.
+                                        <dimensions type="written" unit="mm">
+                                            <height>60</height>
+                                            <width>50</width>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <scriptNote>Glagolitic round script.</scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote>Simple and unadorned design; heading, initials, but also punctuation marks are whitewashed with ocher yellow color.</decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

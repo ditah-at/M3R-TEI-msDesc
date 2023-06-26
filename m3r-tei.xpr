@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../aratea-digital/aratea-data/data/texts/text__aratus_latinus.xml</String>
+                                    <String>data/M3R_SinSlavNF1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>tei_html_bootstrap</String>
+                                        <String>M3R-html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -30,6 +30,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>M3R-html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../aratea-digital/aratea-data/data/texts/text__aratus_latinus.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tei_html_bootstrap</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
