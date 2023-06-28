@@ -96,67 +96,13 @@
                     <head>
                         <title>Cloz Miscellany (Codex Clozianus / Glagolita Clozianus / Codice Glagolitico Cloziano)</title>
                         <origDate notBefore="0996" notAfter="1017">End of the 10th or beginning of the 11th c.</origDate>
-                        <origPlace>Macedonia</origPlace>
+                        <origPlace ref="https://www.geonames.org/735355/makedonia.html">Macedonia</origPlace>
                         <note type="summary">From the original homiliary survive two fragments: 12 leaves are kept in Trento, 2 - in Innsbruck.</note>                      
-                    </head> 
-                   
+                    </head>                    
                     <msContents>                      
-                        <note>Preserved are five homilies for Palm Sunday and for somme of the days of Holy Week: two of which are complete (one by John Chrysostom and one by Athanasius of Alexandria); fro the other three there are only fragments (one by John Chrysostom, one by Epiphanius of Salamis and one that is usually attributed to Methodius). </note>
+                        <note>Preserved are five homilies for Palm Sunday and for somme of the days of Holy Week: two of which are complete (one by John Chrysostom and one by Athanasius of Alexandria); from the other three there are only fragments (one by John Chrysostom, one by Epiphanius of Salamis and one that is usually attributed to Methodius). </note>
                         </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="perg">
-                                <support>
-                                    <material><!--(Pergament, Papier etc.)--></material> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
-                                </support>
-                                <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio"><!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
-                                    <dimensions type="leaf_current" unit="mm">
-                                        <height></height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
-                                        <width></width>
-                                    </dimensions>
-                                </extent>
-                                <foliation>Für ehemalige und moderne am besten separate foliation element mit xml:id="original" bzw. "modern"</foliation>
-                                <collation>
-                                    <formula></formula>
-                                    <catchwords></catchwords>
-                                    <signatures></signatures>
-                                </collation>
-                                <condition/>
-                            </supportDesc>
-                            <layoutDesc>
-                            <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                <layout ruledLines="0" writtenLines="0" columns="0">
-                                    <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
-                                    </dimensions> 
-                                    <!-- optional Zeilenhöhe -->
-                                    <dimensions type="lineHeight" unit="mm">
-                                        <height min="0" max="0"></height>
-                                    </dimensions>
-                                    <!-- Einstichlöcher (en:pricking) und Linierung (en:ruling) freie Beschreibung; mit Referenz zu gedruckten Repertoria; laut D. Muzerelle, De re rigatoria (e.g. D. Muzerelle, De re rigatoria <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>)-->
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote xml:id="handID" scribe="x" script="x" medium="inkType"><!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.--></handNote>
-                        </handDesc>
-                        <scriptDesc>
-                            <scriptNote script="x" medium="x"></scriptNote>
-                        </scriptDesc>
-                        <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/> <!--Marginalia, spätere Notizen etc.-->
-                        <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
-                            </binding>
-                        </bindingDesc>
-                        <accMat/> <!--z.B. Fragmente / Makulatur oder beiliegende Notizen, die nicht Teil der HS sind-->
-                    </physDesc>
+                    </msContents>                    
                     <history>
                         <provenance>The manuscript was the property of the Frankopan family of the island of Krk in Dalmatia. The codex was named after the Count Paris Cloz who owned it in the first half of the 19th century. He donated the 12 leaves to the City Museum in Trent. The two folios kept today in Innsbruck were owned by Baron Andreas Di Pauli and discovered by the Slovene philologist Franz Miklosich (d. 1891).</provenance>
                     </history>
@@ -183,9 +129,33 @@
                             <country>Italy</country>
                             <settlement>Trento</settlement>
                             <repository>Biblioteca comunale</repository>
-                            <idno>Ms. 2476</idno>
-                                                   
+                            <idno>Ms. 2476</idno> 
+                            <altIdentifier type="alternative">
+                                <idno>Cod. 23</idno>
+                            </altIdentifier>
                         </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <material>Parchment</material> 
+                                    </support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="12" unit="folio">12 ff.</measure>
+                                        
+                                    </extent>
+                                    
+                                </supportDesc>                                
+                            </objectDesc>                         
+                            <scriptDesc>
+                                <scriptNote>Round glagolitic script.</scriptNote>
+                            </scriptDesc>                           
+                        </physDesc>
+                        <additional>
+                            <custodialHist>
+                                <custEvent>RGB/MSI by Miklas-Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Schreiner.(<date when="2011">2011</date>)</custEvent>
+                            </custodialHist>
+                        </additional>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -293,12 +263,18 @@
                                 </layoutDesc>
                             </objectDesc>
                             <scriptDesc>
+                                <scriptNote>Round glagolitic script.</scriptNote>
                                 <scriptNote>The ink is either tannin ink or an
                                     iron gall ink; however, to take a final decision on the sort of ink
                                     an instrumental analysis is preferable (see the spectroscopical
                                     analysis of 2011).</scriptNote>
                             </scriptDesc>
                         </physDesc>
+                        <additional>
+                            <custodialHist>
+                                <custEvent>RGB/MSI by Miklas-Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Schreiner.(<date when="2011">2011</date>)</custEvent>
+                            </custodialHist>
+                        </additional>
                     </msFrag>
                    
                        
