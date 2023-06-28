@@ -1,0 +1,359 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="clzianus_tei-msDesc_miklas">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codex Clozianus. Multimodale Repräsentation</title>
+                <respStmt ana="marcrelator:mrk">  
+                    <resp>restoration report</resp>
+                    <persName>
+                        <forename>Patricia</forename>
+                        <surname>Engel</surname>
+                        <affiliation>University for Continuing Education Krems</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Florian</forename>
+                        <surname>Kleber</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
+                </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="clozianus">
+                    <msIdentifier>                       
+                        <altIdentifier type="collection">
+                            <idno>Codex Clozianus</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Cloz Miscellany (Codex Clozianus / Glagolita Clozianus / Codice Glagolitico Cloziano)</title>
+                        <origDate notBefore="0996" notAfter="1017">End of the 10th or beginning of the 11th c.</origDate>
+                        <origPlace>Macedonia</origPlace>
+                        <note type="summary">From the original homiliary survive two fragments: 12 leaves are kept in Trento, 2 - in Innsbruck.</note>                      
+                    </head> 
+                   
+                    <msContents>                      
+                        <note>Preserved are five homilies for Palm Sunday and for somme of the days of Holy Week: two of which are complete (one by John Chrysostom and one by Athanasius of Alexandria); fro the other three there are only fragments (one by John Chrysostom, one by Epiphanius of Salamis and one that is usually attributed to Methodius). </note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material><!--(Pergament, Papier etc.)--></material> <!--optional Qualität (e.g. dünnes, feines Pergament, italienischer Bearbeitung; Fleisch- und Haarseite gut unterscheidbar etc.)-->
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio"><!--Zahl der Blätter (e.g. iii (Papier) + 213 + iii (Papier)--></measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height></height> <!--möglich die Höhe und Breite mit @min @max weiter zu definieren-->
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Für ehemalige und moderne am besten separate foliation element mit xml:id="original" bzw. "modern"</foliation>
+                                <collation>
+                                    <formula></formula>
+                                    <catchwords></catchwords>
+                                    <signatures></signatures>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                            <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0"></height>
+                                        <width max="0" min="0"></width>
+                                    </dimensions> 
+                                    <!-- optional Zeilenhöhe -->
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                    <!-- Einstichlöcher (en:pricking) und Linierung (en:ruling) freie Beschreibung; mit Referenz zu gedruckten Repertoria; laut D. Muzerelle, De re rigatoria (e.g. D. Muzerelle, De re rigatoria <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>)-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="handID" scribe="x" script="x" medium="inkType"><!-- @ optional; Ein handNote ideallerweise für jede Hand / Schreiber mit xml:id und locus für die genaue Stelle, foll. wo die Hand tätig war; alternativ ein handNote für kurze Zusammenfassung aller Hände.--></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia, spätere Notizen etc.-->
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/> <!--Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -->
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente / Makulatur oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <provenance>The manuscript was the property of the Frankopan family of the island of Krk in Dalmatia. The codex was named after the Count Paris Cloz who owned it in the first half of the 19th century. He donated the 12 leaves to the City Museum in Trent. The two folios kept today in Innsbruck were owned by Baron Andreas Di Pauli and discovered by the Slovene philologist Franz Miklosich (d. 1891).</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Summary description by Ivana Dobcheva based on an unpublished restoration report from Patricia Engel and secondary literature:
+                                    <bibl>Smyadovski, Stefan (1995). "Клоцов сборник". Кирило-методиевска енциклопедия [Cyrillo-Methodian Encyclopedia] (in Bulgarian). Vol. 2. pp. 347–351.</bibl> 
+                                    (<date when="2023">2023</date>).
+                                </source>                                
+                            </recordHist>
+                            <custodialHist>
+                                <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates/>
+                        <!--<listBibl>
+                            <bibl/>
+                        </listBibl>-->
+                    </additional>
+                    <!--  XXXXXXXXXXXXX  Für REKONSTRUKKTIONEN fragmentierte HS heute separat aufbewahr msFrag   -->   
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Italy</country>
+                            <settlement>Trento</settlement>
+                            <repository>Biblioteca comunale</repository>
+                            <idno>Ms. 2476</idno>
+                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Innsbruck</settlement>
+                            <repository>Tiroler Landesmuseum (Ferdinandeum)</repository>
+                            <idno>Dip. 973</idno>  
+                            <altIdentifier type="former">
+                                <idno>Cod. B I/61</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="leaf">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <p>The <material>parchment</material> is most probably
+                                            goat, the hair follicles are well
+                                            visible; the hair sides are 1r and 2v, consequently the
+                                            flesh sides are 1v and 2r. There are stains, which result
+                                            from the colour of the goat. The upper edge of the bifolio
+                                            seems to be stretched more than the rest, which hints toward
+                                            the fact that this is the softer area of the skin, i.e.
+                                            close to the belly. As the bifolio measures about 40 cm
+                                            width from right to left, the goat might have been of app. 1
+                                            meter length as it might have been positioned like “A” (cf.
+                                            sketch by Jiri Vnoucek where the page with the initial is on
+                                            the left and the upper edge of the bifolio on the
+                                            right).</p>
+                                        <p>The big <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">hole</term></index> in the middle of the bifolio was there before
+                                            writing started; this hints toward the fact that even second
+                                            class parchment was good enough for the codex. This is also
+                                            indicated by the size of the skin, which hints towards a
+                                            grown animal; consequently, the parchment maker did not
+                                            strive to produce best possible quality, but took a skin he
+                                            could reach.</p>
+                                    </support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">1
+                                            bifolium</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height/>
+                                            <width>400</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p>In the centre of the fold we find remnants of the binding
+                                            technique: i. e. slits 10 mm, 25mm, 160mm, 235mm and 250mm
+                                            from the upper edge. However, there are also round sewing
+                                            holes: 7 mm and 40 mm both pricked from outside. There are
+                                            countless other piercings. They correspond with each other
+                                            on both semifolios and were pierced from outside through to
+                                            the second semifolio. The third use, so to speak, comes from
+                                            the fact that the bifolio was folded twice to result in a 4
+                                            layer piece of somewhat more than 100 mm x 144mm, perhaps to
+                                            stiffen something like a book cover?</p>
+                                        <p>
+                                            <list>
+                                                <head>Deletions</head>
+                                                <item>There is a <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/penknife">scraping with a knife</term></index> on the second
+                                                    line from the bottom on the 3rd page in the
+                                                    centre.</item>
+                                                <item>There are also <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/deletions">erased letters</term></index> at the beginning of
+                                                    the 6th line from the bottom on the very same
+                                                    page.</item>
+                                            </list>
+                                        </p>
+                                        <p>
+                                            <list>
+                                                <head>Damages</head>
+                                                <item>The bifolio is <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/gelatinization">gelatinized</term></index>.</item>
+                                                <item>There are some <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/tear">tears</term></index>.</item>
+                                                <item>There are also several <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cuts</term></index>, one of which is on
+                                                    the <locus from="2r">second folio</locus> in the corner and astonishingly
+                                                    does not appear in the same position on the other
+                                                    half of the folio.</item>
+                                                <item>Another <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cut</term></index> is in the upper area, which clearly
+                                                    appeared after the parchment had been made and not
+                                                    before, otherwise it would appear as a hole now as a
+                                                    result of the stretching procedure.</item>
+                                                <item>There is a <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/stains">black stain </term></index> along the fold, possibly
+                                                    char coal? Strong cross wise folds.</item>
+                                                <item>On the upper edge a strong <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/fold">fold</term></index>, possibly from
+                                                    secondary use in a book binding.</item>
+                                                <item><index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">Broken parchment</term></index> along the folds and
+                                                    elsewhere.</item>
+                                                <item>There are numerous <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">scratches</term></index></item>
+                                            </list>
+                                        </p>
+                                    </condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="40"> There are 40 lines on each folio,
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height>5</height>
+                                        </dimensions> mm wide from each other, made with medium sharp
+                                        tools from “inside”, i.e. solely from the flesh side. The lower
+                                        two lines exceed the marginal lines towards the outer edge in an
+                                        irregular way. They are terminated by 2 vertical lines on each
+                                        page, 135 mm from each other. Prickings on the outer margins
+                                        correspond with the line position. Interestingly, there is a
+                                        groove along the pierced holes for the lines. They might
+                                        represent rulings prior to pricking. That the prickings are on a
+                                        “curved” line might derive from the distortion the parchment
+                                        underwent over time. </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <scriptNote>The ink is either tannin ink or an
+                                    iron gall ink; however, to take a final decision on the sort of ink
+                                    an instrumental analysis is preferable (see the spectroscopical
+                                    analysis of 2011).</scriptNote>
+                            </scriptDesc>
+                        </physDesc>
+                    </msFrag>
+                   
+                       
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
+    </facsimile>
+    <text>
+        <body>
+            <!--<head>
+                <title> ... </title>
+            </head>-->
+            <!--<pb n="1r" xml:id="sinslavnf3.1r" />
+            <p>Transcription of folio 1r (to-do)</p>
+            <pb n="1v" xml:id="sinslavnf3.1v" />
+            <p>Transcription of folio 1v (to-do)</p>-->
+        </body>
+    </text>
+</TEI>
