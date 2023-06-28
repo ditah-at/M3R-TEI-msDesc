@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin-slav-2n_tei-msDesc_miklas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin-slav-38-0_tei-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sin. Slav. NF 2. Multimodale Repräsentation"--></title>
+                <title>Sin. Slav. 38/0: Missal. Multimodale Repräsentation</title>
                 <respStmt ana="marcrelator:mrk">  
                     <resp>manuscript description</resp>
                     <persName>
@@ -87,64 +87,77 @@
                 <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="sin-slav-2n">
+                <msDesc xml:lang="en" xml:id="sin-slav-38-0">
                     <msIdentifier>
                         <country>Egypt</country>
                         <settlement>Sinai</settlement>
                         <institution>St Catherine’s Monastery</institution> 
-                        <collection>Collection of New Finds (NF)</collection>
+                        <collection>Old Collection</collection>
                         <idno>2</idno>
                         <altIdentifier type="alternative">
-                            <idno>Sin. Slav. NF 2</idno>
+                            <idno>Sin. Slav. 38</idno>
                         </altIdentifier>  
                         <altIdentifier type="alternative">
-                            <idno>Sin. slav. 2/N</idno>
+                            <idno>Sin. slav. 38/0</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title>Psalterium Sinaiticum, new part (Psalterii Sinaitici pars nova)</title>
+                        <title>Psalterium Sinaiticum (Psalterii Sinaitici)</title>
                         <origDate notBefore="1011" notAfter="1020">Approx. second decade of the 11th c.</origDate>
                         <origPlace ref="https://www.geonames.org/351820/jabal-musa.html">Sinai (St. Catherine’s or surroundings)</origPlace>
-                        <note type="summary">The fragment belongs together with Cod. Sin. slav. 38 to the Sinai Psalter. These 32 leaves comprise four quires from the end of the psalter.</note>                      
-                    </head> 
+                        <note type="summary">Psalter.</note>                      
+                    </head>                     
                     <msContents>
                         <textLang mainLang="chu"/>
                         <msItem>
-                            <note>Ps 138-151, 14 biblical Cantica, Our Father, Morning Prayer and Vespers-office according to byzantine Rite. Detailed content in Tarnanidis 1988.</note>
+                            <note>Psalms.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="fragment">
+                        <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
                                     <material>Parchment</material>
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="32" unit="folio">32 ff.</measure>
-                                    <dimensions type="leaf_current" unit="mm">
-                                        <height>151</height>
-                                        <width>115</width>
-                                    </dimensions>
-                                </extent>  
-                                <collation>Four gatherings with original quiremarks (ff. 1, 9, 17 and 25.</collation>                                                              
-                                <condition>Ff. 9, 10, 11, 12r and 25-32 are damaged in the middle; the rest of the manuscript is in very good condition.</condition>
+                                    <measure type="leavesCount" quantity="177" unit="folio">177 ff.</measure>
+                                    <!--<dimensions type="leaf_current" unit="mm">
+                                        <height></height> 
+                                        <width></width>
+                                    </dimensions>-->
+                                </extent>                              
+                                
+                                <condition>Palimpsest leaves.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layoutwrittenLines="22 23" columns="1">
-                                    <dimensions type="written" unit="mm">
-                                        <height>115</height>
-                                        <width>80</width>
-                                    </dimensions> Written in 22-23 long lines.                                   
+                                <layout writtenLines="20" columns="1">
+                                     Written in 20 long lines.                                    
                                 </layout>
                             </layoutDesc>
-                        </objectDesc> 
-                        <handDesc>
-                            <handNote>Several scribes from the Western Balkans, partly identical with the scribes of the main part.</handNote>
-                        </handDesc>
+                        </objectDesc>
+                        
                         <scriptDesc>
                             <scriptNote>Glagolitic script, partly round, with tendency towards angularity.</scriptNote>
                         </scriptDesc>
+                        <decoDesc>
+                            <decoNote>Annotations in blue and red dye. </decoNote>
+                        </decoDesc>   
+                        
+                        <!--<bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/> <!-\-Usual order of describing the different parts in eng: front and back covers, edges (top, bottom and fore), spine, endbands, pastedowns / dublure, endleaves/flyleaves deu: VD, HD, Stehkanten, Innenkanten, Rücken, Schnitt, Kapital, Spiegel / Dublure, Vorsatz- und Nachsatzblätter. -\->
+                            </binding>
+                        </bindingDesc>-->
+                        
                     </physDesc>
+                    <!--<history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>-->
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -152,24 +165,15 @@
                                 </source>                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent>RGB/MSI of ff. 9r, 12r, 31r/v and 32r/v by Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>RGB/MSI by Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
                                 <custEvent>Material analysis with XRF (p-RFA) by M. Schreiner (<date when="2007">2007</date>).</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates/>
-                        <listBibl>
-                            <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988, 87-91, 191, 193, 249-281.</bibl>
+                        <listBibl>                            
                             <bibl>Schaeken, J.; Birnbaum, H.: Die altkirchenslavische Schriftkultur. Geschichte – Laute und Schriftzei­chen – Sprachdenkmäler (Mit Textproben, Glossar und Flexionsmustern) (Altkirchenslavische Studien II) (Slavistische Beiträge 382). München: Otto Sagner, 1999, 105-106 (No. III.2.8).</bibl>
                         </listBibl>
-                    </additional>
-<!--XXXXXXXXXXXXXXX  Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
-                    <msPart>
-                        <msIdentifier>
-                            <altIdentifier type="palimpsest">
-                                <idno>Palimpsest ff. 31r-32r</idno>
-                            </altIdentifier>
-                        </msIdentifier>                        
-                    </msPart>                    
+                    </additional> 
                 </msDesc>
             </sourceDesc>
         </fileDesc>
