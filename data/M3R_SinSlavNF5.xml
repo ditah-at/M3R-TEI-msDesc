@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin_slav_nf3_tei-msDesc_miklas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin_slav_nf5_tei-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sin. Slav. NF 3: Psalterium Demetrii Sinaitici. Multimodale Repräsentation"--></title>
+                <title>Sin. Slav. NF 5: Missal. Multimodale Repräsentation"--></title>
                 <respStmt ana="marcrelator:mrk">  
                     <resp>manuscript description</resp>
                     <persName>
@@ -90,127 +90,84 @@
                 <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.sinslavnf3" type="context"/>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="sin-slav-nf3">
+                <msDesc xml:lang="en" xml:id="sin-slav-nf5">
                     <msIdentifier>
                         <country>Egypt</country>
                         <settlement>Sinai</settlement>
                         <institution>St. Catherine's Monastery</institution> 
                         <collection>Collection of New Finds (NF)</collection>
-                        <idno>3</idno>
+                        <idno>5</idno>
                         <altIdentifier type="alternative">
-                            <idno>Sin. slav. NF 3</idno>
-                        </altIdentifier>  
-                        <altIdentifier type="alternative">
-                            <idno>Sin. slav. 3/N</idno>
-                        </altIdentifier>
+                            <idno>Sin. slav. 5N</idno>
+                        </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Psalterium Demetrii Sinaitici</title>
-                        <origDate notBefore="1058" notAfter="1100">1058-1100</origDate>
+                        <title>Missal</title>
+                        <origDate notBefore="0901" notAfter="1100">10th-11th c.</origDate>
                         <origPlace ref="https://www.geonames.org/351820/jabal-musa.html">Mount Sinai</origPlace>
-                        <note type="summary">Liturgical Psalter and later entries by Demetrius Sinaiticus.</note>   
+                        <note type="summary">The so-called Sinai missal is a small parchment codex of about 80 folios, of which the first 12 and the last 10 are completely destroyed, having rotted and stuck together in a mass.</note>   
                     </head>                     
                     <msContents>
-                        <textLang mainLang="chu" otherLangs="lat"/>
+                        <textLang mainLang="chu"/>
                         <msItem>
-                            <locus from="1r" to="145v">1-145</locus>
-                            <note>Liturgical Psalter, comprising 151 psalms according to the Septuagint, originally with Cantica and further texts at the end (as in the somewhat older Psalterium Sinaiticum), from which only the title of the first Canticum is preserved. Spaces left over for miniatures were later used by Demetrius for a circle of later entries.</note>                           
-                        </msItem>
-                        <msItem>
-                            <locus from="1r" to="144v">1r-144v</locus>
-                            <author>Demetrius Sinaiticus</author>                           
-                            <note>Demetrius’ secondary entries on ff. <locus from="1r">1r</locus>, <locus from="2r">2r</locus>, <locus from="3r">3r</locus>14-21, <locus from="34v">34v</locus>, <locus from="140r">140r</locus>11m, 14-23, <locus from="140v">140v</locus>, <locus from="141r">141r</locus> in marg. and <locus from="144r">144r</locus>, containing two marginal name-mentions (ff. <locus from="1r">1r</locus> and <locus from="141r">141r</locus> above top line), a four part prayer cycle (1. f. <locus from="1r">1r</locus>2-17; 2. f. <locus from="2r">2r</locus>2-13; 3. ff. <locus from="2r">2r</locus>14-20, <locus from="3r">3r</locus>14-21, <locus from="34v">34v</locus>1-4; 4. ff. <locus from="34v">34v</locus>4, <locus from="140r">140r</locus>13-23, <locus from="140v">140v</locus>1-9, <locus from="144r">144r</locus>1-24), a short statement of the author (f. <locus from="1r">1r</locus>18-19), one tripartite Greek-Latin-Glagolitic abecedarium (f. <locus from="1r">1r</locus>20-25) and short liturgical instructions (Alleluia, Psalm verse, f. <locus from="34v">34v</locus>1-3).</note>                            
-                        </msItem>
-                        <msItem class="lat-entries">
-                            <locus from="2r">2r</locus>
-                            <note>Marginal Latin abcedarium above the top line of f. <locus from="2r">2r</locus>.</note>
+                            <note>Some prayers from the Holy Liturgy; Prefatia to St. Andrew the Apostle, the Birth of St. John the Baptist, the Holy Martyrs, Easter Sunday, Pentecost, St. Gregory; and prayers to the Holy Angels, to St. John the Baptist and for the Annunciation (see full description in: Tarnanidis 1988).</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <material>Parchment</material> of mediocre quality and mostly medium thickness, sometimes callused (especially ff. <locus from="1r">1</locus> and <locus from="145r">145</locus>). Partly old material was used, sometimes washed and/or scraped off before reuse and showing remains of old lines, scrapes or shavings, rarely also of possible script-remnants. Correspondingly, the color of the leaves also changes and ranges from pale yellow to the brown of darkened hair sides, especially in the beginning (between ff. 1 and <locus from="27r">27r</locus>) and final part (from f. <locus from="139v">139v</locus>). Individual pages are also roughened (cf. ff. <locus from="1v">1v</locus> and <locus from="43r">43r</locus>) or show darkened pores.
+                                    <material>Parchment</material> 
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="145" unit="folio">145</measure>
+                                    <measure type="leavesCount" quantity="80" unit="folio">ca. 80 ff.</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height>135</height>
-                                        <width>110</width>
+                                        <height>140</height>
+                                        <width>105</width>
                                     </dimensions>
                                 </extent>
-                                <collation>The 145 ff. are arranged in altogether 19 quires and form 17 quaternios, one ternio and one binio. The penultimate sheet of the last quaternio is missing, resulting in the following formula: <formula>2x8+1x4+1x6+14x8+1x7 [8-1]</formula>. Altogether we are dealing with 72 bifolia and a single leaf, the former partner of f. <locus from="140r">140</locus>. The quires are prepared for combination by slits and are not pricked.</collation>
-                                <condition>Comparatively well preserved, but about 2-3 quaternios (ca. <locus from="16r" to="24v">16-24</locus> ff.) at the end missing with lost text and one folio without <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">text loss</term></index> within the last quaternio (f. <locus from="144r">144</locus>’). It seems to have been preserved for an emblematic miniature. <locus from="46r">46</locus> ff. show more severe <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">mechanical damage</term></index>, but only a few of them with (mostly minor) <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">text loss</term></index> (ff. 1, <locus from="51r">51</locus>, <locus from="52r">52</locus>, <locus from="53r">53</locus>, <locus from="111r">111r</locus>, <locus from="118r">118r</locus>, <locus from="119v">119v</locus>, <locus from="131r">131r</locus>, <locus from="139r">139r</locus>, <locus from="144v">144v</locus>, <locus from="145v">145v</locus>). The legibility of the text can be impaired in places by <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/surfaceDirt">dirt</term></index> or sand, <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/stains">water stains</term></index>, fading and <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/deteriorationInkPigment">rejection of the ink</term></index>, as on ff. <locus from="1v">1v</locus>, <locus from="8v">8v</locus>, <locus from="32v">32v</locus>, <locus from="33v">33v</locus>, <locus from="34v">34v</locus>, <locus from="42v">42v</locus> etc.). In addition to <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">holes</term></index> or <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cutouts</term></index> that were already present (larger ones on ff. <locus from="21r">21</locus> and <locus from="33r">33</locus>) in the parchment, there are sometimes also later <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/hole">holes</term></index> (as on ff. <locus from="1r">1</locus> and <locus from="51r" to="53v">51-53</locus>) or <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/cut">cutouts</term></index> (as on f. <locus from="34r">34</locus>, from which the entire upper third is missing), <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/tear">frayed or eroded edges</term></index>, inturned corners, scrapes and the like. Regrettable is the <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/lacuna">loss</term></index> of part of the tripartite abecedarium on f. <locus from="1r">1r</locus>. From f. <locus from="4v">4v</locus> the left part of the initial is missing due to <index indexName="SKOS.RESTORATION"><term ana="http://gams.uni-graz.at/thesaurus/mechanical">trimming</term></index>, etc.
-                                </condition>
+                                <condition>Palipsest on ff. 29?, 30?, 39, 40r, 41r, 50r, 52r, 54v?, 55v? 56r, 58r, 63r. Extremely poor condition, barely legible, damage due to exposure to moisture, the first 12 and the last 10 ff. are completely destroyed.</condition>                               
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="17 29" writtenLines="15 29" columns="1"> 
+                                <layout writtenLines="24 25" columns="1"> 
+                                    Written in 24-25 long lines.
                                     <dimensions type="written" unit="mm">
-                                        <height max="105" min="105">105</height>
-                                        <width max="80" min="80">80</width>
-                                    </dimensions> with various exceptions. The average height is 4.5mm, but exceptionally we observe also 
-                                    <dimensions type="lineHeight" unit="mm">
-                                        <height min="3" max="5">3-5</height>
-                                    </dimensions>.
-                                    <p>The ruled lines are subject to large fluctuations. Thus, their number is initially 17-20 (in exceptional cases caused by old lining up to approx. 23/24), and subsequently between 24-29, with an average of 25 lines. The ruling is irregular over long distances. In many cases we are dealing with old and new lines, which are not always objectively  distinguishable without microscope. Nevertheless, some basic statements can be made: First, the ms. was obviously ruled by several people, who predominantly used a basic scheme. What they have in common, is that they worked quickly, so numerous transition patterns can be observed. The ruling manner is clearly discernible, e.g., on the middle bifolium ff. <locus from="118v">118v</locus>+<locus from="119r">119r</locus>, where some lines are not completely continuous, but interrupted and taken up again. Of the traces of complex rulings, some are certainly related to the last writing, but others stem from an earlier, perhaps only partial text layer, as on f. 21v. This also suggests various instruments used for the rulings. Among the complex rulings there are multiple lines from one side, but individual ones (as a rule verticals, such as the right one on f. <locus from="5v">5v</locus>, but now and then also horizontals, e.g., on ff. <locus from="12r">12</locus>, <locus from="18r">18</locus>, <locus from="21r">21</locus>, <locus from="28r">28</locus>) were added from the other side. The old lines, some of which are accompanied by different prickings, fall into at least two groups: one of more (f. 1) or less (ff. 26, 27) lines running diagonally to the last line, which suggests somewhat larger dimensions of the original sheet. And on quite a few folios, e.g., on ff. <locus from="12r">12</locus>, <locus from="13r">13</locus>, <locus from="17r">17</locus>, <locus from="18r">18</locus>, <locus from="28r">28</locus>, <locus from="30r" to="35v">30-35</locus> etc., one gets the impression that there is still an older ruling running at right angles to the last one, as in palimpsest-mss. <seg type="pricking">It includes the remains of old prickings on the upper and sometimes also the lower (in the case of a rotated sheet, outer or inner) margin, e.g., on ff. 13 and 41.</seg> In the majority of cases, the opened quire was ruled from top (inside) to bottom (outside), each bifolium separately, such as in quire 10. However, indirect lines do occur, e.g., in quires 1, 3-5, 7, 18 and maybe 6. However, only quires 3-4 and 18 reveal a rule in this respect. Exceptionally, there are also rulings that were made over the folded bifolium, for example in quires 1, 2, 5 and 7. In addition, at least twice the bifolium was not lined in its entirety, but only one half, namely f. 13r in quire 2 and f. 66r (partially) in quire 9. Such rare variants can also be observed in the Psalterium Sinaiticum and in the Medical Folia. The only recurring ruling type is the pattern (&lt;&lt;)&lt;&lt;ǁ&gt;&gt;(&gt;&gt;), which occurs in several variants at least in seven cases (quires 3, 4, 7, 9-12, 19). The ruling was executed predominantly from the hair side, although there are also ample examples of flesh side ruling. Where lines are also drawn from the opposite side, it can either be an archaic practice, contamination of old and new lines, or mere corrections.</p>
-<p>Prickings: Here also various differences can be observed, but the differences in the position only partly result from deliberate deviations, and often come from the folio shape and its trimming. Therefore, only the total number of prickings, the position (inside vs. outside) and the type and thus also the instrument of their execution (punctiform insertion of a stylus or punctorium vs. shorter or longer cut, caused by the use of a knife) are decisive. As a rule, one can assume that the outer prickings, almost always cut with a knife, are the ones that apply to the main text and that possible traces on the inside can at least partly come from older prickings.</p>
-                                        <p>The main scribe A does not always stick to the lines, which also results in differences between the lined and the written lines. With the exception of the last f. <locus from="145v">145v</locus> with 11 lines their minimum number is 15, the maximum number 29, while we most frequently observe 24-26 written lines. In the smallest, B-part of the manuscript, the number of lines varies between 17 and 21, the average being 18-19 written lines. The C-hand, which covers about halfway between the other two, shows (apart from the transitional page of parts B and C and the last page <locus from="34r">34r</locus> with only 11 lines) 16-23, but mostly 19-20 written lines.</p>               
+                                        <height>105</height>
+                                        <width>70</width>
+                                    </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Several scribes were responsible for the text of the Psalter: three scribes can be distinguished in the original part (A, B, C), and short insertions of a minor hand (A1) as well as at least two correctors. Part A covers about 80.18% of the text (ff. <locus from="1v">1v</locus>, <locus from="2r">2r</locus>21-22, <locus from="3r">3r</locus>1-13, <locus from="35r" to="140r">35r-140r</locus>13, <locus from="141r" to="143v">141r-143v</locus>, <locus from="144v" to="145v">144v-145v</locus>), part B about 6.1% (ff. <locus from="2v">2v</locus>, <locus from="3v" to="14r">3v-14r</locus>11), while the third hand C is involved with just over 11% (ff. <locus from="14r">14r</locus>12-<locus from="34r">34r</locus>). The writing of all scribes generally hangs from the top line, but especially in the C section, there are numerous fluctuations in the direction of a standing or floating script. All of them use Cyrillic interspersions, particularly in the headings, whose paleography reveals clear differences between A and the other copyists. Taken together, the paleographic specifics assign at least the main scribe, but in all probability also his (main) corrector, to the western part of the Balkan Peninsula; cf., e.g., the occasionally occurring Latin-influenced Cyrillic E with a closed loop (e.g., ff. <locus from="35v">35v</locus>12-13, <locus from="95v">95v</locus>24-25), the similar Glagolitic Ęs (e.g., f. <locus from="35r">35r</locus>24) and the right part of the nasal digraphs (ff. <locus from="35v">35v</locus>6, <locus from="36r">36r</locus>6 etc.). The latter feature is also found relatively frequently in the Medical Folia, which offers a certain indication of the common origin or training of the scribes. The assumption of a Western-Latin influence is also supported by occasional interruptions in the scriptura continua (cf. ff. <locus from="37v">37v</locus>10, 17; <locus from="38r">38r</locus>23; <locus from="38v">38v</locus>1, <locus from="40v">40v</locus>1 etc.), although the scribe does not always correctly grasp the word boundaries.</handNote>
-                            <handNote scribe="demetrius">The scribe (Demetrius Sinaiticus) writes on existing lines, which he mostly disregards, as well as vertical page margins. Thus, his ductus is partly hanging, partly standing or floating. The constantly changing letter size and slant, pronounced variety and frequent orientation to the style of his colleagues are indications of the lack of classical writing training.</handNote>
+                            <handNote>One main scribe identical with the hand of Sin. Euchologium; two secondary scribes, of which one belongs to Demetrius.</handNote>                            
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote script="glagolitic" medium="iron_gall_ink">The text of the Psalter is written in Old Church Slavonic Glagolica, still rounded, but with a beginning tendency towards angularity.
-                            </scriptNote>
-                            <scriptNote script="carolmin">
-                                The Latin abcedarium is written in Latin minuscule, Carolingian style by a well-trained scribe.
-                            </scriptNote>
+                            <scriptNote script="glagolitic">The text is written in Old Church Slavonic Glagolica, rounded Glagolitic; yellowish ink for main text.
+                            </scriptNote>                            
                         </scriptDesc>
                         <decoDesc>
-                            <p>There is no preserved illumination, and the empty space foreseen for illuminations was covered by Demtrius’s secondary entries. However, all three scribes of the Psalter text show decorated initials colored in an ocher-yellow, organic dye, which often was “washed” over the relevant passages, i.e., applied without precise consideration of the letter contours. Individual yellow markings are distinguished by an additional proportion of arsenic and sulfur, suggesting the use of arsenic sulfide (auripigment or realgar).</p>
-                            <p>In addition to these open colorings, there are also closed colorings, especially in large initials and marginalia such as the psalm counts, which are partially or completely surrounded by circles, see, e.g. ff. <locus from="50r">50r</locus>, <locus from="51r">51r</locus>, <locus from="52v">52v</locus>. The filling can sometimes take place within the letter contours, sometimes also in the spaces between them. There are certain differences in the way of coloring between the copyist B and the other two hands of the Psalter, as hand B almost exclusively fills in the headings, while the main copyist A only decides to do so towards the end of the writing process.</p>
-                            <p>Overall, these data remind particularly of the Psalterium Sinaiticum (whose red and blue markings are obviously later overpaintings).</p>
+                            <decoNote>The manuscript was richly decorated with miniatures, some of them still recognizable, initials in yellow, brown and blue.</decoNote>
                         </decoDesc>
                         <bindingDesc>
                             <binding> 
-                                <p>
-                                    Wooden boards, covered with dark leather, according to the 
-                                    Byzantine tradition. The partly broken boards obviously had 
-                                    been used before for another book. The two original leather 
-                                    straps, buckles and pins used to fasten them are now lost. 
-                                    The slightly curved spine is glued under the leather with a 
-                                    natural-colored textile fabric in a linen weave, which still 
-                                    spans the rear third of the lid. In the front cover, only partially 
-                                    filled zigzag-shaped grooves in which the capital cords are sunk.
-                                </p> 
+                                <p>Charred binding removed during restoration, only cord remnants and binding waste particles preserved.</p> 
                             </binding>
                         </bindingDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origDate notBefore="1058" notAfter="1100">Main part ca. third qu. of 11th c. (graphematic estimation: 1058-1066) and last qu. of 11th c., secondary texts by Demetrius.</origDate> 
-                            <origPlace>Most likely St. Catherine’s Monastery (Mt. Sinai) or surroundings.</origPlace>
-                        </origin>
-                        <!--<provenance/>
-                        <acquisition/>-->
-                    </history>
+                    </physDesc>                    
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source/>                                                                
+                                <source>Summary description based on material by H. Miklas (<date when="2023">2023</date>) and <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988,103-108.</bibl>.
+                                </source>                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent>RGB/UV of the whole manuscript Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
-                                <custEvent>Material analysis with XRF and p-RFA by M. Schreiner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>RGB/MSI of the whole manuscript Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>Material analysis with XRF (p-RFA) by M. Schreiner (<date when="2007">2007</date>).</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates/>
                         <listBibl>
-                            <bibl>Psalterium Demetrii Sinaitici (monasterii sanctae Catharinae codex slav. 3/N), adiectis foliis medicinalibus. Ad editionem phototypicam praeparaverunt Melania Gau, Dana Hürner, Florianus Kleber, Martinus Lettner, Henricus Miklas sub redactione Henrici Miklas. Cum praefationibus sacri monasterii atque Ioannis Tarnanidae (Glagolitica Sinaitica 1). Wien: Holzhausen, 2012 (https://library.oapen.org/handle/20.500.12657/51767).</bibl>
-                            <bibl>Psalterium Demetrii Sinaitici et Folia Medicinalia (Monasterii s. Catharinae codex slavicus NF 3). Editio critica. Praeparaverunt Henricus Miklas, Catharina Maria MacRobert, Andreas N. Sobolev, Dana Hürner, Florianus Wandl, Melania Gau. Includuntur etiam dissertationes Petrae Stankovska, Simonis Brenner, Floriani Kleber, Manfredi Schreiner, Michaelis Melcher, Ernesti Georgii Hammerschmid (Glagolitica Sinaitica 2). Wien: Holzhausen, 2021 (https://library.oapen.org/handle/20.500.12657/51767).</bibl>
+                            <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988,103-108.</bibl>
                         </listBibl>
                     </additional>
                     <msPart>

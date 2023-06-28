@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin-slav-1n_tei-msDesc_miklas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="sin-slav-2n_tei-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sin. Slav. NF 1: Euchologium Sinaiticum. Multimodale Repräsentation"--></title>
+                <title>Sin. Slav. NF 2. Multimodale Repräsentation"--></title>
                 <respStmt ana="marcrelator:mrk">  
                     <resp>manuscript description</resp>
                     <persName>
@@ -60,16 +60,6 @@
                     <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
                 </funder>
             </titleStmt>
-            <editionStmt>
-                <edition>Digital publication according to TEI P5</edition>
-                <respStmt>
-                    <resp>TEI-P5 encoding by:</resp>
-                    <persName>
-                        <forename>Ivana</forename>
-                        <surname>Dobcheva</surname>
-                    </persName>
-                </respStmt>
-            </editionStmt>
             <publicationStmt>
                 <publisher>
                     <orgName corresp="https://informationsmodellierung.uni-graz.at">
@@ -94,36 +84,34 @@
                 <pubPlace ana="marcrelator:pup">Graz</pubPlace>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
-                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="sin-slav.nf3">
+                <msDesc xml:lang="en" xml:id="sin-slav-2n">
                     <msIdentifier>
                         <country>Egypt</country>
                         <settlement>Sinai</settlement>
-                        <institution>St Catherine’s Monastery</institution>
-                        <repository></repository>
+                        <institution>St Catherine’s Monastery</institution> 
                         <collection>Collection of New Finds (NF)</collection>
-                        <idno>1</idno>
+                        <idno>2</idno>
                         <altIdentifier type="alternative">
-                            <idno>Sin. Slav. NF 1</idno>
+                            <idno>Sin. Slav. NF 2</idno>
                         </altIdentifier>  
                         <altIdentifier type="alternative">
-                            <idno>Sin. slav. 1/N</idno>
+                            <idno>Sin. slav. 2/N</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title>Euchologium Sinaiticum, new part (Euchologii Sinaitici pars nova)</title>
-                        <origDate notBefore="1026" notAfter="1050">Approx. second quarter of the 11th c.</origDate>
-                        <origPlace ref="https://www.geonames.org/732800/republic-of-bulgaria.html">Bulgaria</origPlace>
+                        <title>Psalterium Sinaiticum, new part (Psalterii Sinaitici pars nova)</title>
+                        <origDate notBefore="1011" notAfter="1020">Approx. second decade of the 11th c.</origDate>
                         <origPlace ref="https://www.geonames.org/351820/jabal-musa.html">Sinai (St. Catherine’s or surroundings)</origPlace>
-                        <note type="summary">Cod. Sin. slav. 1/N comprises 28 folios of the so-called Euchologium Sinaiticum. Two other fragments from the original manuscript are known: Cod. Sin. slav. 37 and St. Petersburg, Russian National Library, cod. Glag. 3 (Kondakov-folio).</note>                      
-                    </head>
+                        <note type="summary">The fragment belongs together with Cod. Sin. slav. 38 to the Sinai Psalter. These 32 leaves comprise four quires from the end of the psalter.</note>                      
+                    </head> 
                     <msContents>
                         <textLang mainLang="chu"/>
                         <msItem>
-                            <note>See detailed description in Tarnanidis 1988.</note>
-                               </msItem>
+                            <note>Ps 138-151, 14 biblical Cantica, Our Father, Morning Prayer and Vespers-office according to byzantine Rite. Detailed content in Tarnanidis 1988.</note>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="fragment">
@@ -132,60 +120,56 @@
                                     <material>Parchment</material>
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="28" unit="folio">28 ff.</measure>
+                                    <measure type="leavesCount" quantity="32" unit="folio">32 ff.</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height>140</height>
-                                        <width>111</width>
+                                        <height>151</height>
+                                        <width>115</width>
                                     </dimensions>
-                                </extent>
-                                <collation>The folios were scattered and was gathered together based on handwriting, dimensions, and content. Only one quire, a quaternion, has survived intact. As there are many textual gaps, Tarnanidis could not sort and number all the folios according to the original sequence. He managed however to specify the position of most of the leaves within the original manuscript reconstructing it by using the other two known fragments - Cod. Sin. slav. 37 and St. Petersburg, Russian National Library, cod. Glag. 3 (Kondakov-folio). </collation>
-                                <condition>Ff. 3, 13 and 20 are severely damaged; ff. 1, 2, 4, 11, 12, 18 and 21 are also damaged, but not to such an extent.</condition>
+                                </extent>  
+                                <collation>Four gatherings with original quiremarks (ff. 1, 9, 17 and 25.</collation>                                                              
+                                <condition>Ff. 9, 10, 11, 12r and 25-32 are damaged in the middle; the rest of the manuscript is in very good condition.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="24 26" columns="1">Written 24-26 long lines.
+                                <layoutwrittenLines="22 23" columns="1">
                                     <dimensions type="written" unit="mm">
-                                        <height>107</height>
-                                        <width>70</width>
-                                    </dimensions>
+                                        <height>115</height>
+                                        <width>80</width>
+                                    </dimensions> Written in 22-23 long lines.                                   
                                 </layout>
                             </layoutDesc>
-                        </objectDesc>                      
+                        </objectDesc> 
                         <handDesc>
-                            <handNote>One Bulgarian scribe, identical with the main scribe of the Sinaitic Liturgiarium.</handNote>
+                            <handNote>Several scribes from the Western Balkans, partly identical with the scribes of the main part.</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote script="glagolica">Standing, rounded Old Church Slavonic Glagolica.</scriptNote>
+                            <scriptNote>Glagolitic script, partly round, partly semi-circular.</scriptNote>
                         </scriptDesc>
-                        <decoDesc>
-                            <decoNote>Colored initials (red, green, yellow, azure, black), green or yellow headings; the initials are ornamentally decorated and contain motifs of people or animals at the ends.</decoNote>
-                        </decoDesc>      
-                    </physDesc>                      
-                    <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>
+                    </physDesc>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>Summary description based on material by H. Miklas (<date when="2023">2023</date>) and <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988, 65-87.</bibl>.
+                                <source>Summary description based on material by H. Miklas (<date when="2023">2023</date>).
                                 </source>                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent>RGB/MSI of ff. 2v, 12v-13r, 13v, 20r, 20v-21r, 22r by Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
-                                <custEvent>Material analysis with XRF and p-RFA by M. Schreiner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>RGB/MSI of ff. 9r, 12r, 31r/v and 32r/v by Miklas-Kleber/Lettner (<date when="2007">2007</date>).</custEvent>
+                                <custEvent>Material analysis with XRF (p-RFA) by M. Schreiner (<date when="2007">2007</date>).</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates/>
                         <listBibl>
-                            <bibl><ref target="https://www.loc.gov/item/00279385652-ms/">“Euchologion sinaiticum” (Eu, Euch) – Glagolitic euchologion with extracts of the divine liturgies and other rituals, probably copied at Preslav (11th-century).</ref></bibl>
-                            <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988, 65-87.</bibl>
-                            <bibl>Schaeken, J.; Birnbaum, H.: Die altkirchenslavische Schriftkultur. Geschichte – Laute und Schriftzei­chen – Sprachdenkmäler (Mit Textproben, Glossar und Flexionsmustern) (Altkirchenslavische Studien II) (Slavistische Beiträge 382). München: Otto Sagner, 1999, 106-108 (No. III.2.9).</bibl>
+                            <bibl>Tarnanidis, Ioannis: The Slavonic Manuscripts Discovered in 1975 at St. Catherine’s Monastery on Mount Sinai. Thessaloniki 1988, 87-91, 191, 193, 249-281.</bibl>
+                            <bibl>Schaeken, J.; Birnbaum, H.: Die altkirchenslavische Schriftkultur. Geschichte – Laute und Schriftzei­chen – Sprachdenkmäler (Mit Textproben, Glossar und Flexionsmustern) (Altkirchenslavische Studien II) (Slavistische Beiträge 382). München: Otto Sagner, 1999, 105-106 (No. III.2.8).</bibl>
                         </listBibl>
-                    </additional>                    
+                    </additional>
+<!--XXXXXXXXXXXXXXX  Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="palimpsest">
+                                <idno>Palimpsest ff. 31r-32r</idno>
+                            </altIdentifier>
+                        </msIdentifier>                        
+                    </msPart>                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -230,7 +214,7 @@
         </surface>-->
     </facsimile>
     <text>
-        <body><p></p>
+        <body>
             <!--<head>
                 <title> ... </title>
             </head>-->
