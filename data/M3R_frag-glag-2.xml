@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="frag-glag-1-msDesc_miklas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="frag-glag-2-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Frag. glag. 1: Mihanović apostle fragment. Multimodale Repräsentation"--></title>
+                <title>Frag. glag. 2: Gršković apostle fragment. Multimodale Repräsentation</title>
                 <respStmt ana="marcrelator:mrk">  
                     <resp>manuscript description</resp>
                     <persName>
@@ -92,18 +92,18 @@
                 <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="zagreb-frag-glag-1">
+                <msDesc xml:lang="en" xml:id="zagreb-frag-glag-2">
                     <msIdentifier>
                         <country>Croatia</country>
                         <settlement>Zagreb</settlement>
                         <repository>Archive of the Croatian Academy of Sciences and Arts</repository>
-                        <idno>Frag. glag. 1</idno>                                              
+                        <idno>Frag. glag. 2</idno>                                              
                     </msIdentifier>
                     <head>
                         <title>Mihanović apostle fragment</title>
                         <origDate notBefore="1101" notAfter="1200">12th c.</origDate>
                         <origPlace ref="https://www.geonames.org/3202326/republic-of-croatia.html">Croatia (?)</origPlace>
-                        <note type="summary">Two parchment leaves with text from the Acts of the Apostles written in glagolitic.</note>                      
+                        <note type="summary">Four parchment leaves with text from the Acts of the Apostles written in glagolitic.</note>                      
                     </head> 
                     <msContents>
                         <msItem>Fragment of Acts of the Apostles.</msItem>
@@ -116,10 +116,10 @@
                                     <material>Parchment</material> 
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="2" unit="folio">2 ff.</measure>
+                                    <measure type="leavesCount" quantity="4" unit="folio">4 ff.</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height>240</height> 
-                                        <width>185</width>
+                                        <height>217</height> 
+                                        <width>155</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -127,7 +127,9 @@
                         <scriptDesc>
                             <scriptNote>Round to angular glagolitic.</scriptNote>
                         </scriptDesc>
-                        
+                        <decoDesc>
+                            <decoNote>Initials in red.</decoNote>
+                        </decoDesc>
                     </physDesc>
                     <!--<history>
                         <origin>

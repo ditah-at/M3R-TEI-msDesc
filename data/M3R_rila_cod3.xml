@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="frag-glag-1-msDesc_miklas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="rila-cod3-msDesc_miklas">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Frag. glag. 1: Mihanović apostle fragment. Multimodale Repräsentation"--></title>
+                <title>Rila Monastery, Cod. 3/6: Rila fragments. Multimodale Repräsentation</title>
                 <respStmt ana="marcrelator:mrk">  
                     <resp>manuscript description</resp>
                     <persName>
@@ -14,8 +14,18 @@
                 <respStmt>
                     <resp>image acquisition</resp>
                     <persName>
-                        <forename>Florian</forename>
-                        <surname>Kleber</surname>
+                        <forename>Angelica</forename>
+                        <surname>Garz</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Melanie</forename>
+                        <surname>Gau</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Fabian</forename>
+                        <surname>Hollaus</surname>
                         <affiliation>TU Wien</affiliation>
                     </persName>
                 </respStmt>
@@ -89,54 +99,19 @@
                 <pubPlace ana="marcrelator:pup">Graz</pubPlace>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
-                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="zagreb-frag-glag-1">
+                <msDesc xml:lang="en" xml:id="rila-cod3">
                     <msIdentifier>
-                        <country>Croatia</country>
-                        <settlement>Zagreb</settlement>
-                        <repository>Archive of the Croatian Academy of Sciences and Arts</repository>
-                        <idno>Frag. glag. 1</idno>                                              
+                        <msName>Rila fragments / Rila Glagolitic Folia</msName>      
                     </msIdentifier>
                     <head>
-                        <title>Mihanović apostle fragment</title>
-                        <origDate notBefore="1101" notAfter="1200">12th c.</origDate>
-                        <origPlace ref="https://www.geonames.org/3202326/republic-of-croatia.html">Croatia (?)</origPlace>
-                        <note type="summary">Two parchment leaves with text from the Acts of the Apostles written in glagolitic.</note>                      
+                        <title>Ephrem the Syrian: Parenesis; prayers of repentance</title>
+                        <origDate notBefore="0980" notAfter="1020">End of the 10th or beginning of the 11th c.</origDate>
+                        <origPlace ref="https://www.geonames.org/732800/republic-of-bulgaria.html">East Bulgaria (Preslav ?)</origPlace>
+                        <note type="summary">The so-called Rola fragments is a 10th-century glagolitic manuscript with fragments from the first translation of Ephraim the Syrian's work and prayers for Lent. Three fragments from the original manuscript are known today: one fragment of several leaves are kept in Rila monastey; two fragments are kept in St. Petersburg, Russian Academy of Sciences, 24.4.15 / Srezn. II.62.</note>
                     </head> 
-                    <msContents>
-                        <msItem>Fragment of Acts of the Apostles.</msItem>
-                    </msContents>
-                    
-                    <physDesc>
-                        <objectDesc form="fragment">
-                            <supportDesc material="perg">
-                                <support>
-                                    <material>Parchment</material> 
-                                </support>
-                                <extent>
-                                    <measure type="leavesCount" quantity="2" unit="folio">2 ff.</measure>
-                                    <dimensions type="leaf_current" unit="mm">
-                                        <height>240</height> 
-                                        <width>185</width>
-                                    </dimensions>
-                                </extent>
-                            </supportDesc>
-                        </objectDesc>
-                        <scriptDesc>
-                            <scriptNote>Round to angular glagolitic.</scriptNote>
-                        </scriptDesc>
-                        
-                    </physDesc>
-                    <!--<history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>-->
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -145,16 +120,92 @@
                                     (<date when="2023">2023</date>).
                                 </source>                                
                             </recordHist>
-                            <custodialHist>
-                                <custEvent>RGB/MSI Miklas-Garz/Hollaus/Gau (<date when="2012">2012</date>).</custEvent>
-                                <custEvent>Material analysis with XRF/FTIR (Spectro) by Pöllnitz/Schreiner/Vetter (<date when="2012">2012</date>).</custEvent>
-                            </custodialHist>
                         </adminInfo>
-                        <surrogates/>
+                        <!--<surrogates/>
                         <listBibl>
                             <bibl/>
-                        </listBibl>
+                        </listBibl>-->
                     </additional>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Bulgaria</country>
+                            <institution>Rila Monastery</institution>
+                            <repository>Archive</repository>
+                            <idno>Cod. 3</idno>
+                            <msName>Rila fragments / Rila Glagolitic Folia</msName>    
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <author>Ephraim the Syrian</author>
+                                <title>Parenesis</title>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <support>Parchment of good quality.</support>
+                                    <condition>The leaves served as binding waste; in few cases only off-set preserved. According to Gošev there were three fragments and 6 leaves: fragm.1: mostly present only as off-set; fragm.2: preserved; fragm.3: only as off-set; f. 3: only as off-set; f. 4: mostly only as off-set; f. 5: preserved; f. 6: partly preserved; f. 7: only as off-set; f. 8: one part, only more as off-set.</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>Scribe from East Bulgaria copying a western exemplar.</handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote>Round glagolitic.</scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote>Red and yellow markings.</decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <additional>
+                            <adminInfo>                                
+                                <custodialHist>
+                                    <custEvent>RGB/MSI Miklas-Garz/Hollaus/Gau (<date when="2011">2011</date>).</custEvent>
+                                    <custEvent>Material analysis with XRF/FTIR (Spectro) by Pöllnitz/Schreiner/Vetter (<date when="2011">2011</date>).</custEvent>
+                                </custodialHist>
+                            </adminInfo>
+                            <surrogates/>
+                            <listBibl>
+                                <head>External resources</head>
+                                <bibl><ref target="https://cyrillomethodiana.uni-sofia.bg/descriptions/52-old-bulgarian-mss/89-rila-folia">Entry in Cyrillomethodiana</ref></bibl>
+                                <bibl><ref target="https://sesdiva.eu/en/virtual-rooms/medieval-written-heritage/item/82-rila-glagolitic-folia-en">Entry in SESDiva</ref></bibl>
+                            </listBibl>
+                        </additional>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Russia</country>
+                            <institution>Russian Academy of Sciences</institution>
+                            <collection>Srezn. II.62</collection>
+                            <idno>24.4.15</idno>                                            
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <material>Parchment</material> 
+                                    </support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 ff.</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>275</height> 
+                                            <width>213</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>Initials in red.</decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <additional>
+                            <listBibl>
+                                <head>External resources</head>                                
+                                <bibl><ref target="https://sesdiva.eu/en/virtual-rooms/medieval-written-heritage/item/82-rila-glagolitic-folia-en">Entry in SESDiva</ref></bibl>
+                            </listBibl>
+                        </additional>
+                    </msFrag>                  
+                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>

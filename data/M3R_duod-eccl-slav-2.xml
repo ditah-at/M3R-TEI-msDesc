@@ -89,7 +89,7 @@
                 <pubPlace ana="marcrelator:pup">Graz</pubPlace>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
-                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="budapest-slav-duod-2">
@@ -97,15 +97,15 @@
                         <country>Hunagry</country>
                         <settlement>Budapest</settlement>
                         <repository>Országos Széchényi Könyvtár</repository>
-                        <idno>MS Duod, Eccl. Slav. 2</idno>                                              
+                        <idno>MS Duod, Eccl. Slav. 2</idno>  
+                        <msName>Budapest Glagolitic Fragments</msName>
                     </msIdentifier>
                     <head>
-                        <title>The Budapest Glagolitic Fragments: Life of Simeon Stylites</title>
-                        <origDate notBefore="0001" notAfter="0010"></origDate>
-                        <origPlace></origPlace>
-                        <note type="summary"></note>                      
-                    </head> 
-                    
+                        <title>Life of Simeon Stylites</title>
+                        <origDate notBefore="1001" notAfter="1100">11th c.</origDate>
+                        <origPlace ref="https://www.geonames.org/3202326/republic-of-croatia.html">Croatia</origPlace>
+                        <note type="summary">From the original manuscript survive two fragments, which according to R. Cleminson were contiguous parts of the same page. The text is a fragment of the Slavonic translation of the Life of Simeon Stylites.</note>                      
+                    </head>                     
                     <physDesc>
                         <objectDesc form="fragment">
                             <supportDesc material="perg">
@@ -113,30 +113,30 @@
                                     <material>Parchment</material> 
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="1" unit="folio">2 ff.</measure>
+                                    <measure type="leavesCount" quantity="1" unit="folio">2 pieces</measure>
                                     <dimensions type="leaf_current" unit="mm">
                                         <height>90</height> 
                                         <width>54</width>
                                     </dimensions>
-                                </extent>                               
-                               
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>85</height> 
+                                        <width>46</width>
+                                    </dimensions>
+                                </extent>  
                             </supportDesc>
-                            
                         </objectDesc>
-                       
                         <scriptDesc>
                             <scriptNote>Round glagolitic.</scriptNote>
                         </scriptDesc>
-                        
                     </physDesc>
-                    <history>
+                    <!--<history>
                         <origin>
                             <origPlace/>
                             <origDate notBefore="0001" notAfter="0001"/>
                         </origin>
                         <provenance/>
                         <acquisition/>
-                    </history>
+                    </history>-->
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -152,7 +152,8 @@
                         </adminInfo>
                         <surrogates/>
                         <listBibl>
-                            <bibl/>
+                            <head>External resources</head>
+                            <bibl><ref target="https://www.obshtezhitie.net/texts/bgf/uni/bgf.html">R. Cleminson. The Budapest Glagolitic Fragments</ref></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

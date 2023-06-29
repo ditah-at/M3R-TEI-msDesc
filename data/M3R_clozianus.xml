@@ -14,8 +14,18 @@
                 <respStmt>
                     <resp>image acquisition</resp>
                     <persName>
-                        <forename>Florian</forename>
-                        <surname>Kleber</surname>
+                        <forename>Angelica</forename>
+                        <surname>Garz</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Melanie</forename>
+                        <surname>Gau</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Fabian</forename>
+                        <surname>Hollaus</surname>
                         <affiliation>TU Wien</affiliation>
                     </persName>
                 </respStmt>
@@ -84,22 +94,21 @@
                 <pubPlace ana="marcrelator:pup">Graz</pubPlace>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
-                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! --->
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="clozianus">
-                    <msIdentifier>                       
-                        <altIdentifier type="collection">
-                            <idno>Codex Clozianus</idno>
-                        </altIdentifier>                       
+                    <msIdentifier>
+                        <msName>Codex Clozianus</msName>                                             
                     </msIdentifier>
                     <head>
-                        <title>Cloz Miscellany (Codex Clozianus / Glagolita Clozianus / Codice Glagolitico Cloziano)</title>
+                        <title>Homilies</title>
                         <origDate notBefore="0996" notAfter="1017">End of the 10th or beginning of the 11th c.</origDate>
                         <origPlace ref="https://www.geonames.org/735355/makedonia.html">Macedonia</origPlace>
-                        <note type="summary">From the original homiliary survive two fragments: 12 leaves are kept in Trento, 2 - in Innsbruck.</note>                      
+                        <note type="summary">The Codex Clozianus (also referred to as Cloz Miscellany / Glagolita Clozianus / Codice Glagolitico Cloziano) is parchment manuscript written in Glagolitic. From the original homiliary survive 14 leaves grouped today in two fragments: 12 leaves are kept in Trento, 2 - in Innsbruck.</note>                      
                     </head>                    
-                    <msContents>                      
+                    <msContents> 
+                        <msItem>
                         <note>Preserved are five homilies for Palm Sunday and for somme of the days of Holy Week: two of which are complete (one by John Chrysostom and one by Athanasius of Alexandria); from the other three there are only fragments (one by John Chrysostom, one by Epiphanius of Salamis and one that is usually attributed to Methodius). </note>
                         </msItem>
                     </msContents>                    
@@ -113,15 +122,14 @@
                                     <bibl>Smyadovski, Stefan (1995). "Клоцов сборник". Кирило-методиевска енциклопедия [Cyrillo-Methodian Encyclopedia] (in Bulgarian). Vol. 2. pp. 347–351.</bibl> 
                                     (<date when="2023">2023</date>).
                                 </source>                                
-                            </recordHist>
-                            <custodialHist>
-                                <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
-                            </custodialHist>
+                            </recordHist>                            
                         </adminInfo>
                         <surrogates/>
-                        <!--<listBibl>
-                            <bibl/>
-                        </listBibl>-->
+                        <listBibl>
+                            <head>External resources</head>
+                            <bibl><ref target="https://cyrillomethodiana.uni-sofia.bg/descriptions/52-old-bulgarian-mss/88-klotzov-sbornik">Entry in Cyrillomethodiana</ref></bibl>
+                            <bibl><ref target="http://ekislova.ru/sla/books">Entry in SEK</ref></bibl>
+                        </listBibl>
                     </additional>
                     <!--  XXXXXXXXXXXXX  Für REKONSTRUKKTIONEN fragmentierte HS heute separat aufbewahr msFrag   -->   
                     <msFrag>
@@ -152,9 +160,11 @@
                             </scriptDesc>                           
                         </physDesc>
                         <additional>
-                            <custodialHist>
-                                <custEvent>RGB/MSI by Miklas-Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Schreiner.(<date when="2011">2011</date>)</custEvent>
+                            <adminInfo>
+                                <custodialHist>
+                                <custEvent>RGB/MSI by Miklas/Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Schreiner.(<date when="2011">2011</date>)</custEvent>
                             </custodialHist>
+                            </adminInfo>
                         </additional>
                     </msFrag>
                     <msFrag>
@@ -271,9 +281,11 @@
                             </scriptDesc>
                         </physDesc>
                         <additional>
-                            <custodialHist>
+                            <adminInfo>
+                                <custodialHist>
                                 <custEvent>RGB/MSI by Miklas-Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Schreiner.(<date when="2011">2011</date>)</custEvent>
                             </custodialHist>
+                            </adminInfo>
                         </additional>
                     </msFrag>
                    

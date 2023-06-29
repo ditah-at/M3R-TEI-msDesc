@@ -18,6 +18,11 @@
                         <surname>Kleber</surname>
                         <affiliation>TU Wien</affiliation>
                     </persName>
+                    <persName>
+                        <forename>Martin</forename>
+                        <surname>Lettner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
                 </respStmt>
                 <respStmt>
                     <resp>material analysis</resp>
@@ -103,6 +108,7 @@
                         <altIdentifier type="alternative">
                             <idno>Sin. slav. 3/N</idno>
                         </altIdentifier>
+                        <msName>Missale Sinaiticum</msName>
                     </msIdentifier>
                     <head>
                         <title>Psalterium Demetrii Sinaitici</title>

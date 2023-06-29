@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/M3R_SinSlavNF1.xml</String>
+                                    <String>data/M3R_marianus.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -26,6 +26,36 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/M3R_SinSlavNF3.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>M3R-html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/M3R_clozianus.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tei_html_bootstrap</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/M3R_SinSlavNF1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

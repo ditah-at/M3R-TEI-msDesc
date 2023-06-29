@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="marianus_tei-msDesc">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:id="onb_slav3_tei-msDesc">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Codex Marianus. Multimodale Repräsentation</title>
+                <title>Vienna, ÖNB, Cod. Slav. 3: Breviarum Romanum. Multimodale Repräsentation</title>
                 <respStmt ana="marcrelator:mrk"> 
                         <resp>manuscript description</resp>
                         <persName>
@@ -14,16 +14,26 @@
                 <respStmt>
                         <resp>image acquisition</resp>
                         <persName>
-                            <forename>Florian</forename>
-                            <surname>Kleber</surname>
+                            <forename>Fabian</forename>
+                            <surname>Hollaus</surname>
                             <affiliation>TU Wien</affiliation>
                         </persName>
                     </respStmt>
                     <respStmt>
                         <resp>material analysis</resp>
                         <persName>
-                            <forename>Manfred</forename>
-                            <surname>Schreiner</surname>
+                            <forename>Wilfried</forename>
+                            <surname>Vetter</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>
+                        <persName>
+                            <forename>Federica</forename>
+                            <surname>Cappa</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>
+                        <persName>
+                            <forename>Bernadette</forename>
+                            <surname>Frühmann</surname>
                             <affiliation>Academy of Fine Arts Vienna</affiliation>
                         </persName>
                     </respStmt>
@@ -87,24 +97,61 @@
                 <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="cod-marianus">
+                <msDesc xml:lang="en" xml:id="onb-slav-3">
                     <msIdentifier>
-                        <msName>Codex Marianus</msName>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Austrian National Library</repository>
+                        <idno>Cod. Slav. 3</idno>
                     </msIdentifier>
                     <head>
-                        <title>Codex Marianus. Tetraevangelion</title>
-                        <origDate notBefore="0980" notAfter="1020">End of the 10th c. or beginning of the 11th c.</origDate>
-                        <origPlace ref="https://www.geonames.org/732800/republic-of-bulgaria.html">West Bulgaria</origPlace>
-                        <origPlace ref="https://www.geonames.org/735355/makedonia.html">Macedonia</origPlace>
-                        <note type="summary">Fragment from a gospel book written in glagolitic. From the original manuscript are preserved two fragments, one is kept in the Austrian National Library, the other in the Russian State Library.</note>                      
+                        <title>Breviarum Romanum des Vitus aus Omišalj</title>
+                        <origDate when="1396">1396</origDate>                        
+                        <origPlace ref="https://www.geonames.org/3202326/republic-of-croatia.html">Croatia</origPlace>
+                        <!--<note type="summary"></note>-->                      
                     </head> 
                    
                     <msContents>
                         <textLang mainLang="chu"/> 
                         <msItem>
-                            <note>Text of the four gospels.</note>
+                            <note></note>
                         </msItem>
                     </msContents> 
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material> 
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="468" unit="folio">I+468* ff.</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>350</height> 
+                                        <width>270</width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="28" columns="2">
+                                    <dimensions type="written" unit="mm">
+                                        <height>250</height>
+                                        <width>85</width>
+                                    </dimensions> Written in two columns, 28 lines.
+                                    
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Written by Vitus aus Omišalj.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote>Angular glagolitic.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>Cyrillic initial forms and Latin letter forms in initial position, miniatures of the evangelists' symbols.</decoNote>
+                        </decoDesc> 
+                    </physDesc>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -112,115 +159,18 @@
                                 </source>                                
                             </recordHist>
                             <custodialHist>
-                                <custEvent>RGB/MSI by Garz/Gau/Hollaus (<date when="2011">2011</date>)</custEvent><custEvent>XRF/FTIR (Spectro) by Pöllnitz and Vetter.(<date when="2011">2011</date>)</custEvent>
+                                <custEvent>RGB by Hollaus/Reimitz (<date when="2014">2014</date>)</custEvent>
+                                <custEvent>XRF/FTIR/Raman (p-RFA) by Frühmann/Vetter/Cappa.(<date when="2014">2014</date>)</custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates/>
-                        <listBibl>
-                            <bibl><ref target="http://ekislova.ru/sla/books">Entry in ekislova.ru</ref></bibl>
-                            <bibl>Edition of the text in <ref target="http://titus.uni-frankfurt.de/texte/etcs/slav/aksl/marianus/maria.htm">TITUS</ref></bibl>
-                        </listBibl>
-                    </additional>              
-                    <msFrag>
-                        <msIdentifier>
-                            <country>Russia</country>
-                            <settlement>Moscow</settlement>
-                            <repository>Russian State Library</repository>
-                            <idno>F.87 No. 6</idno>
-                        </msIdentifier>
-                        <head>
-                            <title>Tetraevangelion (Fragment): Мариинское Четвероевангелие</title>
-                        </head>
-                        <msContents>
-                            <msItem>
-                                <note>The text of the manuscript is incomplete: Mt 6,16 - Io 21,16.</note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="codex">
-                                <supportDesc material="perg">
-                                    <support>
-                                        <material>Parchment</material>  
-                                    </support>
-                                    <extent>
-                                        <measure type="leavesCount" quantity="2" unit="folio">172 ff.</measure>
-                                        
-                                    </extent>
-                                </supportDesc>                                
-                            </objectDesc>
-                           
-                        </physDesc>
-                        <additional>                            
+                        
                             <surrogates/>
                             <listBibl>
                                 <head>External resources</head>
-                                <bibl><ref target="https://lib-fond.ru/lib-rgb/87/f-87-6/">Library catalogue</ref></bibl>
-                                <bibl><ref target="https://lib-fond.ru/lib-rgb/87/f-87-6/">Digital facsimile</ref></bibl>
+                                <bibl><ref target="http://data.onb.ac.at/rec/AC14377549">Library catalogue (ÖNB)</ref></bibl>
+                                <bibl><ref target="https://data.onb.ac.at/rep/131B1AFE">Digital facsimile</ref></bibl>
                             </listBibl>
                         </additional>
-                    </msFrag>
-                    <msFrag>
-                        <msIdentifier>
-                            <country>Austria</country>
-                            <settlement>Vienna</settlement>
-                            <repository>Austrian National Library</repository>
-                            <idno>Cod. Slav. 146</idno>
-                        </msIdentifier>
-                        <head>
-                            <title>Tetraevangelion (Fragment): Sog. Wiener Fragmente des Codex Marianus</title>
-                        </head>
-                        <msContents>
-                            <msItem>
-                                <note>Mt 5,23-6,16.</note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="fragment">
-                                <supportDesc material="perg">
-                                    <support>
-                                        <material>Parchment</material> 
-                                    </support>
-                                    <extent>
-                                        <measure type="leavesCount" quantity="2" unit="folio">2 ff.</measure>
-                                        <dimensions type="leaf_current" unit="mm">
-                                            <height>210</height> 
-                                            <width>173</width>
-                                        </dimensions>
-                                    </extent>
-                                    <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout writtenLines="31" columns="1">
-                                        <dimensions type="written" unit="mm">
-                                            <height>160</height>
-                                            <width>120</width>
-                                        </dimensions> Written in 31 long lines.
-                                       
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                           
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x">Round glagolitic script.</scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote>Initials and text sections in red.</decoNote>
-                            </decoDesc> 
-                        </physDesc>
-                        <additional>
-                            <adminInfo>                                
-                                <custodialHist>
-                                    <custEvent><!--List of custodial events such as photography and conservation--></custEvent>
-                                </custodialHist>
-                            </adminInfo>
-                            <surrogates/>
-                            <listBibl>
-                                <bibl><ref target="http://data.onb.ac.at/rec/AC14246511">Library catalogue (ÖNB)</ref></bibl>
-                                <bibl><ref target="http://data.onb.ac.at/dtl/3534236">Digital facsimile</ref></bibl>
-                            </listBibl>
-                        </additional>
-                    </msFrag>
-                         
                 </msDesc>
             </sourceDesc>
         </fileDesc>
