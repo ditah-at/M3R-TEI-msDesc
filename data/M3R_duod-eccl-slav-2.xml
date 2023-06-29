@@ -14,8 +14,18 @@
                 <respStmt>
                     <resp>image acquisition</resp>
                     <persName>
-                        <forename>Florian</forename>
-                        <surname>Kleber</surname>
+                        <forename>Angelica</forename>
+                        <surname>Garz</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Melanie</forename>
+                        <surname>Gau</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Fabian</forename>
+                        <surname>Hollaus</surname>
                         <affiliation>TU Wien</affiliation>
                     </persName>
                 </respStmt>
