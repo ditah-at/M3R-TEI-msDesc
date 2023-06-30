@@ -231,22 +231,25 @@
                             </altIdentifier>
                         </msIdentifier>
                         <head>
-                            <origDate notBefore="1151" notAfter="1175">3rd quarter 11th c.</origDate>
+                            <title>Medical Folia</title>
+                            <origDate notBefore="1051" notAfter="1075">3rd quarter 11th c.</origDate>
                             <origPlace ref="https://www.geonames.org/351820/jabal-musa.html">Mount Sinai (?)</origPlace>
                             <origPlace ref="https://www.geonames.org/3337514/istria.html">Northwest Balkans (?), Istria (?)</origPlace>
-                            <note type="summary">Three leaves (ff. 141av, 141br, 141bv, 141cr, 141cv)  multiple palimpsest with lat., cyrill. and glag. inscription; very poorly recognizable.</note>
+                            <note type="summary">A booklet of six leaves (three with writings and three blank) found loosely inserted between ff. 141 and 142 of the PsDem (where it is also kept today) with no binding or signature of its own. Multiple palimpsest with latin, cyrillic and glagolitic texts.</note>
                         </head>
                         <physDesc>
                             <objectDesc>
                                <supportDesc material="perg">
                                    <support><material>Parchment</material></support>
                                    <extent>
-                                       <measure type="leavesCount" quantity="3" unit="folio">3 lose leaves ff.</measure>
+                                       <measure type="leavesCount" quantity="6" unit="folio">6 ff.</measure>. The dimensions of the total of three bifolia differ significantly from each other due to their irregular natural texture.
                                        <dimensions type="leaf_current" unit="mm">
                                        <height>85</height>
                                        <width>68</width>
                                    </dimensions>
-                                   </extent>                                   
+                                   </extent> 
+                                   <foliation>Tarnanidis foliatet only the three written leaves (with 141a-c), while the blank pages remained unfoliated; they are further counted here with "141d-f". The blank f. 141d accidentally bears the foliation "141b" on the verso below.</foliation> 
+                                   <collation>The three leaves make up a ternio. From the original stitching, only two short, natural-colored string remnants survive on ff. 141b bottom and 141c top.</collation>
                                    <condition>All 3 sheets are in good condition and the text is fully legible.</condition>
                                </supportDesc>
                                 <layoutDesc>
