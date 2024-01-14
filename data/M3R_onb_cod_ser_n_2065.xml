@@ -1,0 +1,333 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" version="5" xml:lang="en" xml:id="onb-sern-2065_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Österreichische Nationalbibliothek, Ser. n. 2065. Multimodal representation</title>
+                <respStmt ana="marcrelator:mrk"> 
+                    <resp>Manuscript description and TEI-encoding by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>   
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Wilfried</forename>
+                        <surname>Vetter</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
+                </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="onb-sn2065">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. Ser. n. 2065</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Epistulae Pauli (Vetus Latina)</title>
+                        <origDate notBefore="0801" notAfter="0825">s. IX, first quarter</origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary">Cod. Ser. n. 2065 is a physical reconstruction of a dismembered manuscript. Like other Carolingian manuscripts from Mondsee, it was probably cut apart and used as binding waste in the 15th century to refurbish the bindings of other Mondsee books. In the course of the 19th and 20th centuries librarians from the former Court library (now the Austrian National Library) detached the fragments from bindings and recollected them under the shelfmark Cod. Ser. n. 2065. The all together 211 fragments can be reconstructed to 92 leaves. Further, recently found fragments have been left in-situ in the bindings of the following manuscripts: Vienna, ÖNB, Codd. 1953, 2996, 3247, 3781, 3816, 3839, 5001 and 5426. They present 3 leaves of the original manuscript.</note>                      
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus>1r-2v</locus>
+                            <author>Pelagius</author>
+                            <title ref="#epp_pauli_prol">Prologus Epistularum Pauli / PROL Paul 1 (Pel 1)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3r</locus>
+                            <title>Capitula ad Epistulam ad Romanos (VL siglum: KA Rm A (De Bruyne M)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3vb</locus>
+                            <title ref="#rm_prolog">Prologus ad Epistolam ad Romanos (PROL Rm Pel)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3va-14r</locus>
+                            <title ref="#romanos">Epistula ad Romanos</title>
+                        </msItem>
+                        <msItem>
+                            <locus>14r-15v</locus>
+                            <title ref="#capitula_cor1">Capitula ad Epistolam ad Corintheos 1 (VL siglum: KA 1Cor A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>16r-30r</locus>
+                            <title ref="#corintheos">Epistola ad Corintheos 1</title>
+                            <note>fragments</note>
+                        </msItem>
+                        <msItem>
+                            <locus>30r-31v</locus>
+                            <title ref="#capitula_cor2">Capitula ad Epistolam ad Corintheos 2 (VL siglum: KA 1Cor A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>32r-47v</locus>
+                            <title ref="#corintheos2">Epistola ad Corintheos 2</title>
+                        </msItem>
+                        <msItem>
+                            <locus>48r-49r</locus>
+                            <title ref="#capitula_gal">Capitula ad Epistolam ad galatas</title>
+                        </msItem>
+                        <msItem>
+                            <locus>49r-55r</locus>
+                            <title ref="#galatas">Epistula ad galatas</title>
+                        </msItem>
+                        <msItem>
+                            <locus>55r-56v</locus>
+                            <title ref="#capitula_col">Capitula ad Epistolam ad Colossenses (VL siglum: KA Col A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>56v-62v</locus>
+                            <title ref="#col">Epistula ad Colossenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>63r-64r</locus>
+                            <title ref="#laod">Epistula ad Laodicenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>64r-64v</locus>
+                            <title ref="#capitula_eph">Capitula ad Epistolam ad Ephesios (VL siglum: KA Eph A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>65r-72v</locus>
+                            <title ref="#eph">Epistula ad Ephesios</title>
+                        </msItem>
+                        <msItem>
+                            <locus>72v-73r</locus>
+                            <title ref="#capitula_phil">Capitula ad Epistolam ad Philippenses (VL siglum: KA Phil A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>73v-78v</locus>
+                            <title ref="#phil">Epistula ad Philippenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>78v-80r</locus>
+                            <title ref="#capitula_thes1">Capitula ad Epistolam ad Thessalonicenses, 1. (VL siglum: KA  1Th A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>80v-85v</locus>
+                            <title ref="#thes1">Epistula ad Thessalonicenses, 1.</title>
+                        </msItem>
+                        <msItem>
+                            <locus>86r-87r</locus>
+                            <title ref="#thes2">Epistola ad Thessalonicenses, 2.</title>
+                        </msItem>
+                        <msItem>
+                            <locus>87r-91v</locus>
+                            <title ref="#tim1">Epistola I ad Timotheum</title>
+                        </msItem>
+                        <msItem>
+                            <locus>92r</locus>
+                            <title ref="#capitula_tim2">Capitula ad Epistolam II ad Timotheum (VL siglum: KA 2Tm A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>92r-92v</locus>
+                            <title ref="#tim2">Epistula II ad Timotheum</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="92" unit="leaf">211 items / 92 reconstructed leaves</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <width>188</width>
+                                        <height>290</height>
+                                    </dimensions>
+                                </extent>
+                                <foliation>The fragments were foliated several times in the course of the 20th century. The present foliation from 2018 accounts also fragments, which were previously part of the Collection of fragments and had their own shelfmarks. The foliation considers reconstructed leaves, which in some cases are made up of several fragments. So for instance the current fol. 51 consists of a fragmented leaf previously foliated '25c' and a fragment with former shelfmark 'Fragm. 828-1'. For the corresponding foliation and former shelfmark see Rasinger's description.</foliation>
+                                <collation>
+                                    <formula></formula>
+                                    <catchwords></catchwords>
+                                    <signatures></signatures>
+                                </collation>
+                                <condition>The physical reconstruction consists of fragments in diverse state and size, ranging from almost completely preserved double leaves to thin strips. Smaller fragments, particularly former sewing supports were mounted on goldbeater skin. Partly illegible due to glue residue or rubbed off ink, traces of rust from the host volumes.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="19" writtenLines="19" columns="2">
+                                    Written in two columns of 19 lines, each. Written space:
+                                    <dimensions type="written" unit="mm">
+                                        <width min="120" max="145">120-145</width>
+                                        <height min="208" max="215">208-215</height>
+                                    </dimensions> 
+                                    Line height:
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="11" max="12">11-12</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The preserved fragments were copied by two hands.</summary>
+                            <handNote scribe="A" script="carolmin" medium="x" scope="major">Hand A wrote a calligraphic <term type="script">Carolingian minuscule</term> from ff. <locus from="1r" to="5v">1r-5v</locus>.</handNote>
+                            <handNote scribe="B" script="carolmin" medium="x" scope="major">Hand B follows on ff. <locus from="6r" to="92v">6r-92v</locus> writing a similarly calligraphic <term type="script">Carolingian minuscule</term> with a smaller x-height.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="carolmin">Carolingian minuscule. Uncial for the praefatio (fol. 3v). Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: <quote>suae se(cundum)</quote> written with nextus; punctus versus added later.</scriptNote>
+                        </scriptDesc>
+                        <additions>Contemporary correction in the interlinear space. Old-German gloss of fol. 25r (10th century).</additions> 
+                        <bindingDesc>
+                            <binding contemporary="false">
+                                <p>The fragments were mounted on goldbeater skin and previously stitched together to form a book. Since, however, further fragments were added to the reconstruction, the order became outdated. Since 2008 the fragments were cut loose from the modern binding and are stored (grouped according to the original sequence) in folders in a box.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Mondsee</origPlace>
+                            <origDate notBefore="0801" notAfter="0825">First quarter of the ninth century.</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Summary description by Ivana Dobcheva based on 
+                                    <bibl>Rasinger-2019</bibl> 
+                                    (<date when="2023">2023</date>).
+                                </source>                                
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates/>
+                        <listBibl>
+                            <listBibl>
+                                <head>External resources</head>                                
+                                <bibl><ref target="http://data.onb.ac.at/rec/AC13944320">ÖNB Catalogue</ref></bibl>
+                                <bibl><ref target="https://fragmentarium.ms/overview/F-rm22">Facsimile</ref></bibl>
+                            </listBibl>
+                                <bibl>Larissa Rasinger, “Eine Überlieferung der Paulusbriefe um das Jahr 800 aus dem Kloster Mondsee”, Fragmentology 2(2019), 115–140 (DOI:10.24446/6w4n).</bibl>
+                            <bibl>Description and digital facsimile in <ref target="https://fragmentarium.ms/overview/F-mjod">Fragmentarium</ref></bibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, 16</bibl>
+                            <bibl><abbr>Mazal 1963</abbr>, <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0161_jpg.htm">161</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0162_jpg.htm">162</ref>.</bibl>
+                        </listBibl>
+                    </additional>                                         
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+           
+        </body>
+    </text>
+</TEI>

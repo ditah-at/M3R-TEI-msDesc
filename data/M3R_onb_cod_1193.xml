@@ -1,0 +1,291 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" version="5" xml:lang="en" xml:id="onb-cod-1193_tei-msDesc_dobcheva">
+      <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1193. Multimodal representation</title>
+                <respStmt ana="marcrelator:mrk"> 
+                    <resp>Manuscript description and TEI-encoding by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>   
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Wilfried</forename>
+                        <surname>Vetter</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="eng" xml:id="onb_cod_1193">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. 1193</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quattuor evangelia cum Capitulare Evangeliorum</title>
+                        <origDate notBefore="0801" notAfter="1094">s. IX<hi rend="sup">1</hi> (add. s. XI)</origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary">The manuscript contains apart from the four gospels, the Eusebian canon tables - providing the concordance between the gospels; the capitulare at the beginning records the readings from the gospels during mass throughout the whole year.</note>                        
+                    </head>                    
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus from="1r" to="10v">1ra-10va</locus>
+                            <title>Capitulare evangeliorum</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="11r" to="11v">11r-11v</locus>
+                            <title ref="#hieronymus_nouum">Prol. Evv. [Ep. ad Damasum papam]</title>
+                            <bibl><abbr>Stegmüller RB</abbr> 595.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="11v" to="12v">11v-12v</locus>
+                            <author ref="#hieronymus">Hieronymus</author>
+                            <title ref="#hieronymus_plures">Prol. Evv. [ex commentario in Matth.]</title>
+                            <bibl><abbr>Stegmüller RB</abbr> 596.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="12v" to="13r">12v-13r</locus>
+                            <author ref="#eusebius">Eusebius Caesariensis</author>
+                            <title ref="#euseius_ammonius">Prol. Mt. [Ep. ad Carpianum]</title>
+                            <bibl><abbr>Stegmüller RB</abbr> 581.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="13r">13r</locus>
+                            <author ref="#hieronymus">Hieronymus</author>
+                            <title ref="#hieronymus_sciendum">Prol. Mt. [Ep. ad Damasum papam]</title>
+                            <bibl><abbr>Stegmüller RB</abbr> 601.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="13r" to="13v">13r-13v</locus>
+                            <title ref="#prologus_mt">Prol. Mt. [Prologus monarchianus]</title>
+                            <bibl><abbr>Stegmüller RB</abbr> 590.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="13v" to="14v">13v-14v</locus>
+                            <title ref="#capitulatio_mt">Capitula / Summarium in evangelium secundum Mattheum</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="15r" to="20v">15r-20v</locus>
+                            <title>Eusebian canons</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="21r" to="128v">21r-128v</locus>
+                            <title>Quattuor Evangelia</title>
+                            <msItem>
+                                <locus>21ra-51vb</locus>
+                                <title ref="#evangelium_matthaeum">Evangelium secundum Matthaeum</title>
+                            </msItem>
+                            <msItem>
+                                <locus>51vb-52rb</locus>
+                                <title ref="#prologus_mc">Prol. Mc. [Prologus monarchianus]</title>
+                                <bibl><abbr>Stegmüller RB</abbr> 607.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>52rb-52vb </locus>
+                                <title ref="#capitulatio_mc">Capitula / Summarium in evangelium secundum Marcum</title>
+                                <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
+                                <note>Text brackes up in the middle of the word (aduentu) with the last ruled line at the bottom of the column, missing around half a column (§ 12-13) to the end of the text.</note>
+                            </msItem>
+                            <msItem>
+                                <locus>53ra-72ra</locus>
+                                <title ref="#evangelium_marcum">Evangelium secundum Marcum</title>
+                            </msItem>
+                            <msItem>
+                                <locus>72rb-vb</locus>
+                                <title ref="#prologus_lc">Prol. Luc. [Prologus monarchianus]</title>
+                                <bibl><abbr>Stegmüller RB</abbr> 620.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>72vb-75rb</locus>
+                                <title ref="#capitulatio_lc">Capitula / Summarium in evangelium secundum Lucam</title>
+                               <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>76ra-105r</locus>
+                                <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
+                            </msItem>
+                            <msItem>
+                                <locus>105rb-va</locus>
+                                <title ref="#evangelium_johannem_prologue">Prol. Ioh. [Prologus monarchianus]</title>                                
+                                <bibl><abbr>Stegmüller RB</abbr> 624.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>105vb-106rb</locus>
+                                <title ref="#evangelium_johannem_sommarium">Capitula</title>                                
+                                <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
+                                <note>Fol. 106v originally left blank.</note>
+                            </msItem>                            
+                            <msItem>
+                                <locus>107ra-128va</locus>
+                                <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>                                
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="128v">128v</locus>
+                            <title>Additional entry about the consecration of a chapel in Mondsee (S. Trinitatis et S. Crucis) by archbishop Thiemo from Salzburg on the <date when="1094-07-12">12th of Juli 1094</date>.</title>
+                           
+                        </msItem>                        
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>Parchment sheep or goat. The Canon tables written on thicker leaves. The parchment used for the gospels was scraped on both skin and flesh side to achieve thinner and whiter surfice. Where the hair follicules remained there are darker sections</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="128" unit="folio">128 fol.</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>375</height>
+                                        <width>210</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="34" ruledLines="34" columns="2">
+                                    <locus>fols 1-10</locus> 
+                                    written in two columns, 34 lines. Written space: 260-265 × 145 mm 7,5 Direct ruling on superimposed leaves, on every two leaves from mid quire on flesh side // on one bifolium every two. Pricking for the intercolumn lines often visible in the lower edge (e.g. f. 22) - also only on every second leaf. One bifolium was pricked, then superimposed over another and the two ruled simultaneously. Pricking for lines ff. 72, 73 - on the vertical line - not visible elsewhere. Text block framed left and right by double vertical lines (distance 7-8 mm) reaching the edges; the two columns are separated by three vertical lines (distance in between 8-9 mm) also reaching the leaf edges; above and below the text block are simple horizontal lines reaching the leaf edge. System according to D. Muzerelle, De re rigatoria: Mastara, formula 2-2-111/0/1-1/JJ.
+                                </layout>
+                                <layout writtenLines="35" ruledLines="35" columns="1">
+                                    <locus>fols 11-14</locus> written in 35 long lines. Written space:
+                                    270 × 143 mm 7,5 mm The text block is framed on the sides by double vertical lines, above and below by single horizontal one: D. Muzerelle, De re rigatoria: Mastara, formula 2-2/0/1-1/J.
+                                </layout>
+                                 
+                                <layout writtenLines="31" ruledLines="31" columns="2">
+                                    <locus>fols 21-128</locus> Written space: 
+                                    280 × 145 mm, written in two columns (60-63 mm), 31 lines (9 mm; x-height about 1,8 mm mm). Ruling system as on fols. 1-10. Prickings for the horizontal lines cut off, for the vertical lines visible on the lower edge on some leaves (f. 22, 30). Ruling method: on one bifolium every two. direct ruling on the flesh side on one biflolium every two (in a quire of four double leaves ruling on the innermost and the third bifolium counted from the middle).
+                                </layout>                                
+                            </layoutDesc>
+                        </objectDesc>                        
+                        <scriptDesc>
+                            <scriptNote script="uncialis caprust" medium="x">Carolingian minuscule written by several hands. Rubrics in red and green Uncial and Capitalis rustica. Capitalis Quadrata in Gold and Silver at the beginning of the Gospels.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>12 Canon tables presented as an arcade framework: a series of four or three arches supported by columns with capitals column base.</decoNote>
+                        </decoDesc>   
+                        <additions>On some passages added interlinear for reciting directions - see fol. 102r. The letter <quote>c</quote> (abbreviating probably cantor) is used to mark those sections where the evangelist narrate the story; <quote>t</quote> for the verses in which Christ himself speaks, <quote>a</quote> for the verses in which character(s) other than Christ speak. These annotations are present in the passages used for Passion readings during Lent and Easter: 
+                            <list>
+                                <item>fols. 101vb, line 30 - 104ra, line 3 (Lc 22,35-23,49).</item>
+                            </list></additions>
+                        <bindingDesc>
+                            <binding notBefore="0801" notAfter="0900" contemporary="true">
+                                <p>Carolingian binding with thick wooden covers. 16,5 mm thick.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>                    
+                    <additional>
+                        <listBibl>
+                            <head>External resources</head>                                
+                            <bibl><ref target="http://data.onb.ac.at/rec/AC13960080">ÖNB Catalogue</ref></bibl>
+                        </listBibl>                        
+                        <surrogates>
+                            <ref/>
+                        </surrogates>
+                    </additional>  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
+    </facsimile>
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>

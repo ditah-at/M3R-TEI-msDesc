@@ -1,0 +1,399 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" version="5" xml:lang="en" xml:id="gnm_27932_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nuremberg, Germanisches Nationalmuseum, Hs. 27932. Multimodale Repräsentation</title>
+                <respStmt ana="marcrelator:mrk"> 
+                    <resp>Manuscript description and TEI-encoding by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>   
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Wilfried</forename>
+                        <surname>Vetter</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
+                </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="gnm-27932">
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Nuremberg</settlement>
+                        <repository>Germanisches Nationalmuseum</repository> 
+                        <idno>Hs. 27932</idno>                                                   
+                    </msIdentifier>
+                    <head>
+                        <title>Quattuor Evangelia</title>
+                        <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary">This is a fragment from an uncial manuscript of the Gospels according to the Vulgata, probably written in Mondsee in the second half of the eighth century. The manuscript was at some point discarded and used as binding waste. Preserved are 62 folios (18 in the Morgan Library in New York,  M. 564 and 36 in the GNM in Nuremberg and 8 in the Stadtbibliothek in Nuremberg, Fragm. Lat. 1) containing parts of the Gospel of Luke and the Gospel of John. At least two sexternions are missing with the beginning of Luke (1,1-5,19) and another two or three quires at the end of John (12,40-21,25). The original manuscript probably contained the text of all four Gospels in the so-called Greek order adopted by Jerome, starting with Matthew, Mark, Luke and ending with John. Since there are no fragments of Matthew and Mark, this would mean that we are now missing the entire first half of the book, which would have covered more than 200 leaves.</note>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>                                
+                            <msItem>
+                                <locus from="27932_1r" to="27932_1v">1ra-1vb</locus>
+                                <note>Lc 5,19-5,33</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_5,19">cum lecto in medium ante ihesum</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_5,33"></ref></explicit>-->
+                            </msItem>                                
+                            <msItem>
+                                <locus from="27932_2r" to="27932_3v">2ra-3vb</locus>
+                                <note>Lc 6,7-6,34.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_6,7">unde accusarent illum</ref></incipit>
+                                    <explicit defective="true">quare discipuli iohannes<ref type="biblical" cRef="Lc_6,34"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_4r" to="27932_5v">4ra-5vb</locus>
+                                <note>Lc 6,45-7,21.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_6,45">auro properet malum</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_7,21"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_6r" to="27932_7v">6ra-7vb</locus>
+                                <note>Lc 7,34-8,9.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_7,34">et dicitis ecce homo deuorator</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_8,9"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_8r" to="27932_9v">8ra-9vb</locus>
+                                <note>Lc 8,21-8,41.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_8,21"><supplied>respon</supplied>dens dixit ad eos</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_8,41"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_10r" to="27932_11v">10ra-11vb</locus>
+                                <note>Lc 8,53-9,22.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_8,53">esset. ipse autem tenens</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_9,22"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_12r" to="27932_13v">12ra-13vb</locus>
+                                <note>Lc 9,33-9,59.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_9,33">et unum helie nesciens</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_9,59"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_14r" to="27932_v">14ra-15vb</locus>
+                                <note>Lc 10,11-10,35.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_10,11"><supplied></supplied>dibus nostris extergimus in uos</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_10,35"></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_16r" to="27932_v">16ra-vb</locus>
+                                <note>Lc 11,5-11,17.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_11,5">quis uestrum habebit</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_11,17">cogitationes eorum</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_17r" to="27932_17v">17ra-vb</locus>
+                                <note>Lc 11,54-12,10.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_11,54">clauem scientiae</ref></incipit>
+                                    <explicit><ref type="biblical" cRef="Lc_12,10">hominis remitte<supplied>tur</supplied></ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_18r" to="27932_19v">18ra-19vb</locus>
+                                <note>Lc 12,24-12,49.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_12,24">coruos quia non seminant</ref></incipit>
+                                    <explicit><ref type="biblical" cRef="Lc_12,49">mittere in terram</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20r" to="27932_20v">20ra-vb</locus>
+                                <note>Lc 13,4-13,16.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_13,4">et ipsi debitores</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_13,16">hanc autem</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20bisr">20<hi rend="sup">bis</hi>r-v</locus>
+                                <note>Lc 14,18-14,31.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_14,18">habeo exire et uidere</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_14,31">bellum aduersus alium</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20terr">20<hi rend="sup">ter</hi>r-v</locus>
+                                <note>Lc 18,25-18,41.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_18,25">facilius est enim</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_18,41">interrogauit illum dicens</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20ar" to="27932_20cv">20ara-20cvb</locus>
+                                <note>Lc 19,28-20,20.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_19,28">hierosolyma</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_20,20">ut caperent eum</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20dr">20dra-vb</locus>
+                                <note>Lc 21,4-21,16.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_21,4">sibi miserunt</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_21,16">afficient ex uobis</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_21r" to="21vb">21ra-21vb</locus>
+                                <note>Lc 22,40-22,53.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_22,40">Et cum peruenisset</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_22,53">cum fuerim in templo</ref></explicit>-->
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_22r" to="27932_22v">22ra-vb</locus>
+                                <note>Lc 24,17-24,31.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Lc_24,17">Et estis tristes</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_24,31">et aperti sunt</ref></explicit>-->
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="27932_23r">23ra</locus>
+                            <title ref="#evangelium_johannem_prologue">Prologus monarchianus in evangelium secundum Johannem</title>
+                            <!--<incipit defective="true">conuocatis discipulis suis in epheso per multa signorum experimenta</incipit>
+                                <explicit>doctrina seruetur.</explicit>
+                                <finalRubric>Explicit prologus.</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr>, Nr. 624.</bibl>-->
+                        </msItem>
+                        <msItem>
+                            <locus from="27932_23r" to="27932_23v">23ra-vb</locus>
+                            <title ref="#evangelium_johannem_sommarium">Summarium evangelium secundum Johannem</title>
+                            <!--<rubric>Incipit elencus breuis euangelii secundum iohannem</rubric>
+                                <incipit>Pharisaeorum laevitae interrogant</incipit>
+
+                                <explicit defective="true">XI Pedes discipulorum</explicit>
+                                <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>-->
+                        </msItem>
+                        <!--<msItem>
+                                <note>Here follows Nürnberg, Stadtbibliothek, Fragm. Lat. 1, 3v (1 column for the end of the Summarium, rest left blank).</note>
+                            </msItem>-->
+                        <msItem>
+                            <locus from="27932_24r" to="27932_28v">24r-28v</locus>
+                            <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
+                            
+                            <msItem>
+                                <locus from="27932_24r">24ra-vb</locus>
+                                <note>Io 1,19-1,33.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Io_1,19">quando miserunt iudaei</ref></incipit>
+                                    <explicit defective="true">hic est qui bapti<supplied>zat</supplied><ref type="biblical" cRef="Io_1,33"></ref></explicit>-->
+                            </msItem>
+                            <!--<msItem>
+                                    <note>Lacuna (2 fols.), followed by Morgan library, M 564, f. 9 (Io 2,14-3,3), Lacuna (10 fols.) and Morgan library, M 564, f. 10r-v (Io 6,16-6,30).</note>
+                                </msItem>-->
+                            <msItem>
+                                <locus from="27932_25r" to="26v">25ra-26vb</locus>
+                                <note>Io 6,30-6,59.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Io_6,30">quod ergo tu</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Io_6,59">qui manducat hunc panem</ref></explicit>-->
+                            </msItem>
+                            <!--<msItem>
+                                    <note>Lacuna (1 fol.) followed by Morgan library, M 564 ff. 11-16 (Io 7,6-8,42).</note>
+                                </msItem>-->
+                            <msItem>
+                                <locus from="27932_27r" to="28v">27ra-28vb</locus>
+                                <note>Io 8,55-9,24.</note>
+                                <!--<incipit defective="true"><ref type="biblical" cRef="Io_8,55">non scio eum</ref></incipit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Io_9,24">qui fuerat caecus</ref></explicit>-->
+                            </msItem>
+                            <!--<msItem>
+                                    <note type="title">Lacuna (2 fols.) followed by Morgan library, M 564, f. 17 (Io 10,17-10,33) another lacuna (6 fols.) and Morgan library, M 564, f. 18 (Io 12,26-12,39).</note>
+                                </msItem>-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fragment">
+                            <supportDesc material="perg">
+                                <support>Calf parchment relative thin, hair and flesh side are recognisable. Backbone on fol. 18-19 horizontal in the middle of the bifolium (as in Lindisfarne) - probably also on fols. 12-13 and 21-22, 20ter-20bis.</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="36" unit="folio">36</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Modern foliation in pencil: 1-20, 20bis-20ter, 20a-20b, 20c-20d, 21, 21a-21b, 22-28.</foliation>
+                                <condition>There are three groups of leaves kept loose in modern paper folders. Hs 27932 [1.0] contains fols. 1-20, 20a-20d, 21, 21a-21b, 22-24; Hs 27932 [1-1] - fols. 20bis-20ter; Hs 27932 [1.2] - fols. 21a-21b; Hs 27932 [2] - fols. 25-28.
+                                    Fols. 20a-20d are glued in pairs on a stub, whereby fols. 20a and 20d make today one bifolium, 20b and 20c another. Comparing the marks from binding waste (the leaves were used as covers) it becomes clear that fols. 20a and 20b formed originally once one bifolium, fols. 20c and 20d another.
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="27" writtenLines="27" columns="2">                                    
+                                    Written in two columns of 27 lines. Double ruled lines for the text (upper line on the x-height); the first and last double text lines extending the lenght of the folio (probably ruled on two facing pages at once);  double columns with double vertical bounding lines extending to first and last double written lines; single vertical lines on both sides of the columns extending to the first and last double written lines.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote script="uncialis" medium="x">Uncial.</scriptNote>                            
+                            <scriptNote>Carolingian minuscule for the Canon references in the margin.</scriptNote>
+                            <scriptNote script="x" medium="x">Capitalis rustica used for the prologue and Summarium (f. 23r-v).</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="initial">Six illuminated initials, contour in red (Mennige); Colours: green, orange-red, gold and silver-blue. First probably with blue, then covered with gold and silver.
+                                <list>
+                                    <item><locus from="27932_4r">4r</locus>: 2-line high ornamental initial 'C'</item>
+                                    <item><locus from="27932_10r">10r</locus>: 2-line high ornamental initial 'C'</item>
+                                    <item><locus from="27932_17r">17r</locus>: 3-line high ornamental initial 'C'</item>
+                                    <item><locus from="27932_20cv">20cv</locus>: 3-line high figural initial 'E'</item>
+                                    <item><locus from="27932_21r">21r</locus>: 4-line high ornamental initial 'A'</item>
+                                    <item><locus from="27932_20ter">20ter</locus>: 4-line high ornamental initial 'A'</item>
+                                </list>
+                            </decoNote>
+                        </decoDesc> 
+                    </physDesc>
+                    <history> 
+                        <provenance>In the <date notBefore="1601" notAfter="1650">first half of the seventeenth century</date> the leaves 1-24 and 21a-21b served as binding waste (wrappers and covers) for property registers of the Nuremberg family Von Kress. For each register were used two bifolia:
+                            <list>
+                                <item>fols. 1+8 and 9+16</item>
+                                <item>fols. 2+7 and 10+15 - register 'Saalbuch A 1590';</item>
+                                <item>fols. 3+6 and 11+14 - register for years 1594-1627</item>
+                                <item>fols. 4+5 and 12+13</item>
+                                <item>fols. 17+20 and 18+19 were used for register in the year 'Anno 1627-1650'</item>
+                                <item>fols. 21a+21b and 20bis+20ter</item>
+                                <item>fols. 21+22 and 23+24 - register 1637;</item>
+                            </list>
+                        </provenance>
+                        <provenance>Fols. 1-24 were obtained 1872 by the Germanisches Museum in Nuremberg.</provenance>
+                        <provenance>Fols. 20a-20d were property of the Heerdegen family in Nuremberg, who gave or sold those 1874 to the Germanisches Museum.</provenance>
+                        <provenance>The two bifolia fols. 25-28 and 26-27 served as a pastedowns for 'Grundbuch für die Jahresbeiträge der Pflegschaft' of the Nuremberg family Von Grundherr. They were again given or sold to the Germanisches Museum.</provenance>
+                        <provenance>The boflolium fols. 21a-21b was bought by the Germanisches Museum in 1923.</provenance>
+                        <acquisition/>
+                    </history>
+                    <additional>                        
+                        <surrogates/>
+                        <listBibl>
+                            <listBibl>
+                                <head>External resources</head>                                
+                                <bibl><ref target="http://dlib.gnm.de/item/Hs27932/html">GNM Catalogue</ref></bibl>
+                                <bibl><ref target="https://resolver.staatsbibliothek-berlin.de/HSP00048C5100000000">HSP</ref></bibl>
+                            </listBibl>
+                            <bibl>Wright, David H. ‘The Codex Millenarius and Its Model’. <title>Münchner Jahrbuch der bildenden Kunst</title> 15 (1964): 37–54.</bibl>
+                            <bibl>Holter, Kurt. ‘Das Alte und Neue Testament in Buchmalerei nördlich der Alpen’. In <title>La bibblia nell’alto medioevo</title> (Settimane di studio del Centro italiano di studi sull’alto medioevo, 10), 413–72.</bibl>
+                            <bibl>Bischoff, Bernhard. Die südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit. Vol. 2. Die vorwiegend österreichischen Diözesen. Wiesbaden: Harrassowitz, 1980, pp. 19-20.</bibl>
+                        </listBibl>
+                    </additional>   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
+    </facsimile>
+    <text>
+        <body>
+            <!--<head>
+                <title> ... </title>
+            </head>-->
+            <!--<pb n="1r" xml:id="sinslavnf3.1r" />
+            <p>Transcription of folio 1r (to-do)</p>
+            <pb n="1v" xml:id="sinslavnf3.1v" />
+            <p>Transcription of folio 1v (to-do)</p>-->
+        </body>
+    </text>
+</TEI>

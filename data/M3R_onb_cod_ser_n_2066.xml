@@ -1,0 +1,387 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" version="5" xml:lang="en" xml:id="sn2066_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. Ser. n. 2066. Multimodal representation</title>
+                
+                    <respStmt ana="marcrelator:mrk"> 
+                        <resp>Manuscript description and TEI-encoding by</resp>
+                        <persName>
+                            <forename>Ivana</forename>
+                            <surname>Dobcheva</surname>
+                        </persName>
+                    </respStmt>   
+                    <respStmt>
+                        <resp>image acquisition</resp>
+                        <persName>
+                            <forename>Ivana</forename>
+                            <surname>Dobcheva</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>                    
+                    </respStmt>
+                    <respStmt>
+                        <resp>material analysis</resp>
+                        <persName>
+                            <forename>Manfred</forename>
+                            <surname>Schreiner</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>
+                        <persName>
+                            <forename>Wilfried</forename>
+                            <surname>Vetter</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>data modelling</resp>
+                        <persName>
+                            <forename>Hans</forename>
+                            <surname>Clausen</surname>
+                            <affiliation>University of Graz</affiliation>
+                        </persName>
+                        <persName>
+                            <forename>Gerlinde</forename>
+                            <surname>Schneider</surname>
+                            <affiliation>University of Graz</affiliation>
+                        </persName>                    
+                    </respStmt>
+                    <respStmt>
+                        <resp>TEI-encoding</resp>
+                        <persName>
+                            <forename>Ivana</forename>
+                            <surname>Dobcheva</surname>
+                            <affiliation>Academy of Fine Arts Vienna</affiliation>
+                        </persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>data compilation</resp>
+                        <persName>
+                            <forename>Simon</forename>
+                            <surname>Brenner</surname>
+                            <affiliation>TU Wien</affiliation>
+                        </persName>
+                    </respStmt>
+                    <funder ana="marcrelator:fnd">
+                        <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                    </funder>
+                
+                <funder ana="marcrelator:fnd">
+                    <orgName><!--insert project / funding agency--></orgName>
+                </funder>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at">
+                        Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities,
+                        Universität Graz
+                    </orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">
+                        Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz
+                    </orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">
+                        GAMS - Geisteswissenschaftliches Asset Management System
+                    </orgName>
+                </distributor>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
+                </availability>
+                <date ana="dcterms:issued" when="2022">2022</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <ref target="info:fedora/context:mmmr.manuscripts" type="context"/>
+                <ref subtype="ms-context" target="info:fedora/context:mmmr.ms.XXX" type="context"/> <!-- replace XXX with manuscript PID! -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. Ser. n. 2066</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Composite reconstruction of fragments</title>
+                        <origDate notBefore="0801" notAfter="0850">s. VIII<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary">Cod. Ser. n. 2066 is a collection of fragments that originally belonged to two manuscripts. Two single leaves were bound in a modern binding. Further later found fragments, ranging from partial leaves to strips were added to the same shelfmark and kept in envelopes. All the leaves with the exception of fol. 2 belonged probably to a copy of Gregory the Great's Homilia in evangelia. Fol. 2 contains fragments from two sermons, which were probably once part of a homiletic collection based on the Homiliarium of Alanus of Farva. In the current description the two groups are regarded as separate codicological units.</note>                      
+                    </head>
+                    <additional>
+                        <surrogates/>
+                        <listBibl>
+                            <listBibl>
+                                <head>External resources</head>                                
+                                <bibl><ref target="http://data.onb.ac.at/rec/AC13944334">ÖNB Catalogue</ref></bibl>
+                                <bibl><ref target="https://fragmentarium.ms/overview/F-jyai">Facsimile</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 1</idno>
+                            </altIdentifier>
+                        </msIdentifier>                   
+                    <msContents>
+                        <msItem>
+                            <locus>1ra</locus> 
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 5</title>
+                            <incipit defective="true">contemnenda perducatur</incipit>
+                            <finalRubric>EXPLICIT OMELIA V</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>1ra-1vb</locus>
+                            <rubric>LECTIO EUANGELII SECUNDUM MATH</rubric>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 6</title>
+                            <incipit><ref type="biblical" cRef="Mt_11,2">In illo tempore Cum audisset iohanis ... preparauit uiam tuam ante te</ref> INCIPIT OMELIA LECTIO SECUNDUM EIUSDEM. QUERENDUM NOBIS EST fratres karissimi</incipit> 
+                            <explicit>ut pro hominibus auctor uite moriretur</explicit>
+                            <bibl><abbr>PL</abbr> 76, 1095B-1096B</bibl>
+                        </msItem>
+                        <msItem> 
+                            <locus>3ra-4ra</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 7</title>
+                            <incipit defective="true">studio non mutatur <gap reason="omitted"/> nullatenus potest. Quomodo corpor<supplied>atur</supplied> <gap reason="lacuna"/> <note>lacuna 1 leaf</note> <note>4ra</note> <gap reason="illegible"/> Qui enim sine humilitate virtutes congregat</incipit> 
+                            <explicit defective="true">ex humilitate ualeatis</explicit>
+                            <bibl><abbr>PL</abbr> 76, 1100D-1101D, 1103a-1103B.</bibl>
+                        </msItem>
+                        
+                        <msItem>
+                            <locus>4ra-4vb</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 8</title>
+                            <rubric><gap reason="illegible"/></rubric>
+                            <incipit><ref type="biblical" cRef="Lc_2,1">In illo tempore Exiit edictum</ref> <gap reason="omitted"/> <note>4va</note> <gap reason="illegible"/> Sed nos aliquid uel breviter dicere</incipit>
+                            <explicit defective="true">Qui non in parentum do<supplied>mo sed</supplied> in uia nascitur</explicit>
+                            <bibl><abbr>PL</abbr> 76, 1103B-1104A.</bibl>
+                        </msItem>
+                        <msItem>
+                            <note>Lacuna of 2 double leaves between ff. 4 and 5</note>
+                        </msItem>
+                        <msItem>
+                            <locus>5ra-5vb</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 9<note>, § 5-7</note></title>
+                            <incipit defective="true">designatur. Per duo autem intellectus</incipit>
+                            <explicit defective="true">pro retento talento timeant. Si non cotidiae</explicit>
+                            <bibl><abbr>PL</abbr> 76, 1108C-1109B.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus>6r-v</locus> 
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 10<note>, § 6-7</note></title>
+                            <incipit defective="true">credunt. hi profecto ei</incipit>
+                            <explicit defective="true">ante oculos cordis hinc</explicit>
+                            <bibl><abbr>PL</abbr> 76, 1113A-1114A.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus>7r-v</locus> 
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 11<note>, § 4</note></title>
+                            <incipit defective="true">Quae ex omni genere piscium congregat <gap reason="omitted"/> significat littus maris <gap reason="lacuna"/> <note>7rb</note> traebat et quidem pisces <gap reason="omitted"/> sotietate separa<supplied>tur</supplied> <note>7va</note> quam exponendum. Aperta <gap reason="omitted"/> proferenti de thesauro suo <gap reason="lacuna"/> <note>7vb</note> <supplied><unclear></unclear></supplied>ciuit. Dum ergo ab hoc intellectu</incipit> 
+                            <explicit defective="true">Quod tamen in<supplied>telligi</supplied></explicit>
+                            <bibl><abbr>PL</abbr> 76, 1116B-1117B.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus>8ra-vb</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
+                            <incipit defective="true">ianua. O si sapere in cordis palatu <gap reason="omitted"/> mouebo non solum terram <gap reason="lacuna"/> <note>8rb</note> erit. Quae illa co<supplied>nfusio</supplied>] cui <gap reason="omitted"/> dies tube et <gap reason="lacuna"/> <note>8va</note> <supplied>si</supplied>mul ad nuptias <gap reason="omitted"/> non erit, quia <gap reason="lacuna"/> <note>8vb</note> <supplied>inter</supplied>clusa regni ianua</incipit>
+                            <explicit defective="true">Hinc est enim </explicit>
+                            <bibl><abbr>PL</abbr> 76, 1120C-1121C</bibl>
+                        </msItem>
+                        
+                        <msItem>
+                            <locus>9r-v</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 12</title>                                    
+                            <incipit defective="true"><gap reason="illegible"/> Quando <supplied>v</supplied>enerit super uos <gap reason="omitted"/> Ecce ap<supplied>eriri clamant</supplied> et repu<supplied>lsionis</supplied> <gap reason="lacuna"/> <note>9v</note> <supplied>Coe</supplied>pit tremere</incipit> 
+                            <explicit defective="true">tibi aliquid mal<supplied>i feci</supplied> </explicit>
+                            <bibl>PL 76, 1121C, 1122C.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus>10r-v</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
+                            <note>erhalten nur je vier Zeile von der inneren Spalte eines Einzelblattes.</note>
+                            <incipit>inlus<supplied>trati</supplied>one nos satiat <gap reason="lacuna"/> sit vero dictum est <supplied>cum de ju</supplied>dicio ad regnum <gap reason="lacuna"/> <note>10v</note> inpoenitens the<supplied>sauriz</supplied>as tibi iram in die <supplied>irae</supplied> et revelationis</incipit> 
+                            <bibl><abbr>PL</abbr> 76, 1125A-1125D.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus>11ra-vb</locus>
+                            <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                            <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
+                            <incipit defective="true">deducuntur. ut per haec animus ad sui custodiam</incipit>
+                            <explicit>cum uenerit uincitur si prius<supplied>quam</supplied></explicit> 
+                            <bibl><abbr>PL</abbr> 76, 1126A-1127A.</bibl>
+                        </msItem>                                
+                    </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <material>Parchment</material>
+                                    </support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="10" unit="folio">10 partial fols.</measure>
+                                    </extent>
+                                    <foliation>Modern foliation in pencil.</foliation>
+                                    <collation>Quire signature 'III' on fol. 3v.</collation>                                    
+                                    <condition>Text block missing four or five lines at the top and/or bottom due to trimming. 
+                                        Fol. 1 (285 x 235 mm) and fol. 3 (282 x 215 mm) are trimmed single leaves with loss of text at the top. Fols. 4 and 5 form a double leaf (285 x 435 mm), which served as an flyleaf in Cod. 5131. Fol. 5 was pasted upside down on the front inside cover, fol. 4 served as a flyleaf at the front. The ink has been washed off from one half of fol. 4 and from fol. 5 in its entirety, but most of the text remains legible. Fol. 6 can be reconstructed from four horizontal strips and eight vertical strips, fol. 7 from 10 horizontal strips.  Fol. 8 (220 x 165 mm) and fol. 11 (220 x 172 mm) are parts of single leaves which probably served as front and back covers in one and the same binding. Fol. 9 (115 x 60 mm) and fol. 10 (40 x 60 mm) are two pieces of two single leaves.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="27" writtenLines="27" columns="2">
+                                        The original manuscript must have been written in two columns of ca. 30-32 lines. Written space: 
+                                        <dimensions type="written" unit="mm">
+                                            <height>285</height>
+                                            <width max="170" min="175">170-175</width>
+                                        </dimensions>. Line height: 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="10" max="11">10-11</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <scriptNote script="carolmin" medium="x">Carolingian minuscule.</scriptNote>
+                            </scriptDesc>                      
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Mondsee</origPlace>
+                                <origDate notBefore="0801" notAfter="0850">First half of the ninth century.</origDate>
+                            </origin>
+                            <provenance>The manuscript was in Mondsee in the 15th c. when it was used as binding waste in other Mondsee books.</provenance>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 2: fol. 2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus>2ra</locus>
+                                <author ref="#leo_magnus">Leo Magnus</author>
+                                <title>Sermo XLVIII [Al. XLVII]. De Quadragesima X</title>
+                                <bibl><abbr>PL</abbr> 54, 300B-D.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>2vb</locus> 
+                                <author ref="#leo_magnus">Leo Magnus</author>
+                                <title>Sermo XLII [Al. XLI]. De Quadragesima IV</title>
+                                <bibl><abbr>PL</abbr> 54, 275A.</bibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <material>Parchment</material> 
+                                    </support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>293</height>
+                                            <width>220</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>Modern foliation '2'.</foliation>                                   
+                                    <condition>The leaf was cut horizontally in two parts which served probably as front and back pastedowns. Two or three lines are missing from the text block at the bottom.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="30" writtenLines="30" columns="2">
+                                        Written in two columns of 30 lines. Written space:
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> mm.
+                                        Column width:
+                                        <dimensions type="column" unit="mm">
+                                            <width></width>
+                                        </dimensions> mm.
+                                        <dim></dim>
+                                        Line height: 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="10" max="11">10-11</height>
+                                        </dimensions> mm.
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <scriptNote script="carolmin" medium="x">Carolingian minuscule.</scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="initial">On fol. 2v P-initial.</decoNote>
+                            </decoDesc> 
+                            
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Mondsee</origPlace>
+                                <origDate notBefore="0801" notAfter="0850">First half of the ninth century.</origDate>
+                            </origin>
+                            <provenance>The manuscript was in Mondsee in the 15th c. when it was used as binding waste in another Mondsee book, namely Vienna, ÖNB, Cod. 3797 (see note with pencil on f. 2v).</provenance>
+                            <acquisition/>
+                        </history>
+                    </msPart>                       
+                    
+                                          
+                            
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <ref target="info:fedora/context:mmmr" type="context">M3R - Multimodal Manuscript
+                        Representation</ref>
+                    <ref target="info:fedora/context:mmmr.manuscripts" type="context">Manuscripts</ref>
+                </ab>
+                <p>The multidisciplinary analysis of historical manuscripts generates a variety of digital
+                    artifacts: these range from multi- and hyperspectral images, spectroscopic and
+                    microbiological material analyses, codicological and conservaional descriptions, to
+                    transcriptions and philological editions. Within the project Digital Transformation of the
+                    Austrian Humanities (DiTAH), a repository for the archiving and dissemination of these
+                    diverse data is being developed. Within MultiModal Manuscript Representations, the various
+                    data streams and metadata are spatially and logically related and combined to virtual
+                    objects, which are disseminated via a graphical web viewer and technical interfaces using
+                    established standard (IIIF, METS, TEI, SKOS). In this way, multidisciplinary manuscript
+                    research data shall be made easily accessible and re-usable in research in the humanities,
+                    natural sciences and technology as well as for university teaching of technical methods and
+                    resources in the humanities. For a prove of concept, the repository is currently populated
+                    with data that has been continuously produced as part of the research of the Vienna Centre
+                    for Image and Material Analysis in Cultural Heritage (CIMA).</p>
+            </projectDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>
+        <surface start="#sinslavnf3.1r">
+            <graphic n="1r" url="info:fedora/o:mmmr.ms.sinslavnf3" xml:id="REFERENCE.IMAGE.1R" />
+        </surface>-->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
