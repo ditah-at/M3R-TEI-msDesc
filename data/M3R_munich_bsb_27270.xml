@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Munich, BSB, Clm 27270. Multimodal representation</title>
+                <title>F-1ktr: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
                 <respStmt ana="marcrelator:mrk"> 
                     <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
@@ -88,11 +88,8 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="bsb-27270">
-                    <msIdentifier>
-                        <country>Germany</country>
-                        <settlement>Munich</settlement>
-                        <repository>BSB</repository> 
-                        <idno>Clm 27270</idno>             
+                    <msIdentifier>                         
+                        <idno>F-1ktr</idno>             
                     </msIdentifier>
                     <head>
                         <title>Quattuor Evangelia (Ingolstadt Gospel Book)</title>
@@ -150,66 +147,23 @@
                         </msItem>
                         <msItem>
                             <locus from="m_30r" to="m_43v">30ra-43vb</locus>
-                            <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>                             
-                            <msItem>
-                                <note>The last 1 fol. of Luke is now in Prague, Národní knihovna České republiky, VI.D.24, 2r-v (see below).</note>
-                            </msItem>
+                            <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>                            
+                            
+                        </msItem>
+                        <msItem>
+                            <locus from="prague_2r">Prague_2r</locus>
+                            <note>Lc 24,45-53.</note>                            
+                        </msItem>
+                        <msItem>
+                            <locus from="prague_2v">Prague_2v</locus>
+                            <note>Blank.</note>
                         </msItem>
                         <msItem>
                             <locus>44ra-51vb</locus>
                             <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>                           
                         </msItem>
                     </msContents>
-                    <physDesc>
-                        <objectDesc form="fragment">
-                            <supportDesc material="perg">
-                                <support>Parchment.</support>
-                                <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
-                                    <dimensions type="leaf_current" unit="mm">
-                                        <height>350</height>
-                                        <width>260</width>
-                                    </dimensions>
-                                </extent>
-                                <foliation>Modern foliation in pencil at the middle of the upper margin on each recto: 1a, 1b, 1c, 1d, 2-7, 7a, 7b, 8-18, 18a, 19-22, 22a, 22b, 22c, 23-29, 29a, 30-43, 43a, 43b, 44-51.</foliation>
-                                <collation>See the collation at <ref target="https://vceditor.library.upenn.edu/project/61dd48a797701e00018cadfe/viewOnly">VCEditor</ref>.
-                                    
-                                </collation>
-                                <!--<condition/>-->
-                            </supportDesc>                                  
-                            <layoutDesc>
-                                <layout ruledLines="23" writtenLines="23" columns="2">
-                                    Written space:
-                                    <dimensions type="written" unit="mm">
-                                        <height>235</height>
-                                        <width>195</width>
-                                    </dimensions>
-                                    in 23 lines, 2 columns wide
-                                    <dimensions type="column" unit="mm">
-                                        <width>80-85</width>
-                                    </dimensions> mm. Line height:
-                                    <dimensions type="lineHeight" unit="mm">
-                                        <height>10</height>
-                                    </dimensions> mm. 
-                                    <seg type="ruling">Ruling on the flesh side, each column has two vertical bounding lines not extending above the written space; written lines are confined within two horizontal ruled lines with a distance ca. 4 mm extending the width of the folios on the inner margin (<ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref> formula <formula notation="Muzerelle">1-1-11/0/0/C<hi rend="sup">2</hi></formula>).</seg> 
-                                    <seg type="pricking">Pricking visible on the outer margin at the end of the text column.</seg>                                      
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>  
-                        <scriptDesc>
-                            <scriptNote>Later correction of the punctuation on <locus from="m_38v">38va</locus>.</scriptNote>
-                        </scriptDesc>
-                        <decoDesc>
-                            <decoNote>Illuminated initials for the opening of the gospels and the books:
-                                <list>                                
-                                    <item>decorated fols. 11r, 13r, 18v, 22r, 22av, 37v, 38v, 40v, 42r, 42v, 44r, 45r;</item>
-                                    <item>interlace fols. 3v, 4v, 6v, 7r, 7br, 8v, 10r, 14v, 16v, 21r, 22ar, 22br, 23v, 35r, 36v, 43v, 45v, 50v;</item>
-                                    <item>zoomorphic: 3r, 5v, 18ar, 20v, 22v, 48r.</item>
-                                </list>
-                            </decoNote>
-                        </decoDesc>                        
-                        <additions/>
-                    </physDesc>
+                    
                     <history>
                         <origin>
                             <origPlace>Mondsee</origPlace>
@@ -231,7 +185,97 @@
                             <bibl>Bischoff, Bernhard. Die südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit. Vol. 2. Die vorwiegend österreichischen Diözesen. Wiesbaden: Harrassowitz, 1980, pp. 18–19.</bibl>
                             <bibl>Elias Avery Lowe. Codices Latini Antiquiores. Oxford: Clarendon Press, 1917-1971, Vol. IX, <ref target="https://elmss.nuigalway.ie/catalogue/1826">1325</ref>.</bibl>
                         </listBibl>
-                    </additional>    
+                    </additional>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Germany</country>
+                            <settlement>Munich</settlement>
+                            <repository>BSB</repository> 
+                            <idno>Clm 27270</idno>             
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>Parchment.</support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>350</height>
+                                            <width>260</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>Modern foliation in pencil at the middle of the upper margin on each recto: 1a, 1b, 1c, 1d, 2-7, 7a, 7b, 8-18, 18a, 19-22, 22a, 22b, 22c, 23-29, 29a, 30-43, 43a, 43b, 44-51.</foliation>
+                                    <collation>See the collation at <ref target="https://vceditor.library.upenn.edu/project/61dd48a797701e00018cadfe/viewOnly">VCEditor</ref>.
+                                        
+                                    </collation>
+                                    <!--<condition/>-->
+                                </supportDesc>                                  
+                                <layoutDesc>
+                                    <layout ruledLines="23" writtenLines="23" columns="2">
+                                        Written space:
+                                        <dimensions type="written" unit="mm">
+                                            <height>235</height>
+                                            <width>195</width>
+                                        </dimensions>
+                                        in 23 lines, 2 columns wide
+                                        <dimensions type="column" unit="mm">
+                                            <width>80-85</width>
+                                        </dimensions> mm. Line height:
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height>10</height>
+                                        </dimensions> mm. 
+                                        <seg type="ruling">Ruling on the flesh side, each column has two vertical bounding lines not extending above the written space; written lines are confined within two horizontal ruled lines with a distance ca. 4 mm extending the width of the folios on the inner margin (<ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref> formula <formula notation="Muzerelle">1-1-11/0/0/C<hi rend="sup">2</hi></formula>).</seg> 
+                                        <seg type="pricking">Pricking visible on the outer margin at the end of the text column.</seg>                                      
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>  
+                            <scriptDesc>
+                                <scriptNote>Later correction of the punctuation on <locus from="m_38v">38va</locus>.</scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote>Illuminated initials for the opening of the gospels and the books:
+                                    <list>                                
+                                        <item>decorated fols. 11r, 13r, 18v, 22r, 22av, 37v, 38v, 40v, 42r, 42v, 44r, 45r;</item>
+                                        <item>interlace fols. 3v, 4v, 6v, 7r, 7br, 8v, 10r, 14v, 16v, 21r, 22ar, 22br, 23v, 35r, 36v, 43v, 45v, 50v;</item>
+                                        <item>zoomorphic: 3r, 5v, 18ar, 20v, 22v, 48r.</item>
+                                    </list>
+                                </decoNote>
+                            </decoDesc>                        
+                            <additions/>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Czech Republic</country>
+                            <settlement>Prague</settlement>
+                            <repository>Národní knihovna České republiky</repository> 
+                            <idno>VI.D.24</idno>             
+                        </msIdentifier>
+                        <head>
+                            <title>Fragment from Luca</title>
+                            <note type="facs"><ref target="http://www.manuscriptorium.com/apps/index.php?direct=record&amp;pid=AIPDIG-NKCR__VI_D_24_____369UNM1-cs"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio">2</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>220-240</height>
+                                            <width>310</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        The two leaves were the outermost bifolium in one quire. 
+                                    </collation>
+                                </supportDesc>
+                            </objectDesc>
+                          
+                            <accMat>Letter written by Rosa de Kolowrat from March 12, 1839 addressed to Anton Spirk, the head librarian of the university library. Transcription of the text by Dambeck comparing it with the Vulgate.</accMat> 
+                        </physDesc>
+                    </msFrag>
+                        
                 </msDesc>
             </sourceDesc>
         </fileDesc>

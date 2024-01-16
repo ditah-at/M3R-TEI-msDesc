@@ -3,7 +3,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http:/
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Vienna, Österreichische Nationalbibliothek, Ser. n. 2065. Multimodal representation</title>
+                <title>Vienna, Österreichische Nationalbibliothek, Ser. n. 2065</title>
                 <respStmt ana="marcrelator:mrk"> 
                     <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
