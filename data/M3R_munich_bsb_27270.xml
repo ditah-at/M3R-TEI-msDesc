@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F-1ktr: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
+                <title>F-1ktr: Munich, Bayerische Staatsbibliothek, Clm 27270 + Prague, Národní knihovna České republiky, VI.D.24</title>
                 <respStmt ana="marcrelator:mrk"> 
                     <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
@@ -190,7 +190,7 @@
                         <msIdentifier>
                             <country>Germany</country>
                             <settlement>Munich</settlement>
-                            <repository>BSB</repository> 
+                            <repository>Bayerische Staatsbibliothek</repository> 
                             <idno>Clm 27270</idno>             
                         </msIdentifier>
                         <physDesc>
